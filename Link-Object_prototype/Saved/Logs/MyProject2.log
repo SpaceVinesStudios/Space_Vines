@@ -1,0 +1,122 @@
+Log file open, 09/06/14 19:30:59
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.06-23.30.59:312][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.06-23.30.59:506][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.06-23.30.59:861][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.06-23.31.00:326][  0]LogInit: Object subsystem initialized
+[2014.09.06-23.31.00:435][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.06-23.31.00:438][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.06-23.31.00:616][  0]LogInit: Computer: RSIVALICE
+[2014.09.06-23.31.00:616][  0]LogInit: User: ryanw
+[2014.09.06-23.31.00:618][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.09.06-23.31.00:627][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2014.09.06-23.31.00:628][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
+[2014.09.06-23.31.00:628][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.06-23.31.00:628][  0]LogMemory: Process Physical Memory: 50.40 MB used, 50.50 MB peak
+[2014.09.06-23.31.00:628][  0]LogMemory: Process Virtual Memory: 27.30 MB used, 29.06 MB peak
+[2014.09.06-23.31.00:628][  0]LogMemory: Physical Memory: 3269.94 MB used, 3941.41 MB total
+[2014.09.06-23.31.00:628][  0]LogMemory: Virtual Memory: 243.32 MB used, 134217728.00 MB total
+[2014.09.06-23.31.01:278][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.09.06-23.31.01:278][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.06-23.31.01:363][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.06-23.31.01:363][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.06-23.31.01:363][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.06-23.31.01:456][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.09.06-23.31.01:461][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.06-23.31.04:223][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.06-23.31.13:098][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.06-23.31.14:640][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.06-23.31.14:938][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.06-23.31.15:737][  0]LogDerivedDataCache: Loaded boot cache 0.67s 35MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.06-23.31.15:737][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.06-23.31.15:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.06-23.31.15:737][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.06-23.31.15:877][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.06-23.31.15:890][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.06-23.31.34:335][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.06-23.31.34:335][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.06-23.31.54:660][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.06-23.32.51:683][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.06-23.32.51:722][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.06-23.32.52:153][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.06-23.32.52:153][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.06-23.33.07:877][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.06-23.33.08:894][  0]SourceControl: Info Source control is disabled
+[2014.09.06-23.33.08:916][  0]SourceControl: Info Source control is disabled
+[2014.09.06-23.33.08:923][  0]SourceControl: Info Source control is disabled
+[2014.09.06-23.33.12:410][  0]BlueprintLog: New page: Editor Load
+[2014.09.06-23.33.13:890][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.09.06-23.33.13:894][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.09.06-23.33.15:333][  0]LogEngine: Initializing Engine...
+[2014.09.06-23.33.18:028][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.06-23.33.18:371][  0]LogInit: FAudioDevice initialized.
+[2014.09.06-23.33.19:860][  0]LogDerivedDataCache: Saved boot cache 0.05s 35MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.06-23.33.20:558][  0]LogInit: Texture streaming: Enabled
+[2014.09.06-23.33.22:221][  0]LogInit: Transaction tracking system initialized
+[2014.09.06-23.33.24:180][  0]LogAssetRegistry: FAssetRegistry took 0.0164 seconds to start up
+[2014.09.06-23.33.31:455][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.06-23.33.31:472][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.06-23.33.32:648][  0]LogConsoleResponse:Display: 
+[2014.09.06-23.33.51:539][  0]SourceControl: Info Source control is disabled
+[2014.09.06-23.33.51:745][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.06-23.33.52:069][  0]LightingResults: New page: Lighting Build
+[2014.09.06-23.33.52:349][  0]MapCheck: New page: Map Check
+[2014.09.06-23.33.52:349][  0]LightingResults: New page: Lighting Build
+[2014.09.06-23.33.54:250][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003717C0C4A0
+[2014.09.06-23.34.14:410][  0]LogBlueprint:Warning: Node '/Game/Maps/Example_Map.Example_Map:PersistentLevel.PersistentLevel_LevelScript.EventGraph.K2Node_Literal_98' missing NodeGuid.
+[2014.09.06-23.34.14:656][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.06-23.34.16:142][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.09.06-23.34.16:842][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.09.06-23.34.16:871][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.06-23.34.17:383][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.09.06-23.34.17:695][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.09.06-23.34.17:710][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.09.06-23.34.17:758][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.09.06-23.34.17:767][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.09.06-23.34.21:884][  0]LogEditorServer: Finished looking for orphan Actors (0.009 secs)
+[2014.09.06-23.34.22:325][  0]Cmd: MAP CHECKDEP
+[2014.09.06-23.34.22:361][  0]MapCheck: New page: Example_Map - Sep 6, 2014, 3:34:22 PM
+[2014.09.06-23.34.22:602][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [233.493ms] ==========
+[2014.09.06-23.34.22:602][  0]LogFileHelpers: Loading map 'Example_Map' took 30.906
+[2014.09.06-23.34.46:577][  0]LogCollectionManager: Loaded 0 collections in 0.001830 seconds
+[2014.09.06-23.34.57:070][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.06-23.34.57:375][  0]Cmd: MODE PLACEMENT
+[2014.09.06-23.35.00:265][  0]LogLoad: Full Startup: 253.12 seconds (BP compile: 3.98 seconds)
+[2014.09.06-23.35.21:262][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.06-23.35.46:398][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>18FBA1691C3356D2</RequestId><HostId>40Gc1tjQCjpt0NjpwyqwTCPxgnXp7JVK+8jpCPktApNNjqEtBV/FEfsLWmX0YErK1oWaSXRVjtk=</HostId></Error>
+[2014.09.06-23.35.51:574][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>16D64B7D30ACB8D1</RequestId><HostId>f5at3uLPvV4h+Vm9mqOzV3/LAj1TDgu0sWEHMe/eOdTvK6zkLXm5Huhl+5PqDB15auJrGQQA8P4=</HostId></Error>
+[2014.09.06-23.35.53:226][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7C4364ACF85DCAD7</RequestId><HostId>hSjwewpLYyDPx273xtr1lDta/PCdPxj9Vg2NKModRjTC7cTTiDLVSkIPhSu5Vead</HostId></Error>
+[2014.09.06-23.35.53:869][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1EA3C0D65C6B1621</RequestId><HostId>5jdvQU9Eitk1A0buStWuGIIgR7PAyL/2/6k9HF73UMu7aQiED81N9LEJOBROK8qMGfKaU18jGyI=</HostId></Error>
+[2014.09.06-23.36.01:098][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.06-23.36.01:206][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.06-23.36.22:455][ 83]LogEditorViewport: Clicking on Actor (LMB): Shape_Cubebp_C (Shape_Cubebp)
+[2014.09.06-23.36.27:794][ 83]LogAssetRegistry: Asset discovery search completed in 183.6309 seconds
+[2014.09.06-23.36.51:653][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2014.09.06-23.37.29:403][265]Cmd: DELETE
+[2014.09.06-23.37.29:408][265]Cmd: ACTOR DELETE
+[2014.09.06-23.37.30:504][265]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.06-23.37.35:601][265]LogEditorActor: Deleted 1 Actors (5.410 secs)
+[2014.09.06-23.37.56:891][374]Cmd: DELETE
+[2014.09.06-23.37.56:891][374]Cmd: ACTOR DELETE
+[2014.09.06-23.37.56:892][374]LogEditorActor: Deleted Actor: Brush
+[2014.09.06-23.38.01:842][374]LogEditorActor: Deleted 1 Actors (4.951 secs)
+[2014.09.06-23.38.02:576][374]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.06-23.39.08:300][723]LogSynthBenchmark:Display: FSynthBenchmark (V0.92):
+[2014.09.06-23.39.08:306][723]LogSynthBenchmark:Display: ===============
+[2014.09.06-23.39.08:306][723]LogSynthBenchmark:Display: Main Processor:
+[2014.09.06-23.39.08:396][723]LogSynthBenchmark:Display:          ... 0.055202 s/Run 'RayIntersect'
+[2014.09.06-23.39.08:396][723]LogSynthBenchmark:Display:          ... 0.034750 s/Run 'Fractal'
+[2014.09.06-23.39.08:396][723]LogSynthBenchmark:Display: 
+[2014.09.06-23.39.08:396][723]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2014.09.06-23.39.08:396][723]LogSynthBenchmark:Dis
