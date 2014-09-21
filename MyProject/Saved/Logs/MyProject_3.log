@@ -1,0 +1,858 @@
+Log file open, 09/20/14 21:36:08
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.21-01.36.08:636][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.21-01.36.09:018][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.21-01.36.10:521][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.21-01.36.13:301][  0]LogInit: Object subsystem initialized
+[2014.09.21-01.36.15:218][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.21-01.36.15:218][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.21-01.36.15:568][  0]LogInit: Computer: RSIVALICE
+[2014.09.21-01.36.15:569][  0]LogInit: User: ryanw
+[2014.09.21-01.36.15:570][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.09.21-01.36.15:570][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2014.09.21-01.36.15:570][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
+[2014.09.21-01.36.15:570][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.21-01.36.15:570][  0]LogMemory: Process Physical Memory: 52.48 MB used, 52.48 MB peak
+[2014.09.21-01.36.15:570][  0]LogMemory: Process Virtual Memory: 29.49 MB used, 29.49 MB peak
+[2014.09.21-01.36.15:570][  0]LogMemory: Physical Memory: 2511.63 MB used, 3941.41 MB total
+[2014.09.21-01.36.15:570][  0]LogMemory: Virtual Memory: 250.71 MB used, 134217728.00 MB total
+[2014.09.21-01.36.16:780][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.09.21-01.36.16:780][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.21-01.36.16:781][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.21-01.36.16:781][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.21-01.36.16:781][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.21-01.36.17:102][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.09.21-01.36.17:104][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.21-01.36.24:551][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.21-01.36.31:266][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-01.36.37:739][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-01.36.37:892][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.21-01.36.37:969][  0]LogDerivedDataCache: Loaded boot cache 0.08s 35MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.21-01.36.37:969][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.21-01.36.37:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.21-01.36.37:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.21-01.36.37:989][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.21-01.36.38:016][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.21-01.37.00:349][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.21-01.37.00:349][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.21-01.37.09:589][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.21-01.37.13:678][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.21-01.37.13:678][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.21-01.37.13:687][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.21-01.37.13:687][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.21-01.37.14:390][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.21-01.37.14:540][  0]SourceControl: Info Source control is disabled
+[2014.09.21-01.37.14:540][  0]SourceControl: Info Source control is disabled
+[2014.09.21-01.37.14:547][  0]SourceControl: Info Source control is disabled
+[2014.09.21-01.37.14:693][  0]BlueprintLog: New page: Editor Load
+[2014.09.21-01.37.14:820][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.09.21-01.37.14:820][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.09.21-01.37.15:216][  0]LogEngine: Initializing Engine...
+[2014.09.21-01.37.15:391][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.21-01.37.15:465][  0]LogInit: FAudioDevice initialized.
+[2014.09.21-01.37.15:538][  0]LogDerivedDataCache: Saved boot cache 0.07s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.21-01.37.15:755][  0]LogInit: Texture streaming: Enabled
+[2014.09.21-01.37.16:053][  0]LogInit: Transaction tracking system initialized
+[2014.09.21-01.37.16:212][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2014.09.21-01.37.16:435][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.21-01.37.16:442][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.21-01.37.16:558][  0]LogConsoleResponse:Display: 
+[2014.09.21-01.38.21:156][  0]SourceControl: Info Source control is disabled
+[2014.09.21-01.38.21:895][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.21-01.38.22:972][  0]LightingResults: New page: Lighting Build
+[2014.09.21-01.38.25:612][  0]MapCheck: New page: Map Check
+[2014.09.21-01.38.25:612][  0]LightingResults: New page: Lighting Build
+[2014.09.21-01.38.35:125][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DA61D3C4A0
+[2014.09.21-01.39.08:589][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/4/7/9/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_6FADE23B4C295567694CF09283ACC07E__1_0_13073_0.udd.
+[2014.09.21-01.39.08:589][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.09.21-01.39.11:057][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.09.21-01.39.11:117][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.09.21-01.39.11:408][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.09.21-01.39.11:423][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.09.21-01.39.11:475][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.09.21-01.39.16:250][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/5/3/5/TEXTURE_4F83E7F4EC4E4AB788364F736C9E4311_AUTODXT_35D6B6454E0BF590029E2887F117F__4373DB106AB919F4F2C007A4C024B604F3F71C4B.udd.
+[2014.09.21-01.39.16:602][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/5/9/0/TEXTURE_4F83E7F4EC4E4AB788364F736C9E4311_DXT1_87AF2BD046302C1AA4FFE4BF8073DA88__0D4596DB8BF05A02A8A92CEDF7BB56164F54CB99.udd.
+[2014.09.21-01.39.16:602][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.21-01.39.17:106][  0]Cmd: MAP CHECKDEP
+[2014.09.21-01.39.17:195][  0]MapCheck: New page: Example_Map - Sep 20, 2014, 5:39:17 PM
+[2014.09.21-01.39.18:179][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [975.368ms] ==========
+[2014.09.21-01.39.18:179][  0]LogFileHelpers: Loading map 'Example_Map' took 56.345
+[2014.09.21-01.39.37:385][  0]LogCollectionManager: Loaded 0 collections in 0.001236 seconds
+[2014.09.21-01.39.48:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.21-01.39.49:508][  0]Cmd: MODE PLACEMENT
+[2014.09.21-01.39.53:160][  0]LogLoad: Full Startup: 250.18 seconds (BP compile: 7.64 seconds)
+[2014.09.21-01.40.05:803][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.21-01.40.15:847][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>81C0729790287114</RequestId><HostId>3KVLP2EXSpMmIU7R60WeK2APiXClbzbrCwf6qpEqDOuGBbVlgrjzy22nfqR8OVkT</HostId></Error>
+[2014.09.21-01.40.18:788][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>33F13E65E590732C</RequestId><HostId>90eNSN7UIih7o6ZN/hbfPNKGg9EUozgMs7JfFJBGe8C9/RI/Ae0X4Hao1fGDzbbW</HostId></Error>
+[2014.09.21-01.40.20:614][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>77882702B2B92054</RequestId><HostId>XALXVNVvP/Vez7uKErC4QRMjXgGlPN+DgKUN7hMNXEu8nFfhxP4dFSUwnBmgnXcN</HostId></Error>
+[2014.09.21-01.40.20:632][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CBA86FACA69EDFE2</RequestId><HostId>H7Ec3f4s0+KQ4Q025hQzZzj5EoWdr4BUb2zFR+dsf4BbgShBxDQvmFMIbLPcv+vw</HostId></Error>
+[2014.09.21-01.40.26:074][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-01.40.28:296][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-01.41.12:974][913]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.21-01.41.12:975][913]LightingResults: New page: Lighting Build
+[2014.09.21-01.41.12:975][913]Cmd: MODE PLACEMENT
+[2014.09.21-01.41.13:017][913]LoadErrors: New page: Loading map: sacrifice.umap
+[2014.09.21-01.41.13:018][913]MapCheck: New page: Map Check
+[2014.09.21-01.41.13:018][913]LightingResults: New page: Lighting Build
+[2014.09.21-01.41.13:038][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DA5929E020
+[2014.09.21-01.41.18:057][913]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.21-01.41.20:124][913]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.09.21-01.41.22:442][913]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.09.21-01.41.24:046][913]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.09.21-01.41.24:775][913]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.09.21-01.41.25:002][913]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.09.21-01.41.25:460][913]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.21-01.41.26:808][913]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.09.21-01.41.27:603][913]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.09.21-01.41.28:015][913]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.09.21-01.41.28:313][913]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.09.21-01.41.28:404][913]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.09.21-01.41.28:416][913]LogTexture:Display: Building textures: ShadowMapTexture2D_157 (BGRA8)
+[2014.09.21-01.41.28:477][913]LogTexture:Display: Building textures: ShadowMapTexture2D_158 (BGRA8)
+[2014.09.21-01.41.28:531][913]LogTexture:Display: Building textures: ShadowMapTexture2D_159 (BGRA8)
+[2014.09.21-01.41.28:586][913]LogTexture:Display: Building textures: ShadowMapTexture2D_160 (BGRA8)
+[2014.09.21-01.41.28:636][913]LogTexture:Display: Building textures: ShadowMapTexture2D_161 (BGRA8)
+[2014.09.21-01.41.28:648][913]LogTexture:Display: Building textures: ShadowMapTexture2D_162 (BGRA8)
+[2014.09.21-01.41.29:841][913]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.21-01.41.30:252][913]Cmd: MAP CHECKDEP
+[2014.09.21-01.41.30:253][913]MapCheck: New page: sacrifice - Sep 20, 2014, 5:41:30 PM
+[2014.09.21-01.41.30:329][913]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [76.224ms] ==========
+[2014.09.21-01.41.30:329][913]LogFileHelpers: Loading map 'sacrifice' took 17.355
+[2014.09.21-01.42.21:058][ 63]LogAssetRegistry: Asset discovery search completed in 304.8679 seconds
+[2014.09.21-01.44.54:734][568]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-01.44.56:932][568]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.45.09:431][589]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.46.09:306][755]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.21-01.46.21:328][867]LogContentStreaming: Texture pool size now 200 MB
+[2014.09.21-01.46.54:440][995]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.47.11:276][ 57]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.47.22:170][115]Cmd: TRANSACTION UNDO
+[2014.09.21-01.47.22:170][115]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-01.47.46:866][115]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.49.11:824][142]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.49.23:524][280]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.49.32:358][378]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.49.39:483][466]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.49.46:439][545]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.49.56:544][676]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.50.18:214][991]Cmd: DELETE
+[2014.09.21-01.50.18:215][991]Cmd: ACTOR DELETE
+[2014.09.21-01.50.18:246][991]LogEditorActor: Deleted Actor: Brush
+[2014.09.21-01.50.19:265][991]LogEditorActor: Deleted 1 Actors (1.031 secs)
+[2014.09.21-01.50.20:079][991]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.50.24:995][ 67]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-01.50.27:192][ 67]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.50.31:918][130]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.50.41:931][270]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.51.47:154][222]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.52.08:031][496]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.52.18:483][628]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.52.36:272][850]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.52.51:201][ 35]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.53.06:090][204]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.53.12:816][293]Cmd: TRANSACTION UNDO
+[2014.09.21-01.53.12:816][293]LogEditorTransaction: Undo Move Actors
+[2014.09.21-01.53.40:890][293]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.53.44:475][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-01.53.54:458][537]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.54.16:856][815]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.54.35:960][ 45]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.54.53:710][421]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-01.54.53:711][421]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-01.54.56:068][445]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.55.05:632][555]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.55.21:259][ 94]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.55.27:419][159]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.55.57:520][505]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.56.14:890][710]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.56.41:245][502]Cmd: DUPLICATE
+[2014.09.21-01.56.41:245][502]Cmd: ACTOR DUPLICATE
+[2014.09.21-01.56.42:032][502]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.56.49:557][595]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.56.53:759][698]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.57.20:804][ 40]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.57.23:679][ 79]Cmd: TRANSACTION UNDO
+[2014.09.21-01.57.23:679][ 79]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-01.57.35:809][ 79]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.57.43:423][178]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.57.47:224][213]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.57.49:691][244]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.58.13:096][552]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.58.15:349][582]Cmd: TRANSACTION UNDO
+[2014.09.21-01.58.15:349][582]LogEditorTransaction: Undo Move Actors
+[2014.09.21-01.58.17:605][582]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.58.44:558][943]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.58.55:106][130]Cmd: TRANSACTION UNDO
+[2014.09.21-01.58.55:106][130]LogEditorTransaction: Undo Move Actors
+[2014.09.21-01.58.57:229][130]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.59.26:219][567]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.59.35:179][674]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.59.47:421][832]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-01.59.49:802][860]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.00.22:952][348]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.00.33:405][485]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.00.46:684][688]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.00.49:472][722]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.00.52:916][763]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.00.56:962][814]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.00:612][859]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.06:018][929]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.08:190][956]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.13:366][ 16]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.21:892][115]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.35:554][276]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.39:130][316]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.49:659][442]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.01.54:070][495]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.02.05:086][624]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.02.08:554][665]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.02.17:991][779]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.02.24:500][860]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.02.31:250][943]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.02.56:649][271]Cmd: TRANSACTION UNDO
+[2014.09.21-02.02.56:649][271]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.02.58:153][271]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.03.00:082][295]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.00:082][295]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.03.00:359][298]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.00:359][298]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.03.00:585][305]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.00:585][305]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.03.05:970][305]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.03.05:991][305]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight21)
+[2014.09.21-02.03.25:470][215]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.03.39:239][400]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.39:239][400]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-02.03.40:119][435]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.40:120][435]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2014.09.21-02.03.40:790][444]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.40:790][444]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.03.43:188][444]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.03.56:643][618]Cmd: TRANSACTION UNDO
+[2014.09.21-02.03.56:643][618]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.03.57:951][618]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.04.00:476][688]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.00:476][688]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.04.02:594][751]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.02:595][751]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.04.04:383][824]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.04:383][824]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.04.05:708][824]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.04.07:872][921]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.07:872][921]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.04.10:759][ 33]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.10:759][ 33]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.04.13:316][112]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.13:316][112]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.04.16:949][112]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.04.33:975][452]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.33:975][452]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.04.35:062][452]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.04.39:627][551]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.39:627][551]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.04.43:976][551]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.04.49:470][673]Cmd: TRANSACTION UNDO
+[2014.09.21-02.04.49:470][673]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.04.51:707][673]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.05.04:454][888]Cmd: TRANSACTION UNDO
+[2014.09.21-02.05.04:454][888]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.05.07:123][888]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.05.18:700][ 26]Cmd: DUPLICATE
+[2014.09.21-02.05.18:700][ 26]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.05.18:781][ 26]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_4.Model_16 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_3.Model_16
+[2014.09.21-02.05.18:781][ 26]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_4.Model_16 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_25.Model_16
+[2014.09.21-02.05.18:781][ 26]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_4.Model_16 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_2.Model_16
+[2014.09.21-02.05.18:828][ 26]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.05.37:210][255]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.05.48:963][475]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.05.52:330][517]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.06.18:431][884]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.06.18:671][884]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.06.25:562][982]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.06.31:036][ 58]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.06.35:343][113]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.07.07:497][558]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.07.17:251][690]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.07.23:803][778]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.07.31:321][879]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.07.42:407][ 27]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.08.11:255][432]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.08.22:655][596]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.08.26:468][645]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.08.36:450][777]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.08.47:065][913]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.06:422][164]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.09:159][197]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.12:935][242]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.20:064][327]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.23:510][366]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.37:797][545]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.42:490][602]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.47:490][664]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.53:835][742]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.09.53:836][742]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.09.55:155][758]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.09.58:563][800]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.02:245][845]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.04:739][875]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.06:758][899]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.14:859][993]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.20:077][ 53]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2014.09.21-02.10.20:189][ 53]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.25:207][113]Cmd: DUPLICATE
+[2014.09.21-02.10.25:207][113]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.10.25:355][113]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.28:946][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.33:799][261]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.36:600][323]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.40:884][370]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.43:646][401]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.10.46:859][439]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.11.01:145][589]LogFileHelpers: Editor autosave (incl. sublevels) failed for file '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/Autosaves/Game/Maps/sacrifice_Auto1.umap' which belongs to world '/Game/Maps/sacrifice'. Aborting autosave.
+[2014.09.21-02.11.01:145][589]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/sacrifice' took 2.386
+[2014.09.21-02.11.04:324][612]LogSavePackage: Save=1328.179688ms
+[2014.09.21-02.11.04:324][612]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice5F5FC44B45A6DF1699C46FB4F31E0CE6.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.21-02.11.10:598][701]Cmd: DUPLICATE
+[2014.09.21-02.11.10:598][701]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.11.10:666][701]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_10.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_7.Model_5
+[2014.09.21-02.11.10:743][701]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.11.23:935][879]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.11.36:435][188]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.11.47:409][335]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.11.53:254][413]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.04:474][559]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.11:609][649]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.18:368][737]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.20:351][762]Cmd: TRANSACTION UNDO
+[2014.09.21-02.12.20:351][762]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.12.22:016][813]Cmd: TRANSACTION UNDO
+[2014.09.21-02.12.22:016][813]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.12.25:426][857]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.28:143][891]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.40:404][ 56]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.12.57:488][276]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.13.03:105][348]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.13.04:897][369]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.13.38:712][818]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.13.38:815][818]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.13.47:725][179]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.21-02.13.54:264][410]LogMaterial: Missing cached shader map for material red, compiling.
+[2014.09.21-02.14.06:627][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.14.15:310][169]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.14.25:865][297]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.14.31:936][370]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.14.38:050][452]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.14.48:454][587]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.01:012][753]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.14:374][929]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.28:243][116]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.32:358][173]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.38:473][261]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.43:690][337]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.47:772][395]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.50:706][436]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.52:963][467]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.15.59:928][566]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.15:253][782]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.21:804][869]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.24:951][910]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.28:313][955]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.47:644][215]Cmd: DUPLICATE
+[2014.09.21-02.16.47:644][215]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.16.47:817][215]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.51:844][263]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.16.56:640][381]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.17.07:069][524]Cmd: DUPLICATE
+[2014.09.21-02.17.07:069][524]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.17.07:155][524]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_10.Model_5
+[2014.09.21-02.17.07:155][524]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_7.Model_5
+[2014.09.21-02.17.07:219][524]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.17.27:052][803]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.17.32:240][873]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.17.40:428][966]LogSavePackage: Save=1489.336914ms
+[2014.09.21-02.17.40:428][966]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrificeF739DDBC46CF9A858DBC98857D7A42A3.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.21-02.18.50:757][961]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.18.50:966][961]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.18.55:106][ 11]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.19.00:798][ 85]Cmd: TRANSACTION UNDO
+[2014.09.21-02.19.00:798][ 85]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.19.02:379][ 85]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.19.05:745][125]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.19.17:460][478]Cmd: DELETE
+[2014.09.21-02.19.17:460][478]Cmd: ACTOR DELETE
+[2014.09.21-02.19.17:462][478]LogEditorActor: Deleted Actor: Brush
+[2014.09.21-02.19.17:596][478]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2014.09.21-02.19.17:708][478]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.19.37:983][976]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.19.38:083][976]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.19.43:570][ 45]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.20.38:548][662]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2014.09.21-02.20.38:660][662]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2014.09.21-02.20.46:972][829]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2014.09.21-02.20.54:332][ 23]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.20.54:526][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.09.21-02.20.55:749][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.09.21-02.20.55:750][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.09.21-02.20.55:867][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.09.21-02.20.55:953][ 23]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.20.55:953][ 23]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.20.55:953][ 23]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.22.34:109][842]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.22.35:839][862]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.22.35:867][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.09.21-02.22.40:081][908]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.22.40:108][908]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.22.40:246][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.09.21-02.22.43:488][944]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.22.43:488][944]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.22.43:488][944]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.23.16:758][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.23.16:863][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.23.20:528][925]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.23.21:333][935]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.23.21:333][935]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.23.21:333][935]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.23.29:791][ 45]LogLinker:Warning: Can't find file '/Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal'
+[2014.09.21-02.23.29:792][ 45]LogLinker:Warning: Can't find file for asset '/Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal' while loading ../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset.
+[2014.09.21-02.23.29:812][ 45]LoadErrors:Error: Error /Engine/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector : Can't find file for asset. /Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal
+[2014.09.21-02.23.29:813][ 45]LogLinker:Warning: Can't find file '/Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal'
+[2014.09.21-02.23.29:813][ 45]LogLinker:Warning: Can't find file for asset '/Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal' while loading ../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset.
+[2014.09.21-02.23.29:815][ 45]LogLinker:Warning: Can't find file '/Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal'
+[2014.09.21-02.23.29:889][ 45]LoadErrors: Info Failed to load /Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal.2ndInfectedMapNormal Referenced by MaterialExpressionTextureObject_7 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.09.21-02.23.29:889][ 45]LogLinker:Warning: Can't find file for asset '/Game/Developers/jonathanlindquist/TestSpawners/2ndInfectedMapNormal' while loading NULL.
+[2014.09.21-02.23.35:467][143]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.24.12:022][279]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.24.12:027][279]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.24.15:210][328]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.24.15:210][328]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.24.15:210][328]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.24.16:649][343]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.24.46:366][696]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.24.46:366][696]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.24.46:366][696]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.24.53:656][973]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.24.53:658][973]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.27.41:403][957]LogSavePackage: Save=2031.911743ms
+[2014.09.21-02.27.41:403][957]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice_Auto1AE395EEC4A9F531683D607A95E66CF63.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/Autosaves/Game/Maps/sacrifice_Auto1.umap'
+[2014.09.21-02.27.41:414][957]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/sacrifice' took 2.306
+[2014.09.21-02.27.41:457][957]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.306
+[2014.09.21-02.27.43:184][978]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.27.48:135][ 39]Cmd: DELETE
+[2014.09.21-02.27.48:135][ 39]Cmd: ACTOR DELETE
+[2014.09.21-02.27.48:139][ 39]LogEditorActor: Deleted Actor: Brush
+[2014.09.21-02.27.48:372][ 39]LogEditorActor: Deleted 1 Actors (0.236 secs)
+[2014.09.21-02.27.48:455][ 39]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.27.59:683][281]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.28.07:244][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.09.21-02.28.15:926][824]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.21-02.28.21:176][948]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.28.21:309][948]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.25:794][998]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.38:376][149]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.41:967][191]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.44:405][220]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.46:753][247]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.49:997][284]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.54:813][342]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.28.59:811][403]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.06:932][491]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.15:051][588]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.20:197][648]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.26:175][717]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.33:776][805]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.37:288][845]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.40:608][882]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.44:340][927]Cmd: DUPLICATE
+[2014.09.21-02.29.44:340][927]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.29.44:568][927]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.48:915][978]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.53:560][ 70]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.56:291][102]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.29.58:463][126]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.30.00:090][144]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.30.03:783][188]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.30.37:989][633]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.30.45:283][724]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.30.47:545][754]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.31.06:833][  1]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.06:833][  1]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.31.06:905][  1]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.07:693][ 24]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.07:693][ 24]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.31.07:705][ 24]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.08:728][ 38]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.08:728][ 38]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-02.31.08:775][ 38]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.09:643][ 50]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.09:643][ 50]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-02.31.09:726][ 50]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.10:843][ 65]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.10:843][ 65]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.31.14:057][ 65]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.31.14:086][ 65]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.16:670][142]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.16:671][142]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.31.19:099][142]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.31.19:118][142]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.22:424][181]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.31.22:424][181]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.31.22:424][181]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.31.26:054][262]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.26:054][262]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.31.29:300][262]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.31.29:326][262]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.34:192][376]Cmd: TRANSACTION UNDO
+[2014.09.21-02.31.34:192][376]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.31.35:901][376]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.31.35:964][376]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.31.36:166][377]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.09.21-02.31.36:166][377]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.09.21-02.31.36:166][377]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.09.21-02.33.18:963][368]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.33.18:966][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.09.21-02.33.34:810][639]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.33.57:231][881]Cmd: TRANSACTION UNDO
+[2014.09.21-02.33.57:231][881]LogEditorTransaction: Undo Material Editor: Delete
+[2014.09.21-02.33.57:233][881]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.34.01:020][ 69]Cmd: TRANSACTION UNDO
+[2014.09.21-02.34.01:020][ 69]LogEditorTransaction: Undo Rename Node
+[2014.09.21-02.34.03:174][166]Cmd: TRANSACTION UNDO
+[2014.09.21-02.34.03:174][166]LogEditorTransaction: Undo Material Editor: New Expression
+[2014.09.21-02.34.03:176][166]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.09.21-02.34.05:059][227]Cmd: TRANSACTION UNDO
+[2014.09.21-02.34.05:059][227]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.34.06:684][227]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.09:632][308]Cmd: TRANSACTION UNDO
+[2014.09.21-02.34.09:633][308]LogEditorTransaction: Undo Edit Properties
+[2014.09.21-02.34.09:689][308]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.11:344][367]Cmd: TRANSACTION UNDO
+[2014.09.21-02.34.11:344][367]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.34.13:096][367]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.15:451][437]Cmd: TRANSACTION UNDO
+[2014.09.21-02.34.15:451][437]LogEditorTransaction: Undo Duplicate Actors
+[2014.09.21-02.34.16:939][437]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.20:572][485]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.40:014][737]Cmd: DUPLICATE
+[2014.09.21-02.34.40:014][737]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.34.40:064][737]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_32.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_31.Model_12
+[2014.09.21-02.34.40:172][737]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.45:162][800]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.34.53:759][ 19]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.10:776][241]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.31:612][523]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.44:455][695]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.44:853][700]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.44:853][700]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.35.46:529][700]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.48:339][723]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.48:339][723]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.35.49:790][723]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.53:028][767]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.53:029][767]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.35.54:132][808]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.54:132][808]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.35.55:698][827]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.55:698][827]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.35.56:750][839]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.56:750][839]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.35.57:738][851]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.57:738][851]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.35.59:102][851]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.35.59:646][858]Cmd: TRANSACTION UNDO
+[2014.09.21-02.35.59:647][858]LogEditorTransaction: Undo Edit Properties
+[2014.09.21-02.35.59:786][858]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.00:926][872]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.00:926][872]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.36.04:393][872]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.10:821][999]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.16:628][ 77]Cmd: DUPLICATE
+[2014.09.21-02.36.16:628][ 77]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.36.16:695][ 77]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_7.Model_5
+[2014.09.21-02.36.16:695][ 77]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_23.Model_5
+[2014.09.21-02.36.16:695][ 77]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_10.Model_5
+[2014.09.21-02.36.16:762][ 77]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.24:737][192]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.36.42:331][434]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.43:451][449]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.43:451][449]LogEditorTransaction: Undo Rotate Actors
+[2014.09.21-02.36.44:831][449]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.46:233][468]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.46:233][468]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.36.47:036][478]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.47:036][478]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.36.48:086][492]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.48:086][492]LogEditorTransaction: Undo Duplicate Actors
+[2014.09.21-02.36.50:435][492]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.36.52:152][591]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.52:152][591]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-02.36.53:767][663]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.53:767][663]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-02.36.55:466][720]Cmd: TRANSACTION UNDO
+[2014.09.21-02.36.55:466][720]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.36.56:970][720]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.37.05:914][912]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.37.07:328][980]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.37.13:429][ 63]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.37.25:635][233]Cmd: DUPLICATE
+[2014.09.21-02.37.25:635][233]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.37.25:704][233]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_34.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5
+[2014.09.21-02.37.25:704][233]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_34.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_7.Model_5
+[2014.09.21-02.37.25:704][233]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_34.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_23.Model_5
+[2014.09.21-02.37.25:704][233]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_34.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_10.Model_5
+[2014.09.21-02.37.25:772][233]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.37.44:975][525]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.37.57:058][685]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.38.12:050][897]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.39.03:171][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DA676FDA80
+[2014.09.21-02.40.12:505][634]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.40.12:518][634]LogSavePackage: Save=68594.507813ms
+[2014.09.21-02.40.12:518][634]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice415C6ACF432995F3646DFFBE3FE27CDB.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.21-02.40.13:089][640]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.40.13:092][640]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.40.48:164][147]LogSavePackage: Save=1431.195801ms
+[2014.09.21-02.40.48:164][147]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice65282D3F4AA1E235355D039FDA524137.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.21-02.40.59:540][324]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.40.59:644][324]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.05:311][404]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.07:579][435]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.09:474][461]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.12:998][511]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.20:602][623]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.33:875][815]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.39:760][900]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.49:924][ 44]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.41.57:932][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.42.00:631][191]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.42.11:373][344]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.42.21:085][479]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.42.30:270][610]Cmd: DUPLICATE
+[2014.09.21-02.42.30:270][610]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.42.30:437][610]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.42.33:873][655]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.42.37:513][755]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.06:519][176]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.14:978][294]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.20:130][366]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.25:448][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.43.32:562][540]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.35:164][575]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.35:668][582]Cmd: TRANSACTION UNDO
+[2014.09.21-02.43.35:668][582]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.43.38:006][582]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.43.42:120][721]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-02.43.44:865][761]Cmd: TRANSACTION UNDO
+[2014.09.21-02.43.44:865][761]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-02.43.49:403][946]Cmd: TRANSACTION REDO
+[2014.09.21-02.43.49:403][946]LogEditorTransaction: Redo Clicking on Actors
+[2014.09.21-02.43.53:593][ 45]Cmd: TRANSACTION UNDO
+[2014.09.21-02.43.53:593][ 45]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-02.43.55:361][135]Cmd: TRANSACTION UNDO
+[2014.09.21-02.43.55:361][135]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.43.59:214][135]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.43.59:711][135]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.03:544][189]Cmd: DELETE
+[2014.09.21-02.44.03:545][189]Cmd: ACTOR DELETE
+[2014.09.21-02.44.03:555][189]LogEditorActor: Deleted Actor: Brush
+[2014.09.21-02.44.03:744][189]LogEditorActor: Deleted 1 Actors (0.193 secs)
+[2014.09.21-02.44.03:808][189]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.15:442][360]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.18:814][408]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.23:649][477]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.44.28:583][535]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.31:562][570]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.38:133][652]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.42:862][711]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.44.51:044][827]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.44.54:248][870]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.03:153][986]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.12:995][127]Cmd: DUPLICATE
+[2014.09.21-02.45.12:995][127]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.45.13:065][127]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_39.Model_13 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_37.Model_13
+[2014.09.21-02.45.13:154][127]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.17:531][187]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.19:833][221]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.45.26:218][311]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.28:802][391]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.40:292][541]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.43:434][586]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.45.50:345][685]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.45.58:664][797]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.04:829][876]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.11:832][964]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.19:189][ 64]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.46.25:797][155]Cmd: DUPLICATE
+[2014.09.21-02.46.25:797][155]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.46.25:863][155]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_11.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_31.Model_12
+[2014.09.21-02.46.25:972][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.43:630][390]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.45:299][412]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.46.49:240][461]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.54:963][533]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.46.59:420][590]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.47.02:934][633]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.47.04:749][657]Cmd: DUPLICATE
+[2014.09.21-02.47.04:749][657]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.47.04:823][657]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_14.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_11.Model_12
+[2014.09.21-02.47.04:823][657]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_14.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_31.Model_12
+[2014.09.21-02.47.04:972][657]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.47.13:826][780]Cmd: TRANSACTION UNDO
+[2014.09.21-02.47.13:826][780]LogEditorTransaction: Undo Duplicate Actors
+[2014.09.21-02.47.17:607][780]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.47.48:364][235]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.47.49:969][257]Cmd: TRANSACTION UNDO
+[2014.09.21-02.47.49:970][257]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.47.53:071][257]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.47.55:892][289]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.48.09:062][504]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.12:605][546]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.18:995][629]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.19:521][636]Cmd: TRANSACTION UNDO
+[2014.09.21-02.48.19:521][636]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.48.23:113][636]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.24:539][654]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_11)
+[2014.09.21-02.48.27:293][749]Cmd: TRANSACTION UNDO
+[2014.09.21-02.48.27:293][749]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-02.48.29:132][833]Cmd: TRANSACTION UNDO
+[2014.09.21-02.48.29:132][833]LogEditorTransaction: Undo Move Actors
+[2014.09.21-02.48.32:679][833]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.45:490][  4]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.48:482][ 46]Cmd: DUPLICATE
+[2014.09.21-02.48.48:482][ 46]Cmd: ACTOR DUPLICATE
+[2014.09.21-02.48.48:550][ 46]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_43.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_14.Model_12
+[2014.09.21-02.48.48:550][ 46]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_43.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_11.Model_12
+[2014.09.21-02.48.48:550][ 46]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_43.Model_12 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_31.Model_12
+[2014.09.21-02.48.48:640][ 46]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.48.58:459][167]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.49.00:466][190]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.03:178][223]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.06:618][265]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.17:144][402]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.24:300][494]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.33:958][625]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.49.45:160][779]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.50:070][845]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.49.52:454][878]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.49.58:770][960]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.50.02:629][  8]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.50.05:292][ 39]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.50.17:141][199]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.50.32:272][546]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.50.43:019][681]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.50.56:777][903]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.52.12:620][904]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.52.33:011][179]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.53.06:527][231]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.53.31:445][604]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-02.53.31:610][604]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.53.38:161][686]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.53.49:422][833]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.53.52:397][867]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.54.00:866][970]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.54.09:356][ 76]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.54.13:207][123]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.54.16:816][168]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.54.20:685][218]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.55.31:762][897]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.55.31:765][897]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-02.55.31:841][899]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.55.50:495][145]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.55.52:067][168]Cmd: TRANSACTION UNDO
+[2014.09.21-02.55.52:067][168]LogEditorTransaction: Undo Scale Actors
+[2014.09.21-02.56.02:568][168]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.56.02:610][168]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.56.39:646][678]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.57.10:669][100]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.58.04:324][811]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.58.16:115][958]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.58.21:645][ 29]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.58.36:165][224]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-02.58.55:809][479]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.59.11:429][676]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-02.59.46:355][134]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.00.48:953][971]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.00.54:916][979]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.00.57:783][979]LogFileHelpers: Editor autosave (incl. sublevels) failed for file '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/Autosaves/Game/Maps/sacrifice_Auto2.umap' which belongs to world '/Game/Maps/sacrifice'. Aborting autosave.
+[2014.09.21-03.00.57:783][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/sacrifice' took 2.925
+[2014.09.21-03.00.58:064][980]Cmd: EDCALLBACK SURFPROPS
+[2014.09.21-03.01.12:471][169]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.01.22:748][297]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.01.31:956][416]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.01.38:399][506]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.01.56:951][729]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.09.21-03.04.23:175][ 54]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.04.23:215][ 54]LogSavePackage: Save=30685.982422ms
+[2014.09.21-03.04.23:216][ 54]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice3AC0600541DCF96F2FFEB9981B22E4B9.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.21-03.05.45:750][513]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-03.05.45:987][513]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.06.06:132][777]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.06.16:477][917]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.06.36:383][176]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.06.49:101][343]Cmd: DUPLICATE
+[2014.09.21-03.06.49:101][343]Cmd: ACTOR DUPLICATE
+[2014.09.21-03.06.49:383][343]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.06.53:983][400]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.07.11:410][624]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.07.33:871][991]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.07.38:471][ 48]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.07.39:008][ 55]Cmd: TRANSACTION UNDO
+[2014.09.21-03.07.39:008][ 55]LogEditorTransaction: Undo Move Actors
+[2014.09.21-03.07.49:754][ 55]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.07.51:022][ 69]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.08.16:942][403]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.08.54:087][877]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.09.38:006][435]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.10.09:350][833]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.09:350][833]LogEditorTransaction: Undo Move Actors
+[2014.09.21-03.10.21:693][833]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.10.22:012][835]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.10.22:808][840]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-03.10.22:811][840]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-03.10.46:944][208]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.46:944][208]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2014.09.21-03.10.50:088][290]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.50:088][290]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2014.09.21-03.10.51:959][380]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.51:959][380]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-03.10.54:033][455]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.54:033][455]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-03.10.56:391][560]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.56:391][560]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-03.10.57:998][625]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.57:998][625]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-03.10.59:597][690]Cmd: TRANSACTION UNDO
+[2014.09.21-03.10.59:597][690]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-03.11.01:221][754]Cmd: TRANSACTION UNDO
+[2014.09.21-03.11.01:221][754]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-03.11.02:449][766]Cmd: TRANSACTION UNDO
+[2014.09.21-03.11.02:449][766]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-03.11.03:023][774]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.11.04:325][824]Cmd: TRANSACTION UNDO
+[2014.09.21-03.11.04:325][824]LogEditorTransaction: Undo Move Actors
+[2014.09.21-03.11.19:479][824]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.11.48:770][189]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.21-03.12.25:599][727]Cmd: TRANSACTION UNDO
+[2014.09.21-03.12.25:599][727]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2014.09.21-03.12.31:118][799]Cmd: TRANSACTION UNDO
+[2014.09.21-03.12.31:118][799]LogEditorTransaction: Undo Select Surfaces
+[2014.09.21-03.12.32:841][857]Cmd: TRANSACTION UNDO
+[2014.09.21-03.12.32:841][857]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.21-03.12.34:431][910]Cmd: TRANSACTION UNDO
+[2014.09.21-03.12.34:431][910]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2014.09.21-03.12.36:044][966]Cmd: TRANSACTION UNDO
+[2014.09.21-03.12.36:044][966]LogEditorTransaction: Undo Move Actors
+[2014.09.21-03.12.50:613][966]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.13.05:056][ 92]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.13.25:005][339]Cmd: DELETE
+[2014.09.21-03.13.25:005][339]Cmd: ACTOR DELETE
+[
