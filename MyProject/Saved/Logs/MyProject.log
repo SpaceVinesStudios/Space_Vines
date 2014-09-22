@@ -200,4 +200,112 @@ LogInit: Rocket: 1
 [2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_9.Model_7
 [2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_15.Model_7
 [2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7
-[2014.09.22-02.03.47:757]
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7
+[2014.09.22-02.04.02:630][306]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.04.16:686][359]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.22-02.04.16:686][359]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.04.49:598][558]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.05.12:053][680]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.05.23:256][773]LogSavePackage: Save=1369.306885ms
+[2014.09.22-02.05.23:256][773]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrificeE0F438B9470BE9E2DF9710AEFF48871E.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.22-02.07.58:819][325]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight35)
+[2014.09.22-02.08.14:405][589]Cmd: EDIT COPY
+[2014.09.22-02.10.35:247][771]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight42)
+[2014.09.22-02.10.43:282][879]Cmd: DUPLICATE
+[2014.09.22-02.10.43:282][879]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.10.53:831][  1]Cmd: DUPLICATE
+[2014.09.22-02.10.53:831][  1]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.11.04:580][136]Cmd: DUPLICATE
+[2014.09.22-02.11.04:580][136]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.11.21:704][343]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight45)
+[2014.09.22-02.11.22:792][357]Cmd: DUPLICATE
+[2014.09.22-02.11.22:792][357]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.11.35:261][511]Cmd: DUPLICATE
+[2014.09.22-02.11.35:261][511]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.11.49:503][685]Cmd: DUPLICATE
+[2014.09.22-02.11.49:503][685]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.12.28:933][146]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-02.12.28:946][146]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-02.12.41:684][298]Cmd: DUPLICATE
+[2014.09.22-02.12.41:684][298]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.13.08:440][754]Cmd: TRANSACTION UNDO
+[2014.09.22-02.13.08:519][754]LogEditorTransaction: Undo Select Surfaces
+[2014.09.22-02.13.51:917][969]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight44)
+[2014.09.22-02.13.53:169][985]Cmd: DUPLICATE
+[2014.09.22-02.13.53:169][985]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.14.21:620][338]Cmd: DUPLICATE
+[2014.09.22-02.14.21:620][338]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.14.34:916][501]Cmd: DUPLICATE
+[2014.09.22-02.14.34:916][501]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.14.50:001][692]Cmd: DUPLICATE
+[2014.09.22-02.14.50:001][692]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.15.02:205][845]Cmd: DUPLICATE
+[2014.09.22-02.15.02:205][845]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.15.18:689][ 56]Cmd: DUPLICATE
+[2014.09.22-02.15.18:689][ 56]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.15.32:798][239]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight54)
+[2014.09.22-02.15.34:549][262]Cmd: DUPLICATE
+[2014.09.22-02.15.34:549][262]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.16.08:401][698]Cmd: DUPLICATE
+[2014.09.22-02.16.08:401][698]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.16.24:737][877]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight57)
+[2014.09.22-02.16.25:871][891]Cmd: DUPLICATE
+[2014.09.22-02.16.25:871][891]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.16.47:004][145]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight58)
+[2014.09.22-02.16.53:757][234]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight59)
+[2014.09.22-02.16.54:946][250]Cmd: DUPLICATE
+[2014.09.22-02.16.54:946][250]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.17.09:179][480]Cmd: TRANSACTION UNDO
+[2014.09.22-02.17.09:179][480]LogEditorTransaction: Undo Select Surfaces
+[2014.09.22-02.17.31:891][643]Cmd: TRANSACTION UNDO
+[2014.09.22-02.17.31:891][643]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.22-02.17.58:775][ 76]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight59)
+[2014.09.22-02.18.03:378][132]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight58)
+[2014.09.22-02.18.04:356][144]Cmd: DUPLICATE
+[2014.09.22-02.18.04:356][144]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.18.19:124][314]Cmd: DUPLICATE
+[2014.09.22-02.18.19:124][314]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.18.32:647][465]Cmd: DUPLICATE
+[2014.09.22-02.18.32:647][465]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.18.37:625][524]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight62)
+[2014.09.22-02.18.38:600][536]Cmd: DUPLICATE
+[2014.09.22-02.18.38:600][536]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.18.44:630][604]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight62)
+[2014.09.22-02.18.46:977][631]Cmd: DUPLICATE
+[2014.09.22-02.18.46:978][631]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.18.55:966][732]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight63)
+[2014.09.22-02.18.58:060][756]Cmd: DUPLICATE
+[2014.09.22-02.18.58:060][756]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.19.02:643][809]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight63)
+[2014.09.22-02.19.03:660][821]Cmd: DUPLICATE
+[2014.09.22-02.19.03:660][821]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.19.17:198][912]LogSavePackage: Save=1994.888550ms
+[2014.09.22-02.19.17:199][912]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice4DCE5D394F8E588C97AA7BB2DE3A75F7.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.22-02.19.19:904][937]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight63)
+[2014.09.22-02.19.21:592][957]Cmd: DUPLICATE
+[2014.09.22-02.19.21:592][957]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.19.27:982][ 31]Cmd: DUPLICATE
+[2014.09.22-02.19.27:982][ 31]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.19.39:879][168]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight68)
+[2014.09.22-02.19.40:844][179]Cmd: DUPLICATE
+[2014.09.22-02.19.40:844][179]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.19.51:205][293]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight68)
+[2014.09.22-02.19.52:168][305]Cmd: DUPLICATE
+[2014.09.22-02.19.52:168][305]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.20.05:223][454]Cmd: DUPLICATE
+[2014.09.22-02.20.05:223][454]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.20.15:362][575]Cmd: DUPLICATE
+[2014.09.22-02.20.15:362][575]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.20.27:466][722]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight71)
+[2014.09.22-02.20.28:501][735]Cmd: DUPLICATE
+[2014.09.22-02.20.28:501][735]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.20.36:510][831]Cmd: DUPLICATE
+[2014.09.22-02.20.36:510][831]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.20.39:967][873]Cmd: DUPLICATE
+[2014.09.22-02.20.39:967][873]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.20.47:078][102]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight75)
+[2014.09.22-02.21.13:297][779]Cmd: DUPLICATE
+[2014.09.22-02.21.13
