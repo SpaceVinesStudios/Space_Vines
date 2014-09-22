@@ -82,4 +82,40 @@ LogInit: Rocket: 1
 [2014.09.21-03.46.30:445][  0]LogLoad: Full Startup: 82.49 seconds (BP compile: 0.08 seconds)
 [2014.09.21-03.46.31:483][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
 [2014.09.21-03.46.31:985][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><C
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F68D4A744A440FA3</RequestId><HostId>G38RpHF5K05Ho8i6r9LkyWP2am5+8klskzuvi0eD+nZvjHtBRvAn4y9yy+hxHOHXif6P6/Te/OY=</HostId></Error>
+[2014.09.21-03.46.32:059][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9B2263ED51A26712</RequestId><HostId>yFsK5hosep+VHhHfzIgASkaQNEJAx0X7oouJ1dakxtz0AmZVKJ8o3tqJRpfzqlcD</HostId></Error>
+[2014.09.21-03.46.32:079][  2]LogAssetRegistry: Asset discovery search completed in 10.9900 seconds
+[2014.09.21-03.46.32:104][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F3F17477DCCB4CF3</RequestId><HostId>lKzbZPDVZxhOhEdIM/vcgTQYymPeUiToMWrvqNu9bGWgT23chzfCqbuWyBD05tnx</HostId></Error>
+[2014.09.21-03.46.32:216][  5]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-03.46.32:217][  5]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.21-03.46.32:302][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E2DDC2C648E1E13A</RequestId><HostId>6ABZDRGHlDINAYQK1xHSshwglSVrsm3tmjHALkzQwPFwpSTsxp7ViUjgX6Y+l5YrLREA9Z7FBP0=</HostId></Error>
+[2014.09.21-03.48.52:753][104]Cmd: MAP LOAD FILE="C:/Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.21-03.48.52:753][104]LightingResults: New page: Lighting Build
+[2014.09.21-03.48.52:753][104]Cmd: MODE PLACEMENT
+[2014.09.21-03.48.52:764][104]LoadErrors: New page: Loading map: sacrifice.umap
+[2014.09.21-03.48.52:764][104]MapCheck: New page: Map Check
+[2014.09.21-03.48.52:764][104]LightingResults: New page: Lighting Build
+[2014.09.21-03.48.52:792][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000270FA6E160
+[2014.09.21-03.48.53:742][104]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.21-03.48.53:760][104]Cmd: MAP CHECKDEP
+[2014.09.21-03.48.53:760][104]MapCheck: New page: sacrifice - Sep 20, 2014, 7:48:53 PM
+[2014.09.21-03.48.53:810][104]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [49.732ms] ==========
+[2014.09.21-03.48.53:810][104]LogFileHelpers: Loading map 'sacrifice' took 1.058
+[2014.09.21-03.50.20:087][871]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-03.50.20:602][871]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.50.24:426][918]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.50.33:772][219]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.50.45:308][410]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.50.58:765][584]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.51.04:340][832]Cmd: SELECT NONE
+[2014.09.21-03.51.14:277][962]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.51.17:140][993]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.51.35:075][225]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.51.44:401][343]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.51.54:235][470]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.52.04:455][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.52.07:629][652]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.21-03.52.14:190][
