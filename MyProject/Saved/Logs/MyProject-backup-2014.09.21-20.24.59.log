@@ -1,0 +1,119 @@
+Log file open, 09/21/14 20:08:06
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.22-00.08.06:190][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.22-00.08.06:272][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.22-00.08.06:487][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.22-00.08.06:856][  0]LogInit: Object subsystem initialized
+[2014.09.22-00.08.06:961][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.22-00.08.06:964][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.22-00.08.07:152][  0]LogInit: Computer: RSIVALICE
+[2014.09.22-00.08.07:153][  0]LogInit: User: ryanw
+[2014.09.22-00.08.07:156][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.09.22-00.08.07:176][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2014.09.22-00.08.07:176][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
+[2014.09.22-00.08.07:176][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.22-00.08.07:176][  0]LogMemory: Process Physical Memory: 52.43 MB used, 52.53 MB peak
+[2014.09.22-00.08.07:176][  0]LogMemory: Process Virtual Memory: 29.39 MB used, 29.51 MB peak
+[2014.09.22-00.08.07:176][  0]LogMemory: Physical Memory: 3562.28 MB used, 3941.41 MB total
+[2014.09.22-00.08.07:176][  0]LogMemory: Virtual Memory: 254.58 MB used, 134217728.00 MB total
+[2014.09.22-00.08.07:556][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.09.22-00.08.07:556][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.22-00.08.07:650][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.22-00.08.07:650][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.22-00.08.07:650][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.22-00.08.07:760][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.09.22-00.08.07:763][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.22-00.08.09:454][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.22-00.08.16:051][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.22-00.08.17:003][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.22-00.08.17:154][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.22-00.08.18:056][  0]LogDerivedDataCache: Loaded boot cache 0.83s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.22-00.08.18:056][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.22-00.08.18:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.22-00.08.18:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.22-00.08.18:192][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.22-00.08.18:206][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.22-00.08.31:196][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.22-00.08.31:197][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.22-00.08.40:699][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.22-00.09.46:756][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.22-00.09.46:756][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.22-00.09.47:770][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.22-00.09.47:770][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.22-00.10.02:838][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.22-00.10.03:420][  0]SourceControl: Info Source control is disabled
+[2014.09.22-00.10.03:421][  0]SourceControl: Info Source control is disabled
+[2014.09.22-00.10.03:430][  0]SourceControl: Info Source control is disabled
+[2014.09.22-00.10.06:010][  0]BlueprintLog: New page: Editor Load
+[2014.09.22-00.10.07:177][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.09.22-00.10.07:181][  0]LogUObjectAllocator: 3804656 out of 0 bytes used by permanent object pool.
+[2014.09.22-00.10.08:659][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.23s
+[2014.09.22-00.10.08:710][  0]LogEngine: Initializing Engine...
+[2014.09.22-00.10.10:105][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.22-00.10.10:228][  0]LogInit: FAudioDevice initialized.
+[2014.09.22-00.10.11:026][  0]LogDerivedDataCache: Saved boot cache 0.03s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.22-00.10.11:042][  0]LogInit: Texture streaming: Enabled
+[2014.09.22-00.10.12:636][  0]LogInit: Transaction tracking system initialized
+[2014.09.22-00.10.14:548][  0]LogAssetRegistry: FAssetRegistry took 0.0141 seconds to start up
+[2014.09.22-00.10.20:398][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.22-00.10.20:405][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.22-00.10.21:263][  0]LogConsoleResponse:Display: 
+[2014.09.22-00.10.31:314][  0]SourceControl: Info Source control is disabled
+[2014.09.22-00.10.31:398][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.22-00.10.31:462][  0]LightingResults: New page: Lighting Build
+[2014.09.22-00.10.31:568][  0]MapCheck: New page: Map Check
+[2014.09.22-00.10.31:568][  0]LightingResults: New page: Lighting Build
+[2014.09.22-00.10.32:105][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B47A1F9C0
+[2014.09.22-00.10.39:580][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.22-00.10.39:653][  0]Cmd: MAP CHECKDEP
+[2014.09.22-00.10.39:653][  0]MapCheck: New page: Example_Map - Sep 21, 2014, 4:10:39 PM
+[2014.09.22-00.10.39:758][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [105.048ms] ==========
+[2014.09.22-00.10.39:758][  0]LogFileHelpers: Loading map 'Example_Map' took 8.375
+[2014.09.22-00.10.42:855][  0]LogCollectionManager: Loaded 0 collections in 0.001338 seconds
+[2014.09.22-00.10.46:429][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.22-00.10.46:455][  0]Cmd: MODE PLACEMENT
+[2014.09.22-00.10.47:837][  0]LogLoad: Full Startup: 170.85 seconds (BP compile: 1.14 seconds)
+[2014.09.22-00.10.56:399][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.22-00.10.58:695][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BC0859CF850076C1</RequestId><HostId>7m/M3RsQR8CvTAm2Wu+q01XfTb0ZdKyqWZA3Tv6Y6mjXDg9hmgzHLFZDDndkmzgN</HostId></Error>
+[2014.09.22-00.11.00:161][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1A7EB08AB98B518C</RequestId><HostId>FGi5Tyka928XcAvlRKpnfFI9utIbsaIlaJmLmhqi3pQ+3JwWKO3/BUKa7BE3t5IJ</HostId></Error>
+[2014.09.22-00.11.01:296][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9FC668BD712AC6A7</RequestId><HostId>J/DtpiJ7z1mvCyZB/5fP2zGa9ibQCrhjoN6l9xp3slyDcUVRQWYhnDbTQ2ML8BYO</HostId></Error>
+[2014.09.22-00.11.01:308][  3]LogAssetRegistry: Asset discovery search completed in 46.7738 seconds
+[2014.09.22-00.11.02:020][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9F6581249EAC0901</RequestId><HostId>+Ssle/DJvij+7unq+F3i92TcDrnk4fhINOyHtPU2xyy8PZY55KckUAFqv5HPSgaQ</HostId></Error>
+[2014.09.22-00.11.03:329][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-00.11.03:511][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-00.11.47:489][612]Cmd: MAP LOAD FILE="C:/Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.22-00.11.47:611][612]LightingResults: New page: Lighting Build
+[2014.09.22-00.11.47:711][612]Cmd: MODE PLACEMENT
+[2014.09.22-00.11.47:946][612]LoadErrors: New page: Loading map: sacrifice.umap
+[2014.09.22-00.11.48:071][612]MapCheck: New page: Map Check
+[2014.09.22-00.11.48:071][612]LightingResults: New page: Lighting Build
+[2014.09.22-00.11.48:448][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B46AD5260
+[2014.09.22-00.12.01:796][612]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.22-00.12.01:815][612]Cmd: MAP CHECKDEP
+[2014.09.22-00.12.01:846][612]MapCheck: New page: sacrifice - Sep 21, 2014, 4:12:01 PM
+[2014.09.22-00.12.01:903][612]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [87.39ms] ==========
+[2014.09.22-00.12.01:903][612]LogFileHelpers: Loading map 'sacrifice' took 14.414
+[2014.09.22-00.12.16:151][736]LogSavePackage: Save=2200.839111ms
+[2014.09.22-00.12.16:151][736]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice9017B18A4BBD7F1D4C6A59896473ED94.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.22-00.12.36:667][131]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.22-00.12.56:715][131]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.14.19:198][ 15]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.14.36:948][134]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.14.52:584][245]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.15.18:854][508]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.15.37:621][631]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.15.55:705][714]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.16.10:580][817]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.16.25:174][909]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-00.16.38:371][ 19]LogInstancedFoliage: Map Rebuilt - Update all BSP 
