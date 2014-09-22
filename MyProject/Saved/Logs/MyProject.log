@@ -1,4 +1,4 @@
-Log file open, 09/21/14 20:48:22
+Log file open, 09/21/14 21:41:27
 LogInit:Display: Running engine without a game
 LogInit:Display: Loading recent project file: ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/MyProject.uproject
 LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
@@ -8,179 +8,196 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.09.22-00.48.22:883][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.09.22-00.48.22:968][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.09.22-00.48.23:052][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.09.22-00.48.23:355][  0]LogInit: Object subsystem initialized
-[2014.09.22-00.48.23:415][  0]LogInit: Selected Device Profile: [Windows]
-[2014.09.22-00.48.23:415][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.09.22-00.48.23:565][  0]LogInit: Computer: RSIVALICE
-[2014.09.22-00.48.23:565][  0]LogInit: User: ryanw
-[2014.09.22-00.48.23:568][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.09.22-00.48.23:610][  0]LogInit: High frequency timer resolution =2.338448 MHz
-[2014.09.22-00.48.23:610][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
-[2014.09.22-00.48.23:610][  0]LogMemory: Platform Memory Stats for Windows
-[2014.09.22-00.48.23:610][  0]LogMemory: Process Physical Memory: 52.41 MB used, 52.50 MB peak
-[2014.09.22-00.48.23:610][  0]LogMemory: Process Virtual Memory: 29.40 MB used, 29.51 MB peak
-[2014.09.22-00.48.23:610][  0]LogMemory: Physical Memory: 2975.45 MB used, 3941.41 MB total
-[2014.09.22-00.48.23:610][  0]LogMemory: Virtual Memory: 254.58 MB used, 134217728.00 MB total
-[2014.09.22-00.48.23:774][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
-[2014.09.22-00.48.23:774][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2014.09.22-00.48.23:787][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.09.22-00.48.23:787][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.09.22-00.48.23:787][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.09.22-00.48.23:794][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
-[2014.09.22-00.48.23:798][  0]LogD3D11RHI: Async texture creation enabled
-[2014.09.22-00.48.24:431][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.09.22-00.48.28:024][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.22-00.48.28:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.22-00.48.28:536][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.09.22-00.48.29:179][  0]LogDerivedDataCache: Loaded boot cache 0.64s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.09.22-00.48.29:179][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.09.22-00.48.29:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.09.22-00.48.29:179][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.09.22-00.48.29:227][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.09.22-00.48.29:240][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.09.22-00.48.32:175][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.09.22-00.48.32:176][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.09.22-00.48.33:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.09.22-00.48.52:934][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.09.22-00.48.52:934][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.09.22-00.48.53:172][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.09.22-00.48.53:172][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.09.22-00.49.02:467][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.09.22-00.49.02:768][  0]SourceControl: Info Source control is disabled
-[2014.09.22-00.49.02:768][  0]SourceControl: Info Source control is disabled
-[2014.09.22-00.49.02:777][  0]SourceControl: Info Source control is disabled
-[2014.09.22-00.49.03:369][  0]BlueprintLog: New page: Editor Load
-[2014.09.22-00.49.03:950][  0]LogObj: 19136 objects as part of root set at end of initial load.
-[2014.09.22-00.49.03:950][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
-[2014.09.22-00.49.04:719][  0]LogEngine: Initializing Engine...
-[2014.09.22-00.49.04:940][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.09.22-00.49.04:979][  0]LogInit: FAudioDevice initialized.
-[2014.09.22-00.49.05:041][  0]LogDerivedDataCache: Saved boot cache 0.03s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.09.22-00.49.05:052][  0]LogInit: Texture streaming: Enabled
-[2014.09.22-00.49.05:163][  0]LogInit: Transaction tracking system initialized
-[2014.09.22-00.49.05:535][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2014.09.22-00.49.06:774][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.09.22-00.49.06:796][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.09.22-00.49.07:091][  0]LogConsoleResponse:Display: 
-[2014.09.22-00.49.10:252][  0]SourceControl: Info Source control is disabled
-[2014.09.22-00.49.10:270][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.09.22-00.49.10:315][  0]LightingResults: New page: Lighting Build
-[2014.09.22-00.49.10:347][  0]MapCheck: New page: Map Check
-[2014.09.22-00.49.10:347][  0]LightingResults: New page: Lighting Build
-[2014.09.22-00.49.10:363][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6859D44A0
-[2014.09.22-00.49.12:017][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2014.09.22-00.49.12:018][  0]Cmd: MAP CHECKDEP
-[2014.09.22-00.49.12:018][  0]MapCheck: New page: Example_Map - Sep 21, 2014, 4:49:12 PM
-[2014.09.22-00.49.12:074][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [56.313ms] ==========
-[2014.09.22-00.49.12:075][  0]LogFileHelpers: Loading map 'Example_Map' took 1.823
-[2014.09.22-00.49.12:428][  0]LogCollectionManager: Loaded 0 collections in 0.001344 seconds
-[2014.09.22-00.49.12:645][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.09.22-00.49.12:646][  0]Cmd: MODE PLACEMENT
-[2014.09.22-00.49.12:793][  0]LogLoad: Full Startup: 53.69 seconds (BP compile: 0.22 seconds)
-[2014.09.22-00.49.13:455][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
-[2014.09.22-00.49.13:954][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C1A6C41CC8D62398</RequestId><HostId>xh9ALW8wUW1sOoktLoVcl5ocq0+vWiDQKldpQLyOJEN5d58o1kPo3wtM3zO5/VMDuxu3/a5cfKA=</HostId></Error>
-[2014.09.22-00.49.14:016][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3FB4C6403B92F810</RequestId><HostId>AU1qIqq4u/JvlfLtn5QPufX/dJx4ggZax3qoJ9mSD8O9LoWLUAFoAOyfPkUa1DyoW+6mrlsXt4Q=</HostId></Error>
-[2014.09.22-00.49.14:023][  2]LogAssetRegistry: Asset discovery search completed in 8.4999 seconds
-[2014.09.22-00.49.14:113][  4]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>22A0CC87A95EA952</RequestId><HostId>b24UC92BfSdp7fs7v8NNHwjtUN7V2cD+cSkCsgV/ewuSfEW0yErDRDiAjCmvubMWFNRVbSRyvEU=</HostId></Error>
-[2014.09.22-00.49.14:185][  5]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>392F09F6EF5E9B6C</RequestId><HostId>u1mslDI3qiBspg6YN53Vrn5Ug6z6mSPW7uVqFTpjsv/tFV7UZnHipOTFKNhyX6hR</HostId></Error>
-[2014.09.22-00.49.14:393][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.22-00.49.14:395][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.22-00.49.23:338][374]Cmd: MAP LOAD FILE="C:/Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.09.22-00.49.23:338][374]LightingResults: New page: Lighting Build
-[2014.09.22-00.49.23:339][374]Cmd: MODE PLACEMENT
-[2014.09.22-00.49.23:369][374]LoadErrors: New page: Loading map: sacrifice.umap
-[2014.09.22-00.49.23:369][374]MapCheck: New page: Map Check
-[2014.09.22-00.49.23:369][374]LightingResults: New page: Lighting Build
-[2014.09.22-00.49.23:396][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6FCF0A160
-[2014.09.22-00.49.27:162][374]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.22-00.49.27:394][374]Cmd: MAP CHECKDEP
-[2014.09.22-00.49.27:394][374]MapCheck: New page: sacrifice - Sep 21, 2014, 4:49:27 PM
-[2014.09.22-00.49.27:448][374]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [53.565ms] ==========
-[2014.09.22-00.49.27:448][374]LogFileHelpers: Loading map 'sacrifice' took 4.110
-[2014.09.22-00.50.19:161][525]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.50.29:543][600]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.50.36:157][644]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.50.53:805][831]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.51.04:277][919]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.51.16:859][ 21]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.51.27:155][110]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.51.33:886][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.51.52:928][361]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.52.04:231][472]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.52.20:698][647]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.52.36:292][807]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.52.47:242][914]LogSavePackage: Save=1685.320313ms
-[2014.09.22-00.52.47:243][914]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrificeD3C4018C4FCE69442F750B992975B596.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
-[2014.09.22-00.53.02:373][ 89]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.53.08:557][143]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.53.24:584][383]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.09.22-00.53.32:507][383]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.53.43:255][500]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.53.54:272][625]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.54.06:504][735]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.54.22:795][936]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.54.36:412][ 88]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.54.59:562][322]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.55.15:919][512]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.55.54:527][ 24]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.56.16:129][800]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.56.24:053][852]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.56.38:410][ 10]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.57.04:807][154]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.57.29:096][469]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.57.37:969][547]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.57.44:028][602]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.57.54:458][683]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.58.05:049][803]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.58.10:481][857]LogSavePackage: Save=1339.201050ms
-[2014.09.22-00.58.10:481][857]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrificeE9560C1143FEB3088CE33092A5AB9FBD.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
-[2014.09.22-00.58.19:785][993]Cmd: DUPLICATE
-[2014.09.22-00.58.19:785][993]Cmd: ACTOR DUPLICATE
-[2014.09.22-00.58.20:045][993]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_16.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_10.Model_5
-[2014.09.22-00.58.20:045][993]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_16.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_12.Model_5
-[2014.09.22-00.58.20:045][993]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_16.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5
-[2014.09.22-00.58.20:045][993]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_16.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_23.Model_5
-[2014.09.22-00.58.20:045][993]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_16.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_7.Model_5
-[2014.09.22-00.58.22:425][993]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.58.33:157][ 58]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.58.43:310][288]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.58.57:941][382]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.59.06:304][464]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.59.24:198][677]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-00.59.54:493][222]LogSavePackage: Save=1412.566772ms
-[2014.09.22-00.59.54:494][222]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice3847491B4A1D6EE051B301960F490955.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
-[2014.09.22-01.00.12:197][513]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.09.22-01.00.16:602][513]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.00.29:293][660]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.00.44:289][839]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.01.17:226][228]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.01.26:547][317]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.01.37:215][383]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.01.47:271][488]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.01.57:502][565]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.02.08:989][682]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.02.26:635][897]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.02.37:306][963]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.02.58:334][226]LogSavePackage: Save=1327.195679ms
-[2014.09.22-01.02.58:334][226]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrificeCD0A22E1431105F981877C9AB32E679F.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
-[2014.09.22-01.03.01:000][264]Cmd: DUPLICATE
-[2014.09.22-01.03.01:000][264]Cmd: ACTOR DUPLICATE
-[2014.09.22-01.03.01:070][264]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_22.Model_6 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_13.Model_6
-[2014.09.22-01.03.01:070][264]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_22.Model_6 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_15.Model_6
-[2014.09.22-01.03.04:587][264]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.03.17:112][317]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.03.25:092][437]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.22-01.03.39:389][635]Cmd: DUPLICATE
-[2014.09.22-01.03.39:389][635]Cmd: ACTOR DUPLICATE
-[2014.09.22-01.03.39:462][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_20.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_16.Model_5
-[2014.09.22-01.03.39:462][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_20.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_10.Model_5
-[2014.09.22-01.03.39:462][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_20.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_12.Model_5
-[2014.09.22-01.03.39:462][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_20.Model_5 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_17.Model_5
-[2014.09.22-01.03.39:462][635]LogUObjectHash:Warning: Ambigu
+[2014.09.22-01.41.27:148][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.22-01.41.27:178][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.22-01.41.27:186][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.22-01.41.27:195][  0]LogInit: Object subsystem initialized
+[2014.09.22-01.41.27:197][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.22-01.41.27:197][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.22-01.41.27:206][  0]LogInit: Computer: RSIVALICE
+[2014.09.22-01.41.27:206][  0]LogInit: User: ryanw
+[2014.09.22-01.41.27:207][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.09.22-01.41.27:207][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2014.09.22-01.41.27:207][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
+[2014.09.22-01.41.27:208][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.22-01.41.27:208][  0]LogMemory: Process Physical Memory: 52.42 MB used, 52.52 MB peak
+[2014.09.22-01.41.27:208][  0]LogMemory: Process Virtual Memory: 29.39 MB used, 29.51 MB peak
+[2014.09.22-01.41.27:208][  0]LogMemory: Physical Memory: 3099.95 MB used, 3941.41 MB total
+[2014.09.22-01.41.27:208][  0]LogMemory: Virtual Memory: 254.58 MB used, 134217728.00 MB total
+[2014.09.22-01.41.27:251][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.09.22-01.41.27:251][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.22-01.41.27:252][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.22-01.41.27:252][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.22-01.41.27:252][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.22-01.41.27:258][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.09.22-01.41.27:260][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.22-01.41.27:409][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.22-01.41.28:547][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.22-01.41.28:664][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.22-01.41.28:707][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.22-01.41.29:648][  0]LogDerivedDataCache: Loaded boot cache 0.94s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.22-01.41.29:648][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.22-01.41.29:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.22-01.41.29:649][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.22-01.41.29:700][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.22-01.41.29:712][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.22-01.41.33:410][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.22-01.41.33:410][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.22-01.41.35:174][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.22-01.41.59:062][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.22-01.41.59:062][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.22-01.42.00:009][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.22-01.42.00:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.22-01.42.13:532][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.22-01.42.13:787][  0]SourceControl: Info Source control is disabled
+[2014.09.22-01.42.13:787][  0]SourceControl: Info Source control is disabled
+[2014.09.22-01.42.13:795][  0]SourceControl: Info Source control is disabled
+[2014.09.22-01.42.14:467][  0]BlueprintLog: New page: Editor Load
+[2014.09.22-01.42.15:059][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.09.22-01.42.15:071][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.09.22-01.42.16:066][  0]LogEngine: Initializing Engine...
+[2014.09.22-01.42.16:315][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.22-01.42.16:439][  0]LogInit: FAudioDevice initialized.
+[2014.09.22-01.42.16:721][  0]LogDerivedDataCache: Saved boot cache 0.04s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.22-01.42.16:732][  0]LogInit: Texture streaming: Enabled
+[2014.09.22-01.42.17:208][  0]LogInit: Transaction tracking system initialized
+[2014.09.22-01.42.17:664][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.09.22-01.42.19:663][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.22-01.42.19:675][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.22-01.42.20:250][  0]LogConsoleResponse:Display: 
+[2014.09.22-01.42.22:903][  0]SourceControl: Info Source control is disabled
+[2014.09.22-01.42.22:915][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.22-01.42.22:977][  0]LightingResults: New page: Lighting Build
+[2014.09.22-01.42.23:020][  0]MapCheck: New page: Map Check
+[2014.09.22-01.42.23:020][  0]LightingResults: New page: Lighting Build
+[2014.09.22-01.42.23:050][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FA8DE84A0
+[2014.09.22-01.42.24:773][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.22-01.42.24:774][  0]Cmd: MAP CHECKDEP
+[2014.09.22-01.42.24:774][  0]MapCheck: New page: Example_Map - Sep 21, 2014, 5:42:24 PM
+[2014.09.22-01.42.24:834][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [60.068ms] ==========
+[2014.09.22-01.42.24:834][  0]LogFileHelpers: Loading map 'Example_Map' took 1.918
+[2014.09.22-01.42.25:213][  0]LogCollectionManager: Loaded 0 collections in 0.001368 seconds
+[2014.09.22-01.42.25:541][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.22-01.42.25:561][  0]Cmd: MODE PLACEMENT
+[2014.09.22-01.42.25:706][  0]LogLoad: Full Startup: 59.71 seconds (BP compile: 0.33 seconds)
+[2014.09.22-01.42.26:988][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.22-01.42.27:649][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>080BC55920D4A00B</RequestId><HostId>kO8ZJP3iOzRMgC0+j5uV74anYWEi45hBJ73ZzA+2vS5qBHokb4DSleh4W2TvMQ5b</HostId></Error>
+[2014.09.22-01.42.27:724][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6B007876CFBC4D9F</RequestId><HostId>JWbFtyUjtKoreBkH5FzWhbr6EOTO4XXprq1/P2v2IYLSHNnhPk5bnqM6CZZKPhl0/IAwCshjFcw=</HostId></Error>
+[2014.09.22-01.42.27:732][  2]LogAssetRegistry: Asset discovery search completed in 10.0797 seconds
+[2014.09.22-01.42.27:769][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>621A7A410E304D3C</RequestId><HostId>MgAvML1XZ8qVgUO2tPRoVErkuXthQuUddAKM7w6H3wI39DhVy8VCw2jHNRXa3tuQ</HostId></Error>
+[2014.09.22-01.42.27:814][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4106985FEE2B255F</RequestId><HostId>xPLC8xQWI2STneJm/VRfHGUZ5fz+QKXIk9gfLZyMLoSOWxqBv74W9oVCHwn5MeNR24TqUiblZf0=</HostId></Error>
+[2014.09.22-01.42.28:038][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-01.42.28:040][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-01.42.33:494][271]Cmd: MAP LOAD FILE="C:/Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.22-01.42.33:494][271]LightingResults: New page: Lighting Build
+[2014.09.22-01.42.33:495][271]Cmd: MODE PLACEMENT
+[2014.09.22-01.42.33:508][271]LoadErrors: New page: Loading map: sacrifice.umap
+[2014.09.22-01.42.33:508][271]MapCheck: New page: Map Check
+[2014.09.22-01.42.33:508][271]LightingResults: New page: Lighting Build
+[2014.09.22-01.42.33:551][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FA4C36160
+[2014.09.22-01.42.39:295][271]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.09.22-01.42.39:380][271]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.09.22-01.42.39:392][271]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.09.22-01.42.39:434][271]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.22-01.42.39:463][271]Cmd: MAP CHECKDEP
+[2014.09.22-01.42.39:464][271]MapCheck: New page: sacrifice - Sep 21, 2014, 5:42:39 PM
+[2014.09.22-01.42.39:519][271]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [55.634ms] ==========
+[2014.09.22-01.42.39:520][271]LogFileHelpers: Loading map 'sacrifice' took 6.025
+[2014.09.22-01.43.23:641][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.22-01.43.39:193][995]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.43.58:081][163]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.44.14:686][262]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.44.54:845][889]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.45.20:510][540]LogSavePackage: Save=1818.090454ms
+[2014.09.22-01.45.20:510][540]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrifice9A6DAB834A5C7204538E16ADD8E89FCB.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.22-01.49.47:739][458]Cmd: POLY SETMATERIAL
+[2014.09.22-01.49.59:301][650]Cmd: TRANSACTION UNDO
+[2014.09.22-01.49.59:301][650]LogEditorTransaction: Undo Set Material
+[2014.09.22-01.52.05:682][955]LogSavePackage: Save=1807.360718ms
+[2014.09.22-01.52.05:683][955]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Saved/sacrificeCE3162DF4362AE06DE929DA32983F196.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/MyProject/Content/Maps/sacrifice.umap'
+[2014.09.22-01.52.33:277][358]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.22-01.52.55:495][358]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.55.09:246][ 67]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.55.27:161][189]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.55.38:790][262]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.55.59:425][436]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.56.21:121][789]Cmd: DELETE
+[2014.09.22-01.56.21:134][789]Cmd: ACTOR DELETE
+[2014.09.22-01.56.21:921][789]LogEditorActor: Deleted Actor: Brush
+[2014.09.22-01.56.31:209][789]LogEditorActor: Deleted 1 Actors (9.503 secs)
+[2014.09.22-01.56.42:666][789]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.56.48:893][872]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.09.22-01.56.54:577][922]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.09.22-01.57.01:207][ 44]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.22-01.57.17:467][ 44]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.57.28:020][ 95]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.57.28:871][100]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-01.57.30:881][100]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-01.58.14:694][625]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.58.43:037][132]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.58.59:382][249]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.59.16:117][377]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.59.26:762][520]Cmd: DUPLICATE
+[2014.09.22-01.59.26:762][520]Cmd: ACTOR DUPLICATE
+[2014.09.22-01.59.27:929][520]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-01.59.27:929][520]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-01.59.33:824][520]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-01.59.53:498][722]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.00.13:683][833]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.00.20:379][920]Cmd: DUPLICATE
+[2014.09.22-02.00.20:379][920]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.00.20:443][920]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7
+[2014.09.22-02.00.20:443][920]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-02.00.20:443][920]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-02.00.33:740][920]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.00.37:744][973]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.09.22-02.00.44:786][975]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.00.54:625][ 42]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.01.13:288][286]Cmd: DUPLICATE
+[2014.09.22-02.01.13:288][286]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.01.13:367][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7
+[2014.09.22-02.01.13:367][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7
+[2014.09.22-02.01.13:367][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-02.01.13:367][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-02.01.13:370][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_12.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7
+[2014.09.22-02.01.13:370][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_12.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7
+[2014.09.22-02.01.13:370][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_12.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7
+[2014.09.22-02.01.13:370][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_12.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-02.01.13:370][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_12.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-02.01.13:372][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_13.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_12.Model_7
+[2014.09.22-02.01.13:372][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_13.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7
+[2014.09.22-02.01.13:372][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_13.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7
+[2014.09.22-02.01.13:372][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_13.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7
+[2014.09.22-02.01.13:372][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_13.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-02.01.13:372][286]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_13.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-02.01.21:090][286]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.01.39:407][442]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.01.56:467][527]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.02.13:219][562]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.02.22:174][667]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush_10)
+[2014.09.22-02.02.23:684][687]Cmd: DUPLICATE
+[2014.09.22-02.02.23:684][687]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_9.Model_7
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_15.Model_7
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_10.Model_7
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_19.Model_7
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.BoxBrush_9.Model_7
+[2014.09.22-02.02.23:762][687]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_8.Model_7
+[2014.09.22-02.02.29:789][687]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.02.51:492][781]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.03.15:113][962]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.03.18:996][ 10]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush_10)
+[2014.09.22-02.03.30:997][166]Cmd: EDCALLBACK SURFPROPS
+[2014.09.22-02.03.43:301][251]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.22-02.03.47:676][306]Cmd: DUPLICATE
+[2014.09.22-02.03.47:676][306]Cmd: ACTOR DUPLICATE
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_16.Model_7
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_9.Model_7
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_15.Model_7
+[2014.09.22-02.03.47:757][306]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_11.Model_7 or Model /Game/Maps/sacrifice.sacrifice:PersistentLevel.CylinderBrush_7.Model_7
+[2014.09.22-02.03.47:757]
