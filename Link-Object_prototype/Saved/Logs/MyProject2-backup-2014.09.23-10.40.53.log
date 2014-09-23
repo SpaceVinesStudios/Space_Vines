@@ -1,0 +1,553 @@
+Log file open, 09/22/14 18:13:09
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/MyProject2.uproject
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.22-22.13.09:223][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.22-22.13.09:260][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.22-22.13.09:276][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.22-22.13.09:292][  0]LogInit: Object subsystem initialized
+[2014.09.22-22.13.09:297][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.22-22.13.09:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.22-22.13.09:635][  0]LogInit: Computer: RSIVALICE
+[2014.09.22-22.13.09:635][  0]LogInit: User: ryanw
+[2014.09.22-22.13.09:636][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.09.22-22.13.09:636][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2014.09.22-22.13.09:636][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
+[2014.09.22-22.13.09:637][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.22-22.13.09:637][  0]LogMemory: Process Physical Memory: 52.53 MB used, 52.53 MB peak
+[2014.09.22-22.13.09:637][  0]LogMemory: Process Virtual Memory: 29.53 MB used, 29.53 MB peak
+[2014.09.22-22.13.09:637][  0]LogMemory: Physical Memory: 3708.57 MB used, 3941.41 MB total
+[2014.09.22-22.13.09:637][  0]LogMemory: Virtual Memory: 254.58 MB used, 134217728.00 MB total
+[2014.09.22-22.13.09:718][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.09.22-22.13.09:718][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.22-22.13.09:720][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.22-22.13.09:720][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.22-22.13.09:720][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.22-22.13.09:725][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.09.22-22.13.09:728][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.22-22.13.09:967][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.22-22.13.11:347][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.22-22.13.11:769][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.22-22.13.11:860][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.22-22.13.14:180][  0]LogDerivedDataCache: Loaded boot cache 2.32s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.22-22.13.14:181][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.22-22.13.14:412][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.22-22.13.14:412][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.22-22.13.14:526][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.22-22.13.14:539][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.22-22.13.33:457][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.22-22.13.33:457][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.22-22.13.56:488][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.22-22.15.02:981][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.22-22.15.03:047][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.22-22.15.03:485][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.22-22.15.03:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.22-22.15.57:441][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.22-22.16.06:102][  0]SourceControl: Info Source control is disabled
+[2014.09.22-22.16.06:196][  0]SourceControl: Info Source control is disabled
+[2014.09.22-22.16.06:217][  0]SourceControl: Info Source control is disabled
+[2014.09.22-22.16.14:484][  0]BlueprintLog: New page: Editor Load
+[2014.09.22-22.16.17:451][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.09.22-22.16.17:453][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.09.22-22.16.22:494][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 4.44s
+[2014.09.22-22.16.22:854][  0]LogEngine: Initializing Engine...
+[2014.09.22-22.16.24:354][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.22-22.16.24:496][  0]LogInit: FAudioDevice initialized.
+[2014.09.22-22.16.25:661][  0]LogDerivedDataCache: Saved boot cache 0.15s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.22-22.16.25:939][  0]LogInit: Texture streaming: Enabled
+[2014.09.22-22.16.30:707][  0]LogInit: Transaction tracking system initialized
+[2014.09.22-22.16.33:239][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2014.09.22-22.16.45:326][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.22-22.16.45:335][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.22-22.16.46:843][  0]LogConsoleResponse:Display: 
+[2014.09.22-22.16.51:801][  0]SourceControl: Info Source control is disabled
+[2014.09.22-22.16.51:835][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/GameLevels/Two.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.22-22.16.51:873][  0]LightingResults: New page: Lighting Build
+[2014.09.22-22.16.52:070][  0]MapCheck: New page: Map Check
+[2014.09.22-22.16.52:070][  0]LightingResults: New page: Lighting Build
+[2014.09.22-22.16.52:450][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E95A539C0
+[2014.09.22-22.16.54:818][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.54:821][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/GameLevels/Two.umap.
+[2014.09.22-22.16.54:822][  0]LoadErrors:Error: Error /Game/Maps/GameLevels/Two : Can't find file for asset. /Game/lore
+[2014.09.22-22.16.54:822][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.54:823][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/GameLevels/Two.umap.
+[2014.09.22-22.16.54:824][  0]LoadErrors:Error: Error /Game/Maps/GameLevels/Two : Can't find file for asset. /Game/puzzle_piece
+[2014.09.22-22.16.54:834][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.54:835][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/GameLevels/Two.umap.
+[2014.09.22-22.16.54:835][  0]LoadErrors:Error: Error /Game/Maps/GameLevels/Two : Can't find file for asset. /Game/lore
+[2014.09.22-22.16.54:836][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.54:836][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/GameLevels/Two.umap.
+[2014.09.22-22.16.54:837][  0]LoadErrors:Error: Error /Game/Maps/GameLevels/Two : Can't find file for asset. /Game/puzzle_piece
+[2014.09.22-22.16.55:147][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:148][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:148][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:148][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:148][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:149][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:149][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:149][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:150][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:150][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:150][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:151][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:151][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:151][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:152][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:152][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:152][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:152][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:153][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:153][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:153][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:153][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:154][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:154][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:155][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:155][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:155][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:155][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:156][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:156][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:156][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:157][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Model_3
+[2014.09.22-22.16.55:341][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:341][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7765
+[2014.09.22-22.16.55:341][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:342][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7765
+[2014.09.22-22.16.55:342][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:342][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7765
+[2014.09.22-22.16.55:342][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:343][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7765
+[2014.09.22-22.16.55:343][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:343][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7766
+[2014.09.22-22.16.55:344][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:344][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7766
+[2014.09.22-22.16.55:344][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:345][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7773
+[2014.09.22-22.16.55:345][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:345][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7773
+[2014.09.22-22.16.55:346][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:346][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7778
+[2014.09.22-22.16.55:346][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:346][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7778
+[2014.09.22-22.16.55:347][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:348][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7808
+[2014.09.22-22.16.55:348][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:348][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7808
+[2014.09.22-22.16.55:349][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:349][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7809
+[2014.09.22-22.16.55:350][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:350][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7809
+[2014.09.22-22.16.55:350][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:351][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7810
+[2014.09.22-22.16.55:351][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:351][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7810
+[2014.09.22-22.16.55:351][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:352][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7811
+[2014.09.22-22.16.55:352][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:352][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7811
+[2014.09.22-22.16.55:352][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:353][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7812
+[2014.09.22-22.16.55:353][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:353][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7812
+[2014.09.22-22.16.55:354][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:355][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7832
+[2014.09.22-22.16.55:355][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:355][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7832
+[2014.09.22-22.16.55:356][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:356][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7833
+[2014.09.22-22.16.55:356][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:356][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7833
+[2014.09.22-22.16.55:357][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:357][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7834
+[2014.09.22-22.16.55:357][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:358][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7834
+[2014.09.22-22.16.55:358][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:358][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7842
+[2014.09.22-22.16.55:358][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:359][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7842
+[2014.09.22-22.16.55:359][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:359][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7843
+[2014.09.22-22.16.55:360][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:360][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7843
+[2014.09.22-22.16.55:371][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:373][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7844
+[2014.09.22-22.16.55:376][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:377][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by ModelComponent_7844
+[2014.09.22-22.16.55:385][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:385][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_3075
+[2014.09.22-22.16.55:385][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:385][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_3075
+[2014.09.22-22.16.55:386][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:386][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_3075
+[2014.09.22-22.16.55:386][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:386][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_3075
+[2014.09.22-22.16.55:386][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:386][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_3075
+[2014.09.22-22.16.55:386][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:387][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_3075
+[2014.09.22-22.16.55:387][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:387][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_9375
+[2014.09.22-22.16.55:387][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:387][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_9375
+[2014.09.22-22.16.55:388][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:388][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_9375
+[2014.09.22-22.16.55:388][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:388][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_9375
+[2014.09.22-22.16.55:388][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:388][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_9375
+[2014.09.22-22.16.55:389][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:389][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_9375
+[2014.09.22-22.16.55:389][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:389][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_4546
+[2014.09.22-22.16.55:389][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:390][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_4546
+[2014.09.22-22.16.55:390][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:390][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_4546
+[2014.09.22-22.16.55:390][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:390][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by Polys_4546
+[2014.09.22-22.16.55:392][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:392][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:392][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:393][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:393][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:393][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:393][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:393][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:394][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:394][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:394][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:394][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:394][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:395][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:395][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:395][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:395][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:395][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:395][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:396][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:396][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:396][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:396][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:396][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:397][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:397][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:397][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:397][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:397][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:397][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:398][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:398][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:398][  0]LogLinker:Warning: Can't find file '/Game/puzzle_piece'
+[2014.09.22-22.16.55:398][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:398][  0]LogLinker:Warning: Can't find file for asset '/Game/puzzle_piece' while loading NULL.
+[2014.09.22-22.16.55:398][  0]LoadErrors: Info Failed to load /Game/puzzle_piece.puzzle_piece Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:399][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:399][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:399][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:400][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:400][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:400][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:400][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:400][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:400][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:401][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:401][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:401][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:401][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:401][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:402][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:402][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:402][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:402][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:402][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:403][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:403][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:403][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:403][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:403][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:404][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:404][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:404][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:404][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:404][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:404][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:405][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:405][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:405][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:405][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:405][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:405][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:406][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:406][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:406][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:406][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:406][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:406][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:407][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:407][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:407][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:407][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:407][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:408][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:408][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:408][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:408][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:408][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:408][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:409][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:409][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:409][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:409][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:409][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:410][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:410][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:410][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:410][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:410][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:410][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:411][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:411][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:411][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:411][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:411][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:412][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:412][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:412][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:412][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:412][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:412][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:413][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:413][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:413][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:413][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:413][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:414][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:414][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:414][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:414][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:414][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:414][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:415][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:415][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:415][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:415][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:415][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:416][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:416][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:416][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:416][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:416][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:416][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:417][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:417][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:418][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:418][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:418][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:418][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:418][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:419][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:419][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:419][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:419][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:420][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:420][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:420][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:420][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:420][  0]LogLinker:Warning: Can't find file '/Game/lore'
+[2014.09.22-22.16.55:421][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.16.55:421][  0]LogLinker:Warning: Can't find file for asset '/Game/lore' while loading NULL.
+[2014.09.22-22.16.55:421][  0]LoadErrors: Info Failed to load /Game/lore.lore Referenced by StaticMeshComponent0 Property /Script/Engine.MeshComponent:Materials
+[2014.09.22-22.17.24:285][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.22-22.17.24:320][  0]Cmd: MAP CHECKDEP
+[2014.09.22-22.17.24:353][  0]MapCheck: New page: Two - Sep 22, 2014, 2:17:24 PM
+[2014.09.22-22.17.24:487][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [166.592ms] ==========
+[2014.09.22-22.17.24:487][  0]LogFileHelpers: Loading map 'Two' took 32.669
+[2014.09.22-22.17.27:853][  0]LogCollectionManager: Loaded 0 collections in 0.001460 seconds
+[2014.09.22-22.17.35:570][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.22-22.17.35:727][  0]Cmd: MODE PLACEMENT
+[2014.09.22-22.17.36:730][  0]LogLoad: Full Startup: 270.98 seconds (BP compile: 3.55 seconds)
+[2014.09.22-22.17.36:968][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.22-22.17.38:242][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.22-22.17.40:443][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C0ADCAC67BCED0ED</RequestId><HostId>GimCjOXz9dfrWBClgeYFQDbGFxiwCCvDI8181lPvr+d0KlrIWq76mja5ludIJYKT</HostId></Error>
+[2014.09.22-22.17.40:630][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A2EC5D7AB60B5729</RequestId><HostId>KfB+Z2nL3GxjKFBOUdwnHXShSZ38w9Gd83T6EGKHGF+RcJexI9zbHb/CG2khZYdm</HostId></Error>
+[2014.09.22-22.17.42:133][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D05068749AA49FC2</RequestId><HostId>4vsmTs8SogQy+wbZQNi5aNVgoFv1Lq0bJWJKwCIySLKsivUt+s1tULwxy+a/mWi5</HostId></Error>
+[2014.09.22-22.17.42:139][  3]LogAssetRegistry: Asset discovery search completed in 68.9299 seconds
+[2014.09.22-22.17.43:375][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8C29406CC06BE901</RequestId><HostId>q0geSd/g6EJ7wfvXu9Juy+vDU6wmozAza4WOrJ9Dk3+Qy8OiPll/ahC9BzsCttlk4Nrtm6o/ZEg=</HostId></Error>
+[2014.09.22-22.17.46:024][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-22.17.46:079][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.22-22.20.04:905][204]EditorErrors:Warning: Warning File does not exist : 'C:/Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype/Content/Maps/GameLevels/Three.umap'.  It will be removed from the recent items list.
+[2014.09.22-22.20.21:231][762]Cmd: MAP LOAD FILE="C:/Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.22-22.20.21:313][762]LightingResults: New page: Lighting Build
+[2014.09.22-22.20.21:372][762]Cmd: MODE PLACEMENT
+[2014.09.22-22.20.21:567][762]LoadErrors: New page: Loading map: Example_Map.umap
+[2014.09.22-22.20.21:673][762]MapCheck: New page: Map Check
+[2014.09.22-22.20.21:673][762]LightingResults: New page: Lighting Build
+[2014.09.22-22.20.21:980][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E9757F100
+[2014.09.22-22.20.29:539][762]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.22-22.20.29:588][762]Cmd: MAP CHECKDEP
+[2014.09.22-22.20.29:589][762]MapCheck: New page: Example_Map - Sep 22, 2014, 2:20:29 PM
+[2014.09.22-22.20.29:642][762]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [53.755ms] ==========
+[2014.09.22-22.20.29:642][762]LogFileHelpers: Loading map 'Example_Map' took 8.412
+[2014.09.22-22.20.44:938][327]Cmd: QUIT_EDITOR
+[2014.09.22-22.20.47:027][327]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.22-22.20.47:220][327]LogExit: Preparing to exit.
+[2014.09.22-22.20.52:827][327]LogExit: Editor shut down
+[2014.09.22-22.20.52:832][327]LogExit: Transaction tracking system shut down
+[2014.09.22-22.20.52:883][327]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E9880AF20
+[2014.09.22-22.20.52:884][327]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002EAE941940
+[2014.09.22-22.20.58:199][327]LogExit: Object subsystem successfully closed.
+[2014.09.22-22.21.00:600][327]LogModuleManager: Shutting down and abandoning module DesktopPlatform (164)
+[2014.09.22-22.21.00:637][327]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.09.22-22.21.00:664][327]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.09.22-22.21.00:665][327]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.09.22-22.21.00:665][327]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.09.22-22.21.00:734][327]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.09.22-22.21.00:735][327]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.09.22-22.21.00:735][327]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.09.22-22.21.00:749][327]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.09.22-22.21.00:773][327]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.09.22-22.21.00:912][327]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.09.22-22.21.01:057][327]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.09.22-22.21.01:110][327]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.09.22-22.21.01:135][327]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.09.22-22.21.01:220][327]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.09.22-22.21.01:285][327]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.09.22-22.21.01:326][327]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.09.22-22.21.01:327][327]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.09.22-22.21.01:327][327]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.09.22-22.21.01:327][327]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.09.22-22.21.01:348][327]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.09.22-22.21.01:348][327]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.09.22-22.21.01:348][327]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.09.22-22.21.01:348][327]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.09.22-22.21.01:379][327]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.09.22-22.21.01:379][327]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.09.22-22.21.01:379][327]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.09.22-22.21.01:379][327]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.09.22-22.21.01:379][327]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.09.22-22.21.01:409][327]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.09.22-22.21.01:409][327]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.09.22-22.21.01:431][327]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.09.22-22.21.01:470][327]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.09.22-22.21.01:487][327]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.09.22-22.21.01:529][327]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.09.22-22.21.01:530][327]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.09.22-22.21.01:621][327]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.09.22-22.21.01:629][327]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.09.22-22.21.01:652][327]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.09.22-22.21.01:652][327]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.09.22-22.21.01:652][327]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.09.22-22.21.02:050][327]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.09.22-22.21.02:065][327]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.09.22-22.21.02:065][327]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.09.22-22.21.02:066][327]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.09.22-22.21.02:154][327]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.09.22-22.21.02:215][327]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.09.22-22.21.02:320][327]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.09.22-22.21.02:320][327]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.09.22-22.21.02:342][327]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.09.22-22.21.02:342][327]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.09.22-22.21.02:426][327]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.09.22-22.21.02:622][327]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.09.22-22.21.02:686][327]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.09.22-22.21.02:690][327]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.09.22-22.21.02:690][327]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.09.22-22.21.02:700][327]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.09.22-22.21.02:700][327]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.09.22-22.21.02:747][327]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.09.22-22.21.02:747][327]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.09.22-22.21.02:747][327]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.09.22-22.21.02:795][327]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.09.22-22.21.03:017][327]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.09.22-22.21.03:017][327]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.09.22-22.21.03:042][327]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.09.22-22.21.03:274][327]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.09.22-22.21.03:274][327]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.09.22-22.21.03:342][327]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.09.22-22.21.03:342][327]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.09.22-22.21.03:342][327]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.09.22-22.21.03:342][327]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.09.22-22.21.03:342][327]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.09.22-22.21.03:420][327]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.09.22-22.21.03:456][327]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.09.22-22.21.03:456][327]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.09.22-22.21.03:456][327]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.09.22-22.21.03:456][327]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.09.22-22.21.03:600][327]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.09.22-22.21.03:601][327]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.09.22-22.21.03:601][327]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.09.22-22.21.03:601][327]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.09.22-22.21.03:700][327]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.09.22-22.21.03:700][327]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.09.22-22.21.03:700][327]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.09.22-22.21.03:700][327]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.09.22-22.21.03:737][327]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.09.22-22.21.03:737][327]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.09.22-22.21.03:770][327]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.09.22-22.21.03:789][327]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.09.22-22.21.03:877][327]LogDerivedDataCache: Shutdown
+[2014.09.22-22.21.03:877][327]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.09.22-22.21.03:920][327]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.09.22-22.21.03:952][327]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.09.22-22.21.03:952][327]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.09.22-22.21.03:962][327]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.09.22-22.21.03:970][327]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.09.22-22.21.03:971][327]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.09.22-22.21.03:971][327]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.09.22-22.21.03:971][327]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.09.22-22.21.03:971][327]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.09.22-22.21.03:971][327]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.09.22-22.21.03:998][327]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.09.22-22.21.03:999][327]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.09.22-22.21.04:368][327]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.09.22-22.21.04:368][327]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.09.22-22.21.04:369][327]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.09.22-22.21.04:369][327]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.09.22-22.21.04:369][327]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.09.22-22.21.04:413][327]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.09.22-22.21.04:413][327]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.09.22-22.21.04:413][327]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.09.22-22.21.04:436][327]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.09.22-22.21.04:436][327]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.09.22-22.21.04:728][327]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.09.22-22.21.04:728][327]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.09.22-22.21.04:728][327]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.09.22-22.21.04:728][327]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.09.22-22.21.04:743][327]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.09.22-22.21.04:844][327]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.09.22-22.21.04:944][327]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.09.22-22.21.05:032][327]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.09.22-22.21.05:114][327]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.09.22-22.21.05:173][327]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.09.22-22.21.05:173][327]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.09.22-22.21.05:173][327]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.09.22-22.21.05:182][327]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.09.22-22.21.05:205][327]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.09.22-22.21.05:205][327]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.22-22.21.05:205][327]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.22-22.21.05:282][327]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.22-22.21.05:347][327]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.22-22.21.05:461][327]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.22-22.21.05:619][327]LogExit: Exiting.
+[2014.09.22-22.21.07:848][327]Log file closed, 09/22/14 18:21:07
