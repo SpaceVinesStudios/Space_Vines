@@ -1,4 +1,4 @@
-Log file open, 10/03/14 15:28:40
+Log file open, 10/04/14 23:10:40
 LogInit:Display: Running engine for game: MyProject2
 LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
@@ -7,706 +7,309 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.10.03-19.28.40:076][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.10.03-19.28.40:110][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.10.03-19.28.40:553][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.10.03-19.28.40:562][  0]LogInit: Object subsystem initialized
-[2014.10.03-19.28.40:565][  0]LogInit: Selected Device Profile: [Windows]
-[2014.10.03-19.28.40:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.10.03-19.28.40:655][  0]LogInit: Computer: VERONICA
-[2014.10.03-19.28.40:655][  0]LogInit: User: Zeetermin
-[2014.10.03-19.28.40:656][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.10.03-19.28.40:656][  0]LogInit: High frequency timer resolution =2.597705 MHz
-[2014.10.03-19.28.40:656][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
-[2014.10.03-19.28.40:656][  0]LogMemory: Platform Memory Stats for Windows
-[2014.10.03-19.28.40:656][  0]LogMemory: Process Physical Memory: 54.74 MB used, 54.74 MB peak
-[2014.10.03-19.28.40:656][  0]LogMemory: Process Virtual Memory: 31.71 MB used, 31.92 MB peak
-[2014.10.03-19.28.40:656][  0]LogMemory: Physical Memory: 3714.16 MB used, 6135.18 MB total
-[2014.10.03-19.28.40:656][  0]LogMemory: Virtual Memory: 236.93 MB used, 8388608.00 MB total
-[2014.10.03-19.28.41:656][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
-[2014.10.03-19.28.41:656][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
-[2014.10.03-19.28.41:656][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.10.03-19.28.41:665][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.10.03-19.28.41:705][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.10.03-19.28.43:709][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.10.03-19.28.48:238][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.03-19.28.49:472][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.03-19.28.49:609][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.10.03-19.28.50:373][  0]LogDerivedDataCache: Loaded boot cache 0.75s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.10.03-19.28.50:373][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.10.03-19.28.50:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.10.03-19.28.50:373][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.10.03-19.28.50:444][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.10.03-19.28.50:455][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.10.03-19.28.53:588][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.10.03-19.28.53:588][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.10.03-19.28.56:324][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.10.03-19.29.16:908][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.10.03-19.29.16:908][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.10.03-19.29.17:227][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.10.03-19.29.17:227][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.10.03-19.29.26:001][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.10.03-19.29.26:730][  0]SourceControl: Info Source control is disabled
-[2014.10.03-19.29.26:730][  0]SourceControl: Info Source control is disabled
-[2014.10.03-19.29.26:743][  0]SourceControl: Info Source control is disabled
-[2014.10.03-19.29.28:168][  0]BlueprintLog: New page: Editor Load
-[2014.10.03-19.29.29:501][  0]LogObj: 19137 objects as part of root set at end of initial load.
-[2014.10.03-19.29.29:501][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
-[2014.10.03-19.29.30:194][  0]LogEngine: Initializing Engine...
-[2014.10.03-19.29.30:949][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2014.10.03-19.29.31:042][  0]LogInit: FAudioDevice initialized.
-[2014.10.03-19.29.31:095][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.10.03-19.29.31:101][  0]LogInit: Texture streaming: Enabled
-[2014.10.03-19.29.31:918][  0]LogInit: Transaction tracking system initialized
-[2014.10.03-19.29.35:836][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
-[2014.10.03-19.29.40:578][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.10.03-19.29.40:590][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.10.03-19.29.41:402][  0]LogConsoleResponse:Display: 
-[2014.10.03-19.29.50:083][  0]SourceControl: Info Source control is disabled
-[2014.10.03-19.29.50:084][  0]LightingResults: New page: Lighting Build
-[2014.10.03-19.29.50:099][  0]MapCheck: New page: Map Check
-[2014.10.03-19.29.50:099][  0]LightingResults: New page: Lighting Build
-[2014.10.03-19.29.50:114][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012499580
-[2014.10.03-19.30.48:341][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
-[2014.10.03-19.30.48:503][  0]LogMaterial: Missing cached shader map for material lore, compiling.
-[2014.10.03-19.30.48:519][  0]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.03-19.30.48:568][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.10.03-19.30.48:569][  0]Cmd: MAP CHECKDEP
-[2014.10.03-19.30.48:570][  0]MapCheck: New page: Two - Oct 3, 2014, 11:30:48 AM
-[2014.10.03-19.30.48:652][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [82.367ms] ==========
-[2014.10.03-19.30.48:652][  0]LogFileHelpers: Loading map 'Two' took 58.567
-[2014.10.03-19.30.49:747][  0]LogCollectionManager: Loaded 0 collections in 0.001670 seconds
-[2014.10.03-19.31.12:579][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.10.03-19.31.12:580][  0]Cmd: MODE PLACEMENT
-[2014.10.03-19.31.12:619][  0]LogLoad: Full Startup: 157.59 seconds (BP compile: 0.07 seconds)
-[2014.10.03-19.31.12:640][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/ColorCodes'
-[2014.10.03-19.31.14:174][  0]LogRenderer:Warning: Reallocating scene render targets to support 1216x968.
-[2014.10.03-19.31.14:433][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>31B1C7E85C9AEE10</RequestId><HostId>Ww7G2YqHpWfQlfwoeb5CMovPWsiwMog6Dfe15MBmNqgTA/qaNitzPRPGJWk9VNFGSAIZEL1c5p0=</HostId></Error>
-[2014.10.03-19.31.14:475][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5944824369677608</RequestId><HostId>r7UvqMt6sML1mZRfxCy/kjE0p3azzlVrXwzVoddsICmB98ieiveLZa1e8sIGbhrJNSs3+9oz4/g=</HostId></Error>
-[2014.10.03-19.31.14:496][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>AAF1768685B15B53</RequestId><HostId>J9lGydMwVNozWGf3XIc4f9L9Fn0bDuQ2m0aewxCVDYn9p6zlLU0b9ZTzx1ImV5OA</HostId></Error>
-[2014.10.03-19.31.14:572][  5]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>357F404FC10AB223</RequestId><HostId>fbDzUDVJzK2P/1Ybt/IN7Lj1VDdjHN7VXYkxnv+oCneT15qzIxKgBG3vark8w/M0</HostId></Error>
-[2014.10.03-19.31.14:809][  9]LogAssetRegistry: Asset discovery search completed in 98.9809 seconds
-[2014.10.03-19.31.14:940][ 11]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.10.03-19.31.14:941][ 11]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.10.03-19.32.20:879][269]LightingResults: New page: Lighting Build
-[2014.10.03-19.32.20:879][269]Cmd: MODE PLACEMENT
-[2014.10.03-19.32.20:896][269]LoadErrors: New page: Loading map: Three.umap
-[2014.10.03-19.32.20:898][269]MapCheck: New page: Map Check
-[2014.10.03-19.32.20:898][269]LightingResults: New page: Lighting Build
-[2014.10.03-19.32.20:929][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001650F880
-[2014.10.03-19.32.40:234][269]LogMaterial:Warning: Material /Game/Materials/Objects/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
-[2014.10.03-19.32.40:261][269]LogMaterial: Missing cached shader map for material lambert1, compiling.
-[2014.10.03-19.32.40:263][269]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.03-19.32.40:263][269]LogMaterial:Warning: Material /Game/Materials/Objects/blinn1.blinn1 needed to have new flag set bUsedWithStaticLighting !
-[2014.10.03-19.32.40:326][269]LogMaterial: Missing cached shader map for material blinn1, compiling.
-[2014.10.03-19.32.40:329][269]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.03-19.32.40:329][269]LogMaterial:Warning: Material /Game/Materials/Objects/blinn2.blinn2 needed to have new flag set bUsedWithStaticLighting !
-[2014.10.03-19.32.40:370][269]LogMaterial: Missing cached shader map for material blinn2, compiling.
-[2014.10.03-19.32.40:375][269]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.03-19.32.40:391][269]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.10.03-19.32.40:418][269]Cmd: MAP CHECKDEP
-[2014.10.03-19.32.40:418][269]MapCheck: New page: Three - Oct 3, 2014, 11:32:40 AM
-[2014.10.03-19.32.40:545][269]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [126.872ms] ==========
-[2014.10.03-19.32.40:545][269]LogFileHelpers: Loading map 'Three' took 19.666
-[2014.10.03-19.32.40:866][270]Cmd: UpdateLandscapeEditorData -warnings
-[2014.10.03-19.32.40:867][270]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.35.39:570][875]LogEditorViewport: Clicking on Actor (LMB): Landscape (asteroid bits)
-[2014.10.03-19.38.13:426][ 69]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.38.13:690][ 70]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.42.19:884][105]LogSavePackage: Save=568.587280ms
-[2014.10.03-19.42.19:884][105]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three_Auto1DC94873D4277B6B4D803C28CD8074B09.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Autosaves/Game/Maps/GameLevels/Three_Auto1.umap'
-[2014.10.03-19.42.19:894][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameLevels/Three' took 0.687
-[2014.10.03-19.42.19:894][105]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.687
-[2014.10.03-19.44.04:877][515]Cmd: DUPLICATE
-[2014.10.03-19.44.04:877][515]Cmd: ACTOR DUPLICATE
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_16.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_99.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_98.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_97.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_96.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_93.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_92.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_91.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_90.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_9.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_89.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_88.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_84.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_83.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_82.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_81.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_80.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_8.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_79.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_78.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_77.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_76.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_75.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_74.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_72.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_71.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_70.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_7.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_69.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_68.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_67.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_66.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_65.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_64.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_63.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_62.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_61.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_60.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_6.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_59.Model_7
-[2014.10.03-19.44.04:923][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_58.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_57.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_55.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_52.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_51.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_50.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_5.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_49.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_48.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_47.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_46.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_45.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_44.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_43.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_42.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_41.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_4.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_39.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_38.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_37.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_35.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_34.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_33.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_32.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_30.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_28.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_27.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_25.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_24.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_23.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_22.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_21.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_203.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_201.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_20.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_2.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_199.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_197.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_194.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_193.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_190.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_19.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_188.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_184.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_182.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_181.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_180.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_18.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_179.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_178.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_177.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_174.Model_7
-[2014.10.03-19.44.04:924][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_173.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_172.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_171.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_170.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_17.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_169.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_168.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_167.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_166.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_165.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_164.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_163.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_162.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_161.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_160.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_16.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_159.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_158.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_157.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_155.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_153.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_152.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_151.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_150.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_15.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_149.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_148.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_147.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_146.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_145.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_144.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_143.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_142.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_141.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_140.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_14.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_138.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_137.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_136.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_135.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_134.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_133.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_132.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_13.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_127.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_125.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_124.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_123.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_122.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_120.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_12.Model_7
-[2014.10.03-19.44.04:925][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_119.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_118.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_117.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_116.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_115.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_114.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.Roof.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_112.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_111.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_110.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_109.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_108.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_107.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_106.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_105.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_104.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_103.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_102.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_101.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_10.Model_7
-[2014.10.03-19.44.04:926][515]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_17.Model_7 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush.Model_7
-[2014.10.03-19.44.11:734][515]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.44.11:967][516]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.44.25:565][669]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.44.25:790][670]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.44.39:647][738]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.44.39:872][739]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.44.56:384][952]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.44.56:728][953]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.45.06:330][991]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.45.06:556][992]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.45.24:041][223]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.45.24:284][224]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.45.35:673][350]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.45.35:905][351]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.45.53:533][615]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.45.53:831][616]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.46.08:841][793]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.46.09:077][794]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.46.16:707][794]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.46.16:962][795]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.46.17:115][799]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.10.03-19.46.17:117][799]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.10.03-19.46.35:256][ 91]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.46.35:661][ 92]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.46.50:109][284]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.46.50:359][285]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.47.14:348][660]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.47.14:610][661]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.47.25:632][783]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.47.25:881][784]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.47.26:524][799]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.10.03-19.47.26:524][799]Aligned camera to fit all selected actors.
-[2014.10.03-19.47.42:203][958]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.47.42:465][959]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.47.59:850][182]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.48.00:116][183]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.48.13:344][354]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.48.13:592][355]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.48.24:451][464]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.48.24:720][465]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.48.38:464][553]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.48.38:799][554]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.48.56:312][794]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.48.56:624][795]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.49.07:927][933]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.49.08:195][934]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.49.21:173][ 73]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.49.21:442][ 74]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.49.32:499][184]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.49.32:767][185]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.49.38:697][304]LogSavePackage: Save=554.652649ms
-[2014.10.03-19.49.38:697][304]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three5DC6E93C477335C7FFF54F8C3C4604B6.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
-[2014.10.03-19.49.38:748][304]LogFileHelpers: Saving map 'Three' took 0.782
-[2014.10.03-19.50.01:354][830]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.10.03-19.50.11:348][830]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.50.11:592][831]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.50.23:537][943]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.50.23:794][944]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.50.24:303][956]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.10.03-19.50.24:303][956]Aligned camera to fit all selected actors.
-[2014.10.03-19.50.35:500][100]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.50.35:782][101]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.50.56:884][385]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.50.57:117][386]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.51.08:555][526]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.51.08:823][527]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.51.20:571][597]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.51.20:892][598]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.51.31:835][707]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.51.32:071][708]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.51.44:706][860]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.51.45:002][861]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.51.59:737][ 71]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.52.00:004][ 72]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.52.14:628][266]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.52.14:899][267]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.52.27:058][428]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.52.27:311][429]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.52.37:665][531]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.52.37:875][532]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.52.47:274][635]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.52.47:508][636]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.53.00:687][786]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.53.01:020][787]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.53.08:522][849]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.53.08:824][850]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.53.18:335][ 42]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.53.18:573][ 43]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.53.31:196][204]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.53.31:477][205]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.53.45:170][319]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.53.45:473][320]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.53.59:621][496]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.53.59:873][497]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.54.10:347][594]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.54.10:588][595]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.54.22:686][709]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.54.22:944][710]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.54.33:348][813]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.54.33:604][814]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.54.46:623][989]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.54.46:863][990]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.54.57:474][110]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.54.57:751][111]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.55.11:441][274]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.55.11:711][275]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.55.21:040][370]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.55.21:293][371]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.55.32:036][461]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.55.32:323][462]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.55.46:673][674]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.55.46:913][675]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.56.09:785][ 21]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.56.10:041][ 22]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.56.25:240][224]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.56.25:488][225]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.56.30:037][325]Cmd: DUPLICATE
-[2014.10.03-19.56.30:037][325]Cmd: ACTOR DUPLICATE
-[2014.10.03-19.56.30:097][325]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_75.Model_5 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_100.Model_5
-[2014.10.03-19.56.30:097][325]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_75.Model_5 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_85.Model_5
-[2014.10.03-19.56.30:097][325]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_75.Model_5 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_86.Model_5
-[2014.10.03-19.56.34:903][325]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.56.35:155][326]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.56.46:672][438]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.56.46:930][439]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.56.59:836][622]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.57.00:114][623]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.57.11:968][764]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.57.12:245][765]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.57.23:434][905]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.57.23:682][906]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.57.32:483][  5]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.57.32:724][  6]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.57.41:951][105]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.57.42:203][106]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.57.55:379][305]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.57.55:642][306]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.58.09:846][458]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.58.10:146][459]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.58.23:890][601]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.58.24:143][602]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.58.35:350][745]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.58.35:604][746]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.58.49:230][876]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.58.49:505][877]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.58.58:893][975]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.58.59:140][976]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.59.20:038][343]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.59.20:311][344]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.59.32:500][512]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.59.32:773][513]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.59.53:075][912]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.03-19.59.53:346][913]Cmd: UpdateLandscapeEditorData
-[2014.10.03-19.59.54:240][913]LogSavePackage: Save=563.537842ms
-[2014.10.03-19.59.54:240][913]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three_Auto2ABF9B3C34B469E5409521394FAE7691B.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Autosaves/Game/Maps/GameLevels/Three_Auto2.umap'
-[2014.10.03-19.59.54:248][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameLevels/Three' took 0.843
-[2014.10.03-19.59.54:248][913]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.843
-[2014.10.03-19.59.57:787][976]LogSavePackage: Save=637.292175ms
-[2014.10.03-19.59.57:787][976]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three0F556B574806B67AA4827094821866C8.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
-[2014.10.03-19.59.58:377][976]LogFileHelpers: Saving map 'Three' took 1.384
-[2014.10.03-20.00.12:266][456]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.10.03-20.00.12:266][456]LogPlayLevel: [PIE] Compiling Three before PIE...
-[2014.10.03-20.00.12:356][456]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
-[2014.10.03-20.00.12:356][456]PIE: New page: PIE session: Three (Oct 3, 2014, 12:00:12 PM)
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:471][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:472][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:472][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:472][456]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.12:548][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.192237s)
-[2014.10.03-20.00.12:549][456]LogPlayLevel: PIE: World Init took: (0.000725s)
-[2014.10.03-20.00.12:550][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/Three.Three to /Game/Maps/GameLevels/UEDPIE_0_Three.Three (0.193355s)
-[2014.10.03-20.00.12:551][456]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
-[2014.10.03-20.00.12:551][456]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/MyCharacter' while loading ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Blueprints/MyGame.uasset.
-[2014.10.03-20.00.12:551][456]LoadErrors:Error: Error /Game/Blueprints/MyGame : Can't find file for asset. /Game/Blueprints/MyCharacter
-[2014.10.03-20.00.12:552][456]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
-[2014.10.03-20.00.12:552][456]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/MyCharacter' while loading ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Blueprints/MyGame.uasset.
-[2014.10.03-20.00.12:553][456]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
-[2014.10.03-20.00.12:553][456]LoadErrors: Info Failed to load /Game/Blueprints/MyCharacter.MyCharacter_C Referenced by MyGame_C Property /Script/Engine.GameMode:DefaultPawnClass
-[2014.10.03-20.00.12:554][456]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/MyCharacter' while loading NULL.
-[2014.10.03-20.00.12:555][456]LogWorld: Game class is 'MyGame_C'
-[2014.10.03-20.00.12:649][456]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_Three.Three up for play (max tick rate 0) at 2014.10.03-16.00.12
-[2014.10.03-20.00.12:662][456]LogWorld: Bringing up level for play took: 0.030218
-[2014.10.03-20.00.12:662][456]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
-[2014.10.03-20.00.12:663][456]LogGameMode: RestartPlayer 256
-[2014.10.03-20.00.12:666][456]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_Three 0.712
-[2014.10.03-20.00.15:564][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057538EA0
-[2014.10.03-20.00.32:434][ 46]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.10.03-20.00.32:434][ 46]LogPlayLevel: [PIE] Compiling Three before PIE...
-[2014.10.03-20.00.32:514][ 46]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
-[2014.10.03-20.00.32:514][ 46]PIE: New page: PIE session: Three (Oct 3, 2014, 12:00:32 PM)
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:630][ 46]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.32:707][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.192356s)
-[2014.10.03-20.00.32:708][ 46]LogPlayLevel: PIE: World Init took: (0.000708s)
-[2014.10.03-20.00.32:708][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/Three.Three to /Game/Maps/GameLevels/UEDPIE_0_Three.Three (0.193350s)
-[2014.10.03-20.00.32:709][ 46]LogWorld: Game class is 'MyGame_C'
-[2014.10.03-20.00.32:754][ 46]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_Three.Three up for play (max tick rate 0) at 2014.10.03-16.00.32
-[2014.10.03-20.00.32:766][ 46]LogWorld: Bringing up level for play took: 0.029570
-[2014.10.03-20.00.32:767][ 46]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
-[2014.10.03-20.00.32:767][ 46]LogGameMode: RestartPlayer 257
-[2014.10.03-20.00.32:769][ 46]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_Three 0.814
-[2014.10.03-20.00.35:119][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A84ECA0
-[2014.10.03-20.00.46:693][389]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.10.03-20.00.46:693][389]LogPlayLevel: [PIE] Compiling Three before PIE...
-[2014.10.03-20.00.46:770][389]LogPlayLevel: PIE:  Blueprint regeneration took 76 ms (1 blueprints)
-[2014.10.03-20.00.46:770][389]PIE: New page: PIE session: Three (Oct 3, 2014, 12:00:46 PM)
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:886][389]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.10.03-20.00.46:965][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.195413s)
-[2014.10.03-20.00.46:966][389]LogPlayLevel: PIE: World Init took: (0.000694s)
-[2014.10.03-20.00.46:966][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/Three.Three to /Game/Maps/GameLevels/UEDPIE_0_Three.Three (0.196385s)
-[2014.10.03-20.00.46:967][389]LogWorld: Game class is 'MyGame_C'
-[2014.10.03-20.00.47:014][389]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_Three.Three up for play (max tick rate 0) at 2014.10.03-16.00.47
-[2014.10.03-20.00.47:025][389]LogWorld: Bringing up level for play took: 0.028565
-[2014.10.03-20.00.47:026][389]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
-[2014.10.03-20.00.47:026][389]LogGameMode: RestartPlayer 258
-[2014.10.03-20.00.47:028][389]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_Three 1.074
-[2014.10.03-20.00.48:635][436]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034AD7D80
-[2014.10.03-20.00.53:744][544]Cmd: QUIT_EDITOR
-[2014.10.03-20.00.53:814][544]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.10.03-20.00.53:815][544]LogExit: Preparing to exit.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:255][544]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.03-20.00.54:272][544]LogExit: Editor shut down
-[2014.10.03-20.00.54:272][544]LogExit: Transaction tracking system shut down
-[2014.10.03-20.00.54:273][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C1F53A0
-[2014.10.03-20.00.54:273][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C1F5440
-[2014.10.03-20.00.54:275][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DF89620
-[2014.10.03-20.00.54:303][544]LogExit: Object subsystem successfully closed.
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module HTTP (162)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
-[2014.10.03-20.00.54:369][544]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
-[2014.10.03-20.00.54:373][544]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
-[2014.10.03-20.00.54:373][544]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
-[2014.10.03-20.00.54:373][544]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module BspMode (150)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module XmlParser (142)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module Blutility (141)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
-[2014.10.03-20.00.54:374][544]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module AutomationController (127)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module Layers (125)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
-[2014.10.03-20.00.54:375][544]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module Persona (118)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module Toolbox (114)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module Sequencer (112)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module AssetTools (111)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module OutputLog (109)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module GammaUI (108)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module Documentation (107)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.10.03-20.00.54:406][544]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.10.03-20.00.54:558][544]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.10.03-20.00.54:558][544]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.10.03-20.00.54:558][544]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.10.03-20.00.54:558][544]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.10.03-20.00.54:558][544]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.10.03-20.00.54:558][544]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.10.03-20.00.54:559][544]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.10.03-20.00.54:561][544]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.10.03-20.00.54:565][544]LogDerivedDataCache: Shutdown
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.10.03-20.00.54:565][544]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.10.03-20.00.54:599][544]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.10.03-20.00.54:599][544]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.10.03-20.00.54:599][544]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.10.03-20.00.54:599][544]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.10.03-20.00.54:599][544]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.10.03-20.00.54:699][544]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.10.03-20.00.54:699][544]LogExit: Exiting.
-[2014.10.03-20.00.54:702][544]Log file closed, 10/03/14 16:00:54
+[2014.10.05-03.10.40:009][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.05-03.10.40:048][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.05-03.10.40:093][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.05-03.10.40:100][  0]LogInit: Object subsystem initialized
+[2014.10.05-03.10.40:103][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.05-03.10.40:103][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.05-03.10.40:110][  0]LogInit: Computer: VERONICA
+[2014.10.05-03.10.40:110][  0]LogInit: User: Zeetermin
+[2014.10.05-03.10.40:111][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.05-03.10.40:111][  0]LogInit: High frequency timer resolution =2.597685 MHz
+[2014.10.05-03.10.40:111][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
+[2014.10.05-03.10.40:111][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-03.10.40:111][  0]LogMemory: Process Physical Memory: 55.14 MB used, 55.14 MB peak
+[2014.10.05-03.10.40:111][  0]LogMemory: Process Virtual Memory: 31.58 MB used, 31.80 MB peak
+[2014.10.05-03.10.40:111][  0]LogMemory: Physical Memory: 4388.24 MB used, 6135.18 MB total
+[2014.10.05-03.10.40:111][  0]LogMemory: Virtual Memory: 235.93 MB used, 8388608.00 MB total
+[2014.10.05-03.10.40:211][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2014.10.05-03.10.40:211][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
+[2014.10.05-03.10.40:211][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.05-03.10.40:221][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.05-03.10.40:228][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.10.05-03.10.40:462][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.05-03.10.41:909][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-03.10.42:240][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-03.10.42:319][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.05-03.10.42:367][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.05-03.10.42:367][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.10.05-03.10.42:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.05-03.10.42:367][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.05-03.10.42:380][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.05-03.10.42:392][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.10.05-03.10.42:693][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.05-03.10.42:693][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.05-03.10.43:136][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.05-03.10.43:938][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.10.05-03.10.43:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.10.05-03.10.43:946][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.10.05-03.10.43:946][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.10.05-03.10.44:373][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.05-03.10.44:543][  0]SourceControl: Info Source control is disabled
+[2014.10.05-03.10.44:544][  0]SourceControl: Info Source control is disabled
+[2014.10.05-03.10.44:556][  0]SourceControl: Info Source control is disabled
+[2014.10.05-03.10.44:807][  0]BlueprintLog: New page: Editor Load
+[2014.10.05-03.10.44:975][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.10.05-03.10.44:975][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.10.05-03.10.45:316][  0]LogEngine: Initializing Engine...
+[2014.10.05-03.10.45:459][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.05-03.10.45:478][  0]LogInit: FAudioDevice initialized.
+[2014.10.05-03.10.45:523][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.05-03.10.45:529][  0]LogInit: Texture streaming: Enabled
+[2014.10.05-03.10.45:670][  0]LogInit: Transaction tracking system initialized
+[2014.10.05-03.10.46:037][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.10.05-03.10.46:625][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.05-03.10.46:638][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.05-03.10.46:803][  0]LogConsoleResponse:Display: 
+[2014.10.05-03.10.47:268][  0]SourceControl: Info Source control is disabled
+[2014.10.05-03.10.47:268][  0]LightingResults: New page: Lighting Build
+[2014.10.05-03.10.47:284][  0]MapCheck: New page: Map Check
+[2014.10.05-03.10.47:284][  0]LightingResults: New page: Lighting Build
+[2014.10.05-03.10.47:298][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001031D580
+[2014.10.05-03.10.47:844][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.10.05-03.10.47:895][  0]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.10.05-03.10.47:916][  0]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.05-03.10.47:977][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.05-03.10.47:978][  0]Cmd: MAP CHECKDEP
+[2014.10.05-03.10.47:978][  0]MapCheck: New page: Two - Oct 4, 2014, 7:10:47 PM
+[2014.10.05-03.10.48:098][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [119.083ms] ==========
+[2014.10.05-03.10.48:098][  0]LogFileHelpers: Loading map 'Two' took 0.830
+[2014.10.05-03.10.48:286][  0]LogCollectionManager: Loaded 0 collections in 0.002518 seconds
+[2014.10.05-03.10.48:778][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.05-03.10.48:779][  0]Cmd: MODE PLACEMENT
+[2014.10.05-03.10.48:863][  0]LogLoad: Full Startup: 10.20 seconds (BP compile: 0.07 seconds)
+[2014.10.05-03.10.48:895][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/ColorCodes'
+[2014.10.05-03.10.49:074][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A6278BC22CBB1BB2</RequestId><HostId>XzKJtgOK1zW5EQMYSCSktP8mqkudxOf/ts8QQWMz+P72xO3/WsGVvDSlqaeOP1hAuPpWFGd7ODo=</HostId></Error>
+[2014.10.05-03.10.49:115][  2]LogRenderer:Warning: Reallocating scene render targets to support 840x704.
+[2014.10.05-03.10.49:460][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>552D7F8BA8CD178D</RequestId><HostId>hhOQaAvPLVeBVepqZLXAQiKj52MbF/0AY59N1owVQx3vpwxFxaCw5AM/h7G/BfQHSkUc3ywAiA8=</HostId></Error>
+[2014.10.05-03.10.49:499][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>57E3022E815D059E</RequestId><HostId>BI2vB4dTks1StIocLheqFR82wnrt17C5i+oNA8cLp7GHSphQeArGHTO+g3kA0MrH</HostId></Error>
+[2014.10.05-03.10.49:523][  3]LogAssetRegistry: Asset discovery search completed in 3.4965 seconds
+[2014.10.05-03.10.49:578][  5]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C7FC83DE87B80C3D</RequestId><HostId>ZR7Vtc30Xzehv9wTj58JhFLnv9W9VpkPtWq31rHnMaiv9BzQQQAAOay2N2aJCUNkq2EfHZPIiGU=</HostId></Error>
+[2014.10.05-03.10.49:605][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.05-03.10.49:607][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.05-03.10.55:978][230]LightingResults: New page: Lighting Build
+[2014.10.05-03.10.55:978][230]Cmd: MODE PLACEMENT
+[2014.10.05-03.10.55:995][230]LoadErrors: New page: Loading map: Three.umap
+[2014.10.05-03.10.55:998][230]MapCheck: New page: Map Check
+[2014.10.05-03.10.55:998][230]LightingResults: New page: Lighting Build
+[2014.10.05-03.10.56:029][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B927B00
+[2014.10.05-03.10.56:560][230]LogMaterial:Warning: Material /Game/Materials/Objects/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.05-03.10.56:579][230]LogMaterial: Missing cached shader map for material lambert1, compiling.
+[2014.10.05-03.10.56:582][230]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.05-03.10.56:582][230]LogMaterial:Warning: Material /Game/Materials/Objects/blinn1.blinn1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.05-03.10.56:604][230]LogMaterial: Missing cached shader map for material blinn1, compiling.
+[2014.10.05-03.10.56:608][230]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.05-03.10.56:608][230]LogMaterial:Warning: Material /Game/Materials/Objects/blinn2.blinn2 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.05-03.10.56:651][230]LogMaterial: Missing cached shader map for material blinn2, compiling.
+[2014.10.05-03.10.56:659][230]LogMaterial: 0.000597 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.05-03.10.56:690][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.05-03.10.56:735][230]Cmd: MAP CHECKDEP
+[2014.10.05-03.10.56:735][230]MapCheck: New page: Three - Oct 4, 2014, 7:10:56 PM
+[2014.10.05-03.10.56:874][230]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [138.854ms] ==========
+[2014.10.05-03.10.56:875][230]LogFileHelpers: Loading map 'Three' took 0.897
+[2014.10.05-03.10.57:159][231]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.05-03.10.57:160][231]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.11.13:300][822]Cmd: DUPLICATE
+[2014.10.05-03.11.13:300][822]Cmd: ACTOR DUPLICATE
+[2014.10.05-03.11.13:349][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_40.Model_28
+[2014.10.05-03.11.13:349][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_31.Model_28
+[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_3.Model_28
+[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_176.Model_28
+[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_175.Model_28
+[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_131.Model_28
+[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_130.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_40.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_31.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_3.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_176.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_175.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_131.Model_28
+[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_130.Model_28
+[2014.10.05-03.11.18:631][822]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.11.18:854][823]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.11.28:937][972]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.11.29:192][973]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.11.39:889][150]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.11.40:162][151]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.12.03:949][820]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.12.04:196][821]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.12.29:398][546]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.12.29:665][547]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.13.05:724][611]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.13.05:973][612]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.13.15:055][749]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.05-03.13.15:290][750]Cmd: UpdateLandscapeEditorData
+[2014.10.05-03.13.32:558][375]LogSavePackage: Save=570.684692ms
+[2014.10.05-03.13.32:558][375]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three6BCBC51448A0B4D2B9B60ABED83A3806.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.10.05-03.13.32:614][375]LogFileHelpers: Saving map 'Three' took 0.783
+[2014.10.05-03.15.00:804][445]Cmd: QUIT_EDITOR
+[2014.10.05-03.15.00:870][445]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.05-03.15.00:872][445]LogExit: Preparing to exit.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.05-03.15.01:544][445]LogExit: Editor shut down
+[2014.10.05-03.15.01:544][445]LogExit: Transaction tracking system shut down
+[2014.10.05-03.15.01:545][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023565760
+[2014.10.05-03.15.01:545][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023565800
+[2014.10.05-03.15.01:548][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BD725C0
+[2014.10.05-03.15.01:587][445]LogExit: Object subsystem successfully closed.
+[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module HTTP (162)
+[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
+[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
+[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
+[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
+[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
+[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
+[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
+[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
+[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
+[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
+[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
+[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module BspMode (150)
+[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AutomationController (127)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module Layers (125)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
+[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
+[2014.10.05-03.15.01:687][445]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Sequencer (112)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module AssetTools (111)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module OutputLog (109)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module GammaUI (108)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Documentation (107)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.10.05-03.15.01:851][445]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.10.05-03.15.01:851][445]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.10.05-03.15.01:851][445]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.10.05-03.15.01:901][445]LogDerivedDataCache: Shutdown
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.05-03.15.02:003][445]LogExit: Exiting.
+[2014.10.05-03.15.02:006][445]Log file closed, 10/04/14 23:15:02
