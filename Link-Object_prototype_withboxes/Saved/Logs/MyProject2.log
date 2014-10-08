@@ -1,4 +1,4 @@
-Log file open, 10/04/14 23:10:40
+Log file open, 10/08/14 15:06:41
 LogInit:Display: Running engine for game: MyProject2
 LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
@@ -7,309 +7,881 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.10.05-03.10.40:009][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.10.05-03.10.40:048][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.10.05-03.10.40:093][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.10.05-03.10.40:100][  0]LogInit: Object subsystem initialized
-[2014.10.05-03.10.40:103][  0]LogInit: Selected Device Profile: [Windows]
-[2014.10.05-03.10.40:103][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.10.05-03.10.40:110][  0]LogInit: Computer: VERONICA
-[2014.10.05-03.10.40:110][  0]LogInit: User: Zeetermin
-[2014.10.05-03.10.40:111][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.10.05-03.10.40:111][  0]LogInit: High frequency timer resolution =2.597685 MHz
-[2014.10.05-03.10.40:111][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
-[2014.10.05-03.10.40:111][  0]LogMemory: Platform Memory Stats for Windows
-[2014.10.05-03.10.40:111][  0]LogMemory: Process Physical Memory: 55.14 MB used, 55.14 MB peak
-[2014.10.05-03.10.40:111][  0]LogMemory: Process Virtual Memory: 31.58 MB used, 31.80 MB peak
-[2014.10.05-03.10.40:111][  0]LogMemory: Physical Memory: 4388.24 MB used, 6135.18 MB total
-[2014.10.05-03.10.40:111][  0]LogMemory: Virtual Memory: 235.93 MB used, 8388608.00 MB total
-[2014.10.05-03.10.40:211][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
-[2014.10.05-03.10.40:211][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
-[2014.10.05-03.10.40:211][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.10.05-03.10.40:221][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.10.05-03.10.40:228][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.10.05-03.10.40:462][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.10.05-03.10.41:909][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.05-03.10.42:240][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.05-03.10.42:319][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.10.05-03.10.42:367][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.10.05-03.10.42:367][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.10.05-03.10.42:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.10.05-03.10.42:367][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.10.05-03.10.42:380][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.10.05-03.10.42:392][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.10.05-03.10.42:693][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.10.05-03.10.42:693][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.10.05-03.10.43:136][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.10.05-03.10.43:938][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.10.05-03.10.43:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.10.05-03.10.43:946][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.10.05-03.10.43:946][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.10.05-03.10.44:373][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.10.05-03.10.44:543][  0]SourceControl: Info Source control is disabled
-[2014.10.05-03.10.44:544][  0]SourceControl: Info Source control is disabled
-[2014.10.05-03.10.44:556][  0]SourceControl: Info Source control is disabled
-[2014.10.05-03.10.44:807][  0]BlueprintLog: New page: Editor Load
-[2014.10.05-03.10.44:975][  0]LogObj: 19137 objects as part of root set at end of initial load.
-[2014.10.05-03.10.44:975][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
-[2014.10.05-03.10.45:316][  0]LogEngine: Initializing Engine...
-[2014.10.05-03.10.45:459][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2014.10.05-03.10.45:478][  0]LogInit: FAudioDevice initialized.
-[2014.10.05-03.10.45:523][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.10.05-03.10.45:529][  0]LogInit: Texture streaming: Enabled
-[2014.10.05-03.10.45:670][  0]LogInit: Transaction tracking system initialized
-[2014.10.05-03.10.46:037][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
-[2014.10.05-03.10.46:625][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.10.05-03.10.46:638][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.10.05-03.10.46:803][  0]LogConsoleResponse:Display: 
-[2014.10.05-03.10.47:268][  0]SourceControl: Info Source control is disabled
-[2014.10.05-03.10.47:268][  0]LightingResults: New page: Lighting Build
-[2014.10.05-03.10.47:284][  0]MapCheck: New page: Map Check
-[2014.10.05-03.10.47:284][  0]LightingResults: New page: Lighting Build
-[2014.10.05-03.10.47:298][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001031D580
-[2014.10.05-03.10.47:844][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
-[2014.10.05-03.10.47:895][  0]LogMaterial: Missing cached shader map for material lore, compiling.
-[2014.10.05-03.10.47:916][  0]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.05-03.10.47:977][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.10.05-03.10.47:978][  0]Cmd: MAP CHECKDEP
-[2014.10.05-03.10.47:978][  0]MapCheck: New page: Two - Oct 4, 2014, 7:10:47 PM
-[2014.10.05-03.10.48:098][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [119.083ms] ==========
-[2014.10.05-03.10.48:098][  0]LogFileHelpers: Loading map 'Two' took 0.830
-[2014.10.05-03.10.48:286][  0]LogCollectionManager: Loaded 0 collections in 0.002518 seconds
-[2014.10.05-03.10.48:778][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.10.05-03.10.48:779][  0]Cmd: MODE PLACEMENT
-[2014.10.05-03.10.48:863][  0]LogLoad: Full Startup: 10.20 seconds (BP compile: 0.07 seconds)
-[2014.10.05-03.10.48:895][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/ColorCodes'
-[2014.10.05-03.10.49:074][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A6278BC22CBB1BB2</RequestId><HostId>XzKJtgOK1zW5EQMYSCSktP8mqkudxOf/ts8QQWMz+P72xO3/WsGVvDSlqaeOP1hAuPpWFGd7ODo=</HostId></Error>
-[2014.10.05-03.10.49:115][  2]LogRenderer:Warning: Reallocating scene render targets to support 840x704.
-[2014.10.05-03.10.49:460][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>552D7F8BA8CD178D</RequestId><HostId>hhOQaAvPLVeBVepqZLXAQiKj52MbF/0AY59N1owVQx3vpwxFxaCw5AM/h7G/BfQHSkUc3ywAiA8=</HostId></Error>
-[2014.10.05-03.10.49:499][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>57E3022E815D059E</RequestId><HostId>BI2vB4dTks1StIocLheqFR82wnrt17C5i+oNA8cLp7GHSphQeArGHTO+g3kA0MrH</HostId></Error>
-[2014.10.05-03.10.49:523][  3]LogAssetRegistry: Asset discovery search completed in 3.4965 seconds
-[2014.10.05-03.10.49:578][  5]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C7FC83DE87B80C3D</RequestId><HostId>ZR7Vtc30Xzehv9wTj58JhFLnv9W9VpkPtWq31rHnMaiv9BzQQQAAOay2N2aJCUNkq2EfHZPIiGU=</HostId></Error>
-[2014.10.05-03.10.49:605][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.10.05-03.10.49:607][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.10.05-03.10.55:978][230]LightingResults: New page: Lighting Build
-[2014.10.05-03.10.55:978][230]Cmd: MODE PLACEMENT
-[2014.10.05-03.10.55:995][230]LoadErrors: New page: Loading map: Three.umap
-[2014.10.05-03.10.55:998][230]MapCheck: New page: Map Check
-[2014.10.05-03.10.55:998][230]LightingResults: New page: Lighting Build
-[2014.10.05-03.10.56:029][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B927B00
-[2014.10.05-03.10.56:560][230]LogMaterial:Warning: Material /Game/Materials/Objects/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
-[2014.10.05-03.10.56:579][230]LogMaterial: Missing cached shader map for material lambert1, compiling.
-[2014.10.05-03.10.56:582][230]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.05-03.10.56:582][230]LogMaterial:Warning: Material /Game/Materials/Objects/blinn1.blinn1 needed to have new flag set bUsedWithStaticLighting !
-[2014.10.05-03.10.56:604][230]LogMaterial: Missing cached shader map for material blinn1, compiling.
-[2014.10.05-03.10.56:608][230]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.05-03.10.56:608][230]LogMaterial:Warning: Material /Game/Materials/Objects/blinn2.blinn2 needed to have new flag set bUsedWithStaticLighting !
-[2014.10.05-03.10.56:651][230]LogMaterial: Missing cached shader map for material blinn2, compiling.
-[2014.10.05-03.10.56:659][230]LogMaterial: 0.000597 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.10.05-03.10.56:690][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.10.05-03.10.56:735][230]Cmd: MAP CHECKDEP
-[2014.10.05-03.10.56:735][230]MapCheck: New page: Three - Oct 4, 2014, 7:10:56 PM
-[2014.10.05-03.10.56:874][230]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [138.854ms] ==========
-[2014.10.05-03.10.56:875][230]LogFileHelpers: Loading map 'Three' took 0.897
-[2014.10.05-03.10.57:159][231]Cmd: UpdateLandscapeEditorData -warnings
-[2014.10.05-03.10.57:160][231]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.11.13:300][822]Cmd: DUPLICATE
-[2014.10.05-03.11.13:300][822]Cmd: ACTOR DUPLICATE
-[2014.10.05-03.11.13:349][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_40.Model_28
-[2014.10.05-03.11.13:349][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_31.Model_28
-[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_3.Model_28
-[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_176.Model_28
-[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_175.Model_28
-[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_131.Model_28
-[2014.10.05-03.11.13:350][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_130.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_54.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_40.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_31.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_3.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_176.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_175.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_131.Model_28
-[2014.10.05-03.11.13:351][822]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_73.Model_28 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.BoxBrush_130.Model_28
-[2014.10.05-03.11.18:631][822]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.11.18:854][823]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.11.28:937][972]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.11.29:192][973]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.11.39:889][150]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.11.40:162][151]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.12.03:949][820]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.12.04:196][821]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.12.29:398][546]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.12.29:665][547]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.13.05:724][611]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.13.05:973][612]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.13.15:055][749]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.10.05-03.13.15:290][750]Cmd: UpdateLandscapeEditorData
-[2014.10.05-03.13.32:558][375]LogSavePackage: Save=570.684692ms
-[2014.10.05-03.13.32:558][375]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three6BCBC51448A0B4D2B9B60ABED83A3806.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
-[2014.10.05-03.13.32:614][375]LogFileHelpers: Saving map 'Three' took 0.783
-[2014.10.05-03.15.00:804][445]Cmd: QUIT_EDITOR
-[2014.10.05-03.15.00:870][445]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.10.05-03.15.00:872][445]LogExit: Preparing to exit.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:516][445]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.10.05-03.15.01:544][445]LogExit: Editor shut down
-[2014.10.05-03.15.01:544][445]LogExit: Transaction tracking system shut down
-[2014.10.05-03.15.01:545][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023565760
-[2014.10.05-03.15.01:545][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023565800
-[2014.10.05-03.15.01:548][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BD725C0
-[2014.10.05-03.15.01:587][445]LogExit: Object subsystem successfully closed.
-[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
-[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
-[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module HTTP (162)
-[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
-[2014.10.05-03.15.01:679][445]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
-[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
-[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
-[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
-[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
-[2014.10.05-03.15.01:680][445]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
-[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
-[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
-[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
-[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
-[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module BspMode (150)
-[2014.10.05-03.15.01:685][445]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module XmlParser (142)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module Blutility (141)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AutomationController (127)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module Layers (125)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
-[2014.10.05-03.15.01:686][445]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
-[2014.10.05-03.15.01:687][445]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Persona (118)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Toolbox (114)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Sequencer (112)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module AssetTools (111)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module OutputLog (109)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module GammaUI (108)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Documentation (107)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.10.05-03.15.01:744][445]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.10.05-03.15.01:848][445]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.10.05-03.15.01:849][445]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.10.05-03.15.01:851][445]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.10.05-03.15.01:851][445]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.10.05-03.15.01:851][445]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.10.05-03.15.01:852][445]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.10.05-03.15.01:901][445]LogDerivedDataCache: Shutdown
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.10.05-03.15.01:901][445]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.10.05-03.15.01:903][445]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.10.05-03.15.02:003][445]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.10.05-03.15.02:003][445]LogExit: Exiting.
-[2014.10.05-03.15.02:006][445]Log file closed, 10/04/14 23:15:02
+[2014.10.08-19.06.41:480][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.08-19.06.41:512][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.08-19.06.41:673][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.08-19.06.41:687][  0]LogInit: Object subsystem initialized
+[2014.10.08-19.06.41:691][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.08-19.06.41:691][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.08-19.06.41:698][  0]LogInit: Computer: VERONICA
+[2014.10.08-19.06.41:698][  0]LogInit: User: Zeetermin
+[2014.10.08-19.06.41:699][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.08-19.06.41:699][  0]LogInit: High frequency timer resolution =2.597705 MHz
+[2014.10.08-19.06.41:699][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
+[2014.10.08-19.06.41:699][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.08-19.06.41:699][  0]LogMemory: Process Physical Memory: 55.26 MB used, 55.26 MB peak
+[2014.10.08-19.06.41:699][  0]LogMemory: Process Virtual Memory: 31.74 MB used, 31.96 MB peak
+[2014.10.08-19.06.41:699][  0]LogMemory: Physical Memory: 3698.52 MB used, 6135.18 MB total
+[2014.10.08-19.06.41:699][  0]LogMemory: Virtual Memory: 236.93 MB used, 8388608.00 MB total
+[2014.10.08-19.06.42:335][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2014.10.08-19.06.42:335][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
+[2014.10.08-19.06.42:335][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.08-19.06.42:343][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.08-19.06.42:349][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.10.08-19.06.43:468][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.08-19.06.47:669][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.08-19.06.48:810][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.08-19.06.48:902][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.08-19.06.49:617][  0]LogDerivedDataCache: Loaded boot cache 0.71s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.08-19.06.49:617][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.10.08-19.06.49:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.08-19.06.49:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.08-19.06.49:668][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.08-19.06.49:681][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.10.08-19.06.51:782][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.08-19.06.51:782][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.08-19.06.52:300][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.08-19.07.03:244][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.10.08-19.07.03:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.10.08-19.07.03:397][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.10.08-19.07.03:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.10.08-19.07.10:505][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.08-19.07.11:052][  0]SourceControl: Info Source control is disabled
+[2014.10.08-19.07.11:052][  0]SourceControl: Info Source control is disabled
+[2014.10.08-19.07.11:064][  0]SourceControl: Info Source control is disabled
+[2014.10.08-19.07.11:833][  0]BlueprintLog: New page: Editor Load
+[2014.10.08-19.07.12:877][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.10.08-19.07.12:877][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.10.08-19.07.13:387][  0]LogEngine: Initializing Engine...
+[2014.10.08-19.07.13:541][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.08-19.07.13:549][  0]LogInit: FAudioDevice initialized.
+[2014.10.08-19.07.13:588][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.08-19.07.13:594][  0]LogInit: Texture streaming: Enabled
+[2014.10.08-19.07.14:558][  0]LogInit: Transaction tracking system initialized
+[2014.10.08-19.07.17:915][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.10.08-19.07.23:344][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.08-19.07.23:355][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.08-19.07.25:248][  0]LogConsoleResponse:Display: 
+[2014.10.08-19.07.28:561][  0]SourceControl: Info Source control is disabled
+[2014.10.08-19.07.28:562][  0]LightingResults: New page: Lighting Build
+[2014.10.08-19.07.28:575][  0]MapCheck: New page: Map Check
+[2014.10.08-19.07.28:575][  0]LightingResults: New page: Lighting Build
+[2014.10.08-19.07.28:589][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011519580
+[2014.10.08-19.07.33:855][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.10.08-19.07.33:911][  0]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.10.08-19.07.33:930][  0]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.08-19.07.33:977][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.08-19.07.33:978][  0]Cmd: MAP CHECKDEP
+[2014.10.08-19.07.33:978][  0]MapCheck: New page: Two - Oct 8, 2014, 11:07:33 AM
+[2014.10.08-19.07.34:078][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [99.452ms] ==========
+[2014.10.08-19.07.34:078][  0]LogFileHelpers: Loading map 'Two' took 5.517
+[2014.10.08-19.07.34:506][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
+[2014.10.08-19.07.36:584][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.08-19.07.36:585][  0]Cmd: MODE PLACEMENT
+[2014.10.08-19.07.36:621][  0]LogLoad: Full Startup: 57.17 seconds (BP compile: 0.07 seconds)
+[2014.10.08-19.07.36:645][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/ColorCodes'
+[2014.10.08-19.07.36:960][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>40850DFA47E314E5</RequestId><HostId>C/WJFb+wNkfQ+UoBRvONy/3CmrnoCRNicc7havtjt5sj/H0OWN2ozutsw5csLr4fOl3hQpEXXVM=</HostId></Error>
+[2014.10.08-19.07.36:995][  2]LogRenderer:Warning: Reallocating scene render targets to support 848x720.
+[2014.10.08-19.07.37:260][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>86E6DAC12CD10E41</RequestId><HostId>rPMsJOzcbanUng7o3zG3BGgX9GAIX2nvGcCmsvY2GI/NxWCMVTR2tpc2zSU5FLzE</HostId></Error>
+[2014.10.08-19.07.37:292][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C97F584A3816A3B8</RequestId><HostId>odP4Egon86gUr3/LHR9dBuJI2pbBcsoH5n+geAmm5ZYlb+gQu1hfKU2Gjzid3Asq942dJtVg2WI=</HostId></Error>
+[2014.10.08-19.07.37:298][  3]LogAssetRegistry: Asset discovery search completed in 19.3929 seconds
+[2014.10.08-19.07.38:131][ 34]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BC5F0AA07F31CE65</RequestId><HostId>WgAQFpXKsq3DsRE6/2txxX8Mv46yBc3ss0R12mxZR3msLv/0WVhL7tJz/5BJNnoO</HostId></Error>
+[2014.10.08-19.07.38:371][ 41]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.08-19.07.38:372][ 41]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.08-19.07.53:481][536]LightingResults: New page: Lighting Build
+[2014.10.08-19.07.53:482][536]Cmd: MODE PLACEMENT
+[2014.10.08-19.07.53:498][536]LoadErrors: New page: Loading map: Three.umap
+[2014.10.08-19.07.53:500][536]MapCheck: New page: Map Check
+[2014.10.08-19.07.53:500][536]LightingResults: New page: Lighting Build
+[2014.10.08-19.07.53:533][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BA2BB00
+[2014.10.08-19.07.54:567][536]LogMaterial:Warning: Material /Game/Materials/Objects/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.08-19.07.54:590][536]LogMaterial: Missing cached shader map for material lambert1, compiling.
+[2014.10.08-19.07.54:595][536]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.08-19.07.54:595][536]LogMaterial:Warning: Material /Game/Materials/Objects/blinn1.blinn1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.08-19.07.54:597][536]LogMaterial: Missing cached shader map for material blinn1, compiling.
+[2014.10.08-19.07.54:600][536]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.08-19.07.54:600][536]LogMaterial:Warning: Material /Game/Materials/Objects/blinn2.blinn2 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.08-19.07.54:602][536]LogMaterial: Missing cached shader map for material blinn2, compiling.
+[2014.10.08-19.07.54:605][536]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.08-19.07.54:628][536]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.08-19.07.54:658][536]Cmd: MAP CHECKDEP
+[2014.10.08-19.07.54:658][536]MapCheck: New page: Three - Oct 8, 2014, 11:07:54 AM
+[2014.10.08-19.07.54:794][536]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [135.728ms] ==========
+[2014.10.08-19.07.54:794][536]LogFileHelpers: Loading map 'Three' took 1.314
+[2014.10.08-19.07.55:009][537]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.08-19.07.55:009][537]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.08.10:015][144]Cmd: DUPLICATE
+[2014.10.08-19.08.10:015][144]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_53.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_51.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_5.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_3.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_24.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_23.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_196.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_17.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_15.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_13.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_11.Model_15
+[2014.10.08-19.08.10:062][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_72.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_6.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_54.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_52.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_26.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_2.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_193.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_18.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_16.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_14.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_12.Model_14
+[2014.10.08-19.08.10:064][144]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14
+[2014.10.08-19.08.13:737][144]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.08.13:983][145]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.08.34:966][827]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.08.35:220][828]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.08.42:134][952]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.08.42:399][953]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.08.52:102][186]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.08.52:372][187]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.08.53:432][230]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.08-19.08.53:432][230]Aligned camera to fit all selected actors.
+[2014.10.08-19.09.03:372][476]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.09.03:653][477]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.09.48:912][320]Cmd: DUPLICATE
+[2014.10.08-19.09.48:912][320]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.09.48:955][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.09.48:956][320]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.09.52:819][320]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.09.53:067][321]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.10.09:978][822]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.10.10:275][823]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.10.21:106][ 87]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.10.21:361][ 88]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.10.22:673][140]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.08-19.10.22:673][140]Aligned camera to fit all selected actors.
+[2014.10.08-19.10.33:415][409]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.10.33:698][410]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.10.34:437][441]Cmd: DUPLICATE
+[2014.10.08-19.10.34:437][441]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.10.34:489][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.10.34:490][441]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11
+[2014.10.08-19.10.38:490][441]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.10.38:742][442]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.10.46:834][606]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.10.47:097][607]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.10.51:384][782]Cmd: DUPLICATE
+[2014.10.08-19.10.51:384][782]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.10.51:437][782]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11
+[2014.10.08-19.10.55:293][782]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.10.55:549][783]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.11.02:772][906]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.11.03:058][907]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.11.10:863][ 64]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.11.11:128][ 65]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.11.29:096][610]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.11.29:389][611]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.11.36:975][745]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.11.37:256][746]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.11.39:712][842]Cmd: DUPLICATE
+[2014.10.08-19.11.39:712][842]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.11.39:765][842]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11
+[2014.10.08-19.11.43:906][842]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.11.44:168][843]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.11.54:796][105]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.11.55:124][106]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.13.10:675][ 25]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.13.10:951][ 26]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.13.19:342][211]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.13.19:619][212]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.13.30:032][467]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.13.30:312][468]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.13.41:443][758]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.13.41:720][759]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.14.19:017][287]Cmd: DUPLICATE
+[2014.10.08-19.14.19:017][287]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.14.19:060][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.14.19:061][287]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11
+[2014.10.08-19.14.22:959][287]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.14.23:226][288]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.14.32:192][495]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.14.32:493][496]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.14.45:563][828]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.14.45:830][829]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.15.02:206][332]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.15.02:466][333]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.15.06:747][510]Cmd: DUPLICATE
+[2014.10.08-19.15.06:747][510]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.15.06:801][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11
+[2014.10.08-19.15.06:801][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11
+[2014.10.08-19.15.06:801][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.15.06:802][510]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11
+[2014.10.08-19.15.10:917][510]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.15.11:180][511]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.15.23:424][846]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.15.23:712][847]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.15.39:790][503]Cmd: DUPLICATE
+[2014.10.08-19.15.39:790][503]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_80.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_79.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_81.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_77.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_78.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_110.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_21.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_219.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_22.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_222.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_25.Model_11
+[2014.10.08-19.15.39:832][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_27.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_30.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_31.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_32.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_33.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_34.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_35.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_36.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_37.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_38.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_40.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_41.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_42.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_44.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_45.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_46.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_47.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_48.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_50.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_55.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_56.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_57.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_58.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_59.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_60.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_66.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_67.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_68.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_69.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_70.Model_11
+[2014.10.08-19.15.39:833][503]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_85.Model_11 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.SphereBrush_122.Model_11
+[2014.10.08-19.15.43:762][503]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.15.44:030][504]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.15.55:196][779]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.15.55:486][780]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.16.02:472][901]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.16.02:753][902]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.16.13:164][328]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.08-19.16.20:582][328]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.16.20:850][329]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.16.31:940][623]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.16.32:286][624]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.16.46:879][ 43]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.16.47:165][ 44]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.17.04:500][516]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.17.04:838][517]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.17.27:816][268]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.17.28:112][269]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.17.47:131][826]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.17.47:407][827]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.17.53:577][ 69]LogSavePackage: Save=597.807312ms
+[2014.10.08-19.17.53:577][ 69]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three_Auto11FA73EAF4DFB300D2F0284A888AC8BB1.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Autosaves/Game/Maps/GameLevels/Three_Auto1.umap'
+[2014.10.08-19.17.53:586][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameLevels/Three' took 0.818
+[2014.10.08-19.17.53:586][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.818
+[2014.10.08-19.18.03:883][482]Cmd: DUPLICATE
+[2014.10.08-19.18.03:883][482]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_11.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_13.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_15.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_17.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_196.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_23.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_24.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_3.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_5.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_51.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_53.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15
+[2014.10.08-19.18.03:926][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_74.Model_15
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_12.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_14.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_16.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_18.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_193.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_2.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_26.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_52.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_54.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_6.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_72.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14
+[2014.10.08-19.18.03:927][482]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_76.Model_14
+[2014.10.08-19.18.07:821][482]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.18.08:088][483]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.18.18:978][745]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.18.19:252][746]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.18.49:956][919]Cmd: DUPLICATE
+[2014.10.08-19.18.49:956][919]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_11.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_13.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_15.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_17.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_196.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_23.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_24.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_3.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_5.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_51.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_53.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15
+[2014.10.08-19.18.49:999][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_74.Model_15
+[2014.10.08-19.18.50:000][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14
+[2014.10.08-19.18.50:000][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_12.Model_14
+[2014.10.08-19.18.50:000][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_14.Model_14
+[2014.10.08-19.18.50:000][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_16.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_18.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_193.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_2.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_26.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_52.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_54.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_6.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_72.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14
+[2014.10.08-19.18.50:001][919]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_76.Model_14
+[2014.10.08-19.18.54:099][919]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.18.54:370][920]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.19.02:886][ 80]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.19.03:206][ 81]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.19.07:767][253]Cmd: DELETE
+[2014.10.08-19.19.07:767][253]Cmd: ACTOR DELETE
+[2014.10.08-19.19.07:781][253]LogEditorActor: Deleted Actor: Brush
+[2014.10.08-19.19.11:991][253]LogEditorActor: Deleted 1 Actors (4.223 secs)
+[2014.10.08-19.19.16:051][253]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.19.16:309][254]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.19.30:829][700]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.19.31:187][701]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.19.32:604][753]Cmd: DUPLICATE
+[2014.10.08-19.19.32:604][753]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_11.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_13.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_15.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_17.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_196.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_23.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_24.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_3.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_5.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_51.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_53.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15
+[2014.10.08-19.19.32:661][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_74.Model_15
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_12.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_14.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_16.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_18.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_193.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_2.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_26.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_52.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_54.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_6.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_72.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14
+[2014.10.08-19.19.32:663][753]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_76.Model_14
+[2014.10.08-19.19.36:748][753]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.19.37:018][754]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.19.48:971][ 38]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.19.49:255][ 39]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.20.05:397][619]Cmd: DELETE
+[2014.10.08-19.20.05:397][619]Cmd: ACTOR DELETE
+[2014.10.08-19.20.05:413][619]LogEditorActor: Deleted Actor: Brush
+[2014.10.08-19.20.09:483][619]LogEditorActor: Deleted 1 Actors (4.084 secs)
+[2014.10.08-19.20.13:347][619]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.20.13:605][620]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.20.24:927][ 34]Cmd: DELETE
+[2014.10.08-19.20.24:927][ 34]Cmd: ACTOR DELETE
+[2014.10.08-19.20.24:942][ 34]LogEditorActor: Deleted Actor: Brush
+[2014.10.08-19.20.24:944][ 34]LogEditorActor: Deleted Actor: Brush
+[2014.10.08-19.20.29:033][ 34]LogEditorActor: Deleted 2 Actors (4.104 secs)
+[2014.10.08-19.20.33:042][ 34]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.20.33:300][ 35]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.20.38:852][228]Cmd: DUPLICATE
+[2014.10.08-19.20.38:852][228]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_11.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_13.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_15.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_17.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_196.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_23.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_24.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_3.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_5.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_51.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_53.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15
+[2014.10.08-19.20.38:896][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_74.Model_15
+[2014.10.08-19.20.38:897][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14
+[2014.10.08-19.20.38:897][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14
+[2014.10.08-19.20.38:897][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14
+[2014.10.08-19.20.38:897][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_12.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_14.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_16.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_18.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_193.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_2.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_26.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_52.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_54.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_6.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_72.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14
+[2014.10.08-19.20.38:898][228]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_76.Model_14
+[2014.10.08-19.20.42:873][228]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.20.43:147][229]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.20.54:250][482]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.20.54:530][483]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.20.58:745][630]Cmd: DUPLICATE
+[2014.10.08-19.20.58:745][630]Cmd: ACTOR DUPLICATE
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_87.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_133.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_83.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_10.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_11.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_13.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_15.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_17.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_196.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_23.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_24.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_3.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_5.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_51.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_53.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_71.Model_15
+[2014.10.08-19.20.58:841][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_89.Model_15 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_74.Model_15
+[2014.10.08-19.20.58:842][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_88.Model_14
+[2014.10.08-19.20.58:842][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_86.Model_14
+[2014.10.08-19.20.58:842][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_84.Model_14
+[2014.10.08-19.20.58:842][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_12.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_14.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_16.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_18.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_193.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_2.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_26.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_52.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_54.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_6.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_72.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_8.Model_14
+[2014.10.08-19.20.58:843][630]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_90.Model_14 or Model /Game/Maps/GameLevels/Three.Three:PersistentLevel.ConeBrush_76.Model_14
+[2014.10.08-19.21.02:779][630]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.21.03:050][631]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.21.16:696][978]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.21.17:017][979]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.21.57:710][329]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.21.57:987][330]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.22.08:656][582]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.08-19.22.08:935][583]Cmd: UpdateLandscapeEditorData
+[2014.10.08-19.22.36:814][717]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.08-19.22.36:816][717]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.08-19.22.53:986][359]LogSavePackage: Save=588.589172ms
+[2014.10.08-19.22.53:986][359]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ThreeF7C9F6D948B2C24A7DD0DE891D136701.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.10.08-19.22.54:042][359]LogFileHelpers: Saving map 'Three' took 0.850
+[2014.10.08-19.22.59:753][541]Cmd: QUIT_EDITOR
+[2014.10.08-19.23.00:026][541]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.08-19.23.00:061][541]LogExit: Preparing to exit.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:325][541]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.10.08-19.23.01:757][541]LogExit: Editor shut down
+[2014.10.08-19.23.01:758][541]LogExit: Transaction tracking system shut down
+[2014.10.08-19.23.01:759][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000222DD940
+[2014.10.08-19.23.01:759][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000222DD9E0
+[2014.10.08-19.23.01:761][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021A85C60
+[2014.10.08-19.23.03:498][541]LogExit: Object subsystem successfully closed.
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module HTTP (162)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
+[2014.10.08-19.23.04:275][541]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
+[2014.10.08-19.23.04:279][541]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
+[2014.10.08-19.23.04:279][541]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
+[2014.10.08-19.23.04:279][541]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
+[2014.10.08-19.23.04:279][541]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
+[2014.10.08-19.23.04:279][541]LogModuleManager: Shutting down and abandoning module BspMode (150)
+[2014.10.08-19.23.04:279][541]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
+[2014.10.08-19.23.04:280][541]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
+[2014.10.08-19.23.04:280][541]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
+[2014.10.08-19.23.04:280][541]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
+[2014.10.08-19.23.04:305][541]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module AutomationController (127)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module Layers (125)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
+[2014.10.08-19.23.04:306][541]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
+[2014.10.08-19.23.04:307][541]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.10.08-19.23.04:552][541]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.10.08-19.23.04:552][541]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
+[2014.10.08-19.23.04:624][541]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
+[2014.10.08-19.23.04:624][541]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.10.08-19.23.04:624][541]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.10.08-19.23.04:624][541]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.10.08-19.23.04:624][541]LogModuleManager: Shutting down and abandoning module Sequencer (112)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module AssetTools (111)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module OutputLog (109)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module GammaUI (108)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module Documentation (107)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.10.08-19.23.04:625][541]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.10.08-19.23.04:716][541]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.10.08-19.23.04:716][541]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.10.08-19.23.04:716][541]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.10.08-19.23.04:716][541]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.10.08-19.23.04:900][541]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.10.08-19.23.04:900][541]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.10.08-19.23.04:902][541]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.10.08-19.23.04:906][541]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.10.08-19.23.04:953][541]LogDerivedDataCache: Shutdown
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.10.08-19.23.04:953][541]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.10.08-19.23.04:954][541]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.10.08-19.23.04:954][541]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.10.08-19.23.04:954][541]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.10.08-19.23.04:954][541]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.10.08-19.23.04:954][541]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.10.08-19.23.05:013][541]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.10.08-19.23.05:013][541]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.10.08-19.23.05:051][541]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.10.08-19.23.05:051][541]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.10.08-19.23.05:051][541]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.10.08-19.23.05:051][541]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.10.08-19.23.05:051][541]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.08-19.23.05:151][541]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.08-19.23.05:152][541]LogExit: Exiting.
+[2014.10.08-19.23.05:198][541]Log file closed, 10/08/14 15:23:05
