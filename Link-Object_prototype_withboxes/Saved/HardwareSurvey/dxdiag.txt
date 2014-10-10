@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-  DxDiag Previously: Crashed in system information (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+  DxDiag Previously: Crashed in system information (stage 1) & Direct3D (stage 2) & DirectInput (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -13,120 +13,86 @@ DxDiag Notes
         Sound Tab 3: No problems found.
         Sound Tab 4: No problems found.
         Sound Tab 5: No problems found.
-          Input Tab: No problems found.
+          Input Tab: 
 
 ---------------
 Display Devices
 ---------------
           Card name: AMD Radeon R7 200 Series
-       Manufacturer: Advanced Micro Devices, Inc.
-          Chip type: ATI display adapter (0x6613)
-           DAC type: Internal DAC(400MHz)
+       Manufacturer: 
+          Chip type: 
+           DAC type: 
          Device Key: Enum\PCI\VEN_1002&DEV_6613&SUBSYS_E263174B&REV_00
-     Display Memory: 748 MB
-   Dedicated Memory: 2033 MB
-      Shared Memory: 2811 MB
+     Display Memory: 
+   Dedicated Memory: n/a
+      Shared Memory: n/a
        Current Mode: 1280 x 720 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
-      Monitor Model: SAMSUNG LCD
-         Monitor Id: SAM024D
-        Native Mode: 1280 x 720(p) (60.000Hz)
-        Output Type: HDMI
-        Driver Name: aticfx64.dll,aticfx64.dll,aticfx64.dll,aticfx32,aticfx32,aticfx32,atiumd64.dll,atidxx64.dll,atidxx64.dll,atiumdag,atidxx32,atidxx32,atiumdva,atiumd6a.cap,atitmm64.dll
-Driver File Version: 8.17.0010.1299 (English)
-     Driver Version: 14.200.1004.0
-        DDI Version: 11
+      Monitor Model: 
+         Monitor Id: 
+        Native Mode: 
+        Output Type: 
+        Driver Name: 
+Driver File Version:  ()
+     Driver Version: 
+        DDI Version: 
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 6/21/2014 01:26:08, 1329376 bytes
+   Driver Date/Size: , 0 bytes
         WHQL Logo'd: n/a
     WHQL Date Stamp: n/a
-  Device Identifier: {D7B71EE2-2553-11CF-E871-69C2BEC2C535}
-          Vendor ID: 0x1002
-          Device ID: 0x6613
-          SubSys ID: 0xE263174B
-        Revision ID: 0x0000
+  Device Identifier: 
+          Vendor ID: 
+          Device ID: 
+          SubSys ID: 
+        Revision ID: 
  Driver Strong Name: oem28.inf:ATI.Mfg.NTamd64.6.1:ati2mtag_R501:14.200.1004.0:pci\ven_1002&dev_6613
      Rank Of Driver: 00E62001
-        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
-   Deinterlace Caps: {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
-                     {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {3C5323C1-6FB7-44F5-9081-056BF2EE449D}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {552C0DAD-CCBC-420B-83C8-74943CF9F1A6}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-       D3D9 Overlay: Not Supported
-            DXVA-HD: Not Supported
-       DDraw Status: Enabled
-         D3D Status: Enabled
-         AGP Status: Enabled
+        Video Accel: 
+      Deinterlace Caps: n/a
+       D3D9 Overlay: 
+            DXVA-HD: 
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
 
           Card name: AMD Radeon R7 200 Series
-       Manufacturer: Advanced Micro Devices, Inc.
-          Chip type: ATI display adapter (0x6613)
-           DAC type: Internal DAC(400MHz)
+       Manufacturer: 
+          Chip type: 
+           DAC type: 
          Device Key: Enum\PCI\VEN_1002&DEV_6613&SUBSYS_E263174B&REV_00
-     Display Memory: 748 MB
-   Dedicated Memory: 2033 MB
-      Shared Memory: 2811 MB
+     Display Memory: 
+   Dedicated Memory: n/a
+      Shared Memory: n/a
        Current Mode: 2048 x 1152 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
-      Monitor Model: DELL SP2309W
-         Monitor Id: DELD01C
-        Native Mode: 2048 x 1152(p) (59.909Hz)
-        Output Type: DVI
-        Driver Name: aticfx64.dll,aticfx64.dll,aticfx64.dll,aticfx32,aticfx32,aticfx32,atiumd64.dll,atidxx64.dll,atidxx64.dll,atiumdag,atidxx32,atidxx32,atiumdva,atiumd6a.cap,atitmm64.dll
-Driver File Version: 8.17.0010.1299 (English)
-     Driver Version: 14.200.1004.0
-        DDI Version: 11
+      Monitor Model: 
+         Monitor Id: 
+        Native Mode: 
+        Output Type: 
+        Driver Name: 
+Driver File Version:  ()
+     Driver Version: 
+        DDI Version: 
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 6/21/2014 01:26:08, 1329376 bytes
+   Driver Date/Size: , 0 bytes
         WHQL Logo'd: n/a
     WHQL Date Stamp: n/a
-  Device Identifier: {D7B71EE2-2553-11CF-E871-69C2BEC2C535}
-          Vendor ID: 0x1002
-          Device ID: 0x6613
-          SubSys ID: 0xE263174B
-        Revision ID: 0x0000
+  Device Identifier: 
+          Vendor ID: 
+          Device ID: 
+          SubSys ID: 
+        Revision ID: 
  Driver Strong Name: oem28.inf:ATI.Mfg.NTamd64.6.1:ati2mtag_R501:14.200.1004.0:pci\ven_1002&dev_6613
      Rank Of Driver: 00E62001
-        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
-   Deinterlace Caps: {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
-                     {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {3C5323C1-6FB7-44F5-9081-056BF2EE449D}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {552C0DAD-CCBC-420B-83C8-74943CF9F1A6}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
-       D3D9 Overlay: Not Supported
-            DXVA-HD: Not Supported
-       DDraw Status: Enabled
-         D3D Status: Enabled
-         AGP Status: Enabled
+        Video Accel: 
+      Deinterlace Caps: n/a
+       D3D9 Overlay: 
+            DXVA-HD: 
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
 
 -------------
 Sound Devices
@@ -292,51 +258,11 @@ Sound Capture Devices
 -------------------
 DirectInput Devices
 -------------------
-      Device Name: Mouse
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: Keyboard
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x00D4
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x00D4
-        FF Driver: n/a
-
-      Device Name: USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x0A81, 0x0101
-        FF Driver: n/a
-
-      Device Name: USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x0A81, 0x0101
-        FF Driver: n/a
-
 Poll w/ Interrupt: No
 
 -----------
 USB Devices
 -----------
-+ USB Root Hub
-| Vendor/Product ID: 0x8086, 0x3A38
-| Matching Device ID: usb\root_hub
-| Service: usbhub
 
 ----------------
 Gameport Devices
@@ -345,36 +271,6 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ HID Keyboard Device
-| Vendor/Product ID: 0x0A81, 0x0101
-| Matching Device ID: hid_device_system_keyboard
-| Service: kbdhid
-| 
-+ HID Keyboard Device
-| Vendor/Product ID: 0x1D57, 0x0006
-| Matching Device ID: hid_device_system_keyboard
-| Service: kbdhid
-| 
-+ Terminal Server Keyboard Driver
-| Matching Device ID: root\rdp_kbd
-| Upper Filters: kbdclass
-| Service: TermDD
-| 
-+ Wacom Router Mouse
-| Vendor/Product ID: 0x056A, 0x00D4
-| Matching Device ID: hid\vid_056a&pid_00d4&col01
-| Upper Filters: wacomrouterfilter
-| Service: mouhid
-| 
-+ HID-compliant mouse
-| Vendor/Product ID: 0x1D57, 0x0006
-| Matching Device ID: hid_device_system_mouse
-| Service: mouhid
-| 
-+ Terminal Server Mouse Driver
-| Matching Device ID: root\rdp_mou
-| Upper Filters: mouclass
-| Service: TermDD
 
 ------------------
 DirectShow Filters
