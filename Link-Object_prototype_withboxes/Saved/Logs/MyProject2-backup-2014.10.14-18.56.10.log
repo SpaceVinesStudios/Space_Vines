@@ -1,0 +1,1235 @@
+Log file open, 10/14/14 18:41:48
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: E:/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.14-22.41.48:183][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.14-22.41.48:208][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.14-22.41.48:212][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.14-22.41.48:216][  0]LogInit: Object subsystem initialized
+[2014.10.14-22.41.48:217][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.14-22.41.48:217][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.14-22.41.48:220][  0]LogInit: Computer: DUB-PC
+[2014.10.14-22.41.48:220][  0]LogInit: User: dub
+[2014.10.14-22.41.48:221][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.14-22.41.48:221][  0]LogInit: High frequency timer resolution =3.417965 MHz
+[2014.10.14-22.41.48:221][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.10.14-22.41.48:221][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.14-22.41.48:221][  0]LogMemory: Process Physical Memory: 53.13 MB used, 53.13 MB peak
+[2014.10.14-22.41.48:221][  0]LogMemory: Process Virtual Memory: 29.59 MB used, 29.59 MB peak
+[2014.10.14-22.41.48:221][  0]LogMemory: Physical Memory: 4511.72 MB used, 8135.93 MB total
+[2014.10.14-22.41.48:221][  0]LogMemory: Virtual Memory: 246.48 MB used, 134217728.00 MB total
+[2014.10.14-22.41.48:256][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670 (Feature Level 11_0)
+[2014.10.14-22.41.48:256][  0]LogD3D11RHI: Adapter has 4011MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
+[2014.10.14-22.41.48:257][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.14-22.41.48:257][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.14-22.41.48:257][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.14-22.41.48:260][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.14-22.41.48:267][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.14-22.41.48:504][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.14-22.41.49:000][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.14-22.41.49:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.14-22.41.49:068][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.14-22.41.49:098][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/dub/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.14-22.41.49:098][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dub/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.10.14-22.41.49:098][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/dub/Desktop/Space_Vines_Local/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.14-22.41.49:098][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.14-22.41.49:105][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.14-22.41.49:117][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dub/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.10.14-22.41.49:211][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.14-22.41.49:211][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.14-22.41.49:412][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.14-22.41.49:610][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.10.14-22.41.49:610][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.10.14-22.41.49:612][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.10.14-22.41.49:612][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.10.14-22.41.49:781][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.14-22.41.49:849][  0]SourceControl: Info Source control is disabled
+[2014.10.14-22.41.49:849][  0]SourceControl: Info Source control is disabled
+[2014.10.14-22.41.49:852][  0]SourceControl: Info Source control is disabled
+[2014.10.14-22.41.49:897][  0]BlueprintLog: New page: Editor Load
+[2014.10.14-22.41.49:916][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.10.14-22.41.49:916][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
+[2014.10.14-22.41.50:067][  0]LogEngine: Initializing Engine...
+[2014.10.14-22.41.50:124][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2014.10.14-22.41.50:132][  0]LogInit: FAudioDevice initialized.
+[2014.10.14-22.41.50:149][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/dub/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.14-22.41.50:151][  0]LogInit: Texture streaming: Enabled
+[2014.10.14-22.41.50:166][  0]LogInit: Transaction tracking system initialized
+[2014.10.14-22.41.50:223][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2014.10.14-22.41.50:298][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.14-22.41.50:300][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.14-22.41.50:323][  0]LogConsoleResponse:Display: 
+[2014.10.14-22.41.50:433][  0]SourceControl: Info Source control is disabled
+[2014.10.14-22.41.50:433][  0]Cmd: MAP LOAD FILE="C:/Users/dub/Desktop/Space_Vines_Local/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.10.14-22.41.50:433][  0]LightingResults: New page: Lighting Build
+[2014.10.14-22.41.50:437][  0]MapCheck: New page: Map Check
+[2014.10.14-22.41.50:437][  0]LightingResults: New page: Lighting Build
+[2014.10.14-22.41.50:445][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000175F21D580
+[2014.10.14-22.41.50:607][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.41.50:618][  0]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.10.14-22.41.50:624][  0]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.41.50:639][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.14-22.41.50:640][  0]Cmd: MAP CHECKDEP
+[2014.10.14-22.41.50:640][  0]MapCheck: New page: Two - Oct 14, 2014, 2:41:50 PM
+[2014.10.14-22.41.50:667][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [27.552ms] ==========
+[2014.10.14-22.41.50:668][  0]LogFileHelpers: Loading map 'Two' took 0.235
+[2014.10.14-22.41.50:739][  0]LogCollectionManager: Loaded 0 collections in 0.000987 seconds
+[2014.10.14-22.41.50:821][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.14-22.41.50:822][  0]Cmd: MODE PLACEMENT
+[2014.10.14-22.41.50:858][  0]LogLoad: Full Startup: 3.07 seconds (BP compile: 0.03 seconds)
+[2014.10.14-22.41.50:874][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2014.10.14-22.41.50:924][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.14-22.41.50:990][  0]LogRenderer:Warning: Reallocating scene render targets to support 1072x912.
+[2014.10.14-22.41.51:114][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D486FDD9E0F8CBF0</RequestId><HostId>D14wi029mBLvzCr3tQsTVPcdH6lpZzhHscImLbWAOb/ws8cE1EZZlMOTBD+vZJr4</HostId></Error>
+[2014.10.14-22.41.51:174][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7BE67CABCD34FABE</RequestId><HostId>pGonSzvwIXzhWIQ8ZBAE/mua7gkJXmmAnazygMdDT8BEW3taiiNxzKSsBECGzyOd</HostId></Error>
+[2014.10.14-22.41.51:218][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>826D0C8536B71086</RequestId><HostId>98GqMCKqmv9cRWdq61fQ5A/pucIrcehcO8Nlx8xEBGlPSSPJJS85mc2Qla9hV9yu</HostId></Error>
+[2014.10.14-22.41.51:248][  8]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7119E787F547FF01</RequestId><HostId>CMxS4x6Ox/t6KvxFBX8NZA4uCpDm7aNgeu7EQzol+3q1+1ACotPS53Pt2ddw0et3</HostId></Error>
+[2014.10.14-22.41.51:327][ 15]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.14-22.41.51:328][ 15]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.14-22.41.51:589][ 36]LogAssetRegistry: Asset discovery search completed in 1.3774 seconds
+[2014.10.14-22.42.00:604][736]Cmd: MAP LOAD FILE="C:/Users/dub/Desktop/Space_Vines_Local/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.10.14-22.42.00:604][736]LightingResults: New page: Lighting Build
+[2014.10.14-22.42.00:604][736]Cmd: MODE PLACEMENT
+[2014.10.14-22.42.00:615][736]LoadErrors: New page: Loading map: Three.umap
+[2014.10.14-22.42.00:616][736]MapCheck: New page: Map Check
+[2014.10.14-22.42.00:616][736]LightingResults: New page: Lighting Build
+[2014.10.14-22.42.00:635][736]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000175A37F560
+[2014.10.14-22.42.00:741][736]LoadErrors:Error: Error Failed import: Texture2D /Game/Textures/T_Rock_08_D.T_Rock_08_D  in /Game/Props/Materials/M_Rock
+[2014.10.14-22.42.00:742][736]LoadErrors:Error: Error Failed import: Texture2D /Game/Textures/T_Rock_08_N.T_Rock_08_N  in /Game/Props/Materials/M_Rock
+[2014.10.14-22.42.00:870][736]LogTexture:Display: Building textures: galaxy_texture (AutoDXT)
+[2014.10.14-22.42.00:877][736]LogMaterial: Missing cached shader map for material galactic, compiling.
+[2014.10.14-22.42.00:963][736]LogMaterial: Missing cached shader map for material M_Rock, compiling.
+[2014.10.14-22.42.00:964][736]LogMaterial:Warning: Failed to compile Material /Game/Props/Materials/M_Rock.M_Rock for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.14-22.42.00:964][736]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.14-22.42.00:964][736]LogMaterial:Warning: 	Function BlendAngleCorrectedNormals: (Node TextureSample) TextureSample> Missing input texture
+[2014.10.14-22.42.01:100][736]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.10.14-22.42.01:104][736]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.10.14-22.42.01:110][736]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.10.14-22.42.01:125][736]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2014.10.14-22.42.01:158][736]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.10.14-22.42.01:160][736]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.10.14-22.42.01:163][736]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2014.10.14-22.42.01:167][736]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.10.14-22.42.01:174][736]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.10.14-22.42.01:181][736]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2014.10.14-22.42.01:190][736]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.10.14-22.42.01:193][736]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.10.14-22.42.01:197][736]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.10.14-22.42.01:202][736]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.10.14-22.42.01:205][736]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2014.10.14-22.42.01:210][736]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2014.10.14-22.42.01:226][736]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.10.14-22.42.01:229][736]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.10.14-22.42.01:240][736]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.10.14-22.42.01:248][736]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.10.14-22.42.01:254][736]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.10.14-22.42.01:258][736]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2014.10.14-22.42.01:271][736]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2014.10.14-22.42.01:277][736]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2014.10.14-22.42.01:289][736]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2014.10.14-22.42.01:316][736]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2014.10.14-22.42.01:328][736]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2014.10.14-22.42.01:342][736]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2014.10.14-22.42.01:344][736]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.10.14-22.42.01:348][736]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2014.10.14-22.42.01:357][736]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2014.10.14-22.42.01:359][736]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2014.10.14-22.42.01:367][736]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2014.10.14-22.42.01:375][736]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2014.10.14-22.42.01:389][736]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2014.10.14-22.42.01:402][736]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2014.10.14-22.42.01:415][736]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2014.10.14-22.42.01:429][736]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2014.10.14-22.42.01:438][736]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2014.10.14-22.42.01:442][736]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2014.10.14-22.42.01:446][736]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.10.14-22.42.01:473][736]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2014.10.14-22.42.01:479][736]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2014.10.14-22.42.01:494][736]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.10.14-22.42.01:525][736]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2014.10.14-22.42.01:538][736]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2014.10.14-22.42.01:551][736]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2014.10.14-22.42.01:565][736]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2014.10.14-22.42.01:576][736]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2014.10.14-22.42.01:581][736]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2014.10.14-22.42.01:586][736]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2014.10.14-22.42.01:591][736]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.10.14-22.42.01:608][736]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2014.10.14-22.42.01:621][736]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2014.10.14-22.42.01:634][736]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2014.10.14-22.42.01:636][736]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2014.10.14-22.42.01:646][736]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2014.10.14-22.42.01:648][736]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2014.10.14-22.42.01:663][736]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2014.10.14-22.42.01:672][736]LogTexture:Display: Building textures: HQ_Lightmap0_67 (AutoDXT)
+[2014.10.14-22.42.01:686][736]LogTexture:Display: Building textures: HQ_Lightmap0_68 (AutoDXT)
+[2014.10.14-22.42.01:698][736]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.10.14-22.42.01:711][736]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
+[2014.10.14-22.42.01:731][736]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
+[2014.10.14-22.42.01:764][736]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.10.14-22.42.01:773][736]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.10.14-22.42.01:781][736]LogTexture:Display: Building textures: HQ_Lightmap1_69 (AutoDXT)
+[2014.10.14-22.42.01:786][736]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.10.14-22.42.01:790][736]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.10.14-22.42.01:794][736]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.10.14-22.42.01:805][736]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.10.14-22.42.01:830][736]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2014.10.14-22.42.01:832][736]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.10.14-22.42.01:835][736]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2014.10.14-22.42.01:838][736]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2014.10.14-22.42.01:841][736]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.10.14-22.42.01:846][736]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.10.14-22.42.01:850][736]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.10.14-22.42.01:852][736]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.10.14-22.42.01:856][736]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.10.14-22.42.01:860][736]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.10.14-22.42.01:861][736]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2014.10.14-22.42.01:863][736]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.10.14-22.42.01:870][736]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.10.14-22.42.01:874][736]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.10.14-22.42.01:880][736]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.10.14-22.42.01:884][736]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.10.14-22.42.01:887][736]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.10.14-22.42.01:890][736]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2014.10.14-22.42.01:898][736]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2014.10.14-22.42.01:901][736]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2014.10.14-22.42.01:907][736]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2014.10.14-22.42.01:923][736]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2014.10.14-22.42.01:931][736]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2014.10.14-22.42.01:939][736]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2014.10.14-22.42.01:940][736]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.10.14-22.42.01:944][736]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2014.10.14-22.42.01:948][736]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2014.10.14-22.42.01:949][736]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2014.10.14-22.42.01:953][736]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2014.10.14-22.42.01:959][736]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2014.10.14-22.42.01:967][736]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2014.10.14-22.42.01:976][736]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2014.10.14-22.42.01:984][736]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2014.10.14-22.42.01:991][736]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2014.10.14-22.42.01:996][736]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2014.10.14-22.42.02:000][736]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2014.10.14-22.42.02:002][736]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.10.14-22.42.02:015][736]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2014.10.14-22.42.02:018][736]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2014.10.14-22.42.02:025][736]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.10.14-22.42.02:045][736]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2014.10.14-22.42.02:054][736]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2014.10.14-22.42.02:062][736]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2014.10.14-22.42.02:069][736]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2014.10.14-22.42.02:073][736]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2014.10.14-22.42.02:074][736]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2014.10.14-22.42.02:077][736]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2014.10.14-22.42.02:080][736]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.10.14-22.42.02:090][736]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2014.10.14-22.42.02:097][736]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2014.10.14-22.42.02:106][736]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2014.10.14-22.42.02:109][736]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2014.10.14-22.42.02:112][736]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2014.10.14-22.42.02:113][736]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2014.10.14-22.42.02:122][736]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2014.10.14-22.42.02:126][736]LogTexture:Display: Building textures: LQ_Lightmap_0_67 (DXT1)
+[2014.10.14-22.42.02:137][736]LogTexture:Display: Building textures: LQ_Lightmap_0_68 (DXT1)
+[2014.10.14-22.42.02:143][736]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.10.14-22.42.02:149][736]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
+[2014.10.14-22.42.02:160][736]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
+[2014.10.14-22.42.02:176][736]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.10.14-22.42.02:180][736]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.10.14-22.42.02:183][736]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2014.10.14-22.42.02:214][736]LogMaterial:Warning: Material /Game/Materials/Objects/Material_Bench_1_M1.Material_Bench_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:237][736]LogMaterial: Missing cached shader map for material Material_Bench_1_M1, compiling.
+[2014.10.14-22.42.02:239][736]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:239][736]LogMaterial:Warning: Material /Game/Materials/Objects/Material_PowerStatue_1_M1.Material_PowerStatue_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:240][736]LogMaterial: Missing cached shader map for material Material_PowerStatue_1_M1, compiling.
+[2014.10.14-22.42.02:242][736]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:242][736]LogMaterial:Warning: Material /Game/Materials/Objects/Material_LightStatue_1_M1.Material_LightStatue_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:243][736]LogMaterial: Missing cached shader map for material Material_LightStatue_1_M1, compiling.
+[2014.10.14-22.42.02:244][736]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:244][736]LogMaterial:Warning: Material /Game/Materials/Objects/Material_LightStatue_1_M3.Material_LightStatue_1_M3 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:246][736]LogMaterial: Missing cached shader map for material Material_LightStatue_1_M3, compiling.
+[2014.10.14-22.42.02:250][736]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:250][736]LogMaterial:Warning: Material /Game/Materials/Objects/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:252][736]LogMaterial: Missing cached shader map for material lambert1, compiling.
+[2014.10.14-22.42.02:253][736]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:253][736]LogMaterial:Warning: Material /Game/Materials/Objects/blinn1.blinn1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:254][736]LogMaterial: Missing cached shader map for material blinn1, compiling.
+[2014.10.14-22.42.02:256][736]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:256][736]LogMaterial:Warning: Material /Game/Materials/Objects/blinn2.blinn2 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:257][736]LogMaterial: Missing cached shader map for material blinn2, compiling.
+[2014.10.14-22.42.02:258][736]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:259][736]LogMaterial:Warning: Material /Game/Materials/Environment/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:260][736]LogMaterial: Missing cached shader map for material lambert1, compiling.
+[2014.10.14-22.42.02:262][736]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:268][736]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Asteroid_1_M1.Material_Asteroid_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.10.14-22.42.02:270][736]LogMaterial: Missing cached shader map for material Material_Asteroid_1_M1, compiling.
+[2014.10.14-22.42.02:272][736]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.14-22.42.02:290][736]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.14-22.42.02:308][736]Cmd: MAP CHECKDEP
+[2014.10.14-22.42.02:309][736]MapCheck: New page: Three - Oct 14, 2014, 2:42:02 PM
+[2014.10.14-22.42.02:354][736]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [45.833ms] ==========
+[2014.10.14-22.42.02:354][736]LogFileHelpers: Loading map 'Three' took 1.751
+[2014.10.14-22.42.02:529][737]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.14-22.42.02:529][737]Cmd: UpdateLandscapeEditorData
+[2014.10.14-22.42.29:316][680]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.14-22.42.29:316][680]LogPlayLevel: [PIE] Compiling Three before PIE...
+[2014.10.14-22.42.29:391][680]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2014.10.14-22.42.29:391][680]PIE: New page: PIE session: Three (Oct 14, 2014, 2:42:29 PM)
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:449][680]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.14-22.42.29:470][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078794s)
+[2014.10.14-22.42.29:470][680]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2014.10.14-22.42.29:470][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/Three.Three to /Game/Maps/GameLevels/UEDPIE_0_Three.Three (0.079447s)
+[2014.10.14-22.42.29:623][680]LogWorld: Game class is 'MyGame_C'
+[2014.10.14-22.42.29:682][680]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_Three.Three up for play (max tick rate 0) at 2014.10.14-18.42.29
+[2014.10.14-22.42.29:689][680]LogWorld: Bringing up level for play took: 0.018885
+[2014.10.14-22.42.29:690][680]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.10.14-22.42.29:690][680]LogGameMode: RestartPlayer 256
+[2014.10.14-22.42.29:691][680]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.10.14-22.42.29:691][680]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.10.14-22.42.29:695][680]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_Three 0.635
+[2014.10.14-22.42.44:073][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000175A4FF240
+[2014.10.14-22.42.52:385][351]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2014.10.14-22.43.05:114][871]MapCheck: New page: Map Check
+[2014.10.14-22.43.05:150][871]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.14-22.43.05:150][871]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.14-22.43.06:573][871]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.14-22.43.06:945][871]LogEditorServer: Cleared 20 NULL BSP materials after rebuild.
+[2014.10.14-22.43.06:945][871]LightingResults: New page: Lighting Build - Oct 14, 2014, 2:43:06 PM
+[2014.10.14-22.43.11:712][871]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2014.10.14-22.43.11:741][871]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.14-22.43.11:741][871]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.14-22.43.11:741][871]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.14-22.43.11:741][871]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.14-22.43.11:741][871]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.14-22.43.11:916][871]LogEditorBuildUtils: Build time 0:00:06
+[2014.10.14-22.43.12:001][872]Cmd: UpdateLandscapeEditorData
+[2014.10.14-22.43.42:277][446]LightingResults:Error: Error Model_Jar1 Object has overlapping UVs.
+[2014.10.14-22.43.42:291][447]LightingResults: Info Model_Jar1 Lightmap UV are overlapping by 1.3 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.42:291][447]LightingResults:Error: Error Model_SexyBackgroundTemple_2 Object has overlapping UVs.
+[2014.10.14-22.43.42:291][447]LightingResults: Info Model_SexyBackgroundTemple_2 Lightmap UV are overlapping by 88.3 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.42:641][473]LightingResults:Error: Error Model_Jar1 Object has overlapping UVs.
+[2014.10.14-22.43.42:641][473]LightingResults: Info Model_Jar1 Lightmap UV are overlapping by 1.3 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.42:669][475]LightingResults:Error: Error Model_SexyBackgroundTemple_2 Object has overlapping UVs.
+[2014.10.14-22.43.42:669][475]LightingResults: Info Model_SexyBackgroundTemple_2 Lightmap UV are overlapping by 88.3 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.43:035][502]LightingResults:Error: Error Model_SexyBackgroundTemple_3 Object has overlapping UVs.
+[2014.10.14-22.43.43:035][502]LightingResults: Info Model_SexyBackgroundTemple_3 Lightmap UV are overlapping by 93.7 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.43:187][513]LightingResults:Error: Error Model_Jar1 Object has overlapping UVs.
+[2014.10.14-22.43.43:187][513]LightingResults: Info Model_Jar1 Lightmap UV are overlapping by 1.3 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.44:422][607]LightingResults:Error: Error Model_L3S3_1 Object has overlapping UVs.
+[2014.10.14-22.43.44:422][607]LightingResults: Info Model_L3S3_1 Lightmap UV are overlapping by 67.1 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.44:463][610]LightingResults:Error: Error Model_L3S1_1 Object has overlapping UVs.
+[2014.10.14-22.43.44:463][610]LightingResults: Info Model_L3S1_1 Lightmap UV are overlapping by 52.1 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.54:706][491]LightingResults:Error: Error Model_L3S2_1 Object has overlapping UVs.
+[2014.10.14-22.43.54:706][491]LightingResults: Info Model_L3S2_1 Lightmap UV are overlapping by 97.4 Please adjust content - Enable Error Coloring to visualize.
+[2014.10.14-22.43.54:761][496]Job is a success!
+[2014.10.14-22.43.56:065][497]LightingResults:Error: Error PointLight_4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.10.14-22.43.56:065][497]LightingResults:Error: Error PointLight34 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.10.14-22.43.56:312][497]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.14-22.43.56:718][497]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2014.10.14-22.43.56:734][497]LogTexture:Display: Building textures: HQ_Lightmap1_71 (AutoDXT)
+[2014.10.14-22.43.56:756][497]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2014.10.14-22.43.56:759][497]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2014.10.14-22.43.56:764][497]LogTexture:Display: Building textures: LQ_Lightmap_0_69 (DXT1)
+[2014.10.14-22.43.56:771][497]LogTexture:Display: Building textures: HQ_Lightmap0_69 (AutoDXT)
+[2014.10.14-22.43.56:782][497]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2014.10.14-22.43.56:793][497]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2014.10.14-22.43.56:808][497]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2014.10.14-22.43.56:811][497]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2014.10.14-22.43.56:816][497]LogTexture:Display: Building textures: LQ_Lightmap_1_66 (DXT1)
+[2014.10.14-22.43.56:825][497]LogTexture:Display: Building textures: HQ_Lightmap1_66 (AutoDXT)
+[2014.10.14-22.43.56:837][497]LogTexture:Display: Building textures: LQ_Lightmap_1_65 (DXT1)
+[2014.10.14-22.43.56:841][497]LogTexture:Display: Building textures: HQ_Lightmap1_65 (AutoDXT)
+[2014.10.14-22.43.56:846][497]LogTexture:Display: Building textures: LQ_Lightmap_1_64 (DXT1)
+[2014.10.14-22.43.56:851][497]LogTexture:Display: Building textures: HQ_Lightmap1_64 (AutoDXT)
+[2014.10.14-22.43.56:858][497]LogTexture:Display: Building textures: LQ_Lightmap_1_63 (DXT1)
+[2014.10.14-22.43.56:863][497]LogTexture:Display: Building textures: HQ_Lightmap1_63 (AutoDXT)
+[2014.10.14-22.43.56:870][497]LogTexture:Display: Building textures: LQ_Lightmap_1_62 (DXT1)
+[2014.10.14-22.43.56:873][497]LogTexture:Display: Building textures: HQ_Lightmap1_62 (AutoDXT)
+[2014.10.14-22.43.56:876][497]LogTexture:Display: Building textures: LQ_Lightmap_1_61 (DXT1)
+[2014.10.14-22.43.56:884][497]LogTexture:Display: Building textures: HQ_Lightmap1_61 (AutoDXT)
+[2014.10.14-22.43.56:896][497]LogTexture:Display: Building textures: LQ_Lightmap_1_60 (DXT1)
+[2014.10.14-22.43.56:905][497]LogTexture:Display: Building textures: HQ_Lightmap1_60 (AutoDXT)
+[2014.10.14-22.43.56:916][497]LogTexture:Display: Building textures: LQ_Lightmap_1_59 (DXT1)
+[2014.10.14-22.43.56:919][497]LogTexture:Display: Building textures: HQ_Lightmap1_59 (AutoDXT)
+[2014.10.14-22.43.56:921][497]LogTexture:Display: Building textures: LQ_Lightmap_1_58 (DXT1)
+[2014.10.14-22.43.56:925][497]LogTexture:Display: Building textures: HQ_Lightmap1_58 (AutoDXT)
+[2014.10.14-22.43.56:928][497]LogTexture:Display: Building textures: LQ_Lightmap_1_57 (DXT1)
+[2014.10.14-22.43.56:932][497]LogTexture:Display: Building textures: HQ_Lightmap1_57 (AutoDXT)
+[2014.10.14-22.43.56:940][497]LogTexture:Display: Building textures: LQ_Lightmap_1_56 (DXT1)
+[2014.10.14-22.43.56:945][497]LogTexture:Display: Building textures: HQ_Lightmap1_56 (AutoDXT)
+[2014.10.14-22.43.56:952][497]LogTexture:Display: Building textures: LQ_Lightmap_1_55 (DXT1)
+[2014.10.14-22.43.56:956][497]LogTexture:Display: Building textures: HQ_Lightmap1_55 (AutoDXT)
+[2014.10.14-22.43.56:962][497]LogTexture:Display: Building textures: LQ_Lightmap_1_54 (DXT1)
+[2014.10.14-22.43.56:968][497]LogTexture:Display: Building textures: HQ_Lightmap1_54 (AutoDXT)
+[2014.10.14-22.43.56:978][497]LogTexture:Display: Building textures: LQ_Lightmap_1_53 (DXT1)
+[2014.10.14-22.43.56:983][497]LogTexture:Display: Building textures: HQ_Lightmap1_53 (AutoDXT)
+[2014.10.14-22.43.56:990][497]LogTexture:Display: Building textures: LQ_Lightmap_1_52 (DXT1)
+[2014.10.14-22.43.56:995][497]LogTexture:Display: Building textures: HQ_Lightmap1_52 (AutoDXT)
+[2014.10.14-22.43.57:002][497]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2014.10.14-22.43.57:014][497]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2014.10.14-22.43.57:030][497]LogTexture:Display: Building textures: LQ_Lightmap_1_50 (DXT1)
+[2014.10.14-22.43.57:034][497]LogTexture:Display: Building textures: HQ_Lightmap1_50 (AutoDXT)
+[2014.10.14-22.43.57:040][497]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
+[2014.10.14-22.43.57:050][497]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
+[2014.10.14-22.43.57:061][497]LogTexture:Display: Building textures: LQ_Lightmap_1_48 (DXT1)
+[2014.10.14-22.43.57:063][497]LogTexture:Display: Building textures: HQ_Lightmap1_48 (AutoDXT)
+[2014.10.14-22.43.57:064][497]LogTexture:Display: Building textures: LQ_Lightmap_1_47 (DXT1)
+[2014.10.14-22.43.57:070][497]LogTexture:Display: Building textures: HQ_Lightmap1_47 (AutoDXT)
+[2014.10.14-22.43.57:074][497]LogTexture:Display: Building textures: LQ_Lightmap_1_46 (DXT1)
+[2014.10.14-22.43.57:078][497]LogTexture:Display: Building textures: HQ_Lightmap1_46 (AutoDXT)
+[2014.10.14-22.43.57:082][497]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2014.10.14-22.43.57:084][497]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2014.10.14-22.43.57:086][497]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2014.10.14-22.43.57:093][497]LogTexture:Display: Building textures: HQ_Lightmap1_44 (AutoDXT)
+[2014.10.14-22.43.57:101][497]LogTexture:Display: Building textures: LQ_Lightmap_1_43 (DXT1)
+[2014.10.14-22.43.57:110][497]LogTexture:Display: Building textures: HQ_Lightmap1_43 (AutoDXT)
+[2014.10.14-22.43.57:120][497]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2014.10.14-22.43.57:141][497]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2014.10.14-22.43.57:165][497]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2014.10.14-22.43.57:174][497]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2014.10.14-22.43.57:186][497]LogTexture:Display: Building textures: LQ_Lightmap_1_40 (DXT1)
+[2014.10.14-22.43.57:188][497]LogTexture:Display: Building textures: HQ_Lightmap1_40 (AutoDXT)
+[2014.10.14-22.43.57:190][497]LogTexture:Display: Building textures: LQ_Lightmap_1_39 (DXT1)
+[2014.10.14-22.43.57:194][497]LogTexture:Display: Building textures: HQ_Lightmap1_39 (AutoDXT)
+[2014.10.14-22.43.57:197][497]LogTexture:Display: Building textures: LQ_Lightmap_1_38 (DXT1)
+[2014.10.14-22.43.57:201][497]LogTexture:Display: Building textures: HQ_Lightmap1_38 (AutoDXT)
+[2014.10.14-22.43.57:205][497]LogTexture:Display: Building textures: LQ_Lightmap_1_37 (DXT1)
+[2014.10.14-22.43.57:208][497]LogTexture:Display: Building textures: HQ_Lightmap1_37 (AutoDXT)
+[2014.10.14-22.43.57:215][497]LogTexture:Display: Building textures: LQ_Lightmap_1_36 (DXT1)
+[2014.10.14-22.43.57:218][497]LogTexture:Display: Building textures: HQ_Lightmap1_36 (AutoDXT)
+[2014.10.14-22.43.57:222][497]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2014.10.14-22.43.57:232][497]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2014.10.14-22.43.57:243][497]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2014.10.14-22.43.57:248][497]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2014.10.14-22.43.57:254][497]LogTexture:Display: Building textures: LQ_Lightmap_1_33 (DXT1)
+[2014.10.14-22.43.57:257][497]LogTexture:Display: Building textures: HQ_Lightmap1_33 (AutoDXT)
+[2014.10.14-22.43.57:262][497]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2014.10.14-22.43.57:265][497]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2014.10.14-22.43.57:271][497]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2014.10.14-22.43.57:274][497]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT)
+[2014.10.14-22.43.57:277][497]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2014.10.14-22.43.57:280][497]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT)
+[2014.10.14-22.43.57:282][497]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2014.10.14-22.43.57:284][497]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2014.10.14-22.43.57:286][497]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2014.10.14-22.43.57:292][497]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2014.10.14-22.43.57:300][497]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2014.10.14-22.43.57:307][497]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2014.10.14-22.43.57:317][497]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2014.10.14-22.43.57:326][497]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2014.10.14-22.43.57:338][497]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2014.10.14-22.43.57:341][497]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2014.10.14-22.43.57:344][497]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2014.10.14-22.43.57:351][497]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2014.10.14-22.43.57:363][497]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2014.10.14-22.43.57:368][497]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2014.10.14-22.43.57:375][497]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2014.10.14-22.43.57:379][497]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2014.10.14-22.43.57:382][497]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2014.10.14-22.43.57:386][497]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2014.10.14-22.43.57:389][497]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2014.10.14-22.43.57:393][497]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2014.10.14-22.43.57:397][497]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2014.10.14-22.43.57:399][497]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2014.10.14-22.43.57:401][497]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2014.10.14-22.43.57:404][497]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2014.10.14-22.43.57:407][497]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.10.14-22.43.57:410][497]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.10.14-22.43.57:414][497]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.10.14-22.43.57:417][497]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.10.14-22.43.57:421][497]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2014.10.14-22.43.57:428][497]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2014.10.14-22.43.57:439][497]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.10.14-22.43.57:458][497]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.10.14-22.43.57:483][497]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.10.14-22.43.57:493][497]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.10.14-22.43.57:506][497]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.10.14-22.43.57:516][497]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.10.14-22.43.57:527][497]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2014.10.14-22.43.57:534][497]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2014.10.14-22.43.57:545][497]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2014.10.14-22.43.57:552][497]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2014.10.14-22.43.57:563][497]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.10.14-22.43.57:581][497]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.10.14-22.43.57:606][497]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.10.14-22.43.57:611][497]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.10.14-22.43.57:619][497]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.10.14-22.43.57:629][497]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.10.14-22.43.57:640][497]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.10.14-22.43.57:642][497]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.10.14-22.43.57:646][497]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.10.14-22.43.57:655][497]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.10.14-22.43.57:666][497]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.10.14-22.43.57:682][497]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.10.14-22.43.57:701][497]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.10.14-22.43.57:824][497]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.10.14-22.43.58:149][497]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.10.14-22.43.58:291][497]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.10.14-22.43.58:685][497]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.14-22.43.59:240][497]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.10.14-22.43.59:490][497]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.10.14-22.43.59:514][497]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.10.14-22.43.59:517][497]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.10.14-22.43.59:520][497]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.10.14-22.43.59:522][497]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.10.14-22.43.59:525][497]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.10.14-22.43.59:531][497]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.10.14-22.43.59:535][497]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.10.14-22.43.59:538][497]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.10.14-22.43.59:542][497]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.10.14-22.43.59:545][497]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.10.14-22.43.59:552][497]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.10.14-22.43.59:556][497]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.10.14-22.43.59:559][497]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.10.14-22.43.59:561][497]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.10.14-22.43.59:564][497]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.10.14-22.43.59:567][497]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.10.14-22.43.59:569][497]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.10.14-22.43.59:572][497]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2014.10.14-22.43.59:576][497]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2014.10.14-22.43.59:578][497]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2014.10.14-22.43.59:581][497]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2014.10.14-22.43.59:584][497]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2014.10.14-22.43.59:587][497]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2014.10.14-22.43.59:590][497]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2014.10.14-22.43.59:593][497]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2014.10.14-22.43.59:596][497]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2014.10.14-22.43.59:599][497]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2014.10.14-22.43.59:602][497]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2014.10.14-22.43.59:604][497]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2014.10.14-22.43.59:607][497]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2014.10.14-22.43.59:610][497]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2014.10.14-22.43.59:613][497]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2014.10.14-22.43.59:616][497]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2014.10.14-22.43.59:619][497]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2014.10.14-22.43.59:622][497]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2014.10.14-22.43.59:625][497]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2014.10.14-22.43.59:628][497]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2014.10.14-22.43.59:630][497]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2014.10.14-22.43.59:638][497]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2014.10.14-22.43.59:642][497]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2014.10.14-22.43.59:645][497]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2014.10.14-22.43.59:647][497]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2014.10.14-22.43.59:650][497]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2014.10.14-22.43.59:653][497]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2014.10.14-22.43.59:656][497]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2014.10.14-22.43.59:658][497]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2014.10.14-22.43.59:661][497]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2014.10.14-22.43.59:664][497]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2014.10.14-22.43.59:667][497]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2014.10.14-22.43.59:670][497]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2014.10.14-22.43.59:678][497]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2014.10.14-22.43.59:680][497]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2014.10.14-22.43.59:683][497]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2014.10.14-22.43.59:686][497]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2014.10.14-22.43.59:689][497]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2014.10.14-22.43.59:692][497]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2014.10.14-22.43.59:695][497]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2014.10.14-22.43.59:697][497]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2014.10.14-22.43.59:701][497]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2014.10.14-22.43.59:704][497]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2014.10.14-22.43.59:707][497]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2014.10.14-22.43.59:710][497]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2014.10.14-22.43.59:713][497]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2014.10.14-22.43.59:715][497]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2014.10.14-22.43.59:721][497]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8)
+[2014.10.14-22.43.59:724][497]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (BGRA8)
+[2014.10.14-22.43.59:726][497]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (BGRA8)
+[2014.10.14-22.43.59:733][497]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (BGRA8)
+[2014.10.14-22.43.59:753][497]Lightmass on DUB-PC: 46.8 sec total, 986 ms importing, 81 ms setup, 2.44 sec photons, 43.2 sec processing, 0 ms extra exporting [2067/2067 mappings]. Threads: 6:29 min total, 4:07 min processing.
+[2014.10.14-22.43.59:858][497]LogStaticLightingSystem:Warning: Illumination: 52.8 sec (3.66 sec encoding lightmaps)
+[2014.10.14-22.43.59:858][497]LogStaticLightingSystem: Lightmap texture memory:  5.8 MB (1.8 MB streaming, 4.0 MB non-streaming), 142 textures
+[2014.10.14-22.43.59:858][497]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 70 textures
+[2014.10.14-22.44.00:760][498]Cmd: UpdateLandscapeEditorData
+[2014.10.14-22.44.00:760][498]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.14-22.44.00:760][498]MapCheck: New page: Three - Oct 14, 2014, 2:44:00 PM
+[2014.10.14-22.44.00:874][498]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [112.738ms] ==========
+[2014.10.14-22.44.09:429][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_PowerStatue_3)
+[2014.10.14-22.44.10:550][538]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight36)
+[2014.10.14-22.52.19:744][699]LogSavePackage: Save=1018.723145ms
+[2014.10.14-22.52.19:744][699]LogSavePackage: Moving 'C:/Users/dub/Desktop/Space_Vines_Local/Space_Vines/Link-Object_prototype_withboxes/Saved/Three_Auto19C18D1A9445FFBFDB41945AC219F6DBE.tmp' to 'C:/Users/dub/Desktop/Space_Vines_Local/Space_Vines/Link-Object_prototype_withboxes/Saved/Autosaves/Game/Maps/GameLevels/Three_Auto1.umap'
+[2014.10.14-22.52.19:751][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameLevels/Three' took 1.100
+[2014.10.14-22.52.19:751][699]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.100
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:533][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:534][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:535][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:536][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:537][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:538][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:539][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:540][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:541][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:542][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:543][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:544][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:545][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:546][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:546][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:546][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:546][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.19:546][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_CallFunction_3432 or K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EdGraph_59.K2Node_CallFunction_3432
+[2014.10.14-22.55.19:546][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3432.EdGraphPin_2964"''
+[2014.10.14-22.55.19:546][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_CallFunction_3432 or K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EdGraph_59.K2Node_CallFunction_3432
+[2014.10.14-22.55.19:546][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3432.EdGraphPin_2962"''
+[2014.10.14-22.55.19:546][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:546][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:546][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_90')'
+[2014.10.14-22.55.19:562][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_CallFunction_3520 or K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EdGraph_59.K2Node_CallFunction_3520
+[2014.10.14-22.55.19:562][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3520.EdGraphPin_2980"''
+[2014.10.14-22.55.19:562][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_CallFunction_3520 or K2Node_CallFunction /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EdGraph_59.K2Node_CallFunction_3520
+[2014.10.14-22.55.19:562][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3520.EdGraphPin_2981"''
+[2014.10.14-22.55.19:563][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_28.EdGraphPin_2986"''
+[2014.10.14-22.55.19:563][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:563][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:563][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_89')'
+[2014.10.14-22.55.19:579][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.TriggerPz1''
+[2014.10.14-22.55.19:580][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_46.EdGraphPin_2950"''
+[2014.10.14-22.55.19:580][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:580][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:580][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_88')'
+[2014.10.14-22.55.19:596][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.TriggerPz1''
+[2014.10.14-22.55.19:597][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputKey_9809.EdGraphPin_3064"''
+[2014.10.14-22.55.19:597][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32193.EdGraphPin_2998"''
+[2014.10.14-22.55.19:597][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_InputKey_9809.EdGraphPin_3065"''
+[2014.10.14-22.55.19:597][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32386.EdGraphPin_3010"''
+[2014.10.14-22.55.19:598][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_37348.EdGraphPin_3025"''
+[2014.10.14-22.55.19:598][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_37873.EdGraphPin_3316"''
+[2014.10.14-22.55.19:598][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_37348.EdGraphPin_3025"''
+[2014.10.14-22.55.19:598][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_37873.EdGraphPin_3316"''
+[2014.10.14-22.55.19:599][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3075.EdGraphPin_4486"''
+[2014.10.14-22.55.19:599][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17202.EdGraphPin_3676"''
+[2014.10.14-22.55.19:600][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3071.EdGraphPin_3259"''
+[2014.10.14-22.55.19:600][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17194.EdGraphPin_4021"''
+[2014.10.14-22.55.19:600][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3030.EdGraphPin_3427"''
+[2014.10.14-22.55.19:600][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_851.EdGraphPin_4342"''
+[2014.10.14-22.55.19:600][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3067.EdGraphPin_3106"''
+[2014.10.14-22.55.19:600][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17158.EdGraphPin_3094"''
+[2014.10.14-22.55.19:601][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3067.EdGraphPin_3108"''
+[2014.10.14-22.55.19:601][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:601][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17160.EdGraphPin_3199"''
+[2014.10.14-22.55.19:602][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8951.EdGraphPin_3652"''
+[2014.10.14-22.55.19:602][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3068.EdGraphPin_3118"''
+[2014.10.14-22.55.19:602][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8949.EdGraphPin_3163"''
+[2014.10.14-22.55.19:602][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17159.EdGraphPin_3187"''
+[2014.10.14-22.55.19:602][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3069.EdGraphPin_3562"''
+[2014.10.14-22.55.19:603][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8950.EdGraphPin_3598"''
+[2014.10.14-22.55.19:603][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17163.EdGraphPin_3235"''
+[2014.10.14-22.55.19:603][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3070.EdGraphPin_3574"''
+[2014.10.14-22.55.19:603][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8948.EdGraphPin_3157"''
+[2014.10.14-22.55.19:603][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17161.EdGraphPin_3211"''
+[2014.10.14-22.55.19:603][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_2000.EdGraphPin_4711"''
+[2014.10.14-22.55.19:604][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:605][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17162.EdGraphPin_3223"''
+[2014.10.14-22.55.19:605][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:606][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17164.EdGraphPin_3247"''
+[2014.10.14-22.55.19:606][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:606][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6998.EdGraphPin_4741"''
+[2014.10.14-22.55.19:607][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8955.EdGraphPin_3331"''
+[2014.10.14-22.55.19:607][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17197.EdGraphPin_3379"''
+[2014.10.14-22.55.19:607][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3072.EdGraphPin_3271"''
+[2014.10.14-22.55.19:607][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8953.EdGraphPin_3658"''
+[2014.10.14-22.55.19:607][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17193.EdGraphPin_3337"''
+[2014.10.14-22.55.19:607][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3073.EdGraphPin_3283"''
+[2014.10.14-22.55.19:608][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8954.EdGraphPin_3934"''
+[2014.10.14-22.55.19:608][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17195.EdGraphPin_4009"''
+[2014.10.14-22.55.19:608][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3074.EdGraphPin_3295"''
+[2014.10.14-22.55.19:608][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8952.EdGraphPin_3307"''
+[2014.10.14-22.55.19:608][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17199.EdGraphPin_3403"''
+[2014.10.14-22.55.19:610][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:610][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17196.EdGraphPin_3367"''
+[2014.10.14-22.55.19:610][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:610][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17198.EdGraphPin_3391"''
+[2014.10.14-22.55.19:611][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:611][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17200.EdGraphPin_3415"''
+[2014.10.14-22.55.19:611][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:611][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8899.EdGraphPin_3493"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_853.EdGraphPin_4450"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3031.EdGraphPin_3439"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8872.EdGraphPin_3481"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_826.EdGraphPin_4402"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3032.EdGraphPin_3451"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8874.EdGraphPin_3487"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_849.EdGraphPin_4033"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3029.EdGraphPin_3463"''
+[2014.10.14-22.55.19:612][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8870.EdGraphPin_3475"''
+[2014.10.14-22.55.19:613][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_764.EdGraphPin_4366"''
+[2014.10.14-22.55.19:613][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_2163.EdGraphPin_4669"''
+[2014.10.14-22.55.19:613][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:613][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_766.EdGraphPin_4390"''
+[2014.10.14-22.55.19:614][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:614][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_828.EdGraphPin_4438"''
+[2014.10.14-22.55.19:614][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:614][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_855.EdGraphPin_3586"''
+[2014.10.14-22.55.19:615][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:615][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6939.EdGraphPin_4699"''
+[2014.10.14-22.55.19:615][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8959.EdGraphPin_4627"''
+[2014.10.14-22.55.19:615][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17203.EdGraphPin_3688"''
+[2014.10.14-22.55.19:615][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3076.EdGraphPin_3604"''
+[2014.10.14-22.55.19:615][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8957.EdGraphPin_3646"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17207.EdGraphPin_3736"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3077.EdGraphPin_3616"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8958.EdGraphPin_4522"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17205.EdGraphPin_3712"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3078.EdGraphPin_3628"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_8956.EdGraphPin_3640"''
+[2014.10.14-22.55.19:616][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17201.EdGraphPin_3664"''
+[2014.10.14-22.55.19:617][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:617][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17204.EdGraphPin_3700"''
+[2014.10.14-22.55.19:617][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:617][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17206.EdGraphPin_3724"''
+[2014.10.14-22.55.19:618][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:618][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_17208.EdGraphPin_3748"''
+[2014.10.14-22.55.19:618][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1070.EdGraphPin_4573"''
+[2014.10.14-22.55.19:618][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1608.EdGraphPin_4354"''
+[2014.10.14-22.55.19:619][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:619][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:619][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_87')'
+[2014.10.14-22.55.19:634][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.XpTbPz2''
+[2014.10.14-22.55.19:635][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1525.EdGraphPin_4378"''
+[2014.10.14-22.55.19:635][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:635][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:635][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_86')'
+[2014.10.14-22.55.19:651][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.XpTbPz2''
+[2014.10.14-22.55.19:652][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1798.EdGraphPin_4414"''
+[2014.10.14-22.55.19:652][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:652][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:652][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_85')'
+[2014.10.14-22.55.19:669][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.YpTbPz2''
+[2014.10.14-22.55.19:669][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1797.EdGraphPin_4426"''
+[2014.10.14-22.55.19:669][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:669][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:669][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_84')'
+[2014.10.14-22.55.19:685][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.YpTbPz2''
+[2014.10.14-22.55.19:686][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1977.EdGraphPin_4462"''
+[2014.10.14-22.55.19:687][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:687][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:687][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_83')'
+[2014.10.14-22.55.19:702][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.YmTbPz2''
+[2014.10.14-22.55.19:703][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1976.EdGraphPin_4474"''
+[2014.10.14-22.55.19:703][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:703][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:703][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_82')'
+[2014.10.14-22.55.19:719][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.YmTbPz2''
+[2014.10.14-22.55.19:720][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2378.EdGraphPin_4498"''
+[2014.10.14-22.55.19:720][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:720][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:720][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_81')'
+[2014.10.14-22.55.19:735][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.XmTbPz2''
+[2014.10.14-22.55.19:736][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_ActorBoundEvent_634.EdGraphPin_2637"''
+[2014.10.14-22.55.19:737][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:737][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:737][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_80')'
+[2014.10.14-22.55.19:753][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.XmTbPz2''
+[2014.10.14-22.55.19:754][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6940.EdGraphPin_4688"''
+[2014.10.14-22.55.19:754][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6969.EdGraphPin_4730"''
+[2014.10.14-22.55.19:754][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1786.EdGraphPin_4585"''
+[2014.10.14-22.55.19:754][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1015.EdGraphPin_3868"''
+[2014.10.14-22.55.19:754][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_4888.EdGraphPin_4635"''
+[2014.10.14-22.55.19:755][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_85408.EdGraphPin_4663"''
+[2014.10.14-22.55.19:774][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'StaticMeshActor'/Game/Maps/GameLevels/Three.Three:PersistentLevel.MoveBoxPz2''
+[2014.10.14-22.55.19:774][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_5011.EdGraphPin_4653"''
+[2014.10.14-22.55.19:775][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_3570.EdGraphPin_4681"''
+[2014.10.14-22.55.19:775][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6940.EdGraphPin_4687"''
+[2014.10.14-22.55.19:776][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_3277.EdGraphPin_4723"''
+[2014.10.14-22.55.19:776][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6969.EdGraphPin_4729"''
+[2014.10.14-22.55.19:777][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8591.EdGraphPin_4966"''
+[2014.10.14-22.55.19:777][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:777][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:777][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_78')'
+[2014.10.14-22.55.19:778][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.RotTriggerPz2''
+[2014.10.14-22.55.19:778][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8621.EdGraphPin_4978"''
+[2014.10.14-22.55.19:778][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:778][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:779][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_77')'
+[2014.10.14-22.55.19:796][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.RotTriggerPz2''
+[2014.10.14-22.55.19:796][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8651.EdGraphPin_4990"''
+[2014.10.14-22.55.19:797][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8796.EdGraphPin_5011"''
+[2014.10.14-22.55.19:797][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_776.EdGraphPin_2606"''
+[2014.10.14-22.55.19:797][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_120712.EdGraphPin_5023"''
+[2014.10.14-22.55.19:812][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'StaticMeshActor'/Game/Maps/GameLevels/Three.Three:PersistentLevel.RotatorPz2''
+[2014.10.14-22.55.19:813][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_120712.EdGraphPin_5024"''
+[2014.10.14-22.55.19:813][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_4888.EdGraphPin_4633"''
+[2014.10.14-22.55.19:813][419]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:813][419]LogLinker: Can't find file '/Engine/Transient'
+[2014.10.14-22.55.19:813][419]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'Function'/Engine/Transient.TRASHCLASS_Three_26:Function_79')'
+[2014.10.14-22.55.19:814][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/Maps/GameLevels/Three.Three:PersistentLevel.SelectPz1Box''
+[2014.10.14-22.55.19:814][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_5011.EdGraphPin_4651"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402483.EdGraphPin_3861"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402481.EdGraphPin_3784"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6279.EdGraphPin_4248"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1982.EdGraphPin_4597"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402481.EdGraphPin_3782"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6605.EdGraphPin_4296"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_68829.EdGraphPin_4547"''
+[2014.10.14-22.55.19:815][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402482.EdGraphPin_3815"''
+[2014.10.14-22.55.19:816][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6605.EdGraphPin_4295"''
+[2014.10.14-22.55.19:816][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_5559.EdGraphPin_4954"''
+[2014.10.14-22.55.19:816][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402482.EdGraphPin_3816"''
+[2014.10.14-22.55.19:816][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6279.EdGraphPin_4246"''
+[2014.10.14-22.55.19:816][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_5858.EdGraphPin_3844"''
+[2014.10.14-22.55.19:816][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_5858.EdGraphPin_3842"''
+[2014.10.14-22.55.19:817][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402483.EdGraphPin_3860"''
+[2014.10.14-22.55.19:817][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_2836.EdGraphPin_3880"''
+[2014.10.14-22.55.19:817][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6605.EdGraphPin_4294"''
+[2014.10.14-22.55.19:817][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_IfThenElse_103 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_103
+[2014.10.14-22.55.19:817][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_103.EdGraphPin_4192"''
+[2014.10.14-22.55.19:818][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402507.EdGraphPin_3909"''
+[2014.10.14-22.55.19:818][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402509.EdGraphPin_3981"''
+[2014.10.14-22.55.19:818][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6281.EdGraphPin_4260"''
+[2014.10.14-22.55.19:818][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1984.EdGraphPin_4603"''
+[2014.10.14-22.55.19:818][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402507.EdGraphPin_3908"''
+[2014.10.14-22.55.19:818][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6606.EdGraphPin_4308"''
+[2014.10.14-22.55.19:819][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402508.EdGraphPin_5003"''
+[2014.10.14-22.55.19:819][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6606.EdGraphPin_4307"''
+[2014.10.14-22.55.19:819][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_5584.EdGraphPin_5248"''
+[2014.10.14-22.55.19:819][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402508.EdGraphPin_5004"''
+[2014.10.14-22.55.19:819][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6281.EdGraphPin_4258"''
+[2014.10.14-22.55.19:819][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_5862.EdGraphPin_3964"''
+[2014.10.14-22.55.19:820][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_5862.EdGraphPin_3962"''
+[2014.10.14-22.55.19:820][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402509.EdGraphPin_3980"''
+[2014.10.14-22.55.19:820][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402540.EdGraphPin_4071"''
+[2014.10.14-22.55.19:820][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402538.EdGraphPin_5263"''
+[2014.10.14-22.55.19:821][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6283.EdGraphPin_4272"''
+[2014.10.14-22.55.19:821][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1986.EdGraphPin_4609"''
+[2014.10.14-22.55.19:821][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6604.EdGraphPin_4332"''
+[2014.10.14-22.55.19:821][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402538.EdGraphPin_5261"''
+[2014.10.14-22.55.19:821][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402539.EdGraphPin_5447"''
+[2014.10.14-22.55.19:822][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6604.EdGraphPin_4331"''
+[2014.10.14-22.55.19:822][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_5611.EdGraphPin_4045"''
+[2014.10.14-22.55.19:822][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402539.EdGraphPin_5448"''
+[2014.10.14-22.55.19:822][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6283.EdGraphPin_4270"''
+[2014.10.14-22.55.19:822][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_403525.EdGraphPin_4237"''
+[2014.10.14-22.55.19:822][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_403525.EdGraphPin_4235"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_402540.EdGraphPin_4070"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_393712.EdGraphPin_4101"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_393714.EdGraphPin_4161"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6285.EdGraphPin_4284"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1988.EdGraphPin_4615"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_393712.EdGraphPin_4100"''
+[2014.10.14-22.55.19:823][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6607.EdGraphPin_4320"''
+[2014.10.14-22.55.19:824][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_393713.EdGraphPin_4127"''
+[2014.10.14-22.55.19:824][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6607.EdGraphPin_4319"''
+[2014.10.14-22.55.19:824][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_5390.EdGraphPin_4135"''
+[2014.10.14-22.55.19:824][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_393713.EdGraphPin_4128"''
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6285.EdGraphPin_4282"''
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_403048.EdGraphPin_4225"''
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_403048.EdGraphPin_4223"''
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_393714.EdGraphPin_4160"''
+[2014.10.14-22.55.19:825][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_IfThenElse_103 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_103
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_103.EdGraphPin_4195"''
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_2842.EdGraphPin_4210"''
+[2014.10.14-22.55.19:825][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6606.EdGraphPin_4306"''
+[2014.10.14-22.55.19:826][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_1017.EdGraphPin_4180"''
+[2014.10.14-22.55.19:826][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_2844.EdGraphPin_4216"''
+[2014.10.14-22.55.19:826][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6607.EdGraphPin_4318"''
+[2014.10.14-22.55.19:826][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_2840.EdGraphPin_4204"''
+[2014.10.14-22.55.19:826][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6604.EdGraphPin_4330"''
+[2014.10.14-22.55.19:829][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_42211.EdGraphPin_3047"''
+[2014.10.14-22.55.19:829][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.ExecuteUbergraph_Three.K2Node_IfThenElse_47 or K2Node_IfThenElse /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_IfThenElse_47
+[2014.10.14-22.55.19:829][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_47.EdGraphPin_3352"''
+[2014.10.14-22.55.19:829][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_31.EdGraphPin_2884"''
+[2014.10.14-22.55.19:829][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_IfThenElse_21 or K2Node_IfThenElse /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.ExecuteUbergraph_Three.K2Node_IfThenElse_21
+[2014.10.14-22.55.19:829][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_21.EdGraphPin_2896"''
+[2014.10.14-22.55.19:829][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_778.EdGraphPin_4561"''
+[2014.10.14-22.55.19:830][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_33.EdGraphPin_2890"''
+[2014.10.14-22.55.19:830][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunctionOnMember_38.EdGraphPin_2908"''
+[2014.10.14-22.55.19:830][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_778.EdGraphPin_4561"''
+[2014.10.14-22.55.19:830][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunctionOnMember_38.EdGraphPin_2910"''
+[2014.10.14-22.55.19:830][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunctionOnMember_80.EdGraphPin_3130"''
+[2014.10.14-22.55.19:830][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunctionOnMember_80.EdGraphPin_3132"''
+[2014.10.14-22.55.19:831][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_778.EdGraphPin_4561"''
+[2014.10.14-22.55.19:831][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_778.EdGraphPin_4563"''
+[2014.10.14-22.55.19:831][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3148.EdGraphPin_5035"''
+[2014.10.14-22.55.19:831][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_2284.EdGraphPin_4621"''
+[2014.10.14-22.55.19:831][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_68829.EdGraphPin_4550"''
+[2014.10.14-22.55.19:832][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1884.EdGraphPin_4591"''
+[2014.10.14-22.55.19:832][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EdGraph_59.K2Node_Event_31 or K2Node_Event /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_Event_31
+[2014.10.14-22.55.19:832][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Event_31.EdGraphPin_2599"''
+[2014.10.14-22.55.19:832][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8088.EdGraphPin_4841"''
+[2014.10.14-22.55.19:832][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8147.EdGraphPin_4865"''
+[2014.10.14-22.55.19:832][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3148.EdGraphPin_5038"''
+[2014.10.14-22.55.19:832][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_2546.EdGraphPin_5074"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_3632.EdGraphPin_4768"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_4146.EdGraphPin_4936"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_3148.EdGraphPin_5037"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_3931.EdGraphPin_4786"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8088.EdGraphPin_4840"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_2510.EdGraphPin_4852"''
+[2014.10.14-22.55.19:833][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_4144.EdGraphPin_4930"''
+[2014.10.14-22.55.19:834][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_21805.EdGraphPin_4799"''
+[2014.10.14-22.55.19:834][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_21806.EdGraphPin_4826"''
+[2014.10.14-22.55.19:834][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_517.EdGraphPin_4814"''
+[2014.10.14-22.55.19:834][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_21806.EdGraphPin_4828"''
+[2014.10.14-22.55.19:834][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_21806.EdGraphPin_4827"''
+[2014.10.14-22.55.19:835][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8088.EdGraphPin_4842"''
+[2014.10.14-22.55.19:835][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_5044.EdGraphPin_5029"''
+[2014.10.14-22.55.19:835][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_8147.EdGraphPin_4864"''
+[2014.10.14-22.55.19:835][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_17298.EdGraphPin_4901"''
+[2014.10.14-22.55.19:836][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_4141.EdGraphPin_4924"''
+[2014.10.14-22.55.19:836][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_16882.EdGraphPin_4883"''
+[2014.10.14-22.55.19:836][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_17298.EdGraphPin_4898"''
+[2014.10.14-22.55.19:836][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_23134.EdGraphPin_4913"''
+[2014.10.14-22.55.19:837][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_17298.EdGraphPin_4900"''
+[2014.10.14-22.55.19:837][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_23134.EdGraphPin_4915"''
+[2014.10.14-22.55.19:838][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_5249.EdGraphPin_5047"''
+[2014.10.14-22.55.19:839][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_1155.EdGraphPin_2675"''
+[2014.10.14-22.55.19:839][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193069.EdGraphPin_5060"''
+[2014.10.14-22.55.19:840][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193077.EdGraphPin_5165"''
+[2014.10.14-22.55.19:840][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193078.EdGraphPin_5177"''
+[2014.10.14-22.55.19:840][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_3269.EdGraphPin_5215"''
+[2014.10.14-22.55.19:840][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_4206.EdGraphPin_5275"''
+[2014.10.14-22.55.19:841][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193075.EdGraphPin_5143"''
+[2014.10.14-22.55.19:841][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193076.EdGraphPin_5155"''
+[2014.10.14-22.55.19:841][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_4098.EdGraphPin_5189"''
+[2014.10.14-22.55.19:841][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193079.EdGraphPin_5201"''
+[2014.10.14-22.55.19:841][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_1155.EdGraphPin_2675"''
+[2014.10.14-22.55.19:842][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193072.EdGraphPin_5105"''
+[2014.10.14-22.55.19:842][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193075.EdGraphPin_5142"''
+[2014.10.14-22.55.19:842][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193076.EdGraphPin_5154"''
+[2014.10.14-22.55.19:842][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_1156.EdGraphPin_2672"''
+[2014.10.14-22.55.19:843][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193074.EdGraphPin_5126"''
+[2014.10.14-22.55.19:843][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193075.EdGraphPin_5141"''
+[2014.10.14-22.55.19:843][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193076.EdGraphPin_5153"''
+[2014.10.14-22.55.19:844][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_4098.EdGraphPin_5191"''
+[2014.10.14-22.55.19:844][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_3269.EdGraphPin_5214"''
+[2014.10.14-22.55.19:844][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_193079.EdGraphPin_5203"''
+[2014.10.14-22.55.19:844][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_3269.EdGraphPin_5213"''
+[2014.10.14-22.55.19:846][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_4206.EdGraphPin_5277"''
+[2014.10.14-22.55.19:862][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'StaticMeshActor'/Game/Maps/GameLevels/Three.Three:PersistentLevel.RotatorPz2''
+[2014.10.14-22.55.19:862][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'StaticMeshActor'/Game/Maps/GameLevels/Three.Three:PersistentLevel.CrystalPz2''
+[2014.10.14-22.55.19:862][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_4142.EdGraphPin_5458"''
+[2014.10.14-22.55.19:863][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_949.EdGraphPin_2744"''
+[2014.10.14-22.55.19:863][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_86589.EdGraphPin_5294"''
+[2014.10.14-22.55.19:863][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_151006.EdGraphPin_5387"''
+[2014.10.14-22.55.19:863][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_151487.EdGraphPin_5399"''
+[2014.10.14-22.55.19:864][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105416.EdGraphPin_5365"''
+[2014.10.14-22.55.19:864][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105555.EdGraphPin_5377"''
+[2014.10.14-22.55.19:864][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_3230.EdGraphPin_5411"''
+[2014.10.14-22.55.19:864][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_152448.EdGraphPin_5423"''
+[2014.10.14-22.55.19:864][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_949.EdGraphPin_2744"''
+[2014.10.14-22.55.19:865][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_104499.EdGraphPin_5327"''
+[2014.10.14-22.55.19:865][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105416.EdGraphPin_5364"''
+[2014.10.14-22.55.19:865][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105555.EdGraphPin_5376"''
+[2014.10.14-22.55.19:866][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Literal_1177.EdGraphPin_2615"''
+[2014.10.14-22.55.19:866][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105139.EdGraphPin_5348"''
+[2014.10.14-22.55.19:866][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105416.EdGraphPin_5363"''
+[2014.10.14-22.55.19:867][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105555.EdGraphPin_5375"''
+[2014.10.14-22.55.19:868][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_152448.EdGraphPin_5425"''
+[2014.10.14-22.55.19:868][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_4142.EdGraphPin_5456"''
+[2014.10.14-22.55.19:868][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_3230.EdGraphPin_5413"''
+[2014.10.14-22.55.19:869][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_4142.EdGraphPin_5457"''
+[2014.10.14-22.55.19:870][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'StaticMeshActor'/Game/Maps/GameLevels/Three.Three:PersistentLevel.RotatorPz2''
+[2014.10.14-22.55.19:871][419]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'StaticMeshActor'/Game/Maps/GameLevels/Three.Three:PersistentLevel.MoveBoxPz2''
+[2014.10.14-22.55.34:643][240]LogEditorTransaction: Undo Move Nodes
+[2014.10.14-22.55.35:791][283]LogEditorTransaction: Undo Paste clipboard contents
+[2014.10.14-22.55.47:028][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.14-22.55.47:028][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ActorBoundEvent /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_ActorBoundEvent_7 or K2Node_CustomEvent /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_ActorBoundEvent_7
+[2014.10.14-22.55.47:047][242]LogWindows:Error: appError called: Objects have the same fully qualified name but different paths.
+	New Object: K2Node_ActorBoundEvent /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_ActorBoundEvent
+	Existing Object: K2Node_CustomEvent /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_ActorBoundEvent_7
+[2014.10.14-22.55.47:047][242]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.10.14-22.55.47:116][242]LogCrashTracker: 
+
+
+[2014.10.14-22.55.49:354][242]LogCrashTracker: 
+
+
+[2014.10.14-22.55.49:354][242]LogWindows: === Critical error: ===
+Unhandled Exception: 0x00000001
+
+[2014.10.14-22.55.49:354][242]LogWindows: Objects have the same fully qualified name but different paths.
+	New Object: K2Node_ActorBoundEvent /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_ActorBoundEvent
+	Existing Object: K2Node_CustomEvent /Game/Maps/GameLevels/Three.Three:PersistentLevel.Three.EventGraph.K2Node_ActorBoundEvent_7
+
+Address = 0x49725bf8 (filename not found) [in C:\WINDOWS\system32\KERNELBASE.dll]
+Address = 0x18c3c1dc (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x18aeb94a (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x33a89886 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x33a8a776 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x1536cb39 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x14dbba03 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x13774d74 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0x13774bef (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0x1371fe4d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0x137249c7 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0x15da5e4d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x15dd9344 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x13d6ddff (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-GraphEditor.dll]
+Address = 0x15dd9ce4 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x15dd01e5 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x18be0ab2 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x18bd0b81 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x18be1e9f (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x18bcdf62 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x49cb2434 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x49cb2297 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x18be2296 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x2c6b795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x2c6ad1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x2c6ad25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x2c6b9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x2c6b9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x4be616ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x4c2534a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x4c2534a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.10.14-22.55.49:363][242]LogExit: Executing StaticShutdownAfterError
+[2014.10.14-22.55.49:380][242]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.14-22.55.49:380][242]Log file closed, 10/14/14 18:55:49
