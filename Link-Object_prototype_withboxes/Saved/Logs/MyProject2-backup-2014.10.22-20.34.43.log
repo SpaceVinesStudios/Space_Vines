@@ -1,0 +1,748 @@
+Log file open, 10/22/14 14:10:50
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.22-18.10.50:284][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.22-18.10.50:323][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.22-18.10.51:051][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.22-18.10.51:064][  0]LogInit: Object subsystem initialized
+[2014.10.22-18.10.51:068][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.22-18.10.51:068][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.22-18.10.51:092][  0]LogInit: Computer: VERONICA
+[2014.10.22-18.10.51:092][  0]LogInit: User: Zeetermin
+[2014.10.22-18.10.51:093][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.22-18.10.51:093][  0]LogInit: High frequency timer resolution =2.597705 MHz
+[2014.10.22-18.10.51:093][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
+[2014.10.22-18.10.51:093][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.22-18.10.51:093][  0]LogMemory: Process Physical Memory: 55.20 MB used, 55.20 MB peak
+[2014.10.22-18.10.51:093][  0]LogMemory: Process Virtual Memory: 31.72 MB used, 31.93 MB peak
+[2014.10.22-18.10.51:093][  0]LogMemory: Physical Memory: 3854.85 MB used, 6135.18 MB total
+[2014.10.22-18.10.51:093][  0]LogMemory: Virtual Memory: 236.93 MB used, 8388608.00 MB total
+[2014.10.22-18.10.51:602][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2014.10.22-18.10.51:602][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
+[2014.10.22-18.10.51:602][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.22-18.10.51:610][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.22-18.10.51:616][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.10.22-18.10.53:587][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.22-18.10.57:107][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.22-18.10.57:844][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.22-18.10.57:957][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.22-18.10.58:615][  0]LogDerivedDataCache: Loaded boot cache 0.66s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.22-18.10.58:615][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.10.22-18.10.58:615][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.22-18.10.58:615][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.22-18.10.58:644][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.22-18.10.58:657][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.10.22-18.11.00:749][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.22-18.11.00:749][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.22-18.11.01:350][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.22-18.11.09:330][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.10.22-18.11.09:330][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.10.22-18.11.09:465][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.10.22-18.11.09:465][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.10.22-18.11.15:032][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.22-18.11.15:451][  0]SourceControl: Info Source control is disabled
+[2014.10.22-18.11.15:451][  0]SourceControl: Info Source control is disabled
+[2014.10.22-18.11.15:465][  0]SourceControl: Info Source control is disabled
+[2014.10.22-18.11.16:123][  0]BlueprintLog: New page: Editor Load
+[2014.10.22-18.11.16:948][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.10.22-18.11.16:948][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
+[2014.10.22-18.11.17:397][  0]LogEngine: Initializing Engine...
+[2014.10.22-18.11.17:581][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.22-18.11.17:589][  0]LogInit: FAudioDevice initialized.
+[2014.10.22-18.11.17:615][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.22-18.11.17:622][  0]LogInit: Texture streaming: Enabled
+[2014.10.22-18.11.26:642][  0]LogInit: Transaction tracking system initialized
+[2014.10.22-18.11.29:767][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.10.22-18.11.32:249][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.22-18.11.32:260][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.22-18.11.33:103][  0]LogConsoleResponse:Display: 
+[2014.10.22-18.11.36:346][  0]SourceControl: Info Source control is disabled
+[2014.10.22-18.11.36:347][  0]LightingResults: New page: Lighting Build
+[2014.10.22-18.11.36:360][  0]MapCheck: New page: Map Check
+[2014.10.22-18.11.36:360][  0]LightingResults: New page: Lighting Build
+[2014.10.22-18.11.36:375][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000105F5580
+[2014.10.22-18.11.40:173][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.10.22-18.11.40:225][  0]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.10.22-18.11.40:241][  0]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.22-18.11.40:298][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.22-18.11.40:299][  0]Cmd: MAP CHECKDEP
+[2014.10.22-18.11.40:299][  0]MapCheck: New page: Two - Oct 22, 2014, 10:11:40 AM
+[2014.10.22-18.11.40:391][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [91.958ms] ==========
+[2014.10.22-18.11.40:391][  0]LogFileHelpers: Loading map 'Two' took 4.045
+[2014.10.22-18.11.40:600][  0]LogCollectionManager: Loaded 0 collections in 0.001914 seconds
+[2014.10.22-18.11.40:621][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.22-18.11.41:409][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.22-18.11.41:410][  0]Cmd: MODE PLACEMENT
+[2014.10.22-18.11.41:453][  0]LogLoad: Full Startup: 53.47 seconds (BP compile: 0.07 seconds)
+[2014.10.22-18.11.41:699][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.22-18.11.41:768][  0]LogRenderer:Warning: Reallocating scene render targets to support 1040x968.
+[2014.10.22-18.11.41:973][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>07E6FE33D9A1151E</RequestId><HostId>KKrj/HalBwdCd8ZHjCi7Pcx246QcLP+BniwcPWrVTownnI9XyoC4Oa+kyEbAmmQZ</HostId></Error>
+[2014.10.22-18.11.42:012][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>77620C963A8A6159</RequestId><HostId>1GsXfTfPbLgIeVkEX/+rPmYVSANj5fz+AbRKoAGgny/3nmI6puEVeySJD/NV6fhC7/CnhCR8NlI=</HostId></Error>
+[2014.10.22-18.11.42:028][  2]LogAssetRegistry: Asset discovery search completed in 12.2711 seconds
+[2014.10.22-18.11.42:053][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>FCCC0D61D8822DEC</RequestId><HostId>5QrloZzI9KyZvm0rkaMLvp/myYGKQB0cOsrfIR6wKg2VGX8ymBCwL1LOMIR9U2em</HostId></Error>
+[2014.10.22-18.11.42:067][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>DDEB22E00081ED35</RequestId><HostId>e8r4xUedVlv3cNCHQwpODJpWcv00VVlm5WEVbauzJi62Wf4IMjZz83zsgBn4RKhamMSifx1njcQ=</HostId></Error>
+[2014.10.22-18.11.42:215][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.22-18.11.42:217][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.22-18.11.49:715][175]LightingResults: New page: Lighting Build
+[2014.10.22-18.11.49:715][175]Cmd: MODE PLACEMENT
+[2014.10.22-18.11.49:735][175]LoadErrors: New page: Loading map: One.umap
+[2014.10.22-18.11.49:739][175]MapCheck: New page: Map Check
+[2014.10.22-18.11.49:739][175]LightingResults: New page: Lighting Build
+[2014.10.22-18.11.49:778][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BBCBD80
+[2014.10.22-18.11.51:596][175]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.22-18.11.51:618][175]Cmd: MAP CHECKDEP
+[2014.10.22-18.11.51:618][175]MapCheck: New page: One - Oct 22, 2014, 10:11:51 AM
+[2014.10.22-18.11.51:727][175]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [108.818ms] ==========
+[2014.10.22-18.11.51:727][175]LogFileHelpers: Loading map 'One' took 2.013
+[2014.10.22-18.11.51:760][176]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.22-18.11.51:764][176]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.12.01:449][424]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.10.22-18.13.31:065][103]Cmd: TRANSACTION UNDO
+[2014.10.22-18.13.31:065][103]LogEditorTransaction: Undo Landscape Editing: Paint
+[2014.10.22-18.13.31:138][103]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.13.31:790][135]Cmd: TRANSACTION UNDO
+[2014.10.22-18.13.31:790][135]LogEditorTransaction: Undo Landscape Editing: Paint
+[2014.10.22-18.13.31:824][135]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.13.34:444][218]Cmd: TRANSACTION UNDO
+[2014.10.22-18.13.34:444][218]LogEditorTransaction: Undo Landscape Editing: Paint
+[2014.10.22-18.13.34:521][218]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.14.50:013][166]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.14.50:013][166]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.14.50:076][166]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.14.50:169][166]LogPlayLevel: PIE:  Blueprint regeneration took 155 ms (1 blueprints)
+[2014.10.22-18.14.50:169][166]PIE: New page: PIE session: One (Oct 22, 2014, 10:14:50 AM)
+[2014.10.22-18.14.50:356][166]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.14.50:356][166]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.14.50:356][166]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.14.50:356][166]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.14.50:489][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.320570s)
+[2014.10.22-18.14.50:490][166]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2014.10.22-18.14.50:490][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.321558s)
+[2014.10.22-18.14.50:680][166]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.14.50:786][166]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.14.50
+[2014.10.22-18.14.50:797][166]LogWorld: Bringing up level for play took: 0.078244
+[2014.10.22-18.14.50:798][166]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.10.22-18.14.50:798][166]LogGameMode: RestartPlayer 256
+[2014.10.22-18.14.50:800][166]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.10.22-18.14.50:800][166]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.10.22-18.14.50:803][166]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One -0.119
+[2014.10.22-18.15.50:770][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DD26C00
+[2014.10.22-18.15.55:513][ 44]Cmd: UpdateLandscapeHoleCollision
+[2014.10.22-18.16.01:896][131]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.16.02:540][132]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.16.08:270][218]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.16.08:981][219]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.16.18:005][413]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.16.18:713][414]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.16.20:879][508]Cmd: DUPLICATE
+[2014.10.22-18.16.20:879][508]Cmd: ACTOR DUPLICATE
+[2014.10.22-18.16.20:900][508]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_10.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_11.Model_16
+[2014.10.22-18.16.20:900][508]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_10.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_12.Model_16
+[2014.10.22-18.16.20:900][508]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_10.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_13.Model_16
+[2014.10.22-18.16.20:900][508]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_10.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_32.Model_16
+[2014.10.22-18.16.25:510][508]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.16.26:158][509]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.16.34:595][683]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.16.35:248][684]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.16.36:972][760]Cmd: DELETE
+[2014.10.22-18.16.36:972][760]Cmd: ACTOR DELETE
+[2014.10.22-18.16.36:983][760]LogEditorActor: Deleted Actor: Brush
+[2014.10.22-18.16.41:954][760]LogEditorActor: Deleted 1 Actors (4.979 secs)
+[2014.10.22-18.16.51:045][760]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.16.51:594][761]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.16.52:771][810]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.16.53:840][855]Cmd: TRANSACTION UNDO
+[2014.10.22-18.16.53:840][855]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.22-18.17.18:924][598]LogDerivedDataCache:Warning: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.22-18.17.19:036][602]LogDerivedDataCache:Warning: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.22-18.17.46:245][754]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.17.48:193][828]Cmd: TRANSACTION UNDO
+[2014.10.22-18.17.48:193][828]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.22-18.17.56:411][913]Cmd: TRANSACTION UNDO
+[2014.10.22-18.17.56:411][913]LogEditorTransaction: Undo Select Surfaces
+[2014.10.22-18.18.03:908][ 91]Cmd: TRANSACTION UNDO
+[2014.10.22-18.18.03:908][ 91]LogEditorTransaction: Undo Select Brush from Surface
+[2014.10.22-18.18.09:185][292]Cmd: TRANSACTION UNDO
+[2014.10.22-18.18.09:185][292]LogEditorTransaction: Undo Select Surfaces
+[2014.10.22-18.18.29:018][593]Cmd: DUPLICATE
+[2014.10.22-18.18.29:018][593]Cmd: ACTOR DUPLICATE
+[2014.10.22-18.18.29:031][593]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_10.Model_16
+[2014.10.22-18.18.29:031][593]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_11.Model_16
+[2014.10.22-18.18.29:031][593]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_12.Model_16
+[2014.10.22-18.18.29:031][593]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_13.Model_16
+[2014.10.22-18.18.29:031][593]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_32.Model_16
+[2014.10.22-18.18.32:958][593]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.18.33:619][594]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.18.38:545][810]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.22-18.18.38:545][810]Aligned camera to fit all selected actors.
+[2014.10.22-18.18.45:349][ 63]Cmd: DELETE
+[2014.10.22-18.18.45:349][ 63]Cmd: ACTOR DELETE
+[2014.10.22-18.18.45:357][ 63]LogEditorActor: Deleted Actor: Brush
+[2014.10.22-18.18.47:875][ 63]LogEditorActor: Deleted 1 Actors (2.525 secs)
+[2014.10.22-18.18.54:842][ 63]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.18.55:380][ 64]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.19.05:994][213]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.19.06:697][214]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.19.24:063][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_Pillar_4)
+[2014.10.22-18.19.45:849][694]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.19.49:318][773]LogSavePackage: Save=927.640747ms
+[2014.10.22-18.19.49:318][773]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One5C039A7F41BA2E35B33257A2C42AC5B3.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
+[2014.10.22-18.19.49:363][773]LogFileHelpers: Saving map 'One' took 1.188
+[2014.10.22-18.19.52:963][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_SexyBackgroundTemple_2)
+[2014.10.22-18.19.58:404][ 87]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.20.07:731][446]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.20.13:042][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_SkySphere)
+[2014.10.22-18.20.15:548][745]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.20.26:010][134]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.20.26:010][134]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.20.26:099][134]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2014.10.22-18.20.26:099][134]PIE: New page: PIE session: One (Oct 22, 2014, 10:20:26 AM)
+[2014.10.22-18.20.26:276][134]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.20.26:276][134]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.20.26:276][134]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.20.26:276][134]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.20.26:448][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.349321s)
+[2014.10.22-18.20.26:449][134]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2014.10.22-18.20.26:449][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.350378s)
+[2014.10.22-18.20.26:450][134]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.20.26:546][134]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.20.26
+[2014.10.22-18.20.26:556][134]LogWorld: Bringing up level for play took: 0.075766
+[2014.10.22-18.20.26:557][134]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.10.22-18.20.26:557][134]LogGameMode: RestartPlayer 257
+[2014.10.22-18.20.26:558][134]LogPlayerController: ClientRestart_Implementation MyCharacter_C_1
+[2014.10.22-18.20.26:558][134]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
+[2014.10.22-18.20.26:562][134]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One -0.366
+[2014.10.22-18.20.31:902][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BBCA700
+[2014.10.22-18.20.42:833][678]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.20.43:511][679]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.21.05:310][549]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.21.06:402][591]Cmd: TRANSACTION UNDO
+[2014.10.22-18.21.06:402][591]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.22-18.21.08:749][595]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2014.10.22-18.21.09:878][702]Cmd: TRANSACTION UNDO
+[2014.10.22-18.21.09:878][702]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2014.10.22-18.21.12:016][703]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.21.13:400][754]Cmd: TRANSACTION UNDO
+[2014.10.22-18.21.13:400][754]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.22-18.21.50:894][ 72]Cmd: TRANSACTION UNDO
+[2014.10.22-18.21.50:894][ 72]LogEditorTransaction: Undo Select Surfaces
+[2014.10.22-18.22.00:276][ 73]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2014.10.22-18.22.00:317][ 73]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.22.06:459][297]Cmd: TRANSACTION UNDO
+[2014.10.22-18.22.06:459][297]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.22-18.22.07:937][335]Cmd: TRANSACTION UNDO
+[2014.10.22-18.22.07:937][335]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2014.10.22-18.22.11:330][458]Cmd: TRANSACTION UNDO
+[2014.10.22-18.22.11:330][458]LogEditorTransaction: Undo Select Brush from Surface
+[2014.10.22-18.23.22:763][812]Cmd: DUPLICATE
+[2014.10.22-18.23.22:763][812]Cmd: ACTOR DUPLICATE
+[2014.10.22-18.23.22:775][812]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_10.Model_16
+[2014.10.22-18.23.22:775][812]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_11.Model_16
+[2014.10.22-18.23.22:775][812]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_12.Model_16
+[2014.10.22-18.23.22:775][812]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_21.Model_16 or Model /Game/Maps/GameLevels/One.One:PersistentLevel.BoxBrush_32.Model_16
+[2014.10.22-18.23.30:697][812]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.23.31:410][813]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.23.40:813][ 52]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_12)
+[2014.10.22-18.23.41:709][ 73]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_12)
+[2014.10.22-18.23.56:604][283]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.23.57:285][284]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.24.11:085][484]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.24.11:728][485]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.24.31:175][971]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.24.31:897][972]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.24.32:421][984]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.22-18.24.32:421][984]Aligned camera to fit all selected actors.
+[2014.10.22-18.24.44:966][ 97]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.24.45:621][ 98]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.24.58:280][280]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.24.59:005][281]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.25.10:987][371]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.25.11:520][372]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.25.17:471][372]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.25.18:022][373]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.25.27:536][523]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.25.28:197][524]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.25.41:973][891]LogDerivedDataCache:Warning: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.22-18.25.42:128][895]LogDerivedDataCache:Warning: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.22-18.25.42:128][895]LogDerivedDataCache:Warning: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.22-18.25.51:507][963]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.25.52:195][964]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.26.03:748][ 26]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.26.04:461][ 27]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.26.17:109][158]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.26.17:754][159]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.26.42:042][785]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.22-18.26.42:044][785]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.22-18.26.53:935][857]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.26.54:616][858]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.27.10:419][971]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.27.11:111][972]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.27.21:500][ 81]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.27.22:145][ 82]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.27.33:561][381]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.27.33:561][381]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.27.33:719][381]LogPlayLevel: PIE:  Blueprint regeneration took 157 ms (1 blueprints)
+[2014.10.22-18.27.33:719][381]PIE: New page: PIE session: One (Oct 22, 2014, 10:27:33 AM)
+[2014.10.22-18.27.33:899][381]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.27.33:899][381]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.27.33:899][381]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.27.33:899][381]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.27.34:072][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.352813s)
+[2014.10.22-18.27.34:073][381]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2014.10.22-18.27.34:073][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.353725s)
+[2014.10.22-18.27.34:074][381]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.27.34:167][381]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.27.34
+[2014.10.22-18.27.34:182][381]LogWorld: Bringing up level for play took: 0.081567
+[2014.10.22-18.27.34:183][381]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.10.22-18.27.34:183][381]LogGameMode: RestartPlayer 258
+[2014.10.22-18.27.34:184][381]LogPlayerController: ClientRestart_Implementation MyCharacter_C_2
+[2014.10.22-18.27.34:184][381]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_2
+[2014.10.22-18.27.34:193][381]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 1.258
+[2014.10.22-18.28.22:673][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004974D300
+[2014.10.22-18.29.24:472][386]Cmd: UpdateLandscapeHoleCollision
+[2014.10.22-18.29.36:270][519]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.29.36:934][520]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.29.47:174][623]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.29.47:855][624]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.29.58:901][736]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.29.59:592][737]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.30.15:579][152]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.22-18.30.30:753][152]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.30.31:556][153]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.30.32:920][190]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.22-18.30.32:920][190]Aligned camera to fit all selected actors.
+[2014.10.22-18.30.48:439][414]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.30.48:996][415]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.30.57:332][415]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.31.00:214][415]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.31.01:216][415]LogSavePackage: Save=1049.450562ms
+[2014.10.22-18.31.01:216][415]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One_Auto14A4CFEA34180B537881DD49CA30F8722.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Autosaves/Game/Maps/GameLevels/One_Auto1.umap'
+[2014.10.22-18.31.01:227][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameLevels/One' took 3.323
+[2014.10.22-18.31.01:227][415]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.323
+[2014.10.22-18.31.01:674][416]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.32.11:405][ 86]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.32.11:990][ 87]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.32.33:217][274]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.32.33:761][275]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.32.49:620][506]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.32.50:211][507]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.33.05:605][791]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.33.06:284][792]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.33.18:934][  1]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.33.19:582][  2]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.33.30:050][ 76]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.33.30:707][ 77]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.33.39:116][235]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.33.39:767][236]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.33.51:715][689]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.33.52:376][690]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.33.54:888][755]Cmd: DUPLICATE
+[2014.10.22-18.33.54:888][755]Cmd: ACTOR DUPLICATE
+[2014.10.22-18.33.57:871][755]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.33.58:530][756]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.34.07:318][851]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.34.08:019][852]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.34.13:885][951]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.34.14:425][952]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.34.17:611][ 35]LogEditorViewport: Clicking on Actor (LMB): Brush (Cone Brush_2)
+[2014.10.22-18.34.25:854][254]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.34.26:537][255]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.34.37:791][400]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.34.38:342][401]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.34.48:289][539]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.34.48:832][540]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.34.56:791][648]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.34.57:452][649]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.35.14:252][ 78]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.35.14:804][ 79]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.35.22:162][216]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.35.22:702][217]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.35.31:140][372]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.35.31:812][373]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.35.41:367][681]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.35.42:011][682]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.36.38:043][405]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.36.38:743][406]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.36.52:863][522]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.36.53:546][523]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.36.58:847][665]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.36.58:847][665]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.36.59:061][665]LogPlayLevel: PIE:  Blueprint regeneration took 214 ms (1 blueprints)
+[2014.10.22-18.36.59:061][665]PIE: New page: PIE session: One (Oct 22, 2014, 10:36:59 AM)
+[2014.10.22-18.36.59:240][665]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.36.59:240][665]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.36.59:240][665]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.36.59:240][665]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.36.59:423][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.361688s)
+[2014.10.22-18.36.59:423][665]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2014.10.22-18.36.59:424][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.362662s)
+[2014.10.22-18.36.59:424][665]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.36.59:527][665]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.36.59
+[2014.10.22-18.36.59:550][665]LogWorld: Bringing up level for play took: 0.095502
+[2014.10.22-18.36.59:551][665]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.10.22-18.36.59:551][665]LogGameMode: RestartPlayer 259
+[2014.10.22-18.36.59:552][665]LogPlayerController: ClientRestart_Implementation MyCharacter_C_3
+[2014.10.22-18.36.59:552][665]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_3
+[2014.10.22-18.36.59:565][665]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 0.619
+[2014.10.22-18.39.02:876][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047C3AB60
+[2014.10.22-18.39.24:032][991]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.39.24:814][992]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.39.40:670][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.22-18.39.41:214][156]Cmd: UpdateLandscapeEditorData
+[2014.10.22-18.40.07:357][956]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.40.11:057][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.40.12:267][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.40.12:858][ 90]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.40.34:175][634]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.41.16:210][942]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.41.16:210][942]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.41.16:415][942]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (1 blueprints)
+[2014.10.22-18.41.16:415][942]PIE: New page: PIE session: One (Oct 22, 2014, 10:41:16 AM)
+[2014.10.22-18.41.16:596][942]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.41.16:596][942]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.41.16:596][942]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.41.16:596][942]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.41.16:772][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357149s)
+[2014.10.22-18.41.16:773][942]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2014.10.22-18.41.16:773][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.358084s)
+[2014.10.22-18.41.16:774][942]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.41.16:881][942]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.41.16
+[2014.10.22-18.41.16:892][942]LogWorld: Bringing up level for play took: 0.086959
+[2014.10.22-18.41.16:892][942]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.10.22-18.41.16:893][942]LogGameMode: RestartPlayer 260
+[2014.10.22-18.41.16:894][942]LogPlayerController: ClientRestart_Implementation MyCharacter_C_4
+[2014.10.22-18.41.16:894][942]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_4
+[2014.10.22-18.41.16:897][942]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One -0.054
+[2014.10.22-18.41.43:748][157]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.22-18.41.43:865][157]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.22-18.41.47:779][322]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AC38220
+[2014.10.22-18.41.51:500][479]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.42.00:744][780]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.42.03:660][851]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.42.32:691][546]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.42.38:380][685]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.42.51:838][ 39]Cmd: UpdateLandscapeHoleCollision
+[2014.10.22-18.42.53:422][ 81]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox1)
+[2014.10.22-18.43.06:827][431]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.43.06:827][431]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.43.06:898][431]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2014.10.22-18.43.06:898][431]PIE: New page: PIE session: One (Oct 22, 2014, 10:43:06 AM)
+[2014.10.22-18.43.07:081][431]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.43.07:081][431]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.43.07:081][431]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.43.07:081][431]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.43.08:482][431]LogPlayLevel: PIE: StaticDuplicateObject took: (1.583473s)
+[2014.10.22-18.43.08:483][431]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2014.10.22-18.43.08:483][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (1.584731s)
+[2014.10.22-18.43.08:484][431]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.43.08:590][431]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.43.08
+[2014.10.22-18.43.08:600][431]LogWorld: Bringing up level for play took: 0.087877
+[2014.10.22-18.43.08:601][431]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
+[2014.10.22-18.43.08:601][431]LogGameMode: RestartPlayer 261
+[2014.10.22-18.43.08:602][431]LogPlayerController: ClientRestart_Implementation MyCharacter_C_5
+[2014.10.22-18.43.08:602][431]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_5
+[2014.10.22-18.43.08:604][431]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 1.651
+[2014.10.22-18.43.53:406][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004974CC20
+[2014.10.22-18.44.26:337][391]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.44.27:219][391]LogSavePackage: Save=933.192200ms
+[2014.10.22-18.44.27:219][391]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One_Auto27CB00C254AF3E551729473AD006C1491.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Autosaves/Game/Maps/GameLevels/One_Auto2.umap'
+[2014.10.22-18.44.27:292][391]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GameLevels/One' took 3.418
+[2014.10.22-18.44.27:292][391]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.418
+[2014.10.22-18.44.28:555][392]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.44.32:559][503]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.44.32:559][503]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.44.32:630][503]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2014.10.22-18.44.32:630][503]PIE: New page: PIE session: One (Oct 22, 2014, 10:44:32 AM)
+[2014.10.22-18.44.32:811][503]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.44.32:811][503]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.44.32:811][503]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.44.32:811][503]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.44.33:745][503]LogPlayLevel: PIE: StaticDuplicateObject took: (1.115651s)
+[2014.10.22-18.44.33:746][503]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2014.10.22-18.44.33:747][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (1.116894s)
+[2014.10.22-18.44.33:748][503]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.44.33:857][503]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.44.33
+[2014.10.22-18.44.33:867][503]LogWorld: Bringing up level for play took: 0.090908
+[2014.10.22-18.44.33:867][503]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
+[2014.10.22-18.44.33:867][503]LogGameMode: RestartPlayer 262
+[2014.10.22-18.44.33:869][503]LogPlayerController: ClientRestart_Implementation MyCharacter_C_6
+[2014.10.22-18.44.33:869][503]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_6
+[2014.10.22-18.44.33:871][503]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 0.917
+[2014.10.22-18.44.44:597][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FA11A80
+[2014.10.22-18.44.58:891][389]Cmd: UpdateLandscapeHoleCollision
+[2014.10.22-18.45.00:542][434]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.45.01:751][466]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox1)
+[2014.10.22-18.45.10:140][664]LogSavePackage: Save=896.463623ms
+[2014.10.22-18.45.10:140][664]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One56AEC9794E924A8C8A6F0391CB909F76.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
+[2014.10.22-18.45.10:347][664]LogFileHelpers: Saving map 'One' took 1.332
+[2014.10.22-18.45.13:603][754]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.45.13:603][754]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.45.13:744][754]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (1 blueprints)
+[2014.10.22-18.45.13:744][754]PIE: New page: PIE session: One (Oct 22, 2014, 10:45:13 AM)
+[2014.10.22-18.45.13:923][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.13:923][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.13:923][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.13:923][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.14:100][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.355901s)
+[2014.10.22-18.45.14:101][754]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2014.10.22-18.45.14:101][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.356884s)
+[2014.10.22-18.45.14:101][754]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.45.14:209][754]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.45.14
+[2014.10.22-18.45.14:219][754]LogWorld: Bringing up level for play took: 0.085759
+[2014.10.22-18.45.14:220][754]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
+[2014.10.22-18.45.14:220][754]LogGameMode: RestartPlayer 263
+[2014.10.22-18.45.14:221][754]LogPlayerController: ClientRestart_Implementation MyCharacter_C_7
+[2014.10.22-18.45.14:221][754]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_7
+[2014.10.22-18.45.14:223][754]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 1.268
+[2014.10.22-18.45.25:387][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CC40AE0
+[2014.10.22-18.45.38:133][589]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.45.38:133][589]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.45.38:275][589]LogPlayLevel: PIE:  Blueprint regeneration took 141 ms (1 blueprints)
+[2014.10.22-18.45.38:276][589]PIE: New page: PIE session: One (Oct 22, 2014, 10:45:38 AM)
+[2014.10.22-18.45.38:458][589]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.38:458][589]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.38:458][589]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.38:458][589]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.38:636][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360337s)
+[2014.10.22-18.45.38:637][589]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2014.10.22-18.45.38:637][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.361303s)
+[2014.10.22-18.45.38:638][589]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.45.38:754][589]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.45.38
+[2014.10.22-18.45.38:763][589]LogWorld: Bringing up level for play took: 0.088512
+[2014.10.22-18.45.38:763][589]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:1]
+[2014.10.22-18.45.38:763][589]LogGameMode: RestartPlayer 264
+[2014.10.22-18.45.38:765][589]LogPlayerController: ClientRestart_Implementation MyCharacter_C_8
+[2014.10.22-18.45.38:765][589]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_8
+[2014.10.22-18.45.38:767][589]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One -0.189
+[2014.10.22-18.45.43:831][786]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025C2DC60
+[2014.10.22-18.45.50:009][956]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.45.50:009][956]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.45.50:083][956]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.10.22-18.45.50:083][956]PIE: New page: PIE session: One (Oct 22, 2014, 10:45:50 AM)
+[2014.10.22-18.45.50:263][956]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.50:263][956]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.50:263][956]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.50:263][956]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.45.50:441][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.358146s)
+[2014.10.22-18.45.50:442][956]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2014.10.22-18.45.50:442][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.359177s)
+[2014.10.22-18.45.50:443][956]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.45.50:546][956]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.45.50
+[2014.10.22-18.45.50:555][956]LogWorld: Bringing up level for play took: 0.081600
+[2014.10.22-18.45.50:555][956]LogPlayerController: Spawned spectator SpectatorPawn_9 [server:1]
+[2014.10.22-18.45.50:556][956]LogGameMode: RestartPlayer 265
+[2014.10.22-18.45.50:557][956]LogPlayerController: ClientRestart_Implementation MyCharacter_C_9
+[2014.10.22-18.45.50:557][956]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_9
+[2014.10.22-18.45.50:559][956]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One -0.397
+[2014.10.22-18.46.02:081][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044E216C0
+[2014.10.22-18.47.10:985][455]Cmd: SELECT NONE
+[2014.10.22-18.47.12:451][492]Cmd: UpdateLandscapeHoleCollision
+[2014.10.22-18.47.24:629][904]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.47.57:088][748]Cmd: UpdateLandscapeHoleCollision
+[2014.10.22-18.48.14:246][457]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.10.22-18.48.27:632][925]Cmd: TRANSACTION UNDO
+[2014.10.22-18.48.27:632][925]LogEditorTransaction: Undo Landscape Editing: Paint
+[2014.10.22-18.48.27:777][925]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.48.28:545][980]Cmd: TRANSACTION UNDO
+[2014.10.22-18.48.28:545][980]LogEditorTransaction: Undo Landscape Editing: Paint
+[2014.10.22-18.48.28:608][980]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.48.53:121][617]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.53:465][623]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.53:988][637]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.54:338][646]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.54:737][656]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.56:190][694]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.56:567][703]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.57:144][718]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.57:944][739]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.48.59:417][778]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2014.10.22-18.49.03:656][891]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.22-18.49.03:656][891]LogPlayLevel: [PIE] Compiling One before PIE...
+[2014.10.22-18.49.03:729][891]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2014.10.22-18.49.03:729][891]PIE: New page: PIE session: One (Oct 22, 2014, 10:49:03 AM)
+[2014.10.22-18.49.03:911][891]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.49.03:911][891]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.49.03:911][891]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.49.03:911][891]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.10.22-18.49.06:532][891]LogPlayLevel: PIE: StaticDuplicateObject took: (2.803335s)
+[2014.10.22-18.49.06:534][891]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2014.10.22-18.49.06:534][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (2.804685s)
+[2014.10.22-18.49.06:535][891]LogWorld: Game class is 'MyGame_C'
+[2014.10.22-18.49.06:641][891]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.10.22-14.49.06
+[2014.10.22-18.49.06:650][891]LogWorld: Bringing up level for play took: 0.087953
+[2014.10.22-18.49.06:651][891]LogPlayerController: Spawned spectator SpectatorPawn_10 [server:1]
+[2014.10.22-18.49.06:651][891]LogGameMode: RestartPlayer 266
+[2014.10.22-18.49.06:652][891]LogPlayerController: ClientRestart_Implementation MyCharacter_C_10
+[2014.10.22-18.49.06:652][891]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_10
+[2014.10.22-18.49.06:656][891]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 3.696
+[2014.10.22-18.49.30:596][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CC40720
+[2014.10.22-18.49.33:321][ 21]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.10.22-18.49.34:222][ 21]LogSavePackage: Save=1054.727173ms
+[2014.10.22-18.49.34:222][ 21]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One6BA42728436CDE94F259A686BBD5133F.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
+[2014.10.22-18.49.34:361][ 21]LogFileHelpers: Saving map 'One' took 2.441
+[2014.10.22-18.50.03:563][775]LogSavePackage: Save=965.607727ms
+[2014.10.22-18.50.03:563][775]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One602BB533495EE2DB2E51C78BD6044256.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
+[2014.10.22-18.50.07:151][799]Cmd: QUIT_EDITOR
+[2014.10.22-18.50.12:654][799]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.22-18.50.13:142][799]LogExit: Preparing to exit.
+[2014.10.22-18.50.15:393][799]LogExit: Editor shut down
+[2014.10.22-18.50.15:394][799]LogExit: Transaction tracking system shut down
+[2014.10.22-18.50.19:909][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C363920
+[2014.10.22-18.50.19:909][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011942840
+[2014.10.22-18.50.19:909][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002393D580
+[2014.10.22-18.50.19:909][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002393E0C0
+[2014.10.22-18.50.19:909][799]LogExit: Object subsystem successfully closed.
+[2014.10.22-18.50.24:037][799]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.10.22-18.50.24:087][799]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.10.22-18.50.24:087][799]LogModuleManager: Shutting down and abandoning module HTTP (162)
+[2014.10.22-18.50.24:129][799]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
+[2014.10.22-18.50.24:174][799]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
+[2014.10.22-18.50.24:174][799]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
+[2014.10.22-18.50.24:174][799]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
+[2014.10.22-18.50.24:237][799]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
+[2014.10.22-18.50.24:339][799]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
+[2014.10.22-18.50.24:773][799]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
+[2014.10.22-18.50.24:826][799]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
+[2014.10.22-18.50.24:826][799]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
+[2014.10.22-18.50.24:916][799]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
+[2014.10.22-18.50.25:047][799]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
+[2014.10.22-18.50.25:074][799]LogModuleManager: Shutting down and abandoning module BspMode (150)
+[2014.10.22-18.50.25:107][799]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
+[2014.10.22-18.50.25:107][799]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
+[2014.10.22-18.50.25:107][799]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
+[2014.10.22-18.50.25:108][799]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2014.10.22-18.50.25:133][799]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2014.10.22-18.50.25:133][799]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2014.10.22-18.50.25:133][799]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2014.10.22-18.50.25:134][799]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2014.10.22-18.50.25:146][799]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2014.10.22-18.50.25:146][799]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2014.10.22-18.50.25:146][799]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2014.10.22-18.50.25:146][799]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
+[2014.10.22-18.50.25:146][799]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
+[2014.10.22-18.50.25:215][799]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
+[2014.10.22-18.50.25:215][799]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
+[2014.10.22-18.50.25:263][799]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
+[2014.10.22-18.50.25:303][799]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
+[2014.10.22-18.50.25:333][799]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
+[2014.10.22-18.50.25:367][799]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
+[2014.10.22-18.50.25:367][799]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
+[2014.10.22-18.50.25:388][799]LogModuleManager: Shutting down and abandoning module AutomationController (127)
+[2014.10.22-18.50.25:446][799]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
+[2014.10.22-18.50.25:496][799]LogModuleManager: Shutting down and abandoning module Layers (125)
+[2014.10.22-18.50.25:496][799]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
+[2014.10.22-18.50.25:496][799]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
+[2014.10.22-18.50.25:572][799]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
+[2014.10.22-18.50.25:616][799]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
+[2014.10.22-18.50.25:616][799]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
+[2014.10.22-18.50.25:616][799]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.10.22-18.50.25:739][799]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.10.22-18.50.25:881][799]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
+[2014.10.22-18.50.25:952][799]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
+[2014.10.22-18.50.25:952][799]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.10.22-18.50.25:991][799]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.10.22-18.50.25:991][799]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.10.22-18.50.26:022][799]LogModuleManager: Shutting down and abandoning module Sequencer (112)
+[2014.10.22-18.50.26:251][799]LogModuleManager: Shutting down and abandoning module AssetTools (111)
+[2014.10.22-18.50.26:525][799]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
+[2014.10.22-18.50.26:572][799]LogModuleManager: Shutting down and abandoning module OutputLog (109)
+[2014.10.22-18.50.26:573][799]LogModuleManager: Shutting down and abandoning module GammaUI (108)
+[2014.10.22-18.50.26:681][799]LogModuleManager: Shutting down and abandoning module Documentation (107)
+[2014.10.22-18.50.26:681][799]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2014.10.22-18.50.26:883][799]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.10.22-18.50.26:896][799]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.10.22-18.50.26:896][799]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.10.22-18.50.26:896][799]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.10.22-18.50.27:273][799]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.10.22-18.50.27:514][799]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.10.22-18.50.27:514][799]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.10.22-18.50.27:603][799]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.10.22-18.50.27:825][799]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.10.22-18.50.27:825][799]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.10.22-18.50.27:857][799]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.10.22-18.50.27:857][799]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.10.22-18.50.27:857][799]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.10.22-18.50.27:857][799]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.10.22-18.50.27:857][799]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.10.22-18.50.27:894][799]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.10.22-18.50.27:998][799]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.10.22-18.50.27:998][799]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.10.22-18.50.27:998][799]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.10.22-18.50.27:998][799]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.10.22-18.50.28:087][799]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.10.22-18.50.28:132][799]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.10.22-18.50.28:132][799]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.10.22-18.50.28:199][799]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.10.22-18.50.28:286][799]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.10.22-18.50.28:287][799]LogDerivedDataCache: Shutdown
+[2014.10.22-18.50.28:287][799]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.10.22-18.50.28:309][799]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.10.22-18.50.28:333][799]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.10.22-18.50.28:333][799]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.10.22-18.50.28:340][799]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.10.22-18.50.28:372][799]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.10.22-18.50.28:408][799]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.10.22-18.50.28:441][799]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.10.22-18.50.28:441][799]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.10.22-18.50.28:597][799]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.10.22-18.50.28:597][799]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.10.22-18.50.28:597][799]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.10.22-18.50.28:597][799]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.10.22-18.50.28:659][799]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.10.22-18.50.28:759][799]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.10.22-18.50.29:058][799]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.10.22-18.50.29:112][799]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.10.22-18.50.29:328][799]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.10.22-18.50.29:359][799]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.10.22-18.50.29:359][799]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.10.22-18.50.29:360][799]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.10.22-18.50.29:403][799]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.10.22-18.50.29:527][799]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.10.22-18.50.29:527][799]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.22-18.50.29:527][799]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.22-18.50.29:573][799]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.22-18.50.29:612][799]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.22-18.50.29:694][799]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.22-18.50.29:832][799]LogExit: Exiting.
+[2014.10.22-18.50.30:013][799]Log file closed, 10/22/14 14:50:30
