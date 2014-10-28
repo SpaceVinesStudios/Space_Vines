@@ -1,0 +1,953 @@
+Log file open, 10/26/14 20:46:26
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.27-00.46.26:276][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.27-00.46.26:312][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.27-00.46.26:333][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.27-00.46.26:343][  0]LogInit: Object subsystem initialized
+[2014.10.27-00.46.26:348][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.27-00.46.26:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.27-00.46.26:358][  0]LogInit: Computer: RSIVALICE
+[2014.10.27-00.46.26:359][  0]LogInit: User: ryanw
+[2014.10.27-00.46.26:360][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.27-00.46.26:360][  0]LogInit: High frequency timer resolution =2.338449 MHz
+[2014.10.27-00.46.26:360][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx) Virtual=131072.0GB
+[2014.10.27-00.46.26:360][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.27-00.46.26:361][  0]LogMemory: Process Physical Memory: 52.54 MB used, 52.54 MB peak
+[2014.10.27-00.46.26:361][  0]LogMemory: Process Virtual Memory: 29.52 MB used, 29.52 MB peak
+[2014.10.27-00.46.26:361][  0]LogMemory: Physical Memory: 2580.37 MB used, 3941.41 MB total
+[2014.10.27-00.46.26:361][  0]LogMemory: Virtual Memory: 245.44 MB used, 134217728.00 MB total
+[2014.10.27-00.46.26:402][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.10.27-00.46.26:402][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.10.27-00.46.26:403][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.27-00.46.26:403][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.27-00.46.26:403][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.27-00.46.26:409][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.10.27-00.46.26:431][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.27-00.46.26:592][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.27-00.46.28:728][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.27-00.46.28:873][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.27-00.46.28:919][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.27-00.46.29:022][  0]LogDerivedDataCache: Loaded boot cache 0.10s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.27-00.46.29:022][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.10.27-00.46.29:022][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.27-00.46.29:022][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.27-00.46.29:052][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.27-00.46.29:069][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.10.27-00.46.29:387][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.27-00.46.29:387][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.27-00.46.30:034][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.27-00.46.30:710][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.10.27-00.46.30:710][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.10.27-00.46.30:719][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.10.27-00.46.30:719][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.10.27-00.46.31:303][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.27-00.46.31:402][  0]SourceControl: Info Source control is disabled
+[2014.10.27-00.46.31:402][  0]SourceControl: Info Source control is disabled
+[2014.10.27-00.46.31:410][  0]SourceControl: Info Source control is disabled
+[2014.10.27-00.46.31:539][  0]BlueprintLog: New page: Editor Load
+[2014.10.27-00.46.31:607][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.10.27-00.46.31:607][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.10.27-00.46.32:080][  0]LogEngine: Initializing Engine...
+[2014.10.27-00.46.32:312][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.27-00.46.32:324][  0]LogInit: FAudioDevice initialized.
+[2014.10.27-00.46.32:362][  0]LogDerivedDataCache: Saved boot cache 0.04s 34MB C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.27-00.46.32:408][  0]LogInit: Texture streaming: Enabled
+[2014.10.27-00.46.32:476][  0]LogInit: Transaction tracking system initialized
+[2014.10.27-00.46.32:621][  0]LogAssetRegistry: FAssetRegistry took 0.0156 seconds to start up
+[2014.10.27-00.46.32:844][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.27-00.46.32:851][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.27-00.46.32:946][  0]LogConsoleResponse:Display: 
+[2014.10.27-00.46.33:340][  0]SourceControl: Info Source control is disabled
+[2014.10.27-00.46.33:340][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.10.27-00.46.33:341][  0]LightingResults: New page: Lighting Build
+[2014.10.27-00.46.33:350][  0]MapCheck: New page: Map Check
+[2014.10.27-00.46.33:350][  0]LightingResults: New page: Lighting Build
+[2014.10.27-00.46.33:368][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070D74E7E20
+[2014.10.27-00.46.34:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.27-00.46.34:247][  0]Cmd: MAP CHECKDEP
+[2014.10.27-00.46.34:247][  0]MapCheck: New page: Two - Oct 26, 2014, 4:46:34 PM
+[2014.10.27-00.46.34:309][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [62.092ms] ==========
+[2014.10.27-00.46.34:309][  0]LogFileHelpers: Loading map 'Two' took 0.970
+[2014.10.27-00.46.34:666][  0]LogCollectionManager: Loaded 0 collections in 0.001220 seconds
+[2014.10.27-00.46.34:682][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.27-00.46.34:893][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.27-00.46.34:937][  0]Cmd: MODE PLACEMENT
+[2014.10.27-00.46.35:092][  0]LogLoad: Full Startup: 10.68 seconds (BP compile: 0.24 seconds)
+[2014.10.27-00.46.36:233][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.27-00.46.36:607][  0]LogRenderer:Warning: Reallocating scene render targets to support 688x584.
+[2014.10.27-00.46.36:701][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>697CACA5DBF2E785</RequestId><HostId>qKjvQCTgcwK48OWoN4AKA2PsHylNdO2M4PU+RvJNp8kNJbs1IhG9MUrbaVwtYb/i</HostId></Error>
+[2014.10.27-00.46.36:876][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3FC339D06E4C94D9</RequestId><HostId>2EVaCER+Q0Fn3pqWJ88BqwbOIg2fdZRh/Lz/+RbWHQIA5yMjXIKf4im7H4MKpmdK</HostId></Error>
+[2014.10.27-00.46.36:961][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>05312B1B76616302</RequestId><HostId>F3rbW96W7V33xQuqonZtopA02kE/OjuSwF0iZAZGBeIbIio1H5SxTjF+konQgdaY</HostId></Error>
+[2014.10.27-00.46.37:009][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C737D564FD43016D</RequestId><HostId>64LKrd5LOK3LkdPq3AMDqfIjeFI5dHabDqIoZF+1x67K9vxPDx8Gpb9w6P21wnH4</HostId></Error>
+[2014.10.27-00.46.37:303][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-00.46.37:304][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-00.46.37:315][  7]LogAssetRegistry: Asset discovery search completed in 4.7093 seconds
+[2014.10.27-00.48.01:933][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_67)
+[2014.10.27-00.48.08:653][509]Cmd: DELETE
+[2014.10.27-00.48.08:653][509]Cmd: ACTOR DELETE
+[2014.10.27-00.48.08:683][509]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.27-00.48.08:737][509]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2014.10.27-00.48.16:089][682]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight53)
+[2014.10.27-00.48.17:933][718]Cmd: DELETE
+[2014.10.27-00.48.17:933][718]Cmd: ACTOR DELETE
+[2014.10.27-00.48.17:938][718]LogEditorActor: Deleted Actor: PointLight
+[2014.10.27-00.48.17:972][718]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.10.27-00.48.29:927][ 11]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.27-00.49.06:168][ 11]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.50.04:062][608]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.50.33:622][750]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.51.07:853][ 91]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.51.55:327][ 74]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.52.44:916][768]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.53.18:297][ 62]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.53.39:637][584]Cmd: DUPLICATE
+[2014.10.27-00.53.39:637][584]Cmd: ACTOR DUPLICATE
+[2014.10.27-00.53.40:376][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-00.53.40:377][584]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-00.53.56:168][584]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.54.20:509][793]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.55.06:309][585]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.55.26:795][807]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.56.37:811][238]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.57.25:226][408]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.57.41:920][548]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.58.01:781][765]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.58.25:906][ 49]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.59.02:571][629]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.59.19:705][812]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.59.52:869][181]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-00.59.56:908][268]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.00.32:088][647]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.01.27:583][897]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.01.28:842][927]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.01.29:695][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.01.35:326][139]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.01.35:328][139]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.01.47:613][268]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.02.20:734][862]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.02.38:488][217]Cmd: DELETE
+[2014.10.27-01.02.38:489][217]Cmd: ACTOR DELETE
+[2014.10.27-01.02.38:498][217]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.02.45:875][217]LogEditorActor: Deleted 1 Actors (7.382 secs)
+[2014.10.27-01.03.00:482][217]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.03.03:598][281]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.03.09:215][394]Cmd: DUPLICATE
+[2014.10.27-01.03.09:215][394]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.03.09:268][394]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5
+[2014.10.27-01.03.16:959][394]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.03.27:287][512]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.03.40:975][643]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.03.56:649][724]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.03.56:649][724]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.04.14:701][904]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.04.46:986][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.04.48:829][717]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.05.46:932][919]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.06.23:271][877]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.06.24:330][902]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.06.25:361][925]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.06.42:896][323]Cmd: DELETE
+[2014.10.27-01.06.42:896][323]Cmd: ACTOR DELETE
+[2014.10.27-01.06.42:904][323]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.06.50:739][323]LogEditorActor: Deleted 1 Actors (7.838 secs)
+[2014.10.27-01.07.04:444][323]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.07.10:886][436]Cmd: DUPLICATE
+[2014.10.27-01.07.10:886][436]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.07.10:937][436]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5
+[2014.10.27-01.07.20:930][436]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.07.33:406][523]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.07.47:137][592]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.08.00:968][751]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.08.16:629][176]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.09.26:603][603]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.09.42:565][882]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.10.33:739][ 36]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.10.52:857][480]Cmd: DELETE
+[2014.10.27-01.10.52:857][480]Cmd: ACTOR DELETE
+[2014.10.27-01.10.52:863][480]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.10.56:898][480]LogEditorActor: Deleted 1 Actors (4.038 secs)
+[2014.10.27-01.11.04:007][480]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.11.45:458][298]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.12.01:514][440]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.12.10:865][552]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.12.25:434][766]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.12.52:062][274]Cmd: DUPLICATE
+[2014.10.27-01.12.52:062][274]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.12.52:194][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5
+[2014.10.27-01.12.52:196][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5
+[2014.10.27-01.12.52:196][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5
+[2014.10.27-01.12.52:196][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_40.Model_5
+[2014.10.27-01.12.52:196][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.12.52:196][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.12.52:197][274]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_50.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_5
+[2014.10.27-01.12.59:305][274]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.13.09:236][346]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.13.47:269][688]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.13.59:169][848]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.14.17:785][ 70]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.14.39:790][331]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.14.45:782][456]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.15.01:165][731]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.15.13:309][824]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.15.25:679][961]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.15.48:564][198]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.15.58:406][283]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.16.17:492][452]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.16.20:389][517]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.16.34:047][656]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.16.35:564][690]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.16.35:566][690]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.16.46:924][708]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.17.04:389][865]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.17.10:583][  9]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.17.39:236][611]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.18.11:729][284]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.18.23:476][425]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.18.38:233][564]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.19.32:007][761]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.19.53:264][141]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.20.09:807][570]Cmd: DELETE
+[2014.10.27-01.20.09:807][570]Cmd: ACTOR DELETE
+[2014.10.27-01.20.09:814][570]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.20.12:607][570]LogEditorActor: Deleted 1 Actors (2.797 secs)
+[2014.10.27-01.20.24:509][570]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.20.32:407][797]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.21.12:054][811]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.21.49:716][453]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.21.59:992][619]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.22.09:718][777]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.22.26:267][ 44]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.22.37:479][ 90]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.22.45:193][206]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.22.58:376][287]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.23.07:008][406]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.23.32:984][978]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.23.42:167][ 49]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.23.48:801][215]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.23.49:960][245]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.23.51:529][286]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.23.52:503][342]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.24.11:747][732]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.24.26:171][  2]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.24.37:285][144]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.24.43:267][275]Cmd: DUPLICATE
+[2014.10.27-01.24.43:267][275]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_52.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.24.43:320][275]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_53.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.24.47:552][275]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.24.59:527][505]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.25.15:418][813]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.25.17:045][846]Cmd: DELETE
+[2014.10.27-01.25.17:045][846]Cmd: ACTOR DELETE
+[2014.10.27-01.25.17:058][846]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.25.24:687][846]LogEditorActor: Deleted 1 Actors (7.632 secs)
+[2014.10.27-01.25.32:798][846]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.25.39:359][998]Cmd: DUPLICATE
+[2014.10.27-01.25.39:359][998]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_52.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.25.39:407][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.25.39:408][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.25.39:408][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.25.39:408][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.25.39:408][998]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.25.46:654][998]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.25.58:016][150]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.26.06:388][268]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.26.21:035][481]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.26.35:631][601]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.26.59:906][896]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.28.18:597][555]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.28.36:477][891]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.28.51:055][ 78]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.29.01:630][258]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.29.15:465][545]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.29.20:212][645]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.29.33:925][940]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.29.43:101][ 84]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.29.58:325][256]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.31.19:143][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.31.35:388][369]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.31.35:389][369]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.31.40:187][438]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.32.56:857][ 86]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.34.16:338][792]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.34.56:026][699]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.35.07:520][905]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.35.47:869][215]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.38.36:248][969]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.38.52:855][351]Cmd: DUPLICATE
+[2014.10.27-01.38.52:855][351]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_55.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_52.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_49.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_44.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.LightmassImportanceVolume_1.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_7.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_23.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_20.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_18.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_17.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_16.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_12.Model_5
+[2014.10.27-01.38.52:904][351]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_57.Model_5 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_10.Model_5
+[2014.10.27-01.38.55:948][351]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.39.12:759][655]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.39.23:616][821]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.39.42:921][191]LogSavePackage: Save=370.194092ms
+[2014.10.27-01.39.42:921][191]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Saved/Two9D4B409B42D70692AD6797AACFA47B61.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap'
+[2014.10.27-01.40.32:090][171]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.42.31:725][523]Cmd: DUPLICATE
+[2014.10.27-01.42.31:725][523]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.42.31:774][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_46.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_31.Model_12
+[2014.10.27-01.42.31:774][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_46.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_14.Model_12
+[2014.10.27-01.42.31:774][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_46.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_11.Model_12
+[2014.10.27-01.42.31:776][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_61.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_46.Model_12
+[2014.10.27-01.42.31:776][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_61.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_31.Model_12
+[2014.10.27-01.42.31:777][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_61.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_14.Model_12
+[2014.10.27-01.42.31:777][523]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_61.Model_12 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_11.Model_12
+[2014.10.27-01.42.33:898][523]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.42.48:425][632]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.42.54:726][740]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.43.16:218][983]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.43.51:941][658]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.44.09:372][820]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.44.45:747][466]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.45.05:455][832]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.45.08:839][897]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.45.29:221][281]Cmd: DELETE
+[2014.10.27-01.45.29:221][281]Cmd: ACTOR DELETE
+[2014.10.27-01.45.29:227][281]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.45.31:595][281]LogEditorActor: Deleted 1 Actors (2.372 secs)
+[2014.10.27-01.45.33:640][281]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.45.36:725][342]Cmd: DELETE
+[2014.10.27-01.45.36:725][342]Cmd: ACTOR DELETE
+[2014.10.27-01.45.36:731][342]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.45.43:751][342]LogEditorActor: Deleted 1 Actors (7.024 secs)
+[2014.10.27-01.45.49:814][342]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.45.58:395][550]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.46.03:679][671]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.27-01.46.19:657][671]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.46.25:111][791]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.46.30:378][873]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.46.42:881][936]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.46.50:142][943]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.46.50:145][943]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-01.47.56:057][346]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.48.05:081][477]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.48.17:870][544]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.48.37:233][841]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.48.48:526][994]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.49.18:317][464]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.49.19:062][478]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.49.30:100][643]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.49.41:757][747]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.49.50:661][859]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.49.57:876][923]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.50.07:669][991]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.50.24:365][244]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.50.44:327][620]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.51.02:119][961]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.51.04:556][ 13]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.51.15:263][257]Cmd: DUPLICATE
+[2014.10.27-01.51.15:263][257]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_45.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_43.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_36.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_27.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_26.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_22.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_15.Model_6
+[2014.10.27-01.51.15:316][257]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_13.Model_6
+[2014.10.27-01.51.17:070][257]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.51.35:536][610]Cmd: DUPLICATE
+[2014.10.27-01.51.35:536][610]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.51.35:600][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6
+[2014.10.27-01.51.35:600][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_45.Model_6
+[2014.10.27-01.51.35:600][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_43.Model_6
+[2014.10.27-01.51.35:601][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_36.Model_6
+[2014.10.27-01.51.35:601][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_27.Model_6
+[2014.10.27-01.51.35:601][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_26.Model_6
+[2014.10.27-01.51.35:601][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_22.Model_6
+[2014.10.27-01.51.35:601][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_15.Model_6
+[2014.10.27-01.51.35:601][610]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_13.Model_6
+[2014.10.27-01.51.37:207][610]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.51.52:902][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.52.01:328][991]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.52.05:268][ 55]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_31)
+[2014.10.27-01.52.06:560][ 78]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_31)
+[2014.10.27-01.52.09:206][124]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.52.21:408][223]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.52.32:184][328]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.52.32:184][328]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.52.43:120][412]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.52.53:424][570]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.53.00:935][704]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.53.40:138][593]Cmd: DELETE
+[2014.10.27-01.53.40:138][593]Cmd: ACTOR DELETE
+[2014.10.27-01.53.40:146][593]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.53.44:399][593]LogEditorActor: Deleted 1 Actors (4.258 secs)
+[2014.10.27-01.53.47:250][593]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.54.09:197][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_66)
+[2014.10.27-01.54.26:327][592]Cmd: DUPLICATE
+[2014.10.27-01.54.26:327][592]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.54.26:371][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6
+[2014.10.27-01.54.26:371][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_65.Model_6
+[2014.10.27-01.54.26:371][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_45.Model_6
+[2014.10.27-01.54.26:371][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_43.Model_6
+[2014.10.27-01.54.26:372][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_36.Model_6
+[2014.10.27-01.54.26:372][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_27.Model_6
+[2014.10.27-01.54.26:372][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_26.Model_6
+[2014.10.27-01.54.26:372][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_22.Model_6
+[2014.10.27-01.54.26:372][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_15.Model_6
+[2014.10.27-01.54.26:372][592]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_13.Model_6
+[2014.10.27-01.54.28:240][592]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.55.01:405][315]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.55.12:630][547]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_31)
+[2014.10.27-01.55.18:542][635]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.55.29:288][804]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.55.42:118][ 13]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.55.52:679][140]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.56.13:387][515]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.56.23:492][712]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.57.08:822][649]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.57.16:008][777]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-01.57.23:649][910]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.57.58:373][725]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.58.09:220][844]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.58.13:171][932]Cmd: DELETE
+[2014.10.27-01.58.13:171][932]Cmd: ACTOR DELETE
+[2014.10.27-01.58.13:208][932]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-01.58.18:751][932]LogEditorActor: Deleted 1 Actors (5.546 secs)
+[2014.10.27-01.58.20:065][932]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.58.41:599][366]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.58.49:602][475]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.58.59:568][554]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.59.04:413][664]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-01.59.17:961][979]Cmd: DUPLICATE
+[2014.10.27-01.59.17:961][979]Cmd: ACTOR DUPLICATE
+[2014.10.27-01.59.18:004][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_69.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_67.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_45.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_43.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_36.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_27.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_26.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_22.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_15.Model_6
+[2014.10.27-01.59.18:005][979]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_32.Model_6 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_13.Model_6
+[2014.10.27-01.59.19:247][979]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.59.34:406][292]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-01.59.40:271][371]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.00.21:906][381]LogActorFactory: Actor Factory created Model_RockDebris_3
+[2014.10.27-02.00.23:955][421]LogActorFactory: Actor Factory created Model_RockDebris_3
+[2014.10.27-02.01.02:279][472]LogActorFactory: Actor Factory created Model_RockDebris_3
+[2014.10.27-02.01.03:629][504]LogActorFactory: Actor Factory created Model_RockDebris_3
+[2014.10.27-02.01.43:516][276]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-02.01.43:518][276]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-02.02.35:037][261]Cmd: DUPLICATE
+[2014.10.27-02.02.35:037][261]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.02.40:187][307]Cmd: DUPLICATE
+[2014.10.27-02.02.40:187][307]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.02.47:697][430]Cmd: DUPLICATE
+[2014.10.27-02.02.47:697][430]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.02.59:933][662]Cmd: DELETE
+[2014.10.27-02.02.59:933][662]Cmd: ACTOR DELETE
+[2014.10.27-02.02.59:939][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.27-02.03.00:057][662]LogEditorActor: Deleted 1 Actors (0.122 secs)
+[2014.10.27-02.03.02:536][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_RockDebris_8)
+[2014.10.27-02.03.03:569][746]Cmd: DELETE
+[2014.10.27-02.03.03:569][746]Cmd: ACTOR DELETE
+[2014.10.27-02.03.03:575][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.27-02.03.03:615][746]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.10.27-02.03.04:672][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_RockDebris_6)
+[2014.10.27-02.03.05:470][790]Cmd: DELETE
+[2014.10.27-02.03.05:470][790]Cmd: ACTOR DELETE
+[2014.10.27-02.03.05:475][790]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.27-02.03.05:517][790]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2014.10.27-02.03.06:540][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_RockDebris_7)
+[2014.10.27-02.09.27:628][749]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.09.35:906][867]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.09.44:702][933]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.09.54:717][ 84]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.09.59:299][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.10.13:613][317]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.10.27:595][545]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.10.41:066][796]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.10.50:801][923]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.11.12:536][385]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.11.22:755][601]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.27-02.11.30:554][744]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.11.38:669][875]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.12.04:994][382]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.12.17:881][499]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.12.25:999][635]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.12.30:245][692]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.12.40:997][838]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.12.59:630][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_RockDebris_7)
+[2014.10.27-02.13.21:170][704]LogSavePackage: Save=249.799332ms
+[2014.10.27-02.13.21:170][704]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Saved/TwoF7544E7B403FE41C3E2DD18672B4EA9C.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap'
+[2014.10.27-02.15.41:318][767]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.27-02.15.45:476][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.27-02.15.47:158][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.27-02.15.47:158][767]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.27-02.15.47:176][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.27-02.15.47:176][767]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.27-02.15.47:295][767]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.10.27-02.15.47:491][767]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.10.27-02.15.47:491][767]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.27-02.15.47:491][767]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.27-02.16.43:579][640]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-02.16.43:583][640]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-02.18.10:362][ 76]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.27-02.18.13:603][ 76]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.18.31:032][214]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.18.36:395][317]Cmd: DUPLICATE
+[2014.10.27-02.18.36:395][317]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.18.36:444][317]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_5.Model_8
+[2014.10.27-02.18.36:444][317]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_4.Model_8
+[2014.10.27-02.18.36:444][317]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_3.Model_8
+[2014.10.27-02.18.36:444][317]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_2.Model_8
+[2014.10.27-02.18.36:444][317]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush.Model_8
+[2014.10.27-02.18.43:092][317]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.18.43:092][317]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.18.55:635][529]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.19.03:973][583]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.19.09:415][683]Cmd: DUPLICATE
+[2014.10.27-02.19.09:415][683]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.19.09:469][683]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8
+[2014.10.27-02.19.09:469][683]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_5.Model_8
+[2014.10.27-02.19.09:469][683]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_4.Model_8
+[2014.10.27-02.19.09:469][683]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_3.Model_8
+[2014.10.27-02.19.09:469][683]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_2.Model_8
+[2014.10.27-02.19.09:469][683]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush.Model_8
+[2014.10.27-02.19.12:508][683]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.19.26:406][768]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.19.48:749][840]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.22.09:871][460]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.22.20:931][629]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.22.31:565][782]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.22.33:281][808]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_23)
+[2014.10.27-02.22.42:379][906]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.22.54:392][ 14]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.22.56:020][ 47]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.23.01:389][130]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.23.10:033][173]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.23.32:882][634]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.23.45:939][867]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.02:983][205]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.10:716][258]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.26:752][505]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.31:464][574]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.38:228][647]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.45:935][768]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.24.55:075][818]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.25.07:436][138]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.25.13:224][238]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.25.20:181][299]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.25.22:765][352]Cmd: DELETE
+[2014.10.27-02.25.22:765][352]Cmd: ACTOR DELETE
+[2014.10.27-02.25.22:771][352]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-02.25.23:164][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070E7E51120
+[2014.10.27-02.25.28:969][352]LogEditorActor: Deleted 1 Actors (6.203 secs)
+[2014.10.27-02.25.31:677][352]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.25.31:677][352]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.25.33:742][395]Cmd: DELETE
+[2014.10.27-02.25.33:742][395]Cmd: ACTOR DELETE
+[2014.10.27-02.25.33:748][395]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-02.25.35:360][395]LogEditorActor: Deleted 1 Actors (1.615 secs)
+[2014.10.27-02.25.39:185][395]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.25.43:496][494]Cmd: DUPLICATE
+[2014.10.27-02.25.43:496][494]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.25.43:545][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8
+[2014.10.27-02.25.43:546][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8
+[2014.10.27-02.25.43:546][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_5.Model_8
+[2014.10.27-02.25.43:546][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_4.Model_8
+[2014.10.27-02.25.43:546][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_3.Model_8
+[2014.10.27-02.25.43:589][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_2.Model_8
+[2014.10.27-02.25.43:589][494]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush.Model_8
+[2014.10.27-02.25.50:872][494]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.25.58:873][583]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.26.05:561][633]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.26.16:910][729]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.26.24:148][793]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.26.28:959][892]Cmd: DUPLICATE
+[2014.10.27-02.26.28:959][892]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_78.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_76.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_74.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_5.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_4.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_3.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush_2.Model_8
+[2014.10.27-02.26.29:013][892]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_80.Model_8 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.CylinderBrush.Model_8
+[2014.10.27-02.26.32:336][892]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.26.32:336][892]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.26.45:302][  4]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.26.56:719][136]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.26.56:719][136]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.27.07:259][313]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.27.18:213][518]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.27.31:615][676]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.27.39:712][756]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.27.50:950][812]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.28.21:713][454]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.28.28:950][545]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.28.34:452][604]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.28.43:033][650]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.28.53:395][748]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.28.53:395][748]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.28.56:939][794]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.29.05:099][829]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.29.12:774][894]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.29.32:587][140]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.29.40:580][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube_12)
+[2014.10.27-02.29.43:735][390]Cmd: EDIT COPY
+[2014.10.27-02.29.46:444][472]LogSavePackage: Save=267.207886ms
+[2014.10.27-02.29.46:444][472]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Saved/Two7F25946F40F1B13756C8C3901E356B0C.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap'
+[2014.10.27-02.31.44:733][319]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-02.31.44:735][319]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.27-02.32.09:277][903]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.27-02.32.12:151][903]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.32.23:230][  1]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.32.37:366][140]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.32.37:366][140]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.32.42:352][260]Cmd: DUPLICATE
+[2014.10.27-02.32.42:353][260]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.32.42:395][260]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_84.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush.Model_9
+[2014.10.27-02.32.48:389][260]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.32.54:873][300]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.32.57:914][369]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.33.00:176][371]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.33.04:491][426]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.33.12:804][477]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.34.04:311][607]Cmd: DUPLICATE
+[2014.10.27-02.34.04:311][607]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.34.04:362][607]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_86.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_84.Model_9
+[2014.10.27-02.34.04:362][607]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_86.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush.Model_9
+[2014.10.27-02.34.06:841][607]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.34.19:256][747]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.34.25:964][817]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.34.44:924][194]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.34.46:887][234]Cmd: DUPLICATE
+[2014.10.27-02.34.46:887][234]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.34.46:940][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_88.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_86.Model_9
+[2014.10.27-02.34.46:940][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_88.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_84.Model_9
+[2014.10.27-02.34.46:940][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_88.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush.Model_9
+[2014.10.27-02.34.53:547][234]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.35.01:129][355]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.35.11:218][407]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.35.17:072][460]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.35.21:642][507]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.35.21:642][507]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.35.26:800][556]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.35.36:374][638]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.36.06:350][955]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.36.15:520][159]Cmd: DUPLICATE
+[2014.10.27-02.36.15:520][159]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.36.15:567][159]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_90.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_88.Model_9
+[2014.10.27-02.36.15:567][159]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_90.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_86.Model_9
+[2014.10.27-02.36.15:567][159]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_90.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_84.Model_9
+[2014.10.27-02.36.15:567][159]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_90.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush.Model_9
+[2014.10.27-02.36.16:761][159]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.36.29:434][256]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.36.43:041][316]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.37.10:530][871]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.37.22:851][933]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.37.33:772][  3]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.37.44:271][129]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.37.55:660][298]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.38.29:960][981]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.38.41:780][347]Cmd: EDIT PASTE TO=HERE
+[2014.10.27-02.38.41:795][347]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_39.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_90.Model_9
+[2014.10.27-02.38.41:795][347]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_39.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_88.Model_9
+[2014.10.27-02.38.41:795][347]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_39.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_86.Model_9
+[2014.10.27-02.38.41:795][347]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_39.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_84.Model_9
+[2014.10.27-02.38.41:795][347]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_39.Model_9 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush.Model_9
+[2014.10.27-02.38.44:136][347]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.38.50:694][457]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.38.59:018][529]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.39.08:224][731]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.39.10:555][754]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.39.12:194][788]Cmd: DELETE
+[2014.10.27-02.39.12:194][788]Cmd: ACTOR DELETE
+[2014.10.27-02.39.12:209][788]LogEditorActor: Deleted Actor: Brush
+[2014.10.27-02.39.14:180][788]LogEditorActor: Deleted 1 Actors (1.975 secs)
+[2014.10.27-02.39.20:895][788]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.39.29:549][978]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.27-02.39.38:437][978]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.39.38:437][978]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.39.48:578][117]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.39.59:620][219]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.10:086][379]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.21:125][484]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.27:054][526]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.30:527][595]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.40.32:225][605]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.38:211][676]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.43:219][786]Cmd: DUPLICATE
+[2014.10.27-02.40.43:219][786]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.40.43:277][786]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_94.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_8.Model_10
+[2014.10.27-02.40.48:993][786]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.40.58:102][985]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.41.02:317][  6]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.41.12:694][113]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.41.22:630][312]Cmd: DUPLICATE
+[2014.10.27-02.41.22:630][312]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.41.22:685][312]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_96.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_94.Model_10
+[2014.10.27-02.41.22:685][312]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_96.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_8.Model_10
+[2014.10.27-02.41.23:949][312]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.41.36:678][515]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.41.56:518][897]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.05:307][988]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.12:518][158]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.42.16:560][198]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.25:372][360]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.30:091][473]Cmd: DUPLICATE
+[2014.10.27-02.42.30:091][473]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.42.30:137][473]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_98.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_96.Model_10
+[2014.10.27-02.42.30:137][473]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_98.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_94.Model_10
+[2014.10.27-02.42.30:137][473]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_98.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_8.Model_10
+[2014.10.27-02.42.32:095][473]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.41:808][561]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.46:499][665]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.42.48:422][669]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.42.58:010][748]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.43.09:930][826]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.43.13:611][902]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.43.31:814][294]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.43.34:603][356]Cmd: DUPLICATE
+[2014.10.27-02.43.34:603][356]Cmd: ACTOR DUPLICATE
+[2014.10.27-02.43.34:654][356]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_42.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_98.Model_10
+[2014.10.27-02.43.34:654][356]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_42.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_96.Model_10
+[2014.10.27-02.43.34:654][356]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_42.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_94.Model_10
+[2014.10.27-02.43.34:654][356]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_42.Model_10 or Model /Game/Maps/GameLevels/Two.Two:PersistentLevel.BoxBrush_8.Model_10
+[2014.10.27-02.43.36:210][356]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.43.45:570][489]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.43.58:269][553]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.27-02.44.04:570][688]LogDerivedDataCache:Warning: C:/Users/ryanw/AppData/Local/UnrealEngine/4.2/DerivedDataCache access is very slow, consider disabling it.
+[2014.10.27-02.44.05:662][697]LogSavePackage: Save=272.753021ms
+[2014.10.27-02.44.05:662][697]LogSavePackage: Moving '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Saved/Two92A776FE4809DD711C008AAF30B3B442.tmp' to '../../../../../../Users/ryanw/Documents/GitHub/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap'
+[2014.10.27-02.44.12:128][785]Cmd: QUIT_EDITOR
+[2014.10.27-02.44.16:660][785]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.27-02.44.16:976][785]LogExit: Preparing to exit.
+[2014.10.27-02.44.49:176][785]LogExit: Editor shut down
+[2014.10.27-02.44.49:240][785]LogExit: Transaction tracking system shut down
+[2014.10.27-02.44.49:423][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070D004A340
+[2014.10.27-02.44.56:288][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070D107EFC0
+[2014.10.27-02.44.56:288][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070EEA7A3E0
+[2014.10.27-02.44.56:288][785]LogExit: Object subsystem successfully closed.
+[2014.10.27-02.45.03:893][785]LogModuleManager: Shutting down and abandoning module MaterialEditor (164)
+[2014.10.27-02.45.03:934][785]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.10.27-02.45.04:024][785]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.10.27-02.45.04:024][785]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.10.27-02.45.04:024][785]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.10.27-02.45.04:218][785]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.10.27-02.45.04:218][785]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.10.27-02.45.04:218][785]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.10.27-02.45.04:252][785]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.10.27-02.45.04:332][785]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.10.27-02.45.04:530][785]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.10.27-02.45.04:873][785]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.10.27-02.45.04:972][785]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.10.27-02.45.04:983][785]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.10.27-02.45.05:002][785]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.10.27-02.45.05:060][785]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.10.27-02.45.05:060][785]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.10.27-02.45.05:096][785]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.10.27-02.45.05:096][785]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.10.27-02.45.05:097][785]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.10.27-02.45.05:112][785]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.10.27-02.45.05:112][785]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.10.27-02.45.05:112][785]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.10.27-02.45.05:112][785]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.10.27-02.45.05:149][785]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.10.27-02.45.05:149][785]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.10.27-02.45.05:193][785]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.10.27-02.45.05:193][785]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.10.27-02.45.05:193][785]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.10.27-02.45.05:285][785]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.10.27-02.45.05:285][785]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.10.27-02.45.05:285][785]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.10.27-02.45.05:346][785]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.10.27-02.45.05:379][785]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.10.27-02.45.05:437][785]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.10.27-02.45.05:437][785]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.10.27-02.45.05:624][785]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.10.27-02.45.05:684][785]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.10.27-02.45.05:710][785]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.10.27-02.45.05:710][785]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.10.27-02.45.05:710][785]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.10.27-02.45.05:787][785]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.10.27-02.45.05:798][785]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.10.27-02.45.05:798][785]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.10.27-02.45.05:840][785]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.10.27-02.45.06:544][785]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.10.27-02.45.06:762][785]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.10.27-02.45.06:762][785]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.10.27-02.45.06:762][785]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.10.27-02.45.06:762][785]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.10.27-02.45.06:762][785]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.10.27-02.45.06:867][785]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.10.27-02.45.07:082][785]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.10.27-02.45.07:288][785]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.10.27-02.45.07:292][785]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.10.27-02.45.07:303][785]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.10.27-02.45.07:457][785]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.10.27-02.45.07:457][785]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.10.27-02.45.07:483][785]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.10.27-02.45.07:484][785]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.10.27-02.45.07:484][785]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.10.27-02.45.07:617][785]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.10.27-02.45.07:680][785]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.10.27-02.45.07:680][785]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.10.27-02.45.07:733][785]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.10.27-02.45.08:059][785]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.10.27-02.45.08:059][785]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.10.27-02.45.08:690][785]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.10.27-02.45.08:690][785]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.10.27-02.45.08:748][785]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.10.27-02.45.08:748][785]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.10.27-02.45.08:748][785]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.10.27-02.45.08:765][785]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.10.27-02.45.08:778][785]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.10.27-02.45.08:778][785]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.10.27-02.45.08:778][785]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.10.27-02.45.08:778][785]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.10.27-02.45.09:154][785]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.10.27-02.45.09:263][785]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.10.27-02.45.09:263][785]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.10.27-02.45.09:306][785]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.10.27-02.45.09:408][785]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.10.27-02.45.09:572][785]LogDerivedDataCache: Shutdown
+[2014.10.27-02.45.09:572][785]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.10.27-02.45.09:815][785]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.10.27-02.45.09:943][785]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.10.27-02.45.09:944][785]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.10.27-02.45.09:966][785]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.10.27-02.45.09:984][785]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.10.27-02.45.10:054][785]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.10.27-02.45.10:164][785]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.10.27-02.45.10:165][785]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.10.27-02.45.10:165][785]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.10.27-02.45.10:165][785]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.10.27-02.45.10:168][785]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.10.27-02.45.10:186][785]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.10.27-02.45.10:198][785]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.10.27-02.45.10:198][785]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.10.27-02.45.10:213][785]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.10.27-02.45.10:402][785]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.10.27-02.45.10:416][785]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.10.27-02.45.10:418][785]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.10.27-02.45.10:432][785]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.10.27-02.45.10:577][785]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.10.27-02.45.10:587][785]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.10.27-02.45.10:683][785]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.10.27-02.45.10:942][785]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.10.27-02.45.10:942][785]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.10.27-02.45.10:967][785]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.10.27-02.45.10:967][785]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.10.27-02.45.10:967][785]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.10.27-02.45.10:990][785]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.10.27-02.45.10:990][785]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.10.27-02.45.10:990][785]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.10.27-02.45.11:036][785]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.10.27-02.45.11:036][785]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.10.27-02.45.11:471][785]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.10.27-02.45.11:490][785]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.10.27-02.45.11:490][785]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.10.27-02.45.11:490][785]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.10.27-02.45.11:676][785]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.10.27-02.45.11:777][785]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.10.27-02.45.11:865][785]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.10.27-02.45.12:046][785]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.10.27-02.45.12:082][785]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.10.27-02.45.12:173][785]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.10.27-02.45.12:290][785]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.10.27-02.45.12:290][785]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.10.27-02.45.12:414][785]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.10.27-02.45.12:581][785]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.10.27-02.45.12:581][785]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.27-02.45.12:581][785]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.27-02.45.12:623][785]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.27-02.45.12:655][785]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.27-02.45.12:699][785]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.27-02.45.12:941][785]LogExit: Exiting.
+[2014.10.27-02.45.13:620][785]Log file closed, 10/26/14 22:45:13
