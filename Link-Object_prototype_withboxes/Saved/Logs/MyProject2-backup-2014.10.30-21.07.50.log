@@ -1,0 +1,295 @@
+Log file open, 10/30/14 20:39:46
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.31-00.39.46:113][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.31-00.39.46:148][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.31-00.39.46:375][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.31-00.39.46:391][  0]LogInit: Object subsystem initialized
+[2014.10.31-00.39.46:395][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.31-00.39.46:395][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.31-00.39.46:494][  0]LogInit: Computer: VERONICA
+[2014.10.31-00.39.46:494][  0]LogInit: User: Zeetermin
+[2014.10.31-00.39.46:496][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.31-00.39.46:496][  0]LogInit: High frequency timer resolution =2.597724 MHz
+[2014.10.31-00.39.46:496][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
+[2014.10.31-00.39.46:496][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.31-00.39.46:496][  0]LogMemory: Process Physical Memory: 55.61 MB used, 55.61 MB peak
+[2014.10.31-00.39.46:496][  0]LogMemory: Process Virtual Memory: 33.66 MB used, 33.87 MB peak
+[2014.10.31-00.39.46:496][  0]LogMemory: Physical Memory: 4949.07 MB used, 6135.18 MB total
+[2014.10.31-00.39.46:496][  0]LogMemory: Virtual Memory: 238.87 MB used, 8388608.00 MB total
+[2014.10.31-00.39.46:893][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2014.10.31-00.39.46:893][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
+[2014.10.31-00.39.46:893][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.31-00.39.46:903][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.31-00.39.46:909][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.10.31-00.39.47:977][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.31-00.39.52:793][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.31-00.39.53:656][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.31-00.39.53:798][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.31-00.39.54:565][  0]LogDerivedDataCache: Loaded boot cache 0.77s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.31-00.39.54:565][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.10.31-00.39.54:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.31-00.39.54:565][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.31-00.39.54:654][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.31-00.39.54:667][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.10.31-00.39.59:658][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.31-00.39.59:658][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.31-00.40.02:397][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.31-00.40.16:935][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.10.31-00.40.16:935][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.10.31-00.40.17:112][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.10.31-00.40.17:112][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.10.31-00.40.23:872][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.31-00.40.24:377][  0]SourceControl: Info Source control is disabled
+[2014.10.31-00.40.24:377][  0]SourceControl: Info Source control is disabled
+[2014.10.31-00.40.24:390][  0]SourceControl: Info Source control is disabled
+[2014.10.31-00.40.25:424][  0]BlueprintLog: New page: Editor Load
+[2014.10.31-00.40.26:402][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.10.31-00.40.26:402][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.10.31-00.40.27:013][  0]LogEngine: Initializing Engine...
+[2014.10.31-00.40.27:567][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.31-00.40.27:633][  0]LogInit: FAudioDevice initialized.
+[2014.10.31-00.40.27:690][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.10.31-00.40.27:696][  0]LogInit: Texture streaming: Enabled
+[2014.10.31-00.40.28:550][  0]LogInit: Transaction tracking system initialized
+[2014.10.31-00.40.31:460][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.10.31-00.40.36:071][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.31-00.40.36:084][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.10.31-00.40.37:701][  0]LogConsoleResponse:Display: 
+[2014.10.31-00.40.48:936][  0]SourceControl: Info Source control is disabled
+[2014.10.31-00.40.49:024][  0]LightingResults: New page: Lighting Build
+[2014.10.31-00.40.49:048][  0]MapCheck: New page: Map Check
+[2014.10.31-00.40.49:048][  0]LightingResults: New page: Lighting Build
+[2014.10.31-00.40.49:064][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FE85580
+[2014.10.31-00.41.21:592][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.31-00.41.21:593][  0]Cmd: MAP CHECKDEP
+[2014.10.31-00.41.21:593][  0]MapCheck: New page: Two - Oct 30, 2014, 4:41:21 PM
+[2014.10.31-00.41.21:699][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [105.378ms] ==========
+[2014.10.31-00.41.21:699][  0]LogFileHelpers: Loading map 'Two' took 32.763
+[2014.10.31-00.41.21:960][  0]LogCollectionManager: Loaded 0 collections in 0.001760 seconds
+[2014.10.31-00.41.22:766][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.31-00.41.22:767][  0]Cmd: MODE PLACEMENT
+[2014.10.31-00.41.22:829][  0]LogLoad: Full Startup: 99.51 seconds (BP compile: 0.08 seconds)
+[2014.10.31-00.41.22:847][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.31-00.41.23:201][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.31-00.41.23:371][  0]LogRenderer:Warning: Reallocating scene render targets to support 912x968.
+[2014.10.31-00.41.23:566][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>666FA1880693532E</RequestId><HostId>BTLYOeNBdFhfvZSIwGuVXIfqq+MY7QxJNvEx9LKC1GZ8pKn3gAgW5MDi0s/EI1qj</HostId></Error>
+[2014.10.31-00.41.23:604][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>145CB4A5DFF0452C</RequestId><HostId>skg6DUtGyiitP1LQhpQYA0Ah2BNu3NHUpyhyx/1lYy/F+8G5jef9fzxIiCiLpcAQOn887ipZPaI=</HostId></Error>
+[2014.10.31-00.41.23:620][  2]LogAssetRegistry: Asset discovery search completed in 52.1681 seconds
+[2014.10.31-00.41.23:668][  5]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D080F0A9932B0889</RequestId><HostId>xP4u5J4dRW5hfsxHyIY/gkNggu1HKiMEZNdwANQJWpOigaDFHS452BuEntfkdgv/</HostId></Error>
+[2014.10.31-00.41.23:700][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CB9FB2703F2D6712</RequestId><HostId>odJAOqghXy0eFBvjSyuq/zfgDwi3L8zVqp7paBLT9bJhes1AbtJRx63rnQP8qZsQ</HostId></Error>
+[2014.10.31-00.41.24:469][ 12]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.31-00.41.24:808][ 12]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.31-00.43.03:067][602]LightingResults: New page: Lighting Build
+[2014.10.31-00.43.03:068][602]Cmd: MODE PLACEMENT
+[2014.10.31-00.43.03:092][602]LoadErrors: New page: Loading map: Two.umap
+[2014.10.31-00.43.03:094][602]MapCheck: New page: Map Check
+[2014.10.31-00.43.03:094][602]LightingResults: New page: Lighting Build
+[2014.10.31-00.43.03:124][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000094DA980
+[2014.10.31-00.43.03:446][602]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.31-00.43.03:470][602]Cmd: MAP CHECKDEP
+[2014.10.31-00.43.03:470][602]MapCheck: New page: Two - Oct 30, 2014, 4:43:03 PM
+[2014.10.31-00.43.03:571][602]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [100.943ms] ==========
+[2014.10.31-00.43.03:571][602]LogFileHelpers: Loading map 'Two' took 0.505
+[2014.10.31-00.43.07:818][829]LightingResults: New page: Lighting Build
+[2014.10.31-00.43.07:818][829]Cmd: MODE PLACEMENT
+[2014.10.31-00.43.07:837][829]LoadErrors: New page: Loading map: One.umap
+[2014.10.31-00.43.07:839][829]MapCheck: New page: Map Check
+[2014.10.31-00.43.07:840][829]LightingResults: New page: Lighting Build
+[2014.10.31-00.43.07:872][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D3FC5E0
+[2014.10.31-00.43.41:874][829]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.31-00.43.41:925][829]Cmd: MAP CHECKDEP
+[2014.10.31-00.43.41:925][829]MapCheck: New page: One - Oct 30, 2014, 4:43:41 PM
+[2014.10.31-00.43.42:043][829]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [117.223ms] ==========
+[2014.10.31-00.43.42:043][829]LogFileHelpers: Loading map 'One' took 34.225
+[2014.10.31-00.43.42:187][830]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.31-00.43.42:190][830]Cmd: UpdateLandscapeEditorData
+[2014.10.31-00.56.22:994][876]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.31-00.56.22:995][876]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.10.31-00.57.26:260][919]LogDialogs:Warning: Supressed: Opening the Matinee Editor will reset all current Undo data. (Undo/Redo will only be available on matinee actions while it remains open)
+[2014.10.31-00.57.26:913][919]LogInit: Transaction tracking system initialized
+[2014.10.31-00.57.27:007][919]EditorErrors: New page: Matinee Initialization
+[2014.10.31-01.01.06:687][  5]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.01.06:759][  5]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.01.06:834][  5]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.01.06:929][  5]LogStaticMesh: Building static mesh Platform1...
+[2014.10.31-01.01.06:972][  5]LogStaticMesh: Built static mesh [138.399231ms] /Game/Unsorted/Platform1.Platform1
+[2014.10.31-01.01.06:993][  5]LogActorFactory: Actor Factory created Platform1
+[2014.10.31-01.01.07:269][  5]EditorErrors: New page: Actor Reattachment
+[2014.10.31-01.01.07:299][  5]LogExit: Transaction tracking system shut down
+[2014.10.31-01.01.16:732][  5]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.31-01.01.17:436][  6]Cmd: UpdateLandscapeEditorData
+[2014.10.31-01.01.31:958][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform1)
+[2014.10.31-01.01.49:490][749]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.31-01.01.49:959][764]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Unsorted'
+[2014.10.31-01.01.58:654][436]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.01.58:659][436]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.01.58:660][436]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.01.58:660][436]LogStaticMesh: Building static mesh Platform2...
+[2014.10.31-01.01.58:660][436]LogStaticMesh: Built static mesh [0.464638ms] /Game/Unsorted/Platform2.Platform2
+[2014.10.31-01.01.58:666][436]LogActorFactory: Actor Factory created Platform2
+[2014.10.31-01.01.58:705][436]EditorErrors: New page: Actor Reattachment
+[2014.10.31-01.02.06:706][436]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.31-01.02.06:908][437]Cmd: UpdateLandscapeEditorData
+[2014.10.31-01.02.08:395][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform2)
+[2014.10.31-01.02.22:250][498]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.02.22:256][498]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.02.22:256][498]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.02.22:256][498]LogStaticMesh: Building static mesh Platform3...
+[2014.10.31-01.02.22:256][498]LogStaticMesh: Built static mesh [0.562030ms] /Game/Unsorted/Platform3.Platform3
+[2014.10.31-01.02.22:262][498]LogActorFactory: Actor Factory created Platform3
+[2014.10.31-01.02.22:293][498]EditorErrors: New page: Actor Reattachment
+[2014.10.31-01.02.30:582][498]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.31-01.02.30:777][499]Cmd: UpdateLandscapeEditorData
+[2014.10.31-01.02.45:683][493]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.02.45:690][493]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.02.45:690][493]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.02.45:690][493]LogStaticMesh: Building static mesh Platform4...
+[2014.10.31-01.02.45:691][493]LogStaticMesh: Built static mesh [0.606300ms] /Game/Unsorted/Platform4.Platform4
+[2014.10.31-01.02.45:696][493]LogActorFactory: Actor Factory created Platform4
+[2014.10.31-01.02.45:762][493]EditorErrors: New page: Actor Reattachment
+[2014.10.31-01.02.51:966][493]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.31-01.02.52:161][494]Cmd: UpdateLandscapeEditorData
+[2014.10.31-01.03.07:348][692]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.03.07:354][692]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.03.07:354][692]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.31-01.03.07:355][692]LogStaticMesh: Building static mesh Platform5...
+[2014.10.31-01.03.07:355][692]LogStaticMesh: Built static mesh [0.693299ms] /Game/Unsorted/Platform5.Platform5
+[2014.10.31-01.03.07:362][692]LogActorFactory: Actor Factory created Platform5
+[2014.10.31-01.03.07:386][692]EditorErrors: New page: Actor Reattachment
+[2014.10.31-01.03.14:158][692]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.10.31-01.03.14:345][693]Cmd: UpdateLandscapeEditorData
+[2014.10.31-01.03.46:900][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform5)
+[2014.10.31-01.04.28:744][621]LogEditorActor: Deleted Actor: MatineeActor
+[2014.10.31-01.04.28:765][621]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2014.10.31-01.04.29:824][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform1)
+[2014.10.31-01.04.31:074][692]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Platform2)
+[2014.10.31-01.04.31:747][712]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Platform3)
+[2014.10.31-01.04.34:085][777]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Platform4)
+[2014.10.31-01.04.35:671][819]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Platform5)
+[2014.10.31-01.04.39:392][ 19]LogDialogs:Warning: Supressed: Opening the Matinee Editor will reset all current Undo data. (Undo/Redo will only be available on matinee actions while it remains open)
+[2014.10.31-01.04.39:410][ 19]LogInit: Transaction tracking system initialized
+[2014.10.31-01.04.39:410][ 19]EditorErrors: New page: Matinee Initialization
+[2014.10.31-01.05.13:240][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform1)
+[2014.10.31-01.05.35:265][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform1)
+[2014.10.31-01.06.27:716][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform1)
+[2014.10.31-01.06.27:999][443]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Platform1)
+[2014.10.31-01.07.30:723][259]LogWindows:Error: appError called: Assertion failed: NewKeyIndex != INDEX_NONE [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Editor\Matinee\Private\MatineeTools.cpp] [Line: 2249]
+
+Stack:
+Address = 0xd73ad866 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd724d275 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xcaaa6111 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa8aa24 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa24c0d (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa270c7 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xd4020a36 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd40d04cd (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd40b7b0c (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd421c82a (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd423cc65 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd404b35c (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd4040fdc (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd7350ddd (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd7340b81 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd7351e9f (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd733df62 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x77189bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x771898da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xd7352296 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f31795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f30d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f30d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f319119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f319fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x7728652d (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7787c521 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7787c521 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.31-01.07.30:723][259]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.10.31-01.07.30:723][259]LogCrashTracker: 
+
+
+[2014.10.31-01.07.39:446][259]LogCrashTracker: 
+
+
+[2014.10.31-01.07.39:446][259]LogWindows: === Critical error: ===
+Unhandled Exception: 0x00000001
+
+[2014.10.31-01.07.39:447][259]LogWindows: Assertion failed: NewKeyIndex != INDEX_NONE [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Editor\Matinee\Private\MatineeTools.cpp] [Line: 2249]
+
+Stack:
+Address = 0xd73ad866 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd724d275 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xcaaa6111 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa8aa24 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa24c0d (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa270c7 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xd4020a36 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd40d04cd (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd40b7b0c (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd421c82a (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd423cc65 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd404b35c (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd4040fdc (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd7350ddd (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd7340b81 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd7351e9f (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd733df62 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x77189bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x771898da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xd7352296 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f31795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f30d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f30d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f319119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f319fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x7728652d (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7787c521 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7787c521 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+
+Address = 0xfe01bccd (filename not found) [in C:\Windows\system32\KERNELBASE.dll]
+Address = 0xd73ac1dc (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd725b94a (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd724d320 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xcaaa6111 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa8aa24 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa24c0d (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xcaa270c7 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Matinee.dll]
+Address = 0xd4020a36 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd40d04cd (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd40b7b0c (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd421c82a (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd423cc65 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd404b35c (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd4040fdc (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd7350ddd (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd7340b81 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd7351e9f (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd733df62 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x77189bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x771898da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xd7352296 (filename not found) [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f31795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f30d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f30d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f319119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f319fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x7728652d (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7787c521 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7787c521 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.31-01.07.39:447][259]LogExit: Executing StaticShutdownAfterError
+[2014.10.31-01.07.39:461][259]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.31-01.07.39:461][259]Log file closed, 10/30/14 21:07:39
