@@ -1,0 +1,1628 @@
+Log file open, 11/06/14 19:21:47
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.07-00.21.47:607][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.07-00.21.47:642][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.07-00.21.48:246][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.07-00.21.48:256][  0]LogInit: Object subsystem initialized
+[2014.11.07-00.21.48:258][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.07-00.21.48:258][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.07-00.21.48:367][  0]LogInit: Computer: VERONICA
+[2014.11.07-00.21.48:367][  0]LogInit: User: Zeetermin
+[2014.11.07-00.21.48:367][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.07-00.21.48:367][  0]LogInit: High frequency timer resolution =2.597724 MHz
+[2014.11.07-00.21.48:367][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx) Virtual=8192.0GB
+[2014.11.07-00.21.48:367][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.07-00.21.48:367][  0]LogMemory: Process Physical Memory: 54.77 MB used, 54.77 MB peak
+[2014.11.07-00.21.48:367][  0]LogMemory: Process Virtual Memory: 31.71 MB used, 31.94 MB peak
+[2014.11.07-00.21.48:367][  0]LogMemory: Physical Memory: 5175.51 MB used, 6135.18 MB total
+[2014.11.07-00.21.48:367][  0]LogMemory: Virtual Memory: 236.93 MB used, 8388608.00 MB total
+[2014.11.07-00.21.49:339][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2014.11.07-00.21.49:339][  0]LogD3D11RHI: Adapter has 2033MB of dedicated video memory, 0MB of dedicated system memory, and 2811MB of shared system memory, 2 output[s]
+[2014.11.07-00.21.49:339][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.07-00.21.49:347][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.07-00.21.49:353][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.07-00.21.52:042][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.07-00.21.57:351][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.07-00.21.59:075][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.07-00.21.59:394][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.07-00.22.00:264][  0]LogDerivedDataCache: Loaded boot cache 0.84s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.11.07-00.22.00:264][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.11.07-00.22.00:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.07-00.22.00:264][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.07-00.22.00:420][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.07-00.22.00:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.11.07-00.22.07:592][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.07-00.22.07:592][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.07-00.22.10:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.07-00.22.33:643][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.11.07-00.22.33:643][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.11.07-00.22.33:887][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.11.07-00.22.33:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.11.07-00.22.43:613][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.07-00.22.44:791][  0]SourceControl: Info Source control is disabled
+[2014.11.07-00.22.44:792][  0]SourceControl: Info Source control is disabled
+[2014.11.07-00.22.44:806][  0]SourceControl: Info Source control is disabled
+[2014.11.07-00.22.49:309][  0]BlueprintLog: New page: Editor Load
+[2014.11.07-00.22.51:259][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.11.07-00.22.51:259][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.11.07-00.22.51:943][  0]LogEngine: Initializing Engine...
+[2014.11.07-00.22.52:617][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.07-00.22.52:700][  0]LogInit: FAudioDevice initialized.
+[2014.11.07-00.22.52:746][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Zeetermin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.11.07-00.22.52:752][  0]LogInit: Texture streaming: Enabled
+[2014.11.07-00.22.53:849][  0]LogInit: Transaction tracking system initialized
+[2014.11.07-00.22.58:408][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.11.07-00.23.09:595][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.11.07-00.23.09:608][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.11.07-00.23.11:191][  0]LogConsoleResponse:Display: 
+[2014.11.07-00.23.24:310][  0]SourceControl: Info Source control is disabled
+[2014.11.07-00.23.24:311][  0]LightingResults: New page: Lighting Build
+[2014.11.07-00.23.24:332][  0]MapCheck: New page: Map Check
+[2014.11.07-00.23.24:332][  0]LightingResults: New page: Lighting Build
+[2014.11.07-00.23.24:346][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000126A9580
+[2014.11.07-00.24.12:210][  0]LogStaticMesh: Building static mesh Model_Glowing_Orb_Chandelier_Segment...
+[2014.11.07-00.24.12:245][  0]LogStaticMesh: Built static mesh [477.491821ms] /Game/Meshes/Environment/Model_Glowing_Orb_Chandelier_Segment.Model_Glowing_Orb_Chandelier_Segment
+[2014.11.07-00.24.21:191][  0]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling.
+[2014.11.07-00.24.24:449][  0]LogStaticMesh: Building static mesh Model_StandingCauldron...
+[2014.11.07-00.24.24:462][  0]LogStaticMesh: Built static mesh [12.738844ms] /Game/Meshes/Environment/Model_StandingCauldron.Model_StandingCauldron
+[2014.11.07-00.24.26:498][  0]LogStaticMesh: Building static mesh Model_DoorFrame_1...
+[2014.11.07-00.24.26:502][  0]LogStaticMesh: Built static mesh [4.159025ms] /Game/Meshes/Objects/Model_DoorFrame_1.Model_DoorFrame_1
+[2014.11.07-00.24.28:624][  0]LogStaticMesh: Building static mesh Model_Jar1...
+[2014.11.07-00.24.28:632][  0]LogStaticMesh: Built static mesh [576.926208ms] /Game/Meshes/Objects/Model_Jar1.Model_Jar1
+[2014.11.07-00.24.29:617][  0]LogStaticMesh: Building static mesh Model_Jar2...
+[2014.11.07-00.24.29:627][  0]LogStaticMesh: Built static mesh [509.018677ms] /Game/Meshes/Objects/Model_Jar2.Model_Jar2
+[2014.11.07-00.25.03:243][  0]LogBlueprint:Warning: Node '/Game/Maps/GameLevels/Two.Two:PersistentLevel.Two.EventGraph.K2Node_Literal_10' missing NodeGuid.
+[2014.11.07-00.25.03:243][  0]LogBlueprint:Warning: Node '/Game/Maps/GameLevels/Two.Two:PersistentLevel.Two.EventGraph.K2Node_Literal_22' missing NodeGuid.
+[2014.11.07-00.25.03:243][  0]LogBlueprint:Warning: Node '/Game/Maps/GameLevels/Two.Two:PersistentLevel.Two.EventGraph.K2Node_Literal_35' missing NodeGuid.
+[2014.11.07-00.25.03:243][  0]LogBlueprint:Warning: Node '/Game/Maps/GameLevels/Two.Two:PersistentLevel.Two.EventGraph.K2Node_Literal_605' missing NodeGuid.
+[2014.11.07-00.25.23:798][  0]LogMaterial:Warning: Material /Game/puzzle_piece.puzzle_piece needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.23:917][  0]LogMaterial: Missing cached shader map for material puzzle_piece, compiling.
+[2014.11.07-00.25.23:920][  0]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.23:921][  0]LogMaterial:Warning: Material /Game/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.24:082][  0]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.11.07-00.25.24:085][  0]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.24:085][  0]LogMaterial:Warning: Material /Game/Materials/ColorCodes/puzzle_piece.puzzle_piece needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.24:384][  0]LogMaterial: Missing cached shader map for material puzzle_piece, compiling.
+[2014.11.07-00.25.24:416][  0]LogMaterial: 0.028975 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.24:417][  0]LogMaterial:Warning: Material /Game/Materials/ColorCodes/lore.lore needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.24:601][  0]LogMaterial: Missing cached shader map for material lore, compiling.
+[2014.11.07-00.25.24:607][  0]LogMaterial: 0.000241 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.24:670][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Mat_BlueGlow.Mat_BlueGlow needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.24:812][  0]LogMaterial: Missing cached shader map for material Mat_BlueGlow, compiling.
+[2014.11.07-00.25.24:821][  0]LogMaterial: 0.000194 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.24:834][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Mat_Obsidian.Mat_Obsidian needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.24:999][  0]LogMaterial: Missing cached shader map for material Mat_Obsidian, compiling.
+[2014.11.07-00.25.25:006][  0]LogMaterial: 0.000170 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.25:030][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Meteor_Platform1.Material_Meteor_Platform1 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.25:117][  0]LogMaterial: Missing cached shader map for material Material_Meteor_Platform1, compiling.
+[2014.11.07-00.25.25:123][  0]LogMaterial: 0.000474 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.25:126][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Debris1_M2.Material_Debris1_M2 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.25:235][  0]LogMaterial: Missing cached shader map for material Material_Debris1_M2, compiling.
+[2014.11.07-00.25.25:239][  0]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.25:280][  0]LogMaterial:Warning: Material /Game/Materials/Objects/Material_LightStatue_1_M3.Material_LightStatue_1_M3 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.25:383][  0]LogMaterial: Missing cached shader map for material Material_LightStatue_1_M3, compiling.
+[2014.11.07-00.25.25:399][  0]LogMaterial: 0.001019 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.25:403][  0]LogMaterial:Warning: Material /Game/Materials/Objects/Material_Bench_1_M1.Material_Bench_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.25.25:464][  0]LogMaterial: Missing cached shader map for material Material_Bench_1_M1, compiling.
+[2014.11.07-00.25.25:471][  0]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.25.25:514][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.07-00.25.25:520][  0]Cmd: MAP CHECKDEP
+[2014.11.07-00.25.25:520][  0]MapCheck: New page: Two - Nov 6, 2014, 2:25:25 PM
+[2014.11.07-00.25.25:744][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [222.892ms] ==========
+[2014.11.07-00.25.25:744][  0]LogFileHelpers: Loading map 'Two' took 121.431
+[2014.11.07-00.25.26:328][  0]LogCollectionManager: Loaded 0 collections in 0.002488 seconds
+[2014.11.07-00.25.52:928][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.07-00.25.52:929][  0]Cmd: MODE PLACEMENT
+[2014.11.07-00.25.52:980][  0]LogLoad: Full Startup: 252.59 seconds (BP compile: 0.22 seconds)
+[2014.11.07-00.25.53:004][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Environment'
+[2014.11.07-00.25.53:994][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.07-00.25.54:436][  0]LogRenderer:Warning: Reallocating scene render targets to support 1064x968.
+[2014.11.07-00.25.54:631][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BCA20122F46E7F50</RequestId><HostId>sh/JFt8d3GawfAYNaS1nnJIH95TOUuxzmVlldeMrl8grorgMIppluQ2hciq1HSJO</HostId></Error>
+[2014.11.07-00.25.54:632][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2014.11.07-00.25.54:633][  1]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.25.54:710][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0B7DC46EBD756D01</RequestId><HostId>2vGrgvM+ITbZxfouUCMjbajrVOg8HLU3k8reA4oVvzJMpdvgTXBlh8+8LDxd4Llj</HostId></Error>
+[2014.11.07-00.25.54:827][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>73141AA998E8E669</RequestId><HostId>7jhDX5gIKSecweWe0fABhencnj/1zlXO3QaeOG4lRbKGTlfRb6tMIB7Asz64nVgl</HostId></Error>
+[2014.11.07-00.25.54:916][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C595CEDE26C15F9C</RequestId><HostId>Xe4pYP+QSVMTn0E/ZAzzN9aHJJKKFjLwe4G64uzBZ1+8tABt6PtiVCMIZD3tFU91UkJli6nhIe4=</HostId></Error>
+[2014.11.07-00.25.57:660][ 14]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-00.25.58:819][ 14]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-00.26.20:779][718]LightingResults: New page: Lighting Build
+[2014.11.07-00.26.20:780][718]Cmd: MODE PLACEMENT
+[2014.11.07-00.26.20:800][718]LoadErrors: New page: Loading map: Three.umap
+[2014.11.07-00.26.20:809][718]MapCheck: New page: Map Check
+[2014.11.07-00.26.20:809][718]LightingResults: New page: Lighting Build
+[2014.11.07-00.26.20:910][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D3CE020
+[2014.11.07-00.26.28:879][718]LoadErrors:Error: Error Failed import: Texture2D /Game/Textures/T_Rock_08_D.T_Rock_08_D  in /Game/Props/Materials/M_Rock
+[2014.11.07-00.26.28:880][718]LoadErrors:Error: Error Failed import: Texture2D /Game/Textures/T_Rock_08_N.T_Rock_08_N  in /Game/Props/Materials/M_Rock
+[2014.11.07-00.26.41:376][718]LogMaterial: Missing cached shader map for material Material_Heiroglyphs_1, compiling.
+[2014.11.07-00.26.43:968][718]LogTexture:Display: Building textures: Normal_Wall_1_T5 (BC5)
+[2014.11.07-00.26.44:402][718]LogMaterial: Missing cached shader map for material Material_Wall_4, compiling.
+[2014.11.07-00.26.44:520][718]LogTexture:Display: Building textures: Emiss_Wall_1_T6 (AutoDXT)
+[2014.11.07-00.26.44:949][718]LogTexture:Display: Building textures: Normal_Wall_1_T6 (BC5)
+[2014.11.07-00.26.45:564][718]LogMaterial: Missing cached shader map for material Material_Wall_6, compiling.
+[2014.11.07-00.27.11:084][718]LogStaticMesh: Building static mesh Model_WallBoarder_3...
+[2014.11.07-00.27.11:085][718]LogStaticMesh: Built static mesh [1.989819ms] /Game/Meshes/Environment/Model_WallBoarder_3.Model_WallBoarder_3
+[2014.11.07-00.27.11:360][718]LogMaterial: Missing cached shader map for material Mat_RedGlow, compiling.
+[2014.11.07-00.27.11:363][718]LogStaticMesh: Building static mesh Model_Cauldron_2...
+[2014.11.07-00.27.11:373][718]LogStaticMesh: Built static mesh [10.089602ms] /Game/Meshes/Objects/Model_Cauldron_2.Model_Cauldron_2
+[2014.11.07-00.27.11:743][718]LogStaticMesh: Building static mesh Model_DoorLeft_1...
+[2014.11.07-00.27.11:746][718]LogStaticMesh: Built static mesh [4.278360ms] /Game/Meshes/Objects/Model_DoorLeft_1.Model_DoorLeft_1
+[2014.11.07-00.27.11:952][718]LogMaterial: Missing cached shader map for material Material_Door_1_M3, compiling.
+[2014.11.07-00.27.12:031][718]LogStaticMesh: Building static mesh Model_DoorRight_1...
+[2014.11.07-00.27.12:033][718]LogStaticMesh: Built static mesh [76.254448ms] /Game/Meshes/Objects/Model_DoorRight_1.Model_DoorRight_1
+[2014.11.07-00.27.12:118][718]LogStaticMesh: Building static mesh Model_glowing_orb_tree_thing...
+[2014.11.07-00.27.12:203][718]LogStaticMesh: Built static mesh [85.596085ms] /Game/Meshes/Objects/Model_glowing_orb_tree_thing.Model_glowing_orb_tree_thing
+[2014.11.07-00.27.12:475][718]LogMaterial: Missing cached shader map for material M_Rock, compiling.
+[2014.11.07-00.27.12:477][718]LogMaterial:Warning: Failed to compile Material /Game/Props/Materials/M_Rock.M_Rock for platform PCD3D_SM5, Default Material will be used in game.
+[2014.11.07-00.27.12:477][718]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.07-00.27.12:477][718]LogMaterial:Warning: 	Function BlendAngleCorrectedNormals: (Node TextureSample) TextureSample> Missing input texture
+[2014.11.07-00.27.33:166][718]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.07-00.27.33:833][718]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.11.07-00.27.33:863][718]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.11.07-00.27.33:894][718]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.11.07-00.27.33:914][718]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2014.11.07-00.27.33:928][718]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.11.07-00.27.33:931][718]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.11.07-00.27.33:957][718]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2014.11.07-00.27.33:992][718]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.11.07-00.27.34:153][718]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.11.07-00.27.34:163][718]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2014.11.07-00.27.34:218][718]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.07-00.27.34:790][718]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.11.07-00.27.34:815][718]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.11.07-00.27.34:844][718]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.11.07-00.27.34:849][718]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.11.07-00.27.34:862][718]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2014.11.07-00.27.34:877][718]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2014.11.07-00.27.34:887][718]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.11.07-00.27.34:900][718]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.11.07-00.27.34:927][718]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.11.07-00.27.34:931][718]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.11.07-00.27.34:972][718]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.07-00.27.35:540][718]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.11.07-00.27.35:553][718]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2014.11.07-00.27.35:567][718]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2014.11.07-00.27.35:590][718]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2014.11.07-00.27.35:609][718]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2014.11.07-00.27.35:685][718]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2014.11.07-00.27.35:688][718]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2014.11.07-00.27.35:703][718]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2014.11.07-00.27.35:719][718]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.11.07-00.27.35:722][718]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2014.11.07-00.27.35:731][718]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2014.11.07-00.27.35:737][718]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2014.11.07-00.27.35:744][718]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2014.11.07-00.27.35:747][718]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2014.11.07-00.27.35:771][718]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2014.11.07-00.27.35:775][718]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2014.11.07-00.27.35:778][718]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2014.11.07-00.27.35:787][718]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2014.11.07-00.27.35:790][718]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2014.11.07-00.27.35:795][718]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2014.11.07-00.27.35:810][718]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.11.07-00.27.35:844][718]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2014.11.07-00.27.35:858][718]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2014.11.07-00.27.35:861][718]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.11.07-00.27.35:865][718]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2014.11.07-00.27.35:882][718]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2014.11.07-00.27.35:885][718]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2014.11.07-00.27.35:898][718]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2014.11.07-00.27.35:923][718]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2014.11.07-00.27.35:958][718]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2014.11.07-00.27.35:993][718]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2014.11.07-00.27.35:998][718]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.07-00.27.36:018][718]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2014.11.07-00.27.36:077][718]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2014.11.07-00.27.36:168][718]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2014.11.07-00.27.36:196][718]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2014.11.07-00.27.36:208][718]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2014.11.07-00.27.36:222][718]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2014.11.07-00.27.36:237][718]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2014.11.07-00.27.36:245][718]LogTexture:Display: Building textures: HQ_Lightmap0_67 (AutoDXT)
+[2014.11.07-00.27.36:574][718]LogTexture:Display: Building textures: HQ_Lightmap0_68 (AutoDXT)
+[2014.11.07-00.27.36:596][718]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.07-00.27.36:602][718]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
+[2014.11.07-00.27.36:611][718]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
+[2014.11.07-00.27.36:669][718]LogTexture:Display: Building textures: HQ_Lightmap0_72 (AutoDXT)
+[2014.11.07-00.27.36:808][718]LogTexture:Display: Building textures: HQ_Lightmap0_73 (AutoDXT)
+[2014.11.07-00.27.36:813][718]LogTexture:Display: Building textures: HQ_Lightmap0_74 (AutoDXT)
+[2014.11.07-00.27.36:864][718]LogTexture:Display: Building textures: HQ_Lightmap0_75 (AutoDXT)
+[2014.11.07-00.27.36:882][718]LogTexture:Display: Building textures: HQ_Lightmap0_76 (AutoDXT)
+[2014.11.07-00.27.36:886][718]LogTexture:Display: Building textures: HQ_Lightmap0_77 (AutoDXT)
+[2014.11.07-00.27.36:891][718]LogTexture:Display: Building textures: HQ_Lightmap0_78 (AutoDXT)
+[2014.11.07-00.27.36:914][718]LogTexture:Display: Building textures: HQ_Lightmap0_79 (AutoDXT)
+[2014.11.07-00.27.36:955][718]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.11.07-00.27.36:970][718]LogTexture:Display: Building textures: HQ_Lightmap0_80 (AutoDXT)
+[2014.11.07-00.27.36:979][718]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.07-00.27.37:002][718]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.07-00.27.37:390][718]LogTexture:Display: Building textures: HQ_Lightmap1_69 (AutoDXT)
+[2014.11.07-00.27.37:416][718]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.07-00.27.37:767][718]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.11.07-00.27.37:780][718]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.11.07-00.27.37:802][718]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.11.07-00.27.37:812][718]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.11.07-00.27.37:819][718]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2014.11.07-00.27.37:821][718]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.11.07-00.27.37:832][718]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2014.11.07-00.27.37:847][718]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2014.11.07-00.27.37:962][718]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.11.07-00.27.37:970][718]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.11.07-00.27.38:009][718]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.07-00.27.38:263][718]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.11.07-00.27.38:284][718]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.11.07-00.27.38:312][718]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.11.07-00.27.38:316][718]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.11.07-00.27.38:330][718]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2014.11.07-00.27.38:343][718]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.11.07-00.27.38:351][718]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.11.07-00.27.38:361][718]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.11.07-00.27.38:376][718]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.11.07-00.27.38:381][718]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.11.07-00.27.38:410][718]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.07-00.27.38:624][718]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.11.07-00.27.38:633][718]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2014.11.07-00.27.38:640][718]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2014.11.07-00.27.38:655][718]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2014.11.07-00.27.38:671][718]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2014.11.07-00.27.38:721][718]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2014.11.07-00.27.38:724][718]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2014.11.07-00.27.38:731][718]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2014.11.07-00.27.38:744][718]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.11.07-00.27.38:749][718]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2014.11.07-00.27.38:755][718]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2014.11.07-00.27.38:762][718]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2014.11.07-00.27.38:769][718]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2014.11.07-00.27.38:771][718]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2014.11.07-00.27.38:788][718]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2014.11.07-00.27.38:790][718]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2014.11.07-00.27.38:793][718]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2014.11.07-00.27.38:804][718]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2014.11.07-00.27.38:807][718]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2014.11.07-00.27.38:810][718]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2014.11.07-00.27.38:819][718]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.07-00.27.38:841][718]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2014.11.07-00.27.38:852][718]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2014.11.07-00.27.38:853][718]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.11.07-00.27.38:855][718]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2014.11.07-00.27.38:863][718]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2014.11.07-00.27.38:865][718]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2014.11.07-00.27.38:871][718]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2014.11.07-00.27.38:885][718]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2014.11.07-00.27.38:911][718]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2014.11.07-00.27.38:933][718]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2014.11.07-00.27.38:936][718]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.07-00.27.38:944][718]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2014.11.07-00.27.38:989][718]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2014.11.07-00.27.39:041][718]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2014.11.07-00.27.39:060][718]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2014.11.07-00.27.39:066][718]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2014.11.07-00.27.39:073][718]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2014.11.07-00.27.39:087][718]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2014.11.07-00.27.39:099][718]LogTexture:Display: Building textures: LQ_Lightmap_0_67 (DXT1)
+[2014.11.07-00.27.39:243][718]LogTexture:Display: Building textures: LQ_Lightmap_0_68 (DXT1)
+[2014.11.07-00.27.39:260][718]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.07-00.27.39:262][718]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
+[2014.11.07-00.27.39:268][718]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
+[2014.11.07-00.27.39:296][718]LogTexture:Display: Building textures: LQ_Lightmap_0_72 (DXT1)
+[2014.11.07-00.27.39:353][718]LogTexture:Display: Building textures: LQ_Lightmap_0_73 (DXT1)
+[2014.11.07-00.27.39:360][718]LogTexture:Display: Building textures: LQ_Lightmap_0_74 (DXT1)
+[2014.11.07-00.27.39:380][718]LogTexture:Display: Building textures: LQ_Lightmap_0_75 (DXT1)
+[2014.11.07-00.27.39:390][718]LogTexture:Display: Building textures: LQ_Lightmap_0_76 (DXT1)
+[2014.11.07-00.27.39:392][718]LogTexture:Display: Building textures: LQ_Lightmap_0_77 (DXT1)
+[2014.11.07-00.27.39:394][718]LogTexture:Display: Building textures: LQ_Lightmap_0_78 (DXT1)
+[2014.11.07-00.27.39:410][718]LogTexture:Display: Building textures: LQ_Lightmap_0_79 (DXT1)
+[2014.11.07-00.27.39:432][718]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.07-00.27.39:439][718]LogTexture:Display: Building textures: LQ_Lightmap_0_80 (DXT1)
+[2014.11.07-00.27.39:444][718]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.07-00.27.39:461][718]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.07-00.27.39:671][718]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2014.11.07-00.27.39:713][718]LogTexture:Display: Building textures: ShadowMapTexture2D_216 (BGRA8)
+[2014.11.07-00.27.39:895][718]LogTexture:Display: Building textures: ShadowMapTexture2D_217 (BGRA8)
+[2014.11.07-00.27.39:936][718]LogTexture:Display: Building textures: ShadowMapTexture2D_218 (BGRA8)
+[2014.11.07-00.27.39:945][718]LogTexture:Display: Building textures: ShadowMapTexture2D_219 (BGRA8)
+[2014.11.07-00.27.39:946][718]LogTexture:Display: Building textures: ShadowMapTexture2D_220 (BGRA8)
+[2014.11.07-00.27.39:948][718]LogTexture:Display: Building textures: ShadowMapTexture2D_221 (BGRA8)
+[2014.11.07-00.27.39:949][718]LogTexture:Display: Building textures: ShadowMapTexture2D_222 (BGRA8)
+[2014.11.07-00.27.39:951][718]LogTexture:Display: Building textures: ShadowMapTexture2D_223 (BGRA8)
+[2014.11.07-00.27.39:954][718]LogTexture:Display: Building textures: ShadowMapTexture2D_224 (BGRA8)
+[2014.11.07-00.27.39:958][718]LogTexture:Display: Building textures: ShadowMapTexture2D_225 (BGRA8)
+[2014.11.07-00.27.39:960][718]LogTexture:Display: Building textures: ShadowMapTexture2D_226 (BGRA8)
+[2014.11.07-00.27.39:962][718]LogTexture:Display: Building textures: ShadowMapTexture2D_227 (BGRA8)
+[2014.11.07-00.27.39:964][718]LogTexture:Display: Building textures: ShadowMapTexture2D_228 (BGRA8)
+[2014.11.07-00.27.39:965][718]LogTexture:Display: Building textures: ShadowMapTexture2D_229 (BGRA8)
+[2014.11.07-00.27.39:967][718]LogTexture:Display: Building textures: ShadowMapTexture2D_230 (BGRA8)
+[2014.11.07-00.27.39:970][718]LogTexture:Display: Building textures: ShadowMapTexture2D_231 (BGRA8)
+[2014.11.07-00.27.39:979][718]LogTexture:Display: Building textures: ShadowMapTexture2D_232 (BGRA8)
+[2014.11.07-00.27.39:980][718]LogTexture:Display: Building textures: ShadowMapTexture2D_233 (BGRA8)
+[2014.11.07-00.27.39:982][718]LogTexture:Display: Building textures: ShadowMapTexture2D_234 (BGRA8)
+[2014.11.07-00.27.39:983][718]LogTexture:Display: Building textures: ShadowMapTexture2D_235 (BGRA8)
+[2014.11.07-00.27.39:985][718]LogTexture:Display: Building textures: ShadowMapTexture2D_236 (BGRA8)
+[2014.11.07-00.27.39:986][718]LogTexture:Display: Building textures: ShadowMapTexture2D_237 (BGRA8)
+[2014.11.07-00.27.39:988][718]LogTexture:Display: Building textures: ShadowMapTexture2D_238 (BGRA8)
+[2014.11.07-00.27.39:989][718]LogTexture:Display: Building textures: ShadowMapTexture2D_239 (BGRA8)
+[2014.11.07-00.27.39:990][718]LogTexture:Display: Building textures: ShadowMapTexture2D_240 (BGRA8)
+[2014.11.07-00.27.39:992][718]LogTexture:Display: Building textures: ShadowMapTexture2D_241 (BGRA8)
+[2014.11.07-00.27.39:993][718]LogTexture:Display: Building textures: ShadowMapTexture2D_242 (BGRA8)
+[2014.11.07-00.27.40:001][718]LogTexture:Display: Building textures: ShadowMapTexture2D_243 (BGRA8)
+[2014.11.07-00.27.40:003][718]LogTexture:Display: Building textures: ShadowMapTexture2D_244 (BGRA8)
+[2014.11.07-00.27.40:005][718]LogTexture:Display: Building textures: ShadowMapTexture2D_245 (BGRA8)
+[2014.11.07-00.27.40:007][718]LogTexture:Display: Building textures: ShadowMapTexture2D_246 (BGRA8)
+[2014.11.07-00.27.40:010][718]LogTexture:Display: Building textures: ShadowMapTexture2D_247 (BGRA8)
+[2014.11.07-00.27.40:012][718]LogTexture:Display: Building textures: ShadowMapTexture2D_248 (BGRA8)
+[2014.11.07-00.27.40:016][718]LogTexture:Display: Building textures: ShadowMapTexture2D_249 (BGRA8)
+[2014.11.07-00.27.40:018][718]LogTexture:Display: Building textures: ShadowMapTexture2D_250 (BGRA8)
+[2014.11.07-00.27.40:019][718]LogTexture:Display: Building textures: ShadowMapTexture2D_251 (BGRA8)
+[2014.11.07-00.27.40:021][718]LogTexture:Display: Building textures: ShadowMapTexture2D_252 (BGRA8)
+[2014.11.07-00.27.40:022][718]LogTexture:Display: Building textures: ShadowMapTexture2D_253 (BGRA8)
+[2014.11.07-00.27.40:024][718]LogTexture:Display: Building textures: ShadowMapTexture2D_254 (BGRA8)
+[2014.11.07-00.27.40:025][718]LogTexture:Display: Building textures: ShadowMapTexture2D_255 (BGRA8)
+[2014.11.07-00.27.40:027][718]LogTexture:Display: Building textures: ShadowMapTexture2D_256 (BGRA8)
+[2014.11.07-00.27.40:028][718]LogTexture:Display: Building textures: ShadowMapTexture2D_257 (BGRA8)
+[2014.11.07-00.27.40:029][718]LogTexture:Display: Building textures: ShadowMapTexture2D_258 (BGRA8)
+[2014.11.07-00.27.40:031][718]LogTexture:Display: Building textures: ShadowMapTexture2D_259 (BGRA8)
+[2014.11.07-00.27.40:032][718]LogTexture:Display: Building textures: ShadowMapTexture2D_260 (BGRA8)
+[2014.11.07-00.27.40:034][718]LogTexture:Display: Building textures: ShadowMapTexture2D_261 (BGRA8)
+[2014.11.07-00.27.40:035][718]LogTexture:Display: Building textures: ShadowMapTexture2D_262 (BGRA8)
+[2014.11.07-00.27.40:037][718]LogTexture:Display: Building textures: ShadowMapTexture2D_263 (BGRA8)
+[2014.11.07-00.27.40:038][718]LogTexture:Display: Building textures: ShadowMapTexture2D_264 (BGRA8)
+[2014.11.07-00.27.40:040][718]LogTexture:Display: Building textures: ShadowMapTexture2D_265 (BGRA8)
+[2014.11.07-00.27.40:041][718]LogTexture:Display: Building textures: ShadowMapTexture2D_266 (BGRA8)
+[2014.11.07-00.27.40:043][718]LogTexture:Display: Building textures: ShadowMapTexture2D_267 (BGRA8)
+[2014.11.07-00.27.40:045][718]LogTexture:Display: Building textures: ShadowMapTexture2D_268 (BGRA8)
+[2014.11.07-00.27.40:048][718]LogTexture:Display: Building textures: ShadowMapTexture2D_269 (BGRA8)
+[2014.11.07-00.27.40:049][718]LogTexture:Display: Building textures: ShadowMapTexture2D_270 (BGRA8)
+[2014.11.07-00.27.40:051][718]LogTexture:Display: Building textures: ShadowMapTexture2D_271 (BGRA8)
+[2014.11.07-00.27.40:052][718]LogTexture:Display: Building textures: ShadowMapTexture2D_272 (BGRA8)
+[2014.11.07-00.27.40:054][718]LogTexture:Display: Building textures: ShadowMapTexture2D_273 (BGRA8)
+[2014.11.07-00.27.40:056][718]LogTexture:Display: Building textures: ShadowMapTexture2D_274 (BGRA8)
+[2014.11.07-00.27.40:059][718]LogTexture:Display: Building textures: ShadowMapTexture2D_275 (BGRA8)
+[2014.11.07-00.27.40:062][718]LogTexture:Display: Building textures: ShadowMapTexture2D_276 (BGRA8)
+[2014.11.07-00.27.40:064][718]LogTexture:Display: Building textures: ShadowMapTexture2D_277 (BGRA8)
+[2014.11.07-00.27.40:066][718]LogTexture:Display: Building textures: ShadowMapTexture2D_278 (BGRA8)
+[2014.11.07-00.27.40:068][718]LogTexture:Display: Building textures: ShadowMapTexture2D_279 (BGRA8)
+[2014.11.07-00.27.40:069][718]LogTexture:Display: Building textures: ShadowMapTexture2D_280 (BGRA8)
+[2014.11.07-00.27.40:073][718]LogTexture:Display: Building textures: ShadowMapTexture2D_281 (BGRA8)
+[2014.11.07-00.27.40:081][718]LogTexture:Display: Building textures: ShadowMapTexture2D_282 (BGRA8)
+[2014.11.07-00.27.40:084][718]LogTexture:Display: Building textures: ShadowMapTexture2D_283 (BGRA8)
+[2014.11.07-00.27.40:086][718]LogTexture:Display: Building textures: ShadowMapTexture2D_284 (BGRA8)
+[2014.11.07-00.27.40:088][718]LogTexture:Display: Building textures: ShadowMapTexture2D_285 (BGRA8)
+[2014.11.07-00.27.40:092][718]LogTexture:Display: Building textures: ShadowMapTexture2D_286 (BGRA8)
+[2014.11.07-00.27.40:094][718]LogTexture:Display: Building textures: ShadowMapTexture2D_287 (BGRA8)
+[2014.11.07-00.27.40:096][718]LogTexture:Display: Building textures: ShadowMapTexture2D_288 (BGRA8)
+[2014.11.07-00.27.40:103][718]LogTexture:Display: Building textures: ShadowMapTexture2D_289 (BGRA8)
+[2014.11.07-00.27.40:105][718]LogTexture:Display: Building textures: ShadowMapTexture2D_290 (BGRA8)
+[2014.11.07-00.27.40:107][718]LogTexture:Display: Building textures: ShadowMapTexture2D_291 (BGRA8)
+[2014.11.07-00.27.40:109][718]LogTexture:Display: Building textures: ShadowMapTexture2D_292 (BGRA8)
+[2014.11.07-00.27.40:111][718]LogTexture:Display: Building textures: ShadowMapTexture2D_293 (BGRA8)
+[2014.11.07-00.27.40:113][718]LogTexture:Display: Building textures: ShadowMapTexture2D_294 (BGRA8)
+[2014.11.07-00.27.40:237][718]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Asteroid_1_M1.Material_Asteroid_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.27.40:467][718]LogMaterial: Missing cached shader map for material Material_Asteroid_1_M1, compiling.
+[2014.11.07-00.27.40:470][718]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.27.40:481][718]LogMaterial:Warning: Material /Game/Materials/Environment/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.07-00.27.40:496][718]LogMaterial: Missing cached shader map for material lambert1, compiling.
+[2014.11.07-00.27.40:500][718]LogMaterial: 0.000858 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.07-00.27.40:577][718]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.07-00.27.40:624][718]Cmd: MAP CHECKDEP
+[2014.11.07-00.27.40:624][718]MapCheck: New page: Three - Nov 6, 2014, 2:27:40 PM
+[2014.11.07-00.27.40:832][718]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [207.504ms] ==========
+[2014.11.07-00.27.40:832][718]LogFileHelpers: Loading map 'Three' took 80.052
+[2014.11.07-00.27.41:517][719]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.27.41:518][719]Cmd: UpdateLandscapeEditorData -warnings
+[2014.11.07-00.27.41:523][719]LogAssetRegistry: Asset discovery search completed in 283.1177 seconds
+[2014.11.07-00.27.50:410][839]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Model_512x256_wall_basic_19)
+[2014.11.07-00.27.56:305][839]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Model_512x256_wall_basic_19)
+[2014.11.07-00.32.45:265][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_PowerStatue_5)
+[2014.11.07-00.32.48:742][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Model_SkySphere)
+[2014.11.07-00.32.50:365][646]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Model_SkySphere)
+[2014.11.07-00.32.55:859][775]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (RotatingTriggerPz2)
+[2014.11.07-00.32.58:911][842]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Model_SkySphere)
+[2014.11.07-00.33.05:480][997]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MoveboxPz2)
+[2014.11.07-00.33.06:484][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (XpTbPz2)
+[2014.11.07-00.33.07:175][ 38]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (YmTbPz2)
+[2014.11.07-00.33.08:066][ 60]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (YpTbPz2)
+[2014.11.07-00.33.11:898][151]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (XmTbPz2)
+[2014.11.07-00.33.14:091][205]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (SelectPz2Box)
+[2014.11.07-00.33.15:273][234]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Model_LightStatue_4)
+[2014.11.07-00.33.22:398][405]Cmd: DELETE
+[2014.11.07-00.33.22:398][405]Cmd: ACTOR DELETE
+[2014.11.07-00.33.24:751][405]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.33.24:806][405]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.33.26:630][405]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.33.26:633][405]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.33.26:635][405]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.33.26:637][405]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.33.26:639][405]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.33.26:642][405]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.33.26:644][405]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.33.26:696][405]LogEditorActor: Deleted 9 Actors (4.286 secs)
+[2014.11.07-00.33.36:061][662]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (LeftBtnTriggerPz5)
+[2014.11.07-00.33.46:621][948]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (RightBtnTriggerPz5)
+[2014.11.07-00.33.47:202][964]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (RightBtnPz5)
+[2014.11.07-00.33.47:980][985]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (LeftBtnPz5)
+[2014.11.07-00.33.58:765][265]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MidPrismPz5)
+[2014.11.07-00.34.05:338][317]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.34.06:595][318]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.34.13:313][494]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MidPrismPz5)
+[2014.11.07-00.34.16:674][583]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (RightPrismPz5)
+[2014.11.07-00.34.17:564][606]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (LeftPrismPz5)
+[2014.11.07-00.34.28:268][887]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (LeftBtnTriggerPz5)
+[2014.11.07-00.34.29:344][916]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (LeftBtnPz5)
+[2014.11.07-00.34.30:134][937]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (RightBtnPz5)
+[2014.11.07-00.34.33:265][ 17]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (RightBtnTriggerPz5)
+[2014.11.07-00.34.34:399][ 48]Cmd: DELETE
+[2014.11.07-00.34.34:399][ 48]Cmd: ACTOR DELETE
+[2014.11.07-00.34.36:051][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:338][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:857][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.34.36:860][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:863][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:865][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.34.36:867][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.34.36:869][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:871][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:874][ 48]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.34.36:876][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.34.36:878][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-00.34.36:880][ 48]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.34.36:882][ 48]LogEditorActor: Deleted Actor: TriggerBox
+[2014.11.07-00.34.57:398][ 48]LogEditorActor: Deleted 14 Actors (22.998 secs)
+[2014.11.07-00.35.17:441][ 48]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.35.17:779][ 49]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.35.36:100][413]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.35.36:442][414]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.36.05:744][174]Cmd: DELETE
+[2014.11.07-00.36.05:744][174]Cmd: ACTOR DELETE
+[2014.11.07-00.36.05:752][174]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.36.05:755][174]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.36.05:757][174]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.36.05:759][174]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.36.05:762][174]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.36.05:764][174]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.36.09:947][174]LogEditorActor: Deleted 6 Actors (4.202 secs)
+[2014.11.07-00.36.22:125][174]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.36.22:382][175]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.36.53:237][817]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.36.53:555][818]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.37.26:438][486]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.37.26:982][487]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.37.36:312][744]Cmd: DELETE
+[2014.11.07-00.37.36:312][744]Cmd: ACTOR DELETE
+[2014.11.07-00.37.36:322][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:324][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:327][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:329][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:332][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:334][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:336][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:339][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:342][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:345][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:348][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:350][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.36:352][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:300][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:319][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:321][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:324][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:326][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:328][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:331][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:333][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:335][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:337][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.38:339][744]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.37.43:088][744]LogEditorActor: Deleted 24 Actors (6.772 secs)
+[2014.11.07-00.37.49:167][744]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.37.49:390][745]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.37.56:596][939]Cmd: DELETE
+[2014.11.07-00.37.56:596][939]Cmd: ACTOR DELETE
+[2014.11.07-00.37.56:605][939]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.38.04:095][939]LogEditorActor: Deleted 1 Actors (7.496 secs)
+[2014.11.07-00.38.09:305][939]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.38.09:516][940]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.38.21:252][245]Cmd: DELETE
+[2014.11.07-00.38.21:252][245]Cmd: ACTOR DELETE
+[2014.11.07-00.38.21:261][245]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.38.25:509][245]LogEditorActor: Deleted 1 Actors (4.255 secs)
+[2014.11.07-00.38.29:446][245]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.38.29:717][246]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.38.36:151][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_Mask1_1__3)
+[2014.11.07-00.38.46:656][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:657][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:657][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:657][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:657][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:659][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:659][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:659][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:660][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:660][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:660][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:660][675]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.38.46:782][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:782][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:782][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:782][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:782][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:783][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:783][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:783][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:783][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:783][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:784][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:785][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:785][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:786][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.38.46:786][675]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.38.46:792][675]LogBlueprint:Warning: [compiler] Warning [1026.38] Compile of Three failed. 15 Fatal Issue(s) 12 Warning(s) [in 186 ms]
+[2014.11.07-00.38.49:723][675]LogSavePackage: Save=3525.643311ms
+[2014.11.07-00.38.49:723][675]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ThreeF3121BA94FF837E529AA589DDD668714.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.11.07-00.38.49:806][675]LogFileHelpers: Saving map 'Three' took 4.143
+[2014.11.07-00.39.41:579][283]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.39.41:603][283]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.39.41:625][283]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.39.41:626][283]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.39.41:626][283]LogStaticMesh: Built static mesh [0.413824ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.39.41:657][283]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.39.41:712][283]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.39.47:207][283]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.39.47:489][284]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.39.50:699][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh)
+[2014.11.07-00.39.58:082][727]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.39.58:089][727]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.39.58:098][727]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.39.58:337][727]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.39.58:337][727]LogStaticMesh: Built static mesh [239.238663ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.39.58:354][727]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.39.58:400][727]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.40.01:965][727]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.40.02:256][728]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.40.10:779][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Unsorted'
+[2014.11.07-00.40.15:496][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_2)
+[2014.11.07-00.40.36:916][841]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.40.36:922][841]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.40.36:923][841]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.40.36:923][841]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.40.36:923][841]LogStaticMesh: Built static mesh [0.461558ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.40.36:940][841]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.40.36:980][841]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.40.40:609][841]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.40.40:837][842]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.40.47:219][ 99]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.40.47:225][ 99]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.40.47:225][ 99]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.40.47:226][ 99]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.40.47:226][ 99]LogStaticMesh: Built static mesh [0.391497ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.40.47:243][ 99]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.40.47:305][ 99]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.40.52:538][ 99]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.40.52:881][100]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.40.53:838][128]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-00.40.53:840][128]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-00.41.05:890][553]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.41.05:896][553]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.41.05:897][553]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.41.05:897][553]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.41.05:897][553]LogStaticMesh: Built static mesh [0.367245ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.41.05:915][553]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.41.05:966][553]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.41.14:250][553]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.41.14:584][554]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.41.26:526][982]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.41.26:533][982]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.41.26:533][982]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.41.26:533][982]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.41.26:533][982]LogStaticMesh: Built static mesh [0.353001ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.41.26:550][982]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.41.26:604][982]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.41.31:186][982]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.41.31:437][983]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.42.16:370][427]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.16:381][427]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.16:381][427]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.16:382][427]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-00.42.16:382][427]LogStaticMesh: Built static mesh [0.427297ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-00.42.16:402][427]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-00.42.16:426][427]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.42.21:988][427]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.42.22:211][428]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.42.28:511][722]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.28:522][722]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.28:523][722]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.28:523][722]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-00.42.28:523][722]LogStaticMesh: Built static mesh [0.447315ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-00.42.28:540][722]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-00.42.28:578][722]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.42.31:697][722]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.42.31:975][723]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.42.42:311][105]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.42:317][105]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.42:317][105]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.42:318][105]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.42.42:318][105]LogStaticMesh: Built static mesh [0.408434ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.42.42:335][105]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.42.42:358][105]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.42.46:147][105]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.42.46:376][106]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.42.49:265][263]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.49:271][263]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.49:271][263]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.42.49:271][263]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.42.49:272][263]LogStaticMesh: Built static mesh [0.473106ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.42.49:290][263]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.42.49:356][263]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.42.55:324][263]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.42.56:060][264]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.43.01:471][490]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.01:477][490]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.01:477][490]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.01:478][490]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.43.01:478][490]LogStaticMesh: Built static mesh [0.360315ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.43.01:496][490]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.43.01:527][490]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.43.05:557][490]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.43.05:803][491]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.43.12:317][759]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.12:323][759]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.12:323][759]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.12:323][759]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.43.12:323][759]LogStaticMesh: Built static mesh [0.349922ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.43.12:342][759]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.43.12:364][759]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.43.16:206][759]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.43.16:441][760]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.43.19:160][886]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.19:166][886]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.19:166][886]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.19:167][886]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.43.19:167][886]LogStaticMesh: Built static mesh [0.345687ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.43.19:185][886]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.43.19:237][886]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.43.23:517][886]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.43.23:960][887]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.43.48:515][625]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.48:522][625]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.48:522][625]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.43.48:522][625]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.43.48:523][625]LogStaticMesh: Built static mesh [0.499283ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.43.48:542][625]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.43.48:661][625]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.43.54:706][625]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.43.54:928][626]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.44.01:776][921]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.01:782][921]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.01:782][921]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.01:783][921]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.44.01:783][921]LogStaticMesh: Built static mesh [0.493124ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.44.01:800][921]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.44.01:835][921]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.44.05:009][921]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.44.05:277][922]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.44.09:744][120]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.09:750][120]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.09:750][120]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.09:750][120]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.44.09:751][120]LogStaticMesh: Built static mesh [0.358776ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.44.09:769][120]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.44.09:876][120]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.44.15:636][120]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.44.15:915][121]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.44.19:580][283]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.19:586][283]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.19:587][283]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.19:587][283]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.44.19:587][283]LogStaticMesh: Built static mesh [0.355696ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.44.19:605][283]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.44.19:641][283]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.44.23:524][283]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.44.23:745][284]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.44.28:660][491]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.28:667][491]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.28:667][491]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.28:668][491]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.44.28:668][491]LogStaticMesh: Built static mesh [0.530079ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.44.28:686][491]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.44.28:708][491]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.44.35:144][491]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.44.35:381][492]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.44.56:439][223]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.56:446][223]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.56:446][223]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.44.56:447][223]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.44.56:447][223]LogStaticMesh: Built static mesh [0.731794ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.44.56:467][223]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.44.56:500][223]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.45.01:467][223]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.45.01:701][224]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.45.04:772][377]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.04:778][377]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.04:778][377]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.04:778][377]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.45.04:779][377]LogStaticMesh: Built static mesh [0.383028ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.45.04:798][377]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.45.04:868][377]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.45.12:430][377]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.45.12:654][378]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.45.15:634][523]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.15:641][523]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.15:642][523]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.15:642][523]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.45.15:642][523]LogStaticMesh: Built static mesh [0.411129ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.45.15:662][523]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.45.15:704][523]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.45.19:232][523]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.45.19:492][524]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.45.28:528][860]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.28:534][860]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.28:534][860]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-00.45.28:535][860]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-00.45.28:535][860]LogStaticMesh: Built static mesh [0.568190ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-00.45.28:555][860]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-00.45.28:579][860]EditorErrors: New page: Actor Reattachment
+[2014.11.07-00.45.35:720][860]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.45.35:963][861]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.45.42:143][ 34]Cmd: DELETE
+[2014.11.07-00.45.42:143][ 34]Cmd: ACTOR DELETE
+[2014.11.07-00.45.42:149][ 34]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-00.45.49:168][ 34]LogEditorActor: Deleted 1 Actors (7.024 secs)
+[2014.11.07-00.45.53:189][ 34]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-00.45.53:416][ 35]Cmd: UpdateLandscapeEditorData
+[2014.11.07-00.45.57:283][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_20)
+[2014.11.07-00.46.03:994][456]LogStaticMesh: Building static mesh Model_CrystalSpider_1...
+[2014.11.07-00.46.04:000][456]LogStaticMesh: Built static mesh [6.180410ms] /Game/Meshes/Objects/Model_CrystalSpider_1.Model_CrystalSpider_1
+[2014.11.07-00.46.23:391][130]LogStaticMesh: Building static mesh Model_LightStatue_2...
+[2014.11.07-00.46.23:403][130]LogStaticMesh: Built static mesh [11.923514ms] /Game/Meshes/Objects/Model_LightStatue_2.Model_LightStatue_2
+[2014.11.07-00.46.28:690][244]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Objects'
+[2014.11.07-00.47.19:956][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_17)
+[2014.11.07-00.47.35:446][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.07-00.47.35:465][635]Aligned camera to fit all selected actors.
+[2014.11.07-00.47.49:710][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_20)
+[2014.11.07-00.48.00:070][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_17)
+[2014.11.07-00.48.19:860][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_13)
+[2014.11.07-00.48.29:129][258]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_12)
+[2014.11.07-00.48.30:122][284]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_11)
+[2014.11.07-00.48.31:523][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_14)
+[2014.11.07-00.48.32:082][336]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_15)
+[2014.11.07-00.48.32:905][358]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_19)
+[2014.11.07-00.48.34:459][401]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_16)
+[2014.11.07-00.48.35:120][420]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_8)
+[2014.11.07-00.48.35:651][435]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_7)
+[2014.11.07-00.48.37:781][495]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_9)
+[2014.11.07-00.48.38:356][511]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_10)
+[2014.11.07-00.48.41:600][595]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_18)
+[2014.11.07-00.48.43:925][652]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_5)
+[2014.11.07-00.48.44:867][678]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_4)
+[2014.11.07-00.48.46:134][711]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_3)
+[2014.11.07-00.48.47:455][746]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_6)
+[2014.11.07-00.49.03:730][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_17)
+[2014.11.07-00.49.11:945][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_12)
+[2014.11.07-00.49.42:741][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_10)
+[2014.11.07-00.50.38:459][877]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.07-00.50.38:459][877]LogPlayLevel: [PIE] Compiling Three before PIE...
+[2014.11.07-00.50.38:571][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:571][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:572][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:572][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:572][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:573][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:574][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:574][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:574][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:574][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:575][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:575][877]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-00.50.38:585][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:585][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:585][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:586][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:586][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:586][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:586][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:586][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:587][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:587][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:587][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:588][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:589][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:589][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-00.50.38:589][877]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-00.50.38:596][877]LogBlueprint:Warning: [compiler] Warning [1738.17] Compile of Three failed. 15 Fatal Issue(s) 12 Warning(s) [in 75 ms]
+[2014.11.07-00.50.38:924][877]LogPlayLevel: PIE:  Blueprint regeneration took 465 ms (1 blueprints)
+[2014.11.07-00.50.51:585][877]BlueprintLog: Info Blueprint Three failed to compile
+[2014.11.07-00.50.51:614][877]PIE: New page: PIE session: Three (Nov 6, 2014, 2:50:51 PM)
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (DisableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (EnableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:799][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (DisableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (EnableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (DisableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (EnableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:800][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorRotation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (DisableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:801][877]LogBlueprint:Warning: FMemberReference::ResolveMember (EnableInput) bSelfContext == true, but no scope supplied!
+[2014.11.07-00.50.51:885][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.270963s)
+[2014.11.07-00.50.51:886][877]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2014.11.07-00.50.51:886][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/Three.Three to /Game/Maps/GameLevels/UEDPIE_0_Three.Three (0.272179s)
+[2014.11.07-00.50.53:324][877]LogWorld: Game class is 'MyGame_C'
+[2014.11.07-00.50.53:556][877]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_Three.Three up for play (max tick rate 0) at 2014.11.06-19.50.53
+[2014.11.07-00.50.53:686][877]LogWorld: Bringing up level for play took: 0.171335
+[2014.11.07-00.50.54:005][877]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.11.07-00.50.54:020][877]LogGameMode: RestartPlayer 256
+[2014.11.07-00.50.54:236][877]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.11.07-00.50.54:236][877]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.11.07-00.50.54:404][877]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_Three 15.88
+[2014.11.07-00.51.00:955][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C5880E0
+[2014.11.07-00.51.23:853][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_13)
+[2014.11.07-00.55.53:217][833]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-00.55.53:219][833]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.00.33:043][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_18)
+[2014.11.07-01.00.44:547][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_13)
+[2014.11.07-01.00.52:827][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_14)
+[2014.11.07-01.00.57:022][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_13)
+[2014.11.07-01.01.12:374][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_15)
+[2014.11.07-01.01.20:153][844]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.07-01.01.20:153][844]Aligned camera to fit all selected actors.
+[2014.11.07-01.02.09:058][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_18)
+[2014.11.07-01.02.10:470][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_19)
+[2014.11.07-01.02.33:891][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_10)
+[2014.11.07-01.02.37:004][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_16)
+[2014.11.07-01.02.38:850][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_10)
+[2014.11.07-01.02.42:130][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_16)
+[2014.11.07-01.02.48:789][124]Cmd: TRANSACTION UNDO
+[2014.11.07-01.02.48:789][124]LogEditorTransaction: Undo Set actor location
+[2014.11.07-01.02.50:567][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_10)
+[2014.11.07-01.02.55:373][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_16)
+[2014.11.07-01.03.18:402][898]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.07-01.03.18:402][898]Aligned camera to fit all selected actors.
+[2014.11.07-01.03.47:317][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_9)
+[2014.11.07-01.04.10:889][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_6)
+[2014.11.07-01.04.12:313][333]Cmd: DELETE
+[2014.11.07-01.04.12:313][333]Cmd: ACTOR DELETE
+[2014.11.07-01.04.12:319][333]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-01.04.12:346][333]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2014.11.07-01.04.13:213][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_9)
+[2014.11.07-01.04.35:190][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_9)
+[2014.11.07-01.04.50:487][324]Cmd: DUPLICATE
+[2014.11.07-01.04.50:487][324]Cmd: ACTOR DUPLICATE
+[2014.11.07-01.05.19:234][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_3)
+[2014.11.07-01.05.24:894][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh)
+[2014.11.07-01.05.27:960][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_2)
+[2014.11.07-01.05.36:623][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh)
+[2014.11.07-01.05.44:538][ 55]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_2)
+[2014.11.07-01.05.51:691][226]Cmd: TRANSACTION UNDO
+[2014.11.07-01.05.51:691][226]LogEditorTransaction: Undo Rotate Actors
+[2014.11.07-01.05.52:586][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh)
+[2014.11.07-01.05.55:511][352]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_2)
+[2014.11.07-01.06.08:443][682]LogEditorViewport: Clicking Background
+[2014.11.07-01.06.09:633][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_2)
+[2014.11.07-01.06.16:281][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh3)
+[2014.11.07-01.06.18:272][953]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh2)
+[2014.11.07-01.06.23:243][280]LogStaticMesh: Building static mesh Model_crystal...
+[2014.11.07-01.06.23:244][280]LogStaticMesh: Built static mesh [0.691759ms] /Game/Meshes/Objects/Model_crystal.Model_crystal
+[2014.11.07-01.06.30:502][591]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.06.30:509][591]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.06.30:509][591]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.06.30:510][591]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-01.06.30:510][591]LogStaticMesh: Built static mesh [0.480806ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-01.06.30:527][591]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-01.06.30:592][591]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.06.34:140][591]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.06.34:382][592]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.06.42:939][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_6)
+[2014.11.07-01.07.04:190][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Prism1Pz4)
+[2014.11.07-01.07.19:693][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_L3S3_1)
+[2014.11.07-01.07.20:944][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_L3S3_1)
+[2014.11.07-01.07.21:657][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_L3S3_1)
+[2014.11.07-01.07.26:384][500]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (RotatingTrig2Pz4)
+[2014.11.07-01.07.36:377][886]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.07-01.07.36:377][886]Aligned camera to fit all selected actors.
+[2014.11.07-01.08.13:721][ 19]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (P_Mist_Lit_Still_4)
+[2014.11.07-01.08.20:838][219]Cmd: DELETE
+[2014.11.07-01.08.20:838][219]Cmd: ACTOR DELETE
+[2014.11.07-01.08.24:106][219]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-01.08.24:121][219]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-01.08.27:331][219]LogEditorActor: Deleted 2 Actors (6.493 secs)
+[2014.11.07-01.08.30:354][219]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.08.30:777][220]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.09.20:262][609]Cmd: DELETE
+[2014.11.07-01.09.20:262][609]Cmd: ACTOR DELETE
+[2014.11.07-01.09.24:970][609]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-01.09.27:990][609]LogEditorActor: Deleted 1 Actors (7.726 secs)
+[2014.11.07-01.09.27:992][609]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Model_L3S2_1)
+[2014.11.07-01.09.31:433][609]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.09.31:663][610]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.10.22:573][394]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.22:586][394]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.22:586][394]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.22:587][394]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-01.10.22:587][394]LogStaticMesh: Built static mesh [0.560491ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-01.10.22:605][394]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-01.10.22:627][394]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.10.25:603][394]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.10.25:813][395]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.10.31:732][663]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.31:740][663]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.31:740][663]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.31:741][663]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-01.10.31:741][663]LogStaticMesh: Built static mesh [0.353386ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-01.10.31:758][663]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-01.10.31:780][663]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.10.36:221][663]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.10.36:446][664]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.10.38:286][720]Cmd: TRANSACTION UNDO
+[2014.11.07-01.10.38:286][720]LogEditorTransaction: Undo Convert Actors
+[2014.11.07-01.10.45:631][720]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.10.45:814][721]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.10.49:807][918]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.49:816][918]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.49:816][918]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.10.49:816][918]LogStaticMesh: Building static mesh MyMeshw...
+[2014.11.07-01.10.49:816][918]LogStaticMesh: Built static mesh [0.365320ms] /Game/Unsorted/MyMeshw.MyMeshw
+[2014.11.07-01.10.49:867][918]LogActorFactory: Actor Factory created MyMeshw
+[2014.11.07-01.10.49:927][918]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.10.57:627][918]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.10.58:305][919]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.10.58:524][925]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.10.58:526][925]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.11.01:555][102]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.01:562][102]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.01:563][102]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.01:563][102]LogStaticMesh: Building static mesh MyMeshw...
+[2014.11.07-01.11.01:563][102]LogStaticMesh: Built static mesh [0.351846ms] /Game/Unsorted/MyMeshw.MyMeshw
+[2014.11.07-01.11.01:580][102]LogActorFactory: Actor Factory created MyMeshw
+[2014.11.07-01.11.01:602][102]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.11.07:244][102]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.11.07:480][103]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.11.37:461][885]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.37:469][885]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.37:469][885]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.37:469][885]LogStaticMesh: Building static mesh MyMeshw...
+[2014.11.07-01.11.37:470][885]LogStaticMesh: Built static mesh [0.366090ms] /Game/Unsorted/MyMeshw.MyMeshw
+[2014.11.07-01.11.37:486][885]LogActorFactory: Actor Factory created MyMeshw
+[2014.11.07-01.11.37:508][885]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.11.41:002][885]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.11.41:215][886]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.11.48:363][178]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.48:371][178]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.48:371][178]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.48:371][178]LogStaticMesh: Building static mesh MyMeshw...
+[2014.11.07-01.11.48:371][178]LogStaticMesh: Built static mesh [0.362625ms] /Game/Unsorted/MyMeshw.MyMeshw
+[2014.11.07-01.11.48:387][178]LogActorFactory: Actor Factory created MyMeshw
+[2014.11.07-01.11.48:409][178]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.11.52:984][178]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.11.53:211][179]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.11.59:651][403]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.59:658][403]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.59:659][403]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.11.59:659][403]LogStaticMesh: Building static mesh MyMeshw...
+[2014.11.07-01.11.59:659][403]LogStaticMesh: Built static mesh [0.366475ms] /Game/Unsorted/MyMeshw.MyMeshw
+[2014.11.07-01.11.59:675][403]LogActorFactory: Actor Factory created MyMeshw
+[2014.11.07-01.11.59:778][403]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.12.02:730][403]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.12.02:974][404]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.12.16:667][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMeshw_4)
+[2014.11.07-01.12.17:418][728]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMeshw_5)
+[2014.11.07-01.12.18:191][751]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMeshw_3)
+[2014.11.07-01.12.20:167][806]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMeshw_2)
+[2014.11.07-01.12.20:697][821]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMeshw)
+[2014.11.07-01.12.58:710][320]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.12.58:717][320]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.12.58:718][320]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.12.58:718][320]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-01.12.58:718][320]LogStaticMesh: Built static mesh [0.488120ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-01.12.58:738][320]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-01.12.58:783][320]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.13.02:556][320]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.13.02:792][321]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.13.10:998][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh4)
+[2014.11.07-01.13.27:698][323]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.13.27:704][323]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.13.27:704][323]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.13.27:705][323]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-01.13.27:705][323]LogStaticMesh: Built static mesh [0.353771ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-01.13.27:723][323]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-01.13.27:745][323]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.13.31:235][323]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.13.31:472][324]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.13.32:532][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_22)
+[2014.11.07-01.13.50:180][741]LogEditorViewport: Clicking Background
+[2014.11.07-01.13.50:839][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_22)
+[2014.11.07-01.13.57:881][988]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.13.57:887][988]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.13.57:887][988]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-01.13.57:887][988]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-01.13.57:887][988]LogStaticMesh: Built static mesh [0.361470ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-01.13.57:906][988]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-01.13.57:928][988]EditorErrors: New page: Actor Reattachment
+[2014.11.07-01.14.01:249][988]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-01.14.01:461][989]Cmd: UpdateLandscapeEditorData
+[2014.11.07-01.14.52:524][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_8)
+[2014.11.07-01.14.56:808][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_7)
+[2014.11.07-01.15.08:981][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_18)
+[2014.11.07-01.15.23:922][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_14)
+[2014.11.07-01.15.30:143][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_7)
+[2014.11.07-01.16.19:987][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_14)
+[2014.11.07-01.16.49:088][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_13)
+[2014.11.07-01.17.07:156][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_15)
+[2014.11.07-01.17.15:802][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_11)
+[2014.11.07-01.17.59:408][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_18)
+[2014.11.07-01.18.06:813][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_13)
+[2014.11.07-01.18.29:651][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_11)
+[2014.11.07-01.18.51:070][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_9)
+[2014.11.07-01.18.59:882][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_21)
+[2014.11.07-01.19.09:708][ 17]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_9)
+[2014.11.07-01.19.10:073][ 28]Cmd: DUPLICATE
+[2014.11.07-01.19.10:073][ 28]Cmd: ACTOR DUPLICATE
+[2014.11.07-01.19.26:705][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_5)
+[2014.11.07-01.19.28:338][497]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_4)
+[2014.11.07-01.19.29:264][523]Cmd: DELETE
+[2014.11.07-01.19.29:264][523]Cmd: ACTOR DELETE
+[2014.11.07-01.19.29:270][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-01.19.29:273][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-01.19.29:307][523]LogEditorActor: Deleted 2 Actors (0.043 secs)
+[2014.11.07-01.19.30:211][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_25)
+[2014.11.07-01.19.31:824][586]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_26)
+[2014.11.07-01.19.35:758][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:758][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:759][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:759][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:759][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:761][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:761][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:761][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:761][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:761][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:762][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:762][680]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-01.19.35:773][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:773][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:774][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:774][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:774][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:774][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:774][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:775][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:775][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:775][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:775][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:777][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:777][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:777][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-01.19.35:777][680]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-01.19.35:784][680]LogBlueprint:Warning: [compiler] Warning [3475.31] Compile of Three failed. 15 Fatal Issue(s) 12 Warning(s) [in 75 ms]
+[2014.11.07-01.19.37:496][680]LogSavePackage: Save=1849.533691ms
+[2014.11.07-01.19.37:496][680]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three4BB0DC774C706C9CC3F87EBD82C72327.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.11.07-01.19.37:565][680]LogFileHelpers: Saving map 'Three' took 2.188
+[2014.11.07-01.19.37:894][680]LogSavePackage: Save=259.996063ms
+[2014.11.07-01.19.37:894][680]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/MyMeshEEBA2317482B6877EB8A2DA829430B11.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Unsorted/MyMesh.uasset'
+[2014.11.07-01.19.38:067][680]LogSavePackage: Save=141.471527ms
+[2014.11.07-01.19.38:067][680]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/MyMesh26D2555C24F9FEE0EB5F3EB96870508CD.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Unsorted/MyMesh2.uasset'
+[2014.11.07-01.19.38:313][680]LogSavePackage: Save=214.728745ms
+[2014.11.07-01.19.38:313][680]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/MyMeshw94400D8E419CAD871444C2828D09A1AB.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Unsorted/MyMeshw.uasset'
+[2014.11.07-01.21.58:798][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_24)
+[2014.11.07-01.22.05:755][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_23)
+[2014.11.07-01.22.12:624][984]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_24)
+[2014.11.07-01.22.18:103][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_24)
+[2014.11.07-01.22.22:709][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_23)
+[2014.11.07-01.22.30:570][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_24)
+[2014.11.07-01.25.58:548][223]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.25.58:550][223]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.40.58:534][313]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.40.58:536][313]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.55.58:628][249]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-01.55.58:630][249]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-02.01.56:199][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:199][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:200][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:200][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:200][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:202][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:202][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:202][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:202][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:202][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:203][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:203][427]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.01.56:214][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:214][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:214][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:214][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:215][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:215][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:215][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:215][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:215][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:216][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:216][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:217][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:218][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:218][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.01.56:218][427]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.01.56:224][427]LogBlueprint:Warning: [compiler] Warning [6015.68] Compile of Three failed. 15 Fatal Issue(s) 12 Warning(s) [in 74 ms]
+[2014.11.07-02.01.57:956][427]LogSavePackage: Save=1870.402344ms
+[2014.11.07-02.01.57:956][427]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three233D3B3842402DA1F9EBCC8F9559B755.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.11.07-02.01.58:237][427]LogFileHelpers: Saving map 'Three' took 2.445
+[2014.11.07-02.09.16:889][458]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.16:896][458]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.16:896][458]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.16:897][458]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.09.16:897][458]LogStaticMesh: Built static mesh [0.465022ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.09.16:916][458]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.09.16:939][458]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.09.19:479][458]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.09.19:690][459]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.09.26:527][784]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.26:533][784]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.26:533][784]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.26:533][784]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-02.09.26:534][784]LogStaticMesh: Built static mesh [0.356081ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-02.09.26:550][784]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-02.09.26:608][784]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.09.28:928][784]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.09.29:153][785]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.09.31:381][892]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.31:387][892]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.31:388][892]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.31:388][892]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-02.09.31:388][892]LogStaticMesh: Built static mesh [0.394961ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-02.09.31:405][892]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-02.09.31:443][892]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.09.33:968][892]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.09.34:213][893]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.09.36:642][  9]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.36:648][  9]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.36:648][  9]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.36:649][  9]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-02.09.36:649][  9]LogStaticMesh: Built static mesh [0.404585ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-02.09.36:666][  9]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-02.09.36:688][  9]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.09.39:968][  9]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.09.40:188][ 10]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.09.45:461][228]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.45:467][228]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.45:468][228]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.09.45:468][228]LogStaticMesh: Building static mesh MyMesh2...
+[2014.11.07-02.09.45:468][228]LogStaticMesh: Built static mesh [0.342223ms] /Game/Unsorted/MyMesh2.MyMesh2
+[2014.11.07-02.09.45:485][228]LogActorFactory: Actor Factory created MyMesh2
+[2014.11.07-02.09.45:506][228]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.09.47:858][228]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.09.48:075][229]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.10.03:620][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh8)
+[2014.11.07-02.10.06:709][633]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh7)
+[2014.11.07-02.10.07:609][658]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh5)
+[2014.11.07-02.10.08:214][675]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh6)
+[2014.11.07-02.10.33:051][361]Cmd: TRANSACTION UNDO
+[2014.11.07-02.10.33:051][361]LogEditorTransaction: Undo Set actor rotation
+[2014.11.07-02.10.54:587][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh5)
+[2014.11.07-02.10.58:761][ 31]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-02.10.58:763][ 31]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-02.10.59:202][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh6)
+[2014.11.07-02.10.59:971][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh6)
+[2014.11.07-02.11.01:099][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh7)
+[2014.11.07-02.11.12:756][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh6)
+[2014.11.07-02.11.17:640][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh8)
+[2014.11.07-02.11.23:109][630]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh5)
+[2014.11.07-02.11.23:794][646]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh6)
+[2014.11.07-02.11.38:435][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh7)
+[2014.11.07-02.11.38:646][  8]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.07-02.11.38:646][  8]Aligned camera to fit all selected actors.
+[2014.11.07-02.11.43:145][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:146][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:146][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:146][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:146][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:148][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:148][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:148][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:149][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:149][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:149][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:149][104]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.11.43:159][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:159][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:160][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:160][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:160][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:160][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:160][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:161][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:161][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:161][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:161][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:163][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:163][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:163][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.11.43:163][104]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.11.43:171][104]LogBlueprint:Warning: [compiler] Warning [6602.61] Compile of Three failed. 15 Fatal Issue(s) 12 Warning(s) [in 76 ms]
+[2014.11.07-02.11.44:876][104]LogSavePackage: Save=1844.160156ms
+[2014.11.07-02.11.44:876][104]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Three8AA1168C45384B7985B4F8BA7D694D84.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.11.07-02.11.44:916][104]LogFileHelpers: Saving map 'Three' took 2.130
+[2014.11.07-02.11.44:961][104]LogSavePackage: Save=7.817997ms
+[2014.11.07-02.11.44:961][104]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/MyMeshC4CC0D3A46F76C28100CE58A1283C660.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Unsorted/MyMesh.uasset'
+[2014.11.07-02.11.45:011][104]LogSavePackage: Save=6.739361ms
+[2014.11.07-02.11.45:011][104]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/MyMesh2C9912CFF4894259D8C0843A38A38FF03.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Unsorted/MyMesh2.uasset'
+[2014.11.07-02.11.48:455][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_4)
+[2014.11.07-02.12.07:268][ 71]Cmd: DELETE
+[2014.11.07-02.12.07:268][ 71]Cmd: ACTOR DELETE
+[2014.11.07-02.12.08:611][ 71]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-02.12.10:868][ 71]LogEditorActor: Deleted 1 Actors (3.600 secs)
+[2014.11.07-02.12.10:869][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_4)
+[2014.11.07-02.12.13:644][ 71]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.12.13:876][ 72]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.12.15:238][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_4)
+[2014.11.07-02.12.34:949][630]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.12.34:955][630]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.12.34:956][630]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.12.34:956][630]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.12.34:956][630]LogStaticMesh: Built static mesh [0.479651ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.12.34:974][630]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.12.34:996][630]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.12.37:542][630]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.12.37:757][631]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.12.48:473][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_5)
+[2014.11.07-02.13.10:634][871]Cmd: DELETE
+[2014.11.07-02.13.10:634][871]Cmd: ACTOR DELETE
+[2014.11.07-02.13.10:641][871]LogEditorActor: Deleted Actor: Brush
+[2014.11.07-02.13.12:786][871]LogEditorActor: Deleted 1 Actors (2.151 secs)
+[2014.11.07-02.13.15:098][871]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.13.15:334][872]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.13.17:307][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_5)
+[2014.11.07-02.13.28:534][221]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.13.28:543][221]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.13.28:543][221]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.13.28:543][221]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.13.28:543][221]LogStaticMesh: Built static mesh [0.417288ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.13.28:564][221]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.13.28:598][221]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.13.30:971][221]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.13.31:189][222]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.13.40:456][482]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.13.40:465][482]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.13.40:465][482]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.13.40:466][482]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.13.40:466][482]LogStaticMesh: Built static mesh [0.371864ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.13.40:484][482]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.13.40:520][482]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.13.42:860][482]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.13.43:080][483]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.13.46:448][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_28)
+[2014.11.07-02.13.58:603][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_27)
+[2014.11.07-02.14.37:307][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_28)
+[2014.11.07-02.15.04:109][741]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.04:121][741]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.04:121][741]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.04:122][741]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.15.04:122][741]LogStaticMesh: Built static mesh [0.491969ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.15.04:141][741]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.15.04:189][741]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.15.06:548][741]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.15.06:763][742]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.15.10:413][882]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.10:425][882]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.10:426][882]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.10:426][882]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.15.10:426][882]LogStaticMesh: Built static mesh [0.425372ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.15.10:445][882]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.15.10:466][882]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.15.12:844][882]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.15.13:062][883]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.15.17:510][ 62]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.17:524][ 62]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.17:524][ 62]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.07-02.15.17:524][ 62]LogStaticMesh: Building static mesh MyMesh...
+[2014.11.07-02.15.17:524][ 62]LogStaticMesh: Built static mesh [0.468872ms] /Game/Unsorted/MyMesh.MyMesh
+[2014.11.07-02.15.17:543][ 62]LogActorFactory: Actor Factory created MyMesh
+[2014.11.07-02.15.17:565][ 62]EditorErrors: New page: Actor Reattachment
+[2014.11.07-02.15.19:967][ 62]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.11.07-02.15.20:351][ 63]Cmd: UpdateLandscapeEditorData
+[2014.11.07-02.15.22:653][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_30)
+[2014.11.07-02.15.33:457][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_29)
+[2014.11.07-02.15.38:589][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_31)
+[2014.11.07-02.15.43:900][389]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_29)
+[2014.11.07-02.15.45:073][418]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MyMesh_30)
+[2014.11.07-02.15.45:484][428]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.07-02.15.45:484][428]Aligned camera to fit all selected actors.
+[2014.11.07-02.15.51:730][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyMesh_29)
+[2014.11.07-02.15.52:784][594]Cmd: DELETE
+[2014.11.07-02.15.52:784][594]Cmd: ACTOR DELETE
+[2014.11.07-02.15.52:791][594]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.07-02.15.52:831][594]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2014.11.07-02.16.02:127][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:127][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:127][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:127][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:128][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:129][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:129][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:130][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:130][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:130][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:130][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:131][822]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.11.07-02.16.02:141][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:141][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:141][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:141][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:142][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:142][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:142][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:142][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:142][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:143][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:143][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:144][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:144][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:145][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2014.11.07-02.16.02:145][822]LogBlueprint:Error: [compiler] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2014.11.07-02.16.02:152][822]LogBlueprint:Warning: [compiler] Warning [6861.59] Compile of Three failed. 15 Fatal Issue(s) 12 Warning(s) [in 75 ms]
+[2014.11.07-02.16.03:857][822]LogSavePackage: Save=1842.753174ms
+[2014.11.07-02.16.03:857][822]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ThreeFC4C2F0042C1270B24E9ADBC69A7C212.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Three.umap'
+[2014.11.07-02.16.03:906][822]LogFileHelpers: Saving map 'Three' took 2.131
+[2014.11.07-02.16.03:926][822]LogSavePackage: Save=6.733202ms
+[2014.11.07-02.16.03:926][822]LogSavePackage: Moving '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/MyMesh6B5347E94AC34C4A238D0A8D758E04E7.tmp' to '../../../../../../Users/Zeetermin/Documents/2014 Fall/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Unsorted/MyMesh.uasset'
+[2014.11.07-02.25.58:866][842]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-02.25.58:867][842]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.07-02.27.24:291][425]Cmd: QUIT_EDITOR
+[2014.11.07-02.27.24:633][425]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.07-02.27.24:693][425]LogExit: Preparing to exit.
+[2014.11.07-02.27.25:578][425]LogExit: Editor shut down
+[2014.11.07-02.27.25:578][425]LogExit: Transaction tracking system shut down
+[2014.11.07-02.27.25:580][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031F65EE0
+[2014.11.07-02.27.25:581][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DFB1F80
+[2014.11.07-02.27.25:581][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D87BF60
+[2014.11.07-02.27.25:584][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000103FC5E0
+[2014.11.07-02.27.26:185][425]LogExit: Object subsystem successfully closed.
+[2014.11.07-02.27.26:699][425]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.11.07-02.27.26:728][425]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.11.07-02.27.26:728][425]LogModuleManager: Shutting down and abandoning module HTTP (162)
+[2014.11.07-02.27.26:742][425]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
+[2014.11.07-02.27.26:755][425]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
+[2014.11.07-02.27.26:755][425]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
+[2014.11.07-02.27.26:755][425]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
+[2014.11.07-02.27.26:768][425]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
+[2014.11.07-02.27.26:789][425]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
+[2014.11.07-02.27.26:808][425]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
+[2014.11.07-02.27.26:846][425]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
+[2014.11.07-02.27.26:862][425]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
+[2014.11.07-02.27.26:883][425]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
+[2014.11.07-02.27.26:899][425]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
+[2014.11.07-02.27.26:910][425]LogModuleManager: Shutting down and abandoning module BspMode (150)
+[2014.11.07-02.27.26:923][425]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
+[2014.11.07-02.27.26:924][425]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
+[2014.11.07-02.27.26:924][425]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
+[2014.11.07-02.27.26:924][425]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2014.11.07-02.27.26:938][425]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2014.11.07-02.27.26:938][425]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2014.11.07-02.27.26:938][425]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2014.11.07-02.27.26:938][425]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2014.11.07-02.27.26:948][425]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2014.11.07-02.27.26:948][425]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2014.11.07-02.27.26:948][425]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2014.11.07-02.27.26:948][425]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
+[2014.11.07-02.27.26:948][425]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
+[2014.11.07-02.27.26:967][425]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
+[2014.11.07-02.27.26:967][425]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
+[2014.11.07-02.27.26:975][425]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
+[2014.11.07-02.27.26:988][425]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
+[2014.11.07-02.27.27:003][425]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
+[2014.11.07-02.27.27:017][425]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
+[2014.11.07-02.27.27:017][425]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
+[2014.11.07-02.27.27:026][425]LogModuleManager: Shutting down and abandoning module AutomationController (127)
+[2014.11.07-02.27.27:042][425]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
+[2014.11.07-02.27.27:050][425]LogModuleManager: Shutting down and abandoning module Layers (125)
+[2014.11.07-02.27.27:050][425]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
+[2014.11.07-02.27.27:050][425]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
+[2014.11.07-02.27.27:074][425]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
+[2014.11.07-02.27.27:086][425]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
+[2014.11.07-02.27.27:086][425]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
+[2014.11.07-02.27.27:087][425]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.11.07-02.27.27:205][425]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.11.07-02.27.27:230][425]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
+[2014.11.07-02.27.27:251][425]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
+[2014.11.07-02.27.27:251][425]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.11.07-02.27.27:262][425]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.11.07-02.27.27:262][425]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.11.07-02.27.27:272][425]LogModuleManager: Shutting down and abandoning module Sequencer (112)
+[2014.11.07-02.27.27:300][425]LogModuleManager: Shutting down and abandoning module AssetTools (111)
+[2014.11.07-02.27.27:343][425]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
+[2014.11.07-02.27.27:355][425]LogModuleManager: Shutting down and abandoning module OutputLog (109)
+[2014.11.07-02.27.27:355][425]LogModuleManager: Shutting down and abandoning module GammaUI (108)
+[2014.11.07-02.27.27:365][425]LogModuleManager: Shutting down and abandoning module Documentation (107)
+[2014.11.07-02.27.27:365][425]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2014.11.07-02.27.27:388][425]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.11.07-02.27.27:394][425]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.07-02.27.27:394][425]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.07-02.27.27:394][425]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.11.07-02.27.27:658][425]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.11.07-02.27.27:670][425]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.11.07-02.27.27:670][425]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.11.07-02.27.27:684][425]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.11.07-02.27.27:717][425]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.11.07-02.27.27:717][425]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.11.07-02.27.27:728][425]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.11.07-02.27.27:728][425]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.11.07-02.27.27:729][425]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.11.07-02.27.27:729][425]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.11.07-02.27.27:729][425]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.11.07-02.27.27:742][425]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.11.07-02.27.27:768][425]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.11.07-02.27.27:768][425]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.11.07-02.27.27:768][425]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.11.07-02.27.27:768][425]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.11.07-02.27.27:771][425]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.11.07-02.27.27:785][425]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.11.07-02.27.27:795][425]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.11.07-02.27.27:894][425]LogDerivedDataCache: Shutdown
+[2014.11.07-02.27.27:894][425]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.11.07-02.27.27:902][425]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.11.07-02.27.27:920][425]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.11.07-02.27.27:920][425]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.11.07-02.27.27:942][425]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.11.07-02.27.27:943][425]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.11.07-02.27.27:943][425]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.11.07-02.27.27:964][425]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.11.07-02.27.27:980][425]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.11.07-02.27.27:980][425]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.11.07-02.27.28:007][425]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.11.07-02.27.28:007][425]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.11.07-02.27.28:007][425]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.11.07-02.27.28:008][425]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.11.07-02.27.28:030][425]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.11.07-02.27.28:130][425]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.11.07-02.27.28:242][425]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.11.07-02.27.28:399][425]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.11.07-02.27.28:466][425]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.11.07-02.27.28:482][425]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.11.07-02.27.28:482][425]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.11.07-02.27.28:482][425]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.11.07-02.27.28:495][425]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.11.07-02.27.28:520][425]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.11.07-02.27.28:520][425]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.07-02.27.28:520][425]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.07-02.27.28:532][425]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.07-02.27.28:565][425]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.07-02.27.28:590][425]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.07-02.27.28:600][425]LogExit: Exiting.
+[2014.11.07-02.27.28:640][425]Log file closed, 11/06/14 21:27:28
