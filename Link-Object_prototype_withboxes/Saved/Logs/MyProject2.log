@@ -1,4 +1,4 @@
-Log file open, 11/19/14 02:09:45
+Log file open, 11/19/14 03:27:24
 LogInit:Display: Running engine for game: MyProject2
 LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
@@ -7,666 +7,302 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.11.19-07.09.45:150][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.19-07.09.45:181][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.19-07.09.45:214][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.19-07.09.45:219][  0]LogInit: Object subsystem initialized
-[2014.11.19-07.09.45:221][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.19-07.09.45:221][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.19-07.09.45:225][  0]LogInit: Computer: BRETT-PC
-[2014.11.19-07.09.45:225][  0]LogInit: User: Brett
-[2014.11.19-07.09.45:226][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.11.19-07.09.45:226][  0]LogInit: High frequency timer resolution =2.929726 MHz
-[2014.11.19-07.09.45:226][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
-[2014.11.19-07.09.45:226][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.19-07.09.45:226][  0]LogMemory: Process Physical Memory: 54.92 MB used, 54.92 MB peak
-[2014.11.19-07.09.45:226][  0]LogMemory: Process Virtual Memory: 31.09 MB used, 31.32 MB peak
-[2014.11.19-07.09.45:226][  0]LogMemory: Physical Memory: 3856.84 MB used, 8143.81 MB total
-[2014.11.19-07.09.45:226][  0]LogMemory: Virtual Memory: 238.13 MB used, 8388608.00 MB total
-[2014.11.19-07.09.45:307][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
-[2014.11.19-07.09.45:307][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 3815MB of shared system memory, 2 output[s]
-[2014.11.19-07.09.45:307][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.19-07.09.45:315][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.11.19-07.09.45:324][  0]LogD3D11RHI: Async texture creation enabled
-[2014.11.19-07.09.45:528][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.19-07.09.46:467][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.19-07.09.46:712][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.19-07.09.46:767][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.19-07.09.46:814][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.11.19-07.09.46:814][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.11.19-07.09.46:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.19-07.09.46:814][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.19-07.09.46:824][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.11.19-07.09.46:835][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.11.19-07.09.47:044][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.19-07.09.47:044][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.19-07.09.47:404][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.19-07.09.48:000][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.11.19-07.09.48:000][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.11.19-07.09.48:006][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.11.19-07.09.48:006][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.11.19-07.09.48:345][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.19-07.09.48:502][  0]SourceControl: Info Source control is disabled
-[2014.11.19-07.09.48:502][  0]SourceControl: Info Source control is disabled
-[2014.11.19-07.09.48:511][  0]SourceControl: Info Source control is disabled
-[2014.11.19-07.09.48:696][  0]BlueprintLog: New page: Editor Load
-[2014.11.19-07.09.48:829][  0]LogObj: 19137 objects as part of root set at end of initial load.
-[2014.11.19-07.09.48:829][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
-[2014.11.19-07.09.49:077][  0]LogEngine: Initializing Engine...
-[2014.11.19-07.09.49:173][  0]LogInit: XAudio2 using 'Speakers (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.11.19-07.09.49:529][  0]LogInit: FAudioDevice initialized.
-[2014.11.19-07.09.49:557][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.11.19-07.09.49:562][  0]LogInit: Texture streaming: Enabled
-[2014.11.19-07.09.49:621][  0]LogInit: Transaction tracking system initialized
-[2014.11.19-07.09.49:893][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
-[2014.11.19-07.09.50:323][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.11.19-07.09.50:332][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.11.19-07.09.50:452][  0]LogConsoleResponse:Display: 
-[2014.11.19-07.09.50:778][  0]SourceControl: Info Source control is disabled
-[2014.11.19-07.09.50:779][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.11.19-07.09.50:779][  0]LightingResults: New page: Lighting Build
-[2014.11.19-07.09.50:789][  0]MapCheck: New page: Map Check
-[2014.11.19-07.09.50:789][  0]LightingResults: New page: Lighting Build
-[2014.11.19-07.09.50:800][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010325580
-[2014.11.19-07.09.52:042][  0]LogMaterial:Warning: Material /Game/Materials/Environment/M_Starscape.M_Starscape needed to have new flag set bUsedWithStaticLighting !
-[2014.11.19-07.09.52:045][  0]LogMaterial: Missing cached shader map for material M_Starscape, compiling.
-[2014.11.19-07.09.52:047][  0]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.09.52:051][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Meteor_Platform1.Material_Meteor_Platform1 needed to have new flag set bUsedWithStaticLighting !
-[2014.11.19-07.09.52:054][  0]LogMaterial: Missing cached shader map for material Material_Meteor_Platform1, compiling.
-[2014.11.19-07.09.52:062][  0]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.09.52:075][  0]LogMaterial:Warning: Material /Game/Materials/Objects/Material_Bench_1_M1.Material_Bench_1_M1 needed to have new flag set bUsedWithStaticLighting !
-[2014.11.19-07.09.52:081][  0]LogMaterial: Missing cached shader map for material Material_Bench_1_M1, compiling.
-[2014.11.19-07.09.52:083][  0]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.09.52:083][  0]LogMaterial:Warning: Material /Game/Materials/Objects/Material_LightStatue_1_M3.Material_LightStatue_1_M3 needed to have new flag set bUsedWithStaticLighting !
-[2014.11.19-07.09.52:085][  0]LogMaterial: Missing cached shader map for material Material_LightStatue_1_M3, compiling.
-[2014.11.19-07.09.52:090][  0]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.09.52:113][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Mat_ArchWall.Mat_ArchWall needed to have new flag set bUsedWithStaticLighting !
-[2014.11.19-07.09.52:117][  0]LogMaterial: Missing cached shader map for material Mat_ArchWall, compiling.
-[2014.11.19-07.09.52:120][  0]LogMaterial: 0.000422 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.09.52:134][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.19-07.09.52:136][  0]Cmd: MAP CHECKDEP
-[2014.11.19-07.09.52:136][  0]MapCheck: New page: Two - Nov 18, 2014, 9:09:52 PM
-[2014.11.19-07.09.52:260][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [124.182ms] ==========
-[2014.11.19-07.09.52:260][  0]LogFileHelpers: Loading map 'Two' took 1.482
-[2014.11.19-07.09.52:852][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.19-07.09.52:853][  0]Cmd: MODE PLACEMENT
-[2014.11.19-07.09.53:014][  0]LogCollectionManager: Loaded 0 collections in 0.001350 seconds
-[2014.11.19-07.09.53:148][  0]LogLoad: Full Startup: 8.99 seconds (BP compile: 0.38 seconds)
-[2014.11.19-07.09.53:208][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_2'
-[2014.11.19-07.09.53:368][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.11.19-07.09.53:925][  0]LogRenderer:Warning: Reallocating scene render targets to support 1568x1056.
-[2014.11.19-07.09.54:784][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>DD308E09165236DE</RequestId><HostId>qDtLIMh3RQ42y9jW2hFhJEmfMBNx4FX3+OMSVk3gr5EOKrIjWigzY9Y4jle7z0CYy1HplUoL8BI=</HostId></Error>
-[2014.11.19-07.09.54:784][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2014.11.19-07.09.54:785][  1]Cmd: UpdateLandscapeEditorData
-[2014.11.19-07.09.55:123][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>05D0F6D200ADD6C9</RequestId><HostId>BJSx8VXq2YjieXo5DY98ox8vQGVO2jepRthB+aHsOIpCETRmDwKq26wxJ3jqtzZt</HostId></Error>
-[2014.11.19-07.09.55:243][  2]LogAssetRegistry: Asset discovery search completed in 5.3597 seconds
-[2014.11.19-07.09.55:466][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6D22EDE81B7B27B6</RequestId><HostId>R+rqDfb0K8zkPaymPMqt8KRTREuaMNjcX7NZn9ko9NIn0APXPS61sBbL3y0hJ39c</HostId></Error>
-[2014.11.19-07.09.55:727][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8CF413D0D4A902CF</RequestId><HostId>H9Yl8eVIuVStF1e/x/jJ8f4+RBsIRKnS6tOqgAGMncqJsQLLsgRdseA+JfEPt3Hd</HostId></Error>
-[2014.11.19-07.09.56:008][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.11.19-07.09.56:010][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.11.19-07.10.12:364][607]Cmd: MAP LOAD FILE="../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.11.19-07.10.12:365][607]LightingResults: New page: Lighting Build
-[2014.11.19-07.10.12:365][607]Cmd: MODE PLACEMENT
-[2014.11.19-07.10.12:387][607]LoadErrors: New page: Loading map: One.umap
-[2014.11.19-07.10.12:396][607]MapCheck: New page: Map Check
-[2014.11.19-07.10.12:396][607]LightingResults: New page: Lighting Build
-[2014.11.19-07.10.12:482][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000185B1620
-[2014.11.19-07.10.12:534][607]LogLinker:Warning: Asset '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Blueprints/Blueprint_Effect_Smoke.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.19-07.10.12:545][607]LogLinker:Warning: Asset '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Blueprints/Blueprint_Effect_Sparks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.11.19-07.10.13:474][607]LogMaterial:Warning: Material /Game/Materials/Environment/Material_512x256Wall_Basic.Material_512x256Wall_Basic needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2014.11.19-07.10.13:475][607]LogMaterial: Missing cached shader map for material Material_512x256Wall_Basic, compiling.
-[2014.11.19-07.10.13:478][607]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.10.13:478][607]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Wall_5.Material_Wall_5 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2014.11.19-07.10.13:480][607]LogMaterial: Missing cached shader map for material Material_Wall_5, compiling.
-[2014.11.19-07.10.13:482][607]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.10.13:482][607]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Wall_2.Material_Wall_2 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2014.11.19-07.10.13:484][607]LogMaterial: Missing cached shader map for material Material_Wall_2, compiling.
-[2014.11.19-07.10.13:486][607]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.11.19-07.10.13:555][607]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.19-07.10.13:573][607]Cmd: MAP CHECKDEP
-[2014.11.19-07.10.13:573][607]MapCheck: New page: One - Nov 18, 2014, 9:10:13 PM
-[2014.11.19-07.10.13:715][607]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [141.819ms] ==========
-[2014.11.19-07.10.13:715][607]LogFileHelpers: Loading map 'One' took 1.350
-[2014.11.19-07.10.14:031][608]Cmd: UpdateLandscapeEditorData
-[2014.11.19-07.10.14:032][608]Cmd: UpdateLandscapeEditorData -warnings
-[2014.11.19-07.10.43:441][946]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.11.44:989][527]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Brett\Desktop\bgm\Area1\ascend_area1_BG1.wav)
-[2014.11.19-07.11.45:018][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave ascend_area1_BG1...
-[2014.11.19-07.11.46:126][527]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Area_1/ascend_area1_BG1.ascend_area1_BG1.
-[2014.11.19-07.11.46:132][527]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Brett\Desktop\bgm\Area1\ascend_area1_BG2.wav)
-[2014.11.19-07.11.46:161][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave ascend_area1_BG2...
-[2014.11.19-07.11.47:246][527]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Area_1/ascend_area1_BG2.ascend_area1_BG2.
-[2014.11.19-07.11.47:251][527]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Brett\Desktop\bgm\Area1\ascend_area1_BG3.wav)
-[2014.11.19-07.11.47:279][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave ascend_area1_BG3...
-[2014.11.19-07.11.48:309][527]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Area_1/ascend_area1_BG3.ascend_area1_BG3.
-[2014.11.19-07.11.48:314][527]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Brett\Desktop\bgm\Area1\ascend_area1_BG4.wav)
-[2014.11.19-07.11.48:343][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave ascend_area1_BG4...
-[2014.11.19-07.11.49:199][527]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Area_1/ascend_area1_BG4.ascend_area1_BG4.
-[2014.11.19-07.11.49:204][527]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Brett\Desktop\bgm\Area1\ascend_area1_BG5.wav)
-[2014.11.19-07.11.49:233][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave ascend_area1_BG5...
-[2014.11.19-07.11.50:377][527]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Area_1/ascend_area1_BG5.ascend_area1_BG5.
-[2014.11.19-07.11.50:382][527]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 C:\Users\Brett\Desktop\bgm\Area1\ascend_area1_BG6.wav)
-[2014.11.19-07.11.50:412][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave ascend_area1_BG6...
-[2014.11.19-07.11.51:061][527]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Area_1/ascend_area1_BG6.ascend_area1_BG6.
-[2014.11.19-07.11.51:090][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.11.19-07.11.51:090][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.11.51:090][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.11.51:090][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.11.51:090][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.11.51:091][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.11.51:091][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
-[2014.11.19-07.12.06:084][155]LogSavePackage: Save=22.922279ms
-[2014.11.19-07.12.06:084][155]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG12E42FC7F4DCE7FB789D08B8147EADDA1.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG1.uasset'
-[2014.11.19-07.12.06:134][155]LogSavePackage: Save=18.806538ms
-[2014.11.19-07.12.06:134][155]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG254185A684908C3C157802684F3EA91CC.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG2.uasset'
-[2014.11.19-07.12.06:187][155]LogSavePackage: Save=22.667990ms
-[2014.11.19-07.12.06:187][155]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG39EAE374C443A80F133D1F58A8E5788FD.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG3.uasset'
-[2014.11.19-07.12.06:239][155]LogSavePackage: Save=14.865212ms
-[2014.11.19-07.12.06:239][155]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG4F7EBE7AC487C8CB76309A8AD87F2B135.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG4.uasset'
-[2014.11.19-07.12.06:296][155]LogSavePackage: Save=13.666807ms
-[2014.11.19-07.12.06:296][155]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG55F1291AD421FD9FA36AEE8AA5DE99A35.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG5.uasset'
-[2014.11.19-07.12.06:344][155]LogSavePackage: Save=13.228200ms
-[2014.11.19-07.12.06:344][155]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG66B625CE44BD3C5B65241859BA493B16F.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG6.uasset'
-[2014.11.19-07.12.54:760][922]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (ascend_area1_BG1)
-[2014.11.19-07.12.58:456][122]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (ascend_area1_BG6)
-[2014.11.19-07.13.00:016][207]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.13.01:227][268]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.13.01:734][294]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (ascend_area1_BG6)
-[2014.11.19-07.13.04:691][456]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.13.06:407][546]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (ascend_area1_BG5)
-[2014.11.19-07.13.07:732][618]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.13.36:556][ 51]LogSavePackage: Save=2848.965088ms
-[2014.11.19-07.13.36:556][ 51]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One527D47DD4DF45DAB66D441A6FA8235F1.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.13.38:977][175]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.14.10:179][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:179][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:182][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.10:183][834]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:253][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:254][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:254][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.14.24:254][532]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.20.58:211][758]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.20.59:068][790]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox1)
-[2014.11.19-07.21.47:151][910]BlueprintLog: New page: Compile One
-[2014.11.19-07.21.47:453][910]BlueprintEditorCompileResults: Info [0723.01] Compile of One successful! [in 12 ms]
-[2014.11.19-07.21.54:096][ 29]LogSavePackage: Save=3064.441162ms
-[2014.11.19-07.21.54:096][ 29]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One60B8CD0B4FA3A5523304F995826B98B6.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.24.53:277][ 29]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.11.19-07.24.53:280][ 29]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.11.19-07.25.04:144][477]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.25.04:144][477]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.11.19-07.26.18:654][686]BlueprintLog: New page: Compile One
-[2014.11.19-07.26.18:977][686]BlueprintEditorCompileResults: Info [0994.51] Compile of One successful! [in 12 ms]
-[2014.11.19-07.26.24:987][772]LogSavePackage: Save=3299.579102ms
-[2014.11.19-07.26.24:989][772]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/OneB6F006054BB7F8B1A496149088E3AE19.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.26.32:869][ 54]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.19-07.26.32:901][ 54]LogPlayLevel: [PIE] Compiling One before PIE...
-[2014.11.19-07.26.33:205][ 54]LogPlayLevel: PIE:  Blueprint regeneration took 335 ms (1 blueprints)
-[2014.11.19-07.26.33:205][ 54]PIE: New page: PIE session: One (Nov 18, 2014, 9:26:33 PM)
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:335][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:336][ 54]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.33:348][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142982s)
-[2014.11.19-07.26.33:349][ 54]LogPlayLevel: PIE: World Init took: (0.000564s)
-[2014.11.19-07.26.33:349][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.144058s)
-[2014.11.19-07.26.33:467][ 54]LogWorld: Game class is 'MyGame_C'
-[2014.11.19-07.26.33:587][ 54]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.11.19-02.26.33
-[2014.11.19-07.26.33:596][ 54]LogWorld: Bringing up level for play took: 0.060525
-[2014.11.19-07.26.33:597][ 54]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
-[2014.11.19-07.26.33:597][ 54]LogGameMode: RestartPlayer 256
-[2014.11.19-07.26.33:598][ 54]LogBlueprintUserMessages: Hello
-[2014.11.19-07.26.33:598][ 54]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
-[2014.11.19-07.26.33:598][ 54]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
-[2014.11.19-07.26.33:606][ 54]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 0.805
-[2014.11.19-07.26.34:368][ 54]LogRenderer:Warning: Reallocating scene render targets to support 1568x1064.
-[2014.11.19-07.26.41:586][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032B2A700
-[2014.11.19-07.26.49:302][754]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.19-07.26.49:333][754]LogPlayLevel: [PIE] Compiling One before PIE...
-[2014.11.19-07.26.49:617][754]LogPlayLevel: PIE:  Blueprint regeneration took 314 ms (1 blueprints)
-[2014.11.19-07.26.49:617][754]PIE: New page: PIE session: One (Nov 18, 2014, 9:26:49 PM)
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:738][754]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.26.49:748][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131414s)
-[2014.11.19-07.26.49:749][754]LogPlayLevel: PIE: World Init took: (0.000818s)
-[2014.11.19-07.26.49:750][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.132696s)
-[2014.11.19-07.26.49:750][754]LogWorld: Game class is 'MyGame_C'
-[2014.11.19-07.26.49:854][754]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.11.19-02.26.49
-[2014.11.19-07.26.49:862][754]LogWorld: Bringing up level for play took: 0.059792
-[2014.11.19-07.26.49:863][754]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
-[2014.11.19-07.26.49:863][754]LogGameMode: RestartPlayer 257
-[2014.11.19-07.26.49:863][754]LogBlueprintUserMessages: Hello
-[2014.11.19-07.26.49:864][754]LogPlayerController: ClientRestart_Implementation MyCharacter_C_1
-[2014.11.19-07.26.49:864][754]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
-[2014.11.19-07.26.49:873][754]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 1.072
-[2014.11.19-07.27.32:971][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000060CDDD00
-[2014.11.19-07.27.45:875][285]LogSavePackage: Save=3089.597168ms
-[2014.11.19-07.27.45:875][285]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One8B1D4E6A42C8A3630F704E91FEE75F77.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.28.11:717][247]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox1)
-[2014.11.19-07.29.39:078][753]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Model_256x256_floor_313)
-[2014.11.19-07.29.39:975][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_256x256_floor_313)
-[2014.11.19-07.29.47:176][ 70]Cmd: TRANSACTION UNDO
-[2014.11.19-07.29.47:177][ 70]LogEditorTransaction: Undo Move Actors
-[2014.11.19-07.29.48:858][115]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox3)
-[2014.11.19-07.30.38:698][289]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (sfx_igotthis)
-[2014.11.19-07.30.40:963][396]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox1)
-[2014.11.19-07.31.08:965][625]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.31.09:612][651]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.31.10:151][672]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.31.15:286][863]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.31.16:257][906]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.31.32:810][636]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2014.11.19-07.32.42:442][859]BlueprintLog: New page: Compile One
-[2014.11.19-07.32.42:734][859]BlueprintEditorCompileResults: Info [1378.29] Compile of One successful! [in 12 ms]
-[2014.11.19-07.32.47:303][899]LogSavePackage: Save=3076.430664ms
-[2014.11.19-07.32.47:303][899]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/OneCA89F74C4A64BD34F4C5E8ADDBDEEFB4.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.35.44:608][840]BlueprintLog: New page: Compile One
-[2014.11.19-07.35.44:914][840]BlueprintEditorCompileResults: Info [1560.46] Compile of One successful! [in 13 ms]
-[2014.11.19-07.35.50:393][917]LogSavePackage: Save=3096.110107ms
-[2014.11.19-07.35.50:393][917]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One8484F6D84B5E50DE4C9885A4DD4BD61A.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.36.47:604][ 86]Cmd: TRANSACTION UNDO
-[2014.11.19-07.36.47:605][ 86]LogEditorTransaction: Undo Move Actors
-[2014.11.19-07.37.08:556][875]Cmd: TRANSACTION UNDO
-[2014.11.19-07.37.08:557][875]LogEditorTransaction: Undo Move Actors
-[2014.11.19-07.39.52:132][498]LogSavePackage: Save=3103.427002ms
-[2014.11.19-07.39.52:132][498]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One088B1B244C339C790F19BF831F655325.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.39.53:129][515]BlueprintLog: New page: Compile One
-[2014.11.19-07.39.53:437][515]BlueprintEditorCompileResults: Info [1808.98] Compile of One successful! [in 14 ms]
-[2014.11.19-07.39.54:260][526]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.11.19-07.39.54:261][526]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.11.19-07.40.01:430][796]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.19-07.40.01:452][796]LogPlayLevel: [PIE] Compiling One before PIE...
-[2014.11.19-07.40.01:730][796]LogPlayLevel: PIE:  Blueprint regeneration took 299 ms (1 blueprints)
-[2014.11.19-07.40.01:731][796]PIE: New page: PIE session: One (Nov 18, 2014, 9:40:01 PM)
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:861][796]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.40.01:872][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141074s)
-[2014.11.19-07.40.01:872][796]LogPlayLevel: PIE: World Init took: (0.000659s)
-[2014.11.19-07.40.01:873][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.142207s)
-[2014.11.19-07.40.01:873][796]LogWorld: Game class is 'MyGame_C'
-[2014.11.19-07.40.01:979][796]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.11.19-02.40.01
-[2014.11.19-07.40.01:987][796]LogWorld: Bringing up level for play took: 0.059233
-[2014.11.19-07.40.01:988][796]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
-[2014.11.19-07.40.01:988][796]LogGameMode: RestartPlayer 258
-[2014.11.19-07.40.01:988][796]LogBlueprintUserMessages: Hello
-[2014.11.19-07.40.01:989][796]LogPlayerController: ClientRestart_Implementation MyCharacter_C_2
-[2014.11.19-07.40.01:989][796]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_2
-[2014.11.19-07.40.01:996][796]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 1.184
-[2014.11.19-07.41.20:256][811]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002394F560
-[2014.11.19-07.42.29:014][570]LogSavePackage: Save=23.414135ms
-[2014.11.19-07.42.29:014][570]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG1A72BDF15488E84ABFFE88DB64D365313.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG1.uasset'
-[2014.11.19-07.42.29:078][570]LogSavePackage: Save=20.804335ms
-[2014.11.19-07.42.29:078][570]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG27212823A4153CFCFA8DE73845D870FAA.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG2.uasset'
-[2014.11.19-07.42.29:142][570]LogSavePackage: Save=21.677795ms
-[2014.11.19-07.42.29:142][570]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG37C0A825B4BEB8A4A7E7DC7B280429086.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG3.uasset'
-[2014.11.19-07.42.29:207][570]LogSavePackage: Save=16.681423ms
-[2014.11.19-07.42.29:207][570]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG4F58C2EB743CC2932900289BFD07200FC.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG4.uasset'
-[2014.11.19-07.42.29:260][570]LogSavePackage: Save=14.250480ms
-[2014.11.19-07.42.29:260][570]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG5B170AA1E40F291D2342A00B063D43C80.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG5.uasset'
-[2014.11.19-07.42.29:313][570]LogSavePackage: Save=14.215664ms
-[2014.11.19-07.42.29:313][570]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/ascend_area1_BG6727351D64CCB9EA24CDF9B87AFC41F61.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Audio/Area_1/ascend_area1_BG6.uasset'
-[2014.11.19-07.42.34:627][652]LogSavePackage: Save=3089.053711ms
-[2014.11.19-07.42.34:627][652]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/OneF603D60A4B98714533B988B639B5A653.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.42.42:963][952]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.19-07.42.42:983][952]LogPlayLevel: [PIE] Compiling One before PIE...
-[2014.11.19-07.42.43:270][952]LogPlayLevel: PIE:  Blueprint regeneration took 306 ms (1 blueprints)
-[2014.11.19-07.42.43:270][952]PIE: New page: PIE session: One (Nov 18, 2014, 9:42:43 PM)
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (SetActorHiddenInGame) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:400][952]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2014.11.19-07.42.43:411][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141216s)
-[2014.11.19-07.42.43:412][952]LogPlayLevel: PIE: World Init took: (0.000678s)
-[2014.11.19-07.42.43:412][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameLevels/One.One to /Game/Maps/GameLevels/UEDPIE_0_One.One (0.142410s)
-[2014.11.19-07.42.43:413][952]LogWorld: Game class is 'MyGame_C'
-[2014.11.19-07.42.43:516][952]LogWorld: Bringing World /Game/Maps/GameLevels/UEDPIE_0_One.One up for play (max tick rate 0) at 2014.11.19-02.42.43
-[2014.11.19-07.42.43:525][952]LogWorld: Bringing up level for play took: 0.058515
-[2014.11.19-07.42.43:525][952]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
-[2014.11.19-07.42.43:525][952]LogGameMode: RestartPlayer 259
-[2014.11.19-07.42.43:526][952]LogBlueprintUserMessages: Hello
-[2014.11.19-07.42.43:527][952]LogPlayerController: ClientRestart_Implementation MyCharacter_C_3
-[2014.11.19-07.42.43:527][952]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_3
-[2014.11.19-07.42.43:534][952]PIE: Info Play in editor start time for /Game/Maps/GameLevels/UEDPIE_0_One 0.72
-[2014.11.19-07.44.42:199][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009E54CC0
-[2014.11.19-07.46.18:127][713]LogSavePackage: Save=2873.988525ms
-[2014.11.19-07.46.18:127][713]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/One432A4CCF49B2A8DE2F0FA5B2A1E61ABC.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/One.umap'
-[2014.11.19-07.46.24:948][988]Cmd: QUIT_EDITOR
-[2014.11.19-07.46.24:997][988]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.11.19-07.46.24:999][988]LogExit: Preparing to exit.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:740][988]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.11.19-07.46.25:749][988]LogExit: Editor shut down
-[2014.11.19-07.46.25:749][988]LogExit: Transaction tracking system shut down
-[2014.11.19-07.46.25:757][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D0BDD00
-[2014.11.19-07.46.25:761][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017164FE0
-[2014.11.19-07.46.25:762][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B406A20
-[2014.11.19-07.46.25:762][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F95A2A0
-[2014.11.19-07.46.25:762][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F95A160
-[2014.11.19-07.46.25:836][988]LogExit: Object subsystem successfully closed.
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module DesktopPlatform (164)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module HTTP (159)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module NewsFeed (158)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
-[2014.11.19-07.46.25:887][988]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
-[2014.11.19-07.46.25:893][988]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
-[2014.11.19-07.46.25:893][988]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
-[2014.11.19-07.46.25:893][988]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
-[2014.11.19-07.46.25:893][988]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
-[2014.11.19-07.46.25:893][988]LogModuleManager: Shutting down and abandoning module BspMode (149)
-[2014.11.19-07.46.25:893][988]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module XmlParser (141)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module Blutility (140)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
-[2014.11.19-07.46.25:894][988]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module AutomationController (126)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module Layers (124)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
-[2014.11.19-07.46.25:895][988]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module Sequencer (111)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module AssetTools (110)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.11.19-07.46.25:985][988]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.11.19-07.46.26:088][988]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.11.19-07.46.26:088][988]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.11.19-07.46.26:088][988]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.11.19-07.46.26:088][988]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.11.19-07.46.26:088][988]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.11.19-07.46.26:088][988]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.11.19-07.46.26:091][988]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.11.19-07.46.26:092][988]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.11.19-07.46.26:092][988]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.11.19-07.46.26:092][988]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.11.19-07.46.26:097][988]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.11.19-07.46.26:097][988]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.11.19-07.46.26:097][988]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.11.19-07.46.26:097][988]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.11.19-07.46.26:097][988]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.11.19-07.46.26:097][988]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.11.19-07.46.26:098][988]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.11.19-07.46.26:098][988]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.11.19-07.46.26:098][988]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.11.19-07.46.26:098][988]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.11.19-07.46.26:098][988]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.11.19-07.46.26:098][988]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.11.19-07.46.26:134][988]LogDerivedDataCache: Shutdown
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.11.19-07.46.26:134][988]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.11.19-07.46.26:135][988]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.11.19-07.46.26:142][988]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.11.19-07.46.26:142][988]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.11.19-07.46.26:142][988]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.11.19-07.46.26:142][988]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.11.19-07.46.26:142][988]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.11.19-07.46.26:243][988]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.11.19-07.46.26:245][988]LogExit: Exiting.
-[2014.11.19-07.46.26:253][988]Log file closed, 11/19/14 02:46:26
+[2014.11.19-08.27.24:517][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.19-08.27.24:549][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.19-08.27.24:581][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.19-08.27.24:586][  0]LogInit: Object subsystem initialized
+[2014.11.19-08.27.24:588][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.19-08.27.24:588][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.19-08.27.24:592][  0]LogInit: Computer: BRETT-PC
+[2014.11.19-08.27.24:593][  0]LogInit: User: Brett
+[2014.11.19-08.27.24:593][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.19-08.27.24:593][  0]LogInit: High frequency timer resolution =2.929726 MHz
+[2014.11.19-08.27.24:593][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.11.19-08.27.24:594][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.19-08.27.24:594][  0]LogMemory: Process Physical Memory: 54.93 MB used, 54.93 MB peak
+[2014.11.19-08.27.24:594][  0]LogMemory: Process Virtual Memory: 31.08 MB used, 31.32 MB peak
+[2014.11.19-08.27.24:594][  0]LogMemory: Physical Memory: 3857.54 MB used, 8143.81 MB total
+[2014.11.19-08.27.24:594][  0]LogMemory: Virtual Memory: 238.13 MB used, 8388608.00 MB total
+[2014.11.19-08.27.24:675][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2014.11.19-08.27.24:675][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 3815MB of shared system memory, 2 output[s]
+[2014.11.19-08.27.24:675][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.19-08.27.24:682][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.19-08.27.24:690][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.19-08.27.24:895][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.19-08.27.25:829][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.19-08.27.26:069][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.19-08.27.26:125][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.19-08.27.26:173][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.11.19-08.27.26:173][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.11.19-08.27.26:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.19-08.27.26:173][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.19-08.27.26:183][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.19-08.27.26:194][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.11.19-08.27.26:404][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.19-08.27.26:404][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.19-08.27.26:751][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.19-08.27.27:345][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.11.19-08.27.27:345][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.11.19-08.27.27:353][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.11.19-08.27.27:353][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.11.19-08.27.27:695][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.19-08.27.27:854][  0]SourceControl: Info Source control is disabled
+[2014.11.19-08.27.27:854][  0]SourceControl: Info Source control is disabled
+[2014.11.19-08.27.27:864][  0]SourceControl: Info Source control is disabled
+[2014.11.19-08.27.28:044][  0]BlueprintLog: New page: Editor Load
+[2014.11.19-08.27.28:176][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.11.19-08.27.28:176][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.11.19-08.27.28:423][  0]LogEngine: Initializing Engine...
+[2014.11.19-08.27.28:515][  0]LogInit: XAudio2 using 'Speakers (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.19-08.27.28:560][  0]LogInit: FAudioDevice initialized.
+[2014.11.19-08.27.28:589][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Brett/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.11.19-08.27.28:593][  0]LogInit: Texture streaming: Enabled
+[2014.11.19-08.27.28:651][  0]LogInit: Transaction tracking system initialized
+[2014.11.19-08.27.28:937][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.11.19-08.27.29:357][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.11.19-08.27.29:366][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.11.19-08.27.29:483][  0]LogConsoleResponse:Display: 
+[2014.11.19-08.27.29:810][  0]SourceControl: Info Source control is disabled
+[2014.11.19-08.27.29:810][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.11.19-08.27.29:810][  0]LightingResults: New page: Lighting Build
+[2014.11.19-08.27.29:821][  0]MapCheck: New page: Map Check
+[2014.11.19-08.27.29:821][  0]LightingResults: New page: Lighting Build
+[2014.11.19-08.27.29:832][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC9D580
+[2014.11.19-08.27.31:069][  0]LogMaterial:Warning: Material /Game/Materials/Environment/M_Starscape.M_Starscape needed to have new flag set bUsedWithStaticLighting !
+[2014.11.19-08.27.31:072][  0]LogMaterial: Missing cached shader map for material M_Starscape, compiling.
+[2014.11.19-08.27.31:074][  0]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.19-08.27.31:078][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Material_Meteor_Platform1.Material_Meteor_Platform1 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.19-08.27.31:081][  0]LogMaterial: Missing cached shader map for material Material_Meteor_Platform1, compiling.
+[2014.11.19-08.27.31:089][  0]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.19-08.27.31:102][  0]LogMaterial:Warning: Material /Game/Materials/Objects/Material_Bench_1_M1.Material_Bench_1_M1 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.19-08.27.31:132][  0]LogMaterial: Missing cached shader map for material Material_Bench_1_M1, compiling.
+[2014.11.19-08.27.31:135][  0]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.19-08.27.31:135][  0]LogMaterial:Warning: Material /Game/Materials/Objects/Material_LightStatue_1_M3.Material_LightStatue_1_M3 needed to have new flag set bUsedWithStaticLighting !
+[2014.11.19-08.27.31:136][  0]LogMaterial: Missing cached shader map for material Material_LightStatue_1_M3, compiling.
+[2014.11.19-08.27.31:142][  0]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.19-08.27.31:161][  0]LogMaterial:Warning: Material /Game/Materials/Environment/Mat_ArchWall.Mat_ArchWall needed to have new flag set bUsedWithStaticLighting !
+[2014.11.19-08.27.31:163][  0]LogMaterial: Missing cached shader map for material Mat_ArchWall, compiling.
+[2014.11.19-08.27.31:166][  0]LogMaterial: 0.000465 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.19-08.27.31:186][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.19-08.27.31:188][  0]Cmd: MAP CHECKDEP
+[2014.11.19-08.27.31:188][  0]MapCheck: New page: Two - Nov 18, 2014, 10:27:31 PM
+[2014.11.19-08.27.31:306][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [117.164ms] ==========
+[2014.11.19-08.27.31:306][  0]LogFileHelpers: Loading map 'Two' took 1.496
+[2014.11.19-08.27.31:703][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.19-08.27.31:703][  0]Cmd: MODE PLACEMENT
+[2014.11.19-08.27.31:759][  0]LogCollectionManager: Loaded 0 collections in 0.002620 seconds
+[2014.11.19-08.27.31:857][  0]LogLoad: Full Startup: 8.25 seconds (BP compile: 0.39 seconds)
+[2014.11.19-08.27.31:885][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_1'
+[2014.11.19-08.27.32:007][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.19-08.27.32:463][  0]LogRenderer:Warning: Reallocating scene render targets to support 1568x1056.
+[2014.11.19-08.27.33:301][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4D44F9ED16B45B50</RequestId><HostId>bkPcnUhSh7QDE6i5w9ymprJlAnsltIq1VoUPNC1CcBpwffupT7dRWt/YFcKEaMJHVvd3FpBEQsg=</HostId></Error>
+[2014.11.19-08.27.33:302][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2014.11.19-08.27.33:302][  1]Cmd: UpdateLandscapeEditorData
+[2014.11.19-08.27.33:442][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>67A6BA2BCED524C1</RequestId><HostId>J4rrWsghNO+3Xqr59X136yLPgpsOoYmte9wyEYGEskex0GN7pECqh8dgM2hDRttZGiJsM3pSc54=</HostId></Error>
+[2014.11.19-08.27.33:453][  2]LogAssetRegistry: Asset discovery search completed in 4.5263 seconds
+[2014.11.19-08.27.33:505][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BCAB9639FC98CC82</RequestId><HostId>Ngm3qNMH0iMY3VUkQ94TDxlmlcHUmKeYKEvjOVMn7soIOJJGGuM91uGI4EWzs0b9</HostId></Error>
+[2014.11.19-08.27.33:555][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E5A26EDD6B08F2DD</RequestId><HostId>NW7qjzM8bMMbr5K7X/6kLClW0a8c33BNkrpEI696hVAkM+phv8xF3YDfSvg3qekW7amkKbZgXzw=</HostId></Error>
+[2014.11.19-08.27.33:784][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.19-08.27.33:786][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.11.19-08.27.47:786][187]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio/Area_2'
+[2014.11.19-08.30.23:560][634]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox1)
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:485][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.39:486][995]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.30.55:647][320]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (ascend_area2_BG4_STOP-BG2)
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:867][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:868][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.34:868][104]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.51:311][435]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.31.51:311][435]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-08.32.30:199][233]BlueprintLog: New page: Compile Two
+[2014.11.19-08.32.30:761][233]BlueprintEditorCompileResults: Info [0306.72] Compile of Two successful! [in 77 ms]
+[2014.11.19-08.33.38:123][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Model_512x512_floor_194)
+[2014.11.19-08.33.38:958][673]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (BGAudio_area2_5)
+[2014.11.19-08.33.52:181][927]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (ascend_area2_BG5)
+[2014.11.19-08.34.16:906][404]BlueprintLog: New page: Compile Two
+[2014.11.19-08.34.17:417][404]BlueprintEditorCompileResults: Info [0413.42] Compile of Two successful! [in 76 ms]
+[2014.11.19-08.34.23:314][445]LogSavePackage: Save=2310.999756ms
+[2014.11.19-08.34.23:314][445]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/Two53D53EFF46FF7A38BE0DA183409F328F.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap'
+[2014.11.19-08.34.35:562][620]LogSavePackage: Save=2364.642578ms
+[2014.11.19-08.34.35:562][620]LogSavePackage: Moving '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Saved/TwoB3E0541D46C5AE16CAC09CA207685D26.tmp' to '../../../../../../Users/Brett/Desktop/GameProjects/SpaceVines/Space_Vines/Link-Object_prototype_withboxes/Content/Maps/GameLevels/Two.umap'
+[2014.11.19-08.34.41:210][693]Cmd: QUIT_EDITOR
+[2014.11.19-08.34.41:269][693]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.19-08.34.41:270][693]LogExit: Preparing to exit.
+[2014.11.19-08.34.43:088][693]LogExit: Editor shut down
+[2014.11.19-08.34.43:088][693]LogExit: Transaction tracking system shut down
+[2014.11.19-08.34.43:090][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A2996C0
+[2014.11.19-08.34.43:094][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022BCFF60
+[2014.11.19-08.34.43:094][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022BCFEC0
+[2014.11.19-08.34.43:095][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000354FF2E0
+[2014.11.19-08.34.43:169][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B8D1E40
+[2014.11.19-08.34.43:169][693]LogExit: Object subsystem successfully closed.
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module HTTP (159)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module NewsFeed (158)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.11.19-08.34.43:213][693]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.11.19-08.34.43:217][693]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.11.19-08.34.43:217][693]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.11.19-08.34.43:217][693]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.11.19-08.34.43:217][693]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.11.19-08.34.43:217][693]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.11.19-08.34.43:217][693]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.11.19-08.34.43:218][693]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.11.19-08.34.43:219][693]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.11.19-08.34.43:249][693]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.19-08.34.43:250][693]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.11.19-08.34.43:258][693]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.11.19-08.34.43:258][693]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.11.19-08.34.43:258][693]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.11.19-08.34.43:258][693]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.11.19-08.34.43:258][693]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.11.19-08.34.43:258][693]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.11.19-08.34.43:259][693]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.11.19-08.34.43:260][693]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.11.19-08.34.43:265][693]LogDerivedDataCache: Shutdown
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.11.19-08.34.43:265][693]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.11.19-08.34.43:268][693]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.11.19-08.34.43:268][693]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.11.19-08.34.43:268][693]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.11.19-08.34.43:268][693]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.11.19-08.34.43:268][693]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.19-08.34.43:368][693]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.19-08.34.43:368][693]LogExit: Exiting.
+[2014.11.19-08.34.43:371][693]Log file closed, 11/19/14 03:34:43
